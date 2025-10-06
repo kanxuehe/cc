@@ -1,0 +1,191 @@
+{
+  "list": [
+    {
+      "name": "Topic 1",
+      "fullName": "Foundations",
+      "slug": "foundations",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 1 All",
+          "description": "All Questions in Topic 1 Foundations",
+          "type": "ALL",
+          "slug": "foundations",
+          "sort": 1
+        },
+        {
+          "name": "Scarcity, Choice, and the PPC",
+          "description": "Scarcity, Choice, Opportunity Cost, Production Possibilities Curve, Circular Flow Model",
+          "type": "ALL",
+          "slug": "foundations/scarcity-choice-and-the-ppc",
+          "sort": 1
+        },
+        {
+          "name": "How Economists Approach the World",
+          "description": "Economic Methodology, History of Economic Thought",
+          "type": "ALL",
+          "slug": "foundations/how-economists-approach-the-world",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 2 - Part I",
+      "fullName": "Microeconomics Part I",
+      "slug": "microeconomics-part-i",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 2 - Part I All",
+          "description": "All Questions in Topic 2 - Part I Microeconomics Part I",
+          "type": "ALL",
+          "slug": "microeconomics-part-i",
+          "sort": 1
+        },
+        {
+          "name": "Demand & Supply, Equilibrium",
+          "description": "Law of Demand, Law of Supply, Determinants of Demand & Supply, Equilibrium, the Price Mechanism, Allocative Efficiency",
+          "type": "ALL",
+          "slug": "microeconomics-part-i/demand-and-supply-equilibrium",
+          "sort": 1
+        },
+        {
+          "name": "Elasticities",
+          "description": "Price Elasticity of Demand (PED), Income Elasticity of Demand, Price Elasticity of Supply (PES)",
+          "type": "ALL",
+          "slug": "microeconomics-part-i/elasticities",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 2 - Part II",
+      "fullName": "Microeconomics Part II",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 2 - Part II All",
+          "description": "All Questions in Topic 2 - Part II Microeconomics Part II",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Government Intervention",
+          "description": "Taxes, Subsidies, Price Controls, Impact of Government Intervention",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Market Failure",
+          "description": "Negative Externalities, Positive Externalities, Common Pool Resources, Common Access Resources, Public Goods",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 3",
+      "fullName": "Macroeconomics",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 3 All",
+          "description": "All Questions in Topic 3 Macroeconomics",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Economic Output, AD & AS",
+          "description": "Economic Activity, Business Cycle, Aggregate Demand, Aggregate Supply, Keynesian & New Classical/Monetarist Views of AS",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Macroeconomic Objectives",
+          "description": "Economic Growth, Unemployment, Inflation",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Inequality & Poverty",
+          "description": "Equality and Equity, Poverty, Addressing Poverty and Inequality",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Monetary Policy & Fiscal Policy",
+          "description": "Monetary Policy, Interest Rates, Fiscal Policy, Evaluating Monetary Policy & Fiscal Policy",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Supply-Side Policies",
+          "description": "Market-Based Supply-Side Policies, Interventionist Supply-Side Policies, Effectiveness of Supply-Side Policy",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 4",
+      "fullName": "The Global Economy",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 4 All",
+          "description": "All Questions in Topic 4 The Global Economy",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Free Trade & Trade Protection",
+          "description": "Benefits of Trade, Trade Protection, Arguments For and Against Trade Protection",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Economic Integration",
+          "description": "Trade Agreements, Trading Blocs, Monetary Unions, World Trade Organization",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Exchange Rates & the Balance of Payments",
+          "description": "Types of Exchange Rates, Currency Markets, The Balance of Payments (BOP)",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Economic Development",
+          "description": "Single Indicators of Economic Development, Composite Indicators of Economic Development, Economic Growth",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Promoting Economic Growth & Development",
+          "description": "Poverty Traps, Economic Barriers, Political and Social Barriers, Economic Growth Strategies",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    }
+  ]
+}
