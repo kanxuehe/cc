@@ -1,0 +1,102 @@
+{
+  "list": [
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 1",
+      "content": "The system of equations given below represents three planes in space.x+5z=2−2x+y−6z=−12y+8z=6\\begin{aligned}\nx + 5z &= 2 \\\\[6pt]\n-2x + y - 6z &= -1 \\\\[6pt]\n2y + 8z &= 6\\end{aligned}x+5z−2x+y−6z2y+8z​=2=−1=6​Show that this system of equations has an infinite number of\nsolutions.[3]Find the parametric equations of the line of intersection of the\nthree planes.[3]",
+      "markScheme": "If we convert the given system of equations into an augmented\nmatrix, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4a910b72-19e4-4a42-a75f-d3d95dad3499/images/d7ebb5d4-b295-4302-9567-a2e1473a7ad9/e92843ccd123af5e4a99f63d9b0726fa3e606968.svg)\n\nHence, using the method of Gaussian Elimination, we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4a910b72-19e4-4a42-a75f-d3d95dad3499/images/033e32bc-f2d9-4a59-9060-bff7fcf72d3d/e2d7661b43a236c006ef48f0c2b01b8969087034.svg)\n\nThe last row of zeros tells us that the system is consistent. As there are only two pivot positions corresponding toxxxandyyy, the variablezzzis free. Hence the system has an infinite number of solutions.We have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4a910b72-19e4-4a42-a75f-d3d95dad3499/images/a24bb1ff-e239-489e-9468-bac7261a87fe/9e7ed3301e98f940e211c9d9825320385d1b6446.svg)\n\nIf we expressxxxandyyyin term ofz=tz = tz=t, we obtainx=2−5tx = 2 - 5tx=2−5tandy=3−4ty = 3 - 4ty=3−4t.Hence the parametric equations of the line of intersection of the333planes arex=2−5t,y=3−4t,z=t\\begin{aligned}\n\\answer{x = 2-5t,\\hspace{0.5em}y = 3-4t,\\hspace{0.5em}z = t}\\end{aligned}x=2−5t,y=3−4t,z=t​​wheret∈Rt \\in \\mathbb{R}t∈R.",
+      "paper": "PAPER1",
+      "difficulty": "EASY",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "6",
+      "difficultyLevel": "2.5"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 2",
+      "content": "The system of equations given below represents three planes in space.x+2y−2z=43x+5y−4z=9[wherea,b∈R]4x+6y+az=b\\begin{aligned}\nx + 2y - 2z &= 4 \\\\[6pt]\n3x + 5y - 4z &= 9 \\hspace{3em} [\\text{where $a,b \\in \\mathbb{R}$}] \\\\[6pt]\n\\hspace{8em} 4x + 6y + az &= b\\end{aligned}x+2y−2z3x+5y−4z4x+6y+az​=4=9[wherea,b∈R]=b​Find the set of values ofaaaandbbbsuch that the three planes have no points ofintersection.",
+      "markScheme": "If we convert the given system of equations into an augmented matrix, we\nhave\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1eff31cd-f81a-40d3-a9a0-352d3b8d40cd/images/56c50794-cd49-4a04-a686-f984e87d7a77/a778d4ec606218beb371bd39dc87b29995594e1e.svg)\n\nHence, using the method of Gaussian Elimination (row reduction), we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1eff31cd-f81a-40d3-a9a0-352d3b8d40cd/images/773571c8-bc12-4ee1-b737-609f22b4a75a/6253468268c59bd2ef1a8710c34fc0674230f053.svg)\n\nTherefore, the three planes have no points of intersection ifa=−4&b≠10\\answer{a = -4 \\text{ \\& } b \\neq 10}a=−4&b=10​",
+      "paper": "PAPER1",
+      "difficulty": "MEDIUM",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "5",
+      "difficultyLevel": "3"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 3",
+      "content": "The system of equations given below represents three planes in space.x−3y+2z=53x+5y+az=b[wherea,b∈R]4x+2y−3z=7\\begin{aligned}\nx - 3y + 2z &= 5 \\\\[6pt]\n3x + 5y + az &= b \\hspace{3em} [\\text{where $a,b \\in \\mathbb{R}$}] \\\\[6pt]\n\\hspace{8em} 4x + 2y - 3z &= 7\\end{aligned}x−3y+2z3x+5y+az4x+2y−3z​=5=b[wherea,b∈R]=7​Find the set of values ofaaaandbbbsuch that the three planes have exactly one intersection\npoint.",
+      "markScheme": "If we convert the given system of equations into an augmented matrix, we\nhave\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/7a77c3e0-720f-4e8e-b1f0-3a1a566969f5/images/6b98681b-5126-465b-b888-037d41e7ac5a/80fc0ab3f375c653f4f6b65da0848111f53434b1.svg)\n\nHence, using the method of Gaussian Elimination (row reduction), we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/7a77c3e0-720f-4e8e-b1f0-3a1a566969f5/images/f1854f11-59b0-4c8e-9c56-f85434ffd329/4d136862891148012690049e8033042f467da733.svg)\n\nThe three planes have exactly one intersection point ifa≠−5&b∈R\\answer{a \\neq -5 \\text{  \\&  } b \\in \\mathbb{R}}a=−5&b∈R​",
+      "paper": "PAPER2",
+      "difficulty": "MEDIUM",
+      "calculator": true,
+      "sort": 1,
+      "maxMark": "6",
+      "difficultyLevel": "3"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 4",
+      "content": "Consider the following system of equations:x−3z=−2−3x+y+6z=32x−2y+(a−4)z=b−3\\begin{aligned}\nx - 3z &= -2 \\\\[6pt]\n-3x + y + 6z &= 3 \\\\[6pt]\n2x - 2y + (a-4)z &= b-3\\end{aligned}x−3z−3x+y+6z2x−2y+(a−4)z​=−2=3=b−3​wherea,b∈Ra,b \\in \\mathbb{R}a,b∈R.Find conditions onaaaandbbbfor whichthe system has no solutions;the system has only one solution;the system has an infinite number of solutions.[6]In the case where the number of solutions is infinite, find the\ngeneralsolution of the system of equations in Cartesian form.[3]",
+      "markScheme": "If we convert the given system of equations into an augmented\nmatrix, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/337a6bb3-6a0b-43b9-94ae-f6b3e3e2e231/images/8d98a020-29c7-478a-a0bb-6bf878fd5365/fc1722646826b747a78d8a717d7f3e24269c7335.svg)\n\nHence, using the method of Gaussian Elimination, we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/337a6bb3-6a0b-43b9-94ae-f6b3e3e2e231/images/31a4e0fb-271e-49aa-a81e-3bd96631488b/d5e5b20529826e7a89602916ebcc5c019737e1ea.svg)\n\n\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/337a6bb3-6a0b-43b9-94ae-f6b3e3e2e231/images/bf77797d-a060-4bd4-9a53-e06213ae845f/846a88889458337ab2aeba1c647b2fdea4de2812.svg)\n\nThe system has no solutions ifa=4andb≠5\\answer{a = 4 \\text{ and } b \\neq 5}a=4andb=5​The system has only one solution ifa≠4andb∈R\\answer{a \\neq 4 \\text{ and } b \\in \\mathbb{R}}a=4andb∈R​The system has an infinite number of solutions ifa=4andb=5\\answer{a = 4 \\text{ and } b = 5}a=4andb=5​Fora=4a = 4a=4andb=5b = 5b=5, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/337a6bb3-6a0b-43b9-94ae-f6b3e3e2e231/images/e3231ca7-c35c-4f15-a847-afac67f27a47/8dacc6559227ad5fef6e1aeaeb78b17ac463976c.svg)\n\nHence the general solution of the system of equations in Cartesian\nform isx+23=y+33=z\\answer{\\dfrac{x + 2}{3} = \\dfrac{y + 3}{3} = z}3x+2​=3y+3​=z​",
+      "paper": "PAPER1",
+      "difficulty": "MEDIUM",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "9",
+      "difficultyLevel": "3"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 5",
+      "content": "Consider the following system of equations:x+y+4z=13x+2y+16z=54x+2y+(a−1)z=b−4\\begin{aligned}\nx + y + 4z &= 1 \\\\[6pt]\n3x + 2y + 16z &= 5 \\\\[6pt]\n4x + 2y + (a-1)z &= b-4\\end{aligned}x+y+4z3x+2y+16z4x+2y+(a−1)z​=1=5=b−4​wherea,b∈Ra,b \\in \\mathbb{R}a,b∈R.Find conditions onaaaandbbbfor whichthe system has no solutions;the system has only one solution;the system has an infinite number of solutions.[6]In the case where the number of solutions is infinite, find the\ngeneralsolution of the system of equations in Cartesian form.[3]",
+      "markScheme": "If we convert the given system of equations into an augmented\nmatrix, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d8715397-fddc-47af-a086-22a4cee1a437/images/5638940f-c801-4755-8b7d-52ae2b81766d/71754659bebe16a79ad946ef4aafc3d04e0565c7.svg)\n\nHence, using the method of Gaussian Elimination, we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d8715397-fddc-47af-a086-22a4cee1a437/images/cb906fce-0828-4c2b-84ae-93973ebbdb34/038e3e50a616d564956e685040a3632159834164.svg)\n\n\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d8715397-fddc-47af-a086-22a4cee1a437/images/068d63d4-4bbe-4375-b74d-bf683839e578/87fa5baaa0e247b59e3412d3ed2d320e73681f15.svg)\n\nThe system has no solutions ifa=25andb≠12\\answer{a = 25 \\text{ and } b \\neq 12}a=25andb=12​The system has only one solution ifa≠25andb∈R\\answer{a \\neq 25 \\text{ and } b \\in \\mathbb{R}}a=25andb∈R​The system has an infinite number of solutions ifa=25andb=12\\answer{a = 25 \\text{ and } b = 12}a=25andb=12​Fora=25a = 25a=25andb=12b = 12b=12, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d8715397-fddc-47af-a086-22a4cee1a437/images/a07b136b-b0df-49ac-ba53-56744d53d569/6539968a8c5ba7b87ecfd3a27ed70dbb2c225401.svg)\n\nUsing the method of back-substitution, we obtain−y+4z=2y=4z−2\\begin{aligned}\n-y + 4z &= 2 \\\\[6pt]\ny &= 4z - 2 \\\\\n\\end{aligned}−y+4zy​=2=4z−2​andx+(4z−2)+4z=1x=3−8z\\begin{aligned}\nx + (4z - 2) + 4z &= 1 \\\\[6pt]\nx &= 3 - 8z \\hspace{4em}\\end{aligned}x+(4z−2)+4zx​=1=3−8z​Hence the general solution\nof the system of equations in Cartesian form is3−x8=y+24=z\\answer{\\dfrac{3-x}{8} = \\dfrac{y + 2}{4} = z}83−x​=4y+2​=z​",
+      "paper": "PAPER1",
+      "difficulty": "MEDIUM",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "9",
+      "difficultyLevel": "3.5"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 6",
+      "content": "Consider the following system of equations:x+y+z=−14x+2y+z=39x+3y=p\\begin{aligned}\nx + y + z &= -1 \\\\[6pt]\n4x + 2y + z &= 3 \\\\[6pt]\n9x + 3y &= p\\end{aligned}x+y+z4x+2y+z9x+3y​=−1=3=p​wherep∈Rp \\in \\mathbb{R}p∈R.Show that this system does not have a unique solution for any value\nofppp.[4]Determine the value ofpppfor which the system is consistent.For this value ofppp, find the general solution of the system.[4]",
+      "markScheme": "If we convert the given system of equations into an augmented\nmatrix, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1940aa5a-fa4d-4186-9d5a-8ac99127c963/images/f0382b32-b21c-4ba1-a0f5-4a79c36ddd6f/9f7fa9719e458a709cb1464a249710dcc108a8a6.svg)\n\nHence, using the method of Gaussian Elimination, we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1940aa5a-fa4d-4186-9d5a-8ac99127c963/images/bc6d005c-16b0-433a-b016-6a14a5666e85/ba6fbb5338a0222b47ef58fe6256b45e3ba64074.svg)\n\nIfp≠12p \\neq 12p=12, the system is inconsistent and has no solutions. For otherwise, the~system is consistent andzzzis a free variable. Hence, for any given value ofppp, the system either has no solutions or it has infinite number of solutions.p=12\\answer{p = 12}p=12​Forp=12p = 12p=12, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1940aa5a-fa4d-4186-9d5a-8ac99127c963/images/c2f1ebf4-8bb7-48ae-a3f9-7516a74cb2b0/bd86febfa147c1cf21b65e965d8b671ce0dbd029.svg)\n\nLettingz=tz = tz=tand using the method of back-substitution, we\nobtain−2y−3z=7−2y−3t=7y=−72−3t2\\begin{aligned}\n-2y - 3z &= 7 \\\\[11pt]\n-2y - 3t &= 7 \\\\[5pt]\ny &= -\\dfrac{7}{2} - \\dfrac{3t}{2}\\end{aligned}−2y−3z−2y−3ty​=7=7=−27​−23t​​andx+y+z=−1x+[−72−3t2]+t=−1x=52+t2\\begin{aligned}\nx + y + z &= -1 \\\\[5pt]\nx +\\left[-\\dfrac{7}{2} - \\dfrac{3t}{2}\\right] + t &= -1 \\\\[1pt]\nx &= \\dfrac{5}{2} + \\dfrac{t}{2} \\hspace{5.5em}\\end{aligned}x+y+zx+[−27​−23t​]+tx​=−1=−1=25​+2t​​Hence the general solution of the system in parametric form isx=52+t2,y=−72−3t2,z=t\\begin{aligned}\n&\\answer{x = \\dfrac{5}{2} + \\dfrac{t}{2}, \\hspace{0.5em} y = -\\dfrac{7}{2} - \\dfrac{3t}{2}, \\hspace{0.5em} z = t}\\end{aligned}​x=25​+2t​,y=−27​−23t​,z=t​​wheret∈Rt \\in \\mathbb{R}t∈R.",
+      "paper": "PAPER1",
+      "difficulty": "MEDIUM",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "8",
+      "difficultyLevel": "3.5"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "ERQ",
+      "title": "Question 7",
+      "content": "Consider three planes represented by the following system of equations:Π1:−2x+ay+4z=2Π2:x+by−2z=−1Π3:2x−y+cz=3\\begin{align*}\n\\Pi_1: -2x + ay + 4z &= 2 \\\\[6pt]\n\\Pi_2: x + by - 2z &= -1 \\\\[6pt]\n\\Pi_3: 2x - y + cz &= 3\n\\end{align*}Π1​:−2x+ay+4zΠ2​:x+by−2zΠ3​:2x−y+cz​=2=−1=3​Wherea,b,c∈Ra,b,c \\in \\mathbb{R}a,b,c∈R.State the values ofaaa,bbbandcccfor whichThe system has infinite solutions.The system is inconsistent.[7]In the case where the system has infinite solutions, describe the geometric relationship between the three planes.[2]In the case where the system is inconsistent, identify one of the geometric relationships that could exist between the three planes.[2]",
+      "markScheme": "If we convert the given system of equations into an augmented matrix, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e8f9c4b4-8442-45bf-8389-6c5abb138ec8/images/3f804c21-6625-4b1d-a6cc-56f4ed650a1e/aa1012a.PNG)\n\nHence, using the method of Gaussian Elimination, we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e8f9c4b4-8442-45bf-8389-6c5abb138ec8/images/da6543cf-8657-43e1-8040-dec0d15cf8cf/aa1012b.PNG)\n\nFrom row 2, if the system has infinite solutions, we must havea+2b=0a + 2b = 0a+2b=0.This implies that ifa=−2ba = -2ba=−2b, there are infinite solutions to the system.However, we also note from row 3, that ifa−1=0a - 1 = 0a−1=0andc+4=0c + 4 = 0c+4=0, then the system is inconsistent. In this case we havea=1a = 1a=1andc=−4c = -4c=−4.There are infinite solutions to the system ifa=−2ba = -2ba=−2b,c∈Rc \\in \\mathbb{R}c∈Runlessa=1a=1a=1,b=−0.5b=-0.5b=−0.5andc=−4c=-4c=−4.As noted in part (i), ifa=1a = 1a=1andc=−4c = -4c=−4, the system is inconsistent.However, we also note that ifa≠1a \\neq 1a=1andc=−4c = -4c=−4, Gaussian Elimination leads to\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e8f9c4b4-8442-45bf-8389-6c5abb138ec8/images/7cd78d6b-425a-48e9-b2b6-e41b3b6fdb70/aa1021b.png)\n\nIn this case, we can also have an inconsistent system.From part (a), ifa=−2ba = -2ba=−2bthen the system is consistent (has infinite solutions), however consider whena≠−2ba \\neq -2ba=−2b.It follows thata+2b=ka+2b =ka+2b=k, wherek≠0k \\neq 0k=0, this leads to\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e8f9c4b4-8442-45bf-8389-6c5abb138ec8/images/757dcf45-e7bd-4832-b55b-c311d8f0a8d8/aa1012a2.png)\n\nUsing row 2ky=0Ask≠0theny=0\\begin{align*}\nky &=0 \\\\\n\\intertext{As $k \\neq 0$ then}\ny &= 0 \n\\end{align*}kyAsk=0 theny​=0=0​Using row 3, this value ofyyyshows an inconsistency as shown below.(a−1)y=5(a−1)×0=50=5\\begin{align*}\n(a-1)y &=5 \\\\\n(a-1)\\times0 &= 5 \\\\\n0 &= 5 \n\\end{align*}(a−1)y(a−1)×00​=5=5=5​Hence...The system is inconsistent ifa=1andc=−4,b∈Ror ifa≠1,a≠−2bandc=−4.\\answer{\\text{The system is inconsistent if } a = 1 \\text{ and } c = -4, b \\in \\mathbb{R} \\text{ or if } a \\neq 1, a \\neq -2b \\text{ and } c = -4.}The system is inconsistent ifa=1andc=−4,b∈Ror ifa=1,a=−2bandc=−4.​From (a) (i), we note thatΠ1\\Pi_1Π1​is a multiple ofΠ2\\Pi_2Π2​. They are therefore equations representing the same plane.Π1andΠ2are coincidental,Π3intersects both planes in a straight line.\\answer{\\Pi_1 \\text{ and } \\Pi_2 \\text{ are coincidental, }\\Pi_3 \\text{ intersects both planes in a straight line.}}Π1​andΠ2​are coincidental,Π3​intersects both planes in a straight line.​In total there are 4 different geometric realtionships between the planes when the system is inconsistent.First, from part (a) (i) we note that the system is inconsistent ifa=1a=1a=1,b=−0.5b=-0.5b=−0.5andc=−4c=-4c=−4. In this case,Π1andΠ2are coincidental andΠ3is parallel to both planes.\\hspace{0.525em}\\tcbhighmath{\\Pi_1 \\text{ and } \\Pi_2 \\text{ are coincidental and } \\Pi_3 \\text{ is parallel to both planes.}}\\hspace{0.525em}Π1​andΠ2​are coincidental andΠ3​is parallel to both planes.​Second, from (a) (ii), we have one scenario wherea=1a=1a=1,b≠−0.5b \\neq -0.5b=−0.5andc=−4c=-4c=−4. In this case,Π1andΠ3are parallel andΠ2intersects both planes.\\hspace{0.525em}\\tcbhighmath{\\Pi_1 \\text{ and } \\Pi_3 \\text{ are parallel and } \\Pi_2 \\text{ intersects both planes.}}\\hspace{0.525em}Π1​andΠ3​are parallel andΠ2​intersects both planes.​Thirdly, ifa≠1a \\neq 1a=1,b=−0.5b=-0.5b=−0.5andc=−4c=-4c=−4,Π2andΠ3are parallel andΠ1intersects both planes.\\hspace{0.525em}\\tcbhighmath{\\Pi_2 \\text{ and } \\Pi_3 \\text{ are parallel and } \\Pi_1 \\text{ intersects both planes.}}\\hspace{0.525em}Π2​andΠ3​are parallel andΠ1​intersects both planes.​Finally, ifa≠1a \\neq 1a=1,a≠−2ba \\neq -2ba=−2bandc=−4c=-4c=−4, thenΠ1\\Pi_1Π1​intersectsΠ2\\Pi_2Π2​on a line,Π1\\Pi_1Π1​intersectsΠ3\\Pi_3Π3​on a different line andΠ2\\Pi_2Π2​intersectsΠ3\\Pi_3Π3​on another different line. Additionally,All three of these lines of intersection are parallel.\\hspace{0.525em}\\tcbhighmath{\\text{All three of these lines of intersection are parallel.}}\\hspace{0.525em}All three of these lines of intersection are parallel.​",
+      "paper": "PAPER1",
+      "difficulty": "HARD",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "11",
+      "difficultyLevel": "4.5"
+    }
+  ]
+}
