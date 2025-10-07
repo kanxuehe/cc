@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 1",
+      "content": "When a coin is thrown from the top of a skyscraper, its height above the\nground aftertttseconds is given bys(t)=at2+bt+cs(t) = at^2 + bt + cs(t)=at2+bt+c, wherea,b,c∈Ra,b,c \\in \\mathbb{R}a,b,c∈Rands(t)s(t)s(t)is measured in metres. After111second, the coin is179.3179.3179.3m above the ground;\nafter222seconds,188.2188.2188.2m; after666seconds,159.8159.8159.8m.Write down a system of three linear equations in terms ofaaa,bbbandccc.Hence find the values ofaaa,bbbandccc.[3]Find the height of the skyscraper.[1]Find the time it takes for the coin to hit the ground.[2]",
+      "markScheme": "We havea+b+c=179.34a+2b+c=188.236a+6b+c=159.8(1)\\begin{aligned}\n\n\\answer{\\begin{array}{rcccccl}\na &+& b &+& c &=& 179.3 \\\\[3pt]\n4a &+& 2b &+& c &=& 188.2 \\\\[3pt]\n36a &+& 6b &+& c &=& 159.8\n\\end{array}} \\qref{(1)}\\end{aligned}a4a36a​+++​b2b6b​+++​ccc​===​179.3188.2159.8​​(1)​If we express the system of linear equations(1)(1)(1)as a matrix\nequation, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/45dabcef-b9ef-4f62-87fe-f37674153ffe/images/3205da83-27aa-4a59-acd7-c2722a0e3a9c/13c88ece23638748c2e63548748180dced5a9e26.svg)\n\nHence, if we solve the matrix equation(2)(2)(2), we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/45dabcef-b9ef-4f62-87fe-f37674153ffe/images/918f55b1-39bd-4ecb-8146-97ebf200d357/8c737a936777a47edd03c6c7de7ba744071b76ba.svg)\n\nHence we finda=−3.2,b=18.5,c=164\\answer{a = -3.2, \\hspace{0.25em} b = 18.5, \\hspace{0.25em} c = 164}a=−3.2,b=18.5,c=164​Evaluatings(t)s(t)s(t)att=0t = 0t=0, we obtains(0)=−3.2(0)2+18.5(0)+164=164m\\begin{aligned}\n\\hspace{6.9em} s(0) &= -3.2(0)^2 + 18.5(0) + 164 \\\\[6pt]\n&\\answer{= 164 \\text{ m}}\\end{aligned}s(0)​=−3.2(0)2+18.5(0)+164=164m​​Solving the equations(t)=0s(t) = 0s(t)=0forttt, we find−3.2t2+18.5t+164=0\\begin{aligned}\n-3.2t^2 + 18.5t + 164 &= 0 \\hspace{10.6em} \\\\\n\\end{aligned}−3.2t2+18.5t+164​=0​t≈10.6seconds[by using G.D.C.]\\hspace{13.5em} \\answer{t \\approx 10.6 \\text{ seconds}} \\hspace{3em} [\\text{by using G.D.C.}]t≈10.6seconds​[by using G.D.C.]",
+      "paper": "PAPER2",
+      "difficulty": "MEDIUM",
+      "calculator": true,
+      "sort": 1,
+      "maxMark": "6",
+      "difficultyLevel": "3"
+    },
+    {
+      "topicId": "topic-uuid",
+      "topicItemId": "topic-item-uuid",
+      "type": "SAQ",
+      "title": "Question 2",
+      "content": "When a ball is thrown from the top of a tall building, its height above\nthe ground aftertttseconds is given bys(t)=at2+bt+c,s(t) = at^2 + bt + c\\,,s(t)=at2+bt+c,wherea,b,c∈Ra,b,c \\in \\mathbb{R}a,b,c∈Rands(t)s(t)s(t)is measured in metres. After111second, the ball is84.384.384.3m above the ground;\nafter222seconds,93.993.993.9m; after888seconds,42.342.342.3m.Write down a system of three linear equations in terms ofaaa,bbbandccc.Use matrices to find the values ofaaa,bbbandccc.[3]Find the height of the building.[1]Find the time it takes for the ball to hit the ground.[2]",
+      "markScheme": "We havea+b+c=84.34a+2b+c=93.964a+8b+c=42.3(1)\\begin{aligned}\n\n\\answer{\\begin{array}{rcccccl}\na &+& b &+& c &=& 84.3 \\\\[3pt]\n4a &+& 2b &+& c &=& 93.9 \\\\[3pt]\n64a &+& 8b &+& c &=& 42.3\n\\end{array}} \\qref{(1)}\\end{aligned}a4a64a​+++​b2b8b​+++​ccc​===​84.393.942.3​​(1)​If we express the system of linear equations(1)(1)(1)as a matrix\nequation, we have\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/fa6bc1e0-527f-4b17-bf69-2b0fc42d8867/images/865960d0-98ce-4b87-a675-6a46a2ee65ce/b40b58be9e04029307e50815631013b0e434f45c.svg)\n\nHence, if we solve the matrix equation(2)(2)(2), we get\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/fa6bc1e0-527f-4b17-bf69-2b0fc42d8867/images/1b3b62dd-72c9-42d4-8867-f02c938bd983/04caede963f7db2aac1bc0812ea44cf5b6a29875.svg)\n\nHence we finda=−2.6,b=17.4,c=69.5\\answer{a = -2.6, \\hspace{0.25em} b = 17.4, \\hspace{0.25em} c = 69.5}a=−2.6,b=17.4,c=69.5​Evaluatings(t)s(t)s(t)att=0t = 0t=0, we obtains(0)=−2.6(0)2+17.4(0)+69.5=69.5m\\begin{aligned}\n\\hspace{7.2em} s(0) &= -2.6(0)^2 + 17.4(0) + 69.5 \\\\[6pt]\n&\\answer{= 69.5 \\text{ m}}\\end{aligned}s(0)​=−2.6(0)2+17.4(0)+69.5=69.5m​​Solving the equations(t)=0s(t) = 0s(t)=0forttt, we find−2.6t2+17.4t+69.5=0\\begin{aligned}\n-2.6t^2 + 17.4t + 69.5 &= 0 \\hspace{10.8em} \\\\\n\\end{aligned}−2.6t2+17.4t+69.5​=0​t≈9.50seconds[by using G.D.C.]\\hspace{13.6em} \\answer{t \\approx 9.50 \\text{ seconds}} \\hspace{3em} [\\text{by using G.D.C.}]t≈9.50seconds​[by using G.D.C.]",
+      "paper": "PAPER2",
+      "difficulty": "MEDIUM",
+      "calculator": true,
+      "sort": 1,
+      "maxMark": "6",
+      "difficultyLevel": "3"
+    }
+  ]
+}
