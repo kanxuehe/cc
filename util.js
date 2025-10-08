@@ -3,9 +3,7 @@ window._answer = [];
 // 提取全部题目函数
 function getTextContentAsArray(className) {
   const elements = document.querySelectorAll(className);
-  const result = Array.from(elements).map((element) =>
-    element.textContent.trim()
-  );
+  const result = Array.from(elements).map((element) => element.textContent);
 
   return result;
 }
@@ -13,14 +11,26 @@ function extractContent(node) {
   let result = [];
 
   node.childNodes.forEach((child) => {
-    if (child.nodeType === Node.ELEMENT_NODE) {
+    if (child.nodeType === Node.ELEMENT_NODE && child.tagName !== "math") {
       if (child.tagName.toLowerCase() === "img") {
         result.push(`\n\n![SkillUpp Image](${child.src})\n\n`);
+      } else if (
+        child.tagName.toLowerCase() !== "svg" &&
+        child.tagName.toLowerCase() !== "path" &&
+        child?.className === "katex-display"
+      ) {
+        result.push(...["$$", ...extractContent(child), "$$"]);
+      } else if (
+        child.tagName.toLowerCase() !== "svg" &&
+        child.tagName.toLowerCase() !== "path" &&
+        child?.className === "katex"
+      ) {
+        result.push(...["$", ...extractContent(child), "$"]);
       } else {
         result.push(...extractContent(child)); // 递归遍历子节点
       }
     } else if (child.nodeType === Node.TEXT_NODE) {
-      const text = child.textContent.trim();
+      const text = child.textContent;
       if (text) {
         result.push(text);
       }
@@ -141,9 +151,7 @@ function getCategory(
   // 提取全部题目函数
   function getTextContentAsArray(className) {
     const elements = document.querySelectorAll(className);
-    const result = Array.from(elements).map((element) =>
-      element.textContent.trim()
-    );
+    const result = Array.from(elements).map((element) => element.textContent);
 
     return result;
   }
@@ -158,10 +166,10 @@ function getCategory(
     const childrenDom = document.querySelectorAll(childrenClassName)[index];
     const nameList = Array.from(
       childrenDom.querySelectorAll(".css-19lu5f5")
-    ).map((element) => element.textContent.trim());
+    ).map((element) => element.textContent);
     const descriptionList = Array.from(
       childrenDom.querySelectorAll(".css-jr56j6")
-    ).map((element) => element.textContent.trim());
+    ).map((element) => element.textContent);
     const slugList = Array.from(
       childrenDom.querySelectorAll(".css-1uri588")
     ).map((element) => {
@@ -204,5 +212,3 @@ function getCategory(
   });
   return result;
 }
-
-
