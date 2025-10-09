@@ -29,13 +29,6 @@ app.post("/save", (req, res) => {
   }
 });
 
-app.get("/list", (req, res) => {
-  const files = fs
-    .readdirSync(__dirname)
-    .filter((f) => f.startsWith("page-snapshot-") && f.endsWith(".json"));
-  res.json(files);
-});
-
 app.post("/updateType", (req, res) => {
   try {
     const { type, indexArr, filePath, fileName } = req.body;
@@ -52,6 +45,36 @@ app.post("/updateType", (req, res) => {
     // 3. 写回文件（格式化缩进 2 个空格）
     fs.writeFileSync(filepath, JSON.stringify(data, null, 2), "utf8");
 
+    console.log("✅ JSON 文件已更新！");
+    res.json({ ok: true, filename });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ ok: false, error: String(err) });
+  }
+});
+
+app.post("/groupData", (req, res) => {
+  try {
+    const { filePath, questionArr, fileName, newFileName } = req.body;
+    const filename = `JSON/${filePath}/${fileName}.json`;
+    const newPath = `JSON/${filePath}/${newFileName}.json`;
+    const filepath = path.join(__dirname, filename);
+    console.log(filePath, questionArr, fileName, newFileName)
+    // 1. 读取文件内容
+    const data = JSON.parse(fs.readFileSync(filepath, "utf8"));
+
+    // 2. 修改字段
+
+    const group = [];
+    data.list.forEach((item) => {
+      if (questionArr.includes(item.content)) {
+        item.title = `Question ${group.length + 1}`;
+        group.push(item);
+      }
+    });
+
+    // 3. 写回文件（格式化缩进 2 个空格）
+    fs.writeFileSync(newPath, JSON.stringify({ list: group }, null, 2), "utf8");
     console.log("✅ JSON 文件已更新！");
     res.json({ ok: true, filename });
   } catch (err) {
