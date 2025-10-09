@@ -73,7 +73,7 @@ function getResult(
   function getDifficultyLevelList(className) {
     const elements = document.querySelectorAll(className);
     const result = Array.from(elements).map((element) =>
-      element.getAttribute("aria-label").replace(" Stars", "")
+      element.getAttribute("aria-label").replace(" Stars", "").replace(" Star", "")
     );
 
     return result;
