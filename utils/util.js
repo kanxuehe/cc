@@ -147,6 +147,21 @@ function getResult(
 
 getResult("xxx");
 
+function getType(fileName) {
+  const indexArr = [...document.querySelectorAll(".css-r0xajv")].map((item) => {
+    const result = item.textContent.replace("Question ", "");
+    return result;
+  });
+  const type = document.querySelector(".css-180s806").textContent;
+  const filePathArr = location.pathname.split("/");
+  const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
+  fetch("http://localhost:2242/updateType", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ fileName, filePath, type, indexArr }),
+  });
+}
+
 // 获取category
 
 function getCategory(
