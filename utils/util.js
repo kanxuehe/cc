@@ -53,6 +53,7 @@ answerList.forEach((item, index) => {
 
 // 处理全部数据
 function getResult(
+  fileName = "New JSON",
   titleClassName = ".css-r0xajv",
   questionClassName = ".css-9axr9m",
   calculatorClassName = ".css-njc01w",
@@ -134,10 +135,17 @@ function getResult(
     difficultyList,
     difficultyLevelList
   );
+  const filePathArr = location.pathname.split("/");
+  const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
+  fetch("http://localhost:2242/save", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ data: { list: result }, filePath, fileName }),
+  });
   return result;
 }
 
-getResult();
+getResult("xxx");
 
 // 获取category
 
