@@ -27,7 +27,7 @@ function extractContent(node, trim = false) {
         tag !== "path" &&
         child?.className === "katex-display"
       ) {
-        result.push(...["$$", ...extractContent(child), "$$"]);
+        result.push(...["\n$$\n", ...extractContent(child), "\n$$\n"]);
       } else if (tag === "li") {
         // 给 ol 里的 li 加上 "- "
         const parentTag = child.parentElement?.tagName?.toLowerCase();
@@ -39,7 +39,12 @@ function extractContent(node, trim = false) {
         tag !== "path" &&
         child?.className === "katex"
       ) {
-        result.push(...["$", ...extractContent(child), "$"]);
+        const parentClassName = child.parentElement?.className;
+        if (parentClassName === "katex-display") {
+          result.push(...extractContent(child));
+        } else {
+          result.push(...["$", ...extractContent(child), "$"]);
+        }
       } else if (tag === "annotation") {
         result.push(...extractContent(child));
       } else {
