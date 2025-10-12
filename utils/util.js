@@ -10,7 +10,7 @@ function getTextContentAsArray(className) {
 function extractContent(node, depth = 0) {
   let result = [];
 
-  node.childNodes.forEach((child,index) => {
+  node.childNodes.forEach((child, index) => {
     if (
       child.nodeType === Node.ELEMENT_NODE &&
       child.className !== "katex-html" &&
@@ -25,7 +25,14 @@ function extractContent(node, depth = 0) {
         tag !== "path" &&
         child?.className === "katex-display"
       ) {
-        result.push(...["\n$$\n", ...extractContent(child, depth), "\n$$\n"]);
+        const indent = "  ".repeat(depth);
+        result.push(
+          ...[
+            `\n${indent}$$\n${indent}`,
+            ...extractContent(child, depth),
+            `\n${indent}$$\n`,
+          ]
+        );
       } else if (tag === "li") {
         // 给 ol 里的 li 加上 "- "
         const parentTag = child.parentElement?.tagName?.toLowerCase();
@@ -38,7 +45,9 @@ function extractContent(node, depth = 0) {
             }
             return item;
           });
-          result.push(...[`${depth > 0&&index===0 ? "\n" : ""}${indent}- `, ...aaa]);
+          result.push(
+            ...[`${depth > 0 && index === 0 ? "\n" : ""}${indent}- `, ...aaa]
+          );
         }
       } else if (
         tag !== "svg" &&
@@ -54,10 +63,22 @@ function extractContent(node, depth = 0) {
       } else if (tag === "annotation") {
         result.push(...extractContent(child, depth));
       } else {
-        result.push(...extractContent(child, depth)); // 递归遍历子节点
+        const parentTag = child.parentElement?.tagName?.toLowerCase();
+        const arr = [...extractContent(child, depth)];
+        if (parentTag === "li") {
+          arr.forEach((item) => {
+            item = item.replace(/\n/g, `\n${"  ".repeat(depth)}`);
+          });
+        }
+        result.push(...arr); // 递归遍历子节点
       }
     } else if (child.nodeType === Node.TEXT_NODE) {
       let text = child.textContent;
+      const parentTag = child.parentElement?.tagName?.toLowerCase();
+      if (parentTag === "annotation") {
+        // 公式里的换行后面也要跟缩进
+        text = text.replace(/\n/g, `\n${"  ".repeat(depth)}`);
+      }
       if (text) {
         result.push(text);
       }
