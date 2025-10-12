@@ -10,7 +10,7 @@ function getTextContentAsArray(className) {
 function extractContent(node, depth = 0) {
   let result = [];
 
-  node.childNodes.forEach((child) => {
+  node.childNodes.forEach((child,index) => {
     if (
       child.nodeType === Node.ELEMENT_NODE &&
       child.className !== "katex-html" &&
@@ -38,7 +38,7 @@ function extractContent(node, depth = 0) {
             }
             return item;
           });
-          result.push(...[`${depth > 0 ? "\n" : ""}${indent}- `, ...aaa]);
+          result.push(...[`${depth > 0&&index===0 ? "\n" : ""}${indent}- `, ...aaa]);
         }
       } else if (
         tag !== "svg" &&
