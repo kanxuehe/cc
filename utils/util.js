@@ -7,10 +7,8 @@ function getTextContentAsArray(className) {
 
   return result;
 }
-function extractContent(node, trim = false) {
+function extractContent(node, depth = 0) {
   let result = [];
-  let replaceWhitespace = false;
-  if (node.tagName.toLowerCase() === "annotation") replaceWhitespace = true; // 去掉规则中的换行符
 
   node.childNodes.forEach((child) => {
     if (
@@ -27,12 +25,20 @@ function extractContent(node, trim = false) {
         tag !== "path" &&
         child?.className === "katex-display"
       ) {
-        result.push(...["\n$$\n", ...extractContent(child), "\n$$\n"]);
+        result.push(...["\n$$\n", ...extractContent(child, depth), "\n$$\n"]);
       } else if (tag === "li") {
         // 给 ol 里的 li 加上 "- "
         const parentTag = child.parentElement?.tagName?.toLowerCase();
         if (parentTag === "ol" || parentTag === "ul") {
-          result.push(...["- ", ...extractContent(child, true)]);
+          const indent = "  ".repeat(depth);
+          const arr = [...extractContent(child, depth + 1)];
+          const aaa = arr.map((item, index) => {
+            if (index === 0 || index === arr.length - 1) {
+              return item.trim();
+            }
+            return item;
+          });
+          result.push(...[`${depth > 0 ? "\n" : ""}${indent}- `, ...aaa]);
         }
       } else if (
         tag !== "svg" &&
@@ -41,23 +47,17 @@ function extractContent(node, trim = false) {
       ) {
         const parentClassName = child.parentElement?.className;
         if (parentClassName === "katex-display") {
-          result.push(...extractContent(child));
+          result.push(...extractContent(child, depth));
         } else {
-          result.push(...["$", ...extractContent(child), "$"]);
+          result.push(...["$", ...extractContent(child, depth), "$"]);
         }
       } else if (tag === "annotation") {
-        result.push(...extractContent(child));
+        result.push(...extractContent(child, depth));
       } else {
-        result.push(...extractContent(child)); // 递归遍历子节点
+        result.push(...extractContent(child, depth)); // 递归遍历子节点
       }
     } else if (child.nodeType === Node.TEXT_NODE) {
       let text = child.textContent;
-      if (replaceWhitespace) {
-        text = text.replace(/\n/g, "");
-      }
-      if (trim) {
-        text = text.trim();
-      }
       if (text) {
         result.push(text);
       }
