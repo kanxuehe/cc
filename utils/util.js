@@ -19,7 +19,7 @@ function extractContent(node, depth = 0) {
     ) {
       const tag = child.tagName.toLowerCase();
       if (tag === "img") {
-        result.push(`\n\n![SkillUpp Image](${child.src})\n\n`);
+        result.push(`![SkillUpp Image](${child.src})\n\n`);
       } else if (
         tag !== "svg" &&
         tag !== "path" &&
