@@ -66,8 +66,13 @@ function extractContent(node, depth = 0) {
         const parentTag = child.parentElement?.tagName?.toLowerCase();
         const arr = [...extractContent(child, depth)];
         if (parentTag === "li") {
+          // 如果父节点是li,则该节点需要根据层级进行缩进
+          const indent = "  ".repeat(depth);
+          // if (index !== 0 && !child.className.includes("katex")) {
+          //   arr.unshift(indent);
+          // }
           arr.forEach((item) => {
-            item = item.replace(/\n/g, `\n${"  ".repeat(depth)}`);
+            item = item.replace(/\n/g, `\n${indent}`);
           });
         }
         result.push(...arr); // 递归遍历子节点
@@ -102,7 +107,7 @@ answerList.forEach((item, index) => {
 // 处理全部数据
 function getResult(
   titleClassName = ".css-r0xajv",
-  questionClassName = ".css-9axr9m",
+  questionClassName = ".css-1kkjirn",
   calculatorClassName = ".css-njc01w",
   difficultyClassName = ".css-lt7f38",
   difficultyLevelClassName = ".css-jkscjg"
@@ -164,6 +169,13 @@ function getResult(
   const calculatorList = getTextContentAsArray(calculatorClassName);
   const difficultyList = getTextContentAsArray(difficultyClassName);
   const difficultyLevelList = getDifficultyLevelList(difficultyLevelClassName);
+  console.log(
+    titleList,
+    questionList,
+    calculatorList,
+    difficultyList,
+    difficultyLevelList
+  );
   const result = questionList.map((question, index) => {
     const [maxMark, content] = getMaxMarkAndContent(question);
     return {
@@ -178,13 +190,7 @@ function getResult(
       difficultyLevel: difficultyLevelList[index],
     };
   });
-  console.log(
-    titleList,
-    questionList,
-    calculatorList,
-    difficultyList,
-    difficultyLevelList
-  );
+
   const filePathArr = location.pathname.split("/");
   const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
   const fileName = document.querySelector(".css-rev78e span").textContent;
@@ -198,75 +204,7 @@ function getResult(
 
 getResult();
 
-function getType(fileName) {
-  const indexArr = [...document.querySelectorAll(".css-r0xajv")].map((item) => {
-    const result = item.textContent.replace("Question ", "");
-    return result;
-  });
-  const type = document.querySelector(".css-180s806").textContent;
-  const filePathArr = location.pathname.split("/");
-  const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
-  fetch("http://localhost:2242/updateType", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ fileName, filePath, type, indexArr }),
-  });
-}
-
-function groupData(fileName) {
-  // 提取问题,可能包含图片
-  function getQuestionStr(className = ".css-9axr9m") {
-    const elements = document.querySelectorAll(className);
-    const result = Array.from(elements).map((element) => {
-      const question = extractContent(element);
-      const [maxMark, content] = getMaxMarkAndContent(question);
-      return content;
-    });
-    return result;
-  }
-
-  function getMaxMarkAndContent(str) {
-    // 1. 提取 [Maximum mark: 6] 里的数字
-    const markMatch = str.match(/\[Maximum mark:\s*(\d+)\]/);
-    const mark = markMatch ? markMatch[1] : null;
-
-    // 2. 提取后面的全部内容
-    const content = str.replace(/\[Maximum mark:\s*\d+\]\n?/, "");
-    return [mark, content];
-  }
-
-  function extractContent(node) {
-    let result = [];
-
-    node.childNodes.forEach((child) => {
-      if (child.nodeType === Node.ELEMENT_NODE) {
-        if (child.tagName.toLowerCase() === "img") {
-          result.push(`\n\n![SkillUpp Image](${child.src})\n\n`);
-        } else {
-          result.push(...extractContent(child)); // 递归遍历子节点
-        }
-      } else if (child.nodeType === Node.TEXT_NODE) {
-        const text = child.textContent.trim();
-        if (text) {
-          result.push(text);
-        }
-      }
-    });
-
-    return result.join("");
-  }
-  const questionArr = getQuestionStr();
-  const filePathArr = location.pathname.split("/");
-  const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
-  const newFileName = document.querySelector(".css-rev78e span").textContent;
-  fetch("http://localhost:2242/groupData", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ fileName, filePath, questionArr, newFileName }),
-  });
-}
 // 获取category
-
 function getCategory(
   fullNameClassName = ".css-1dv04ps",
   nameClassName = ".css-13oos9x",
@@ -338,3 +276,71 @@ function getCategory(
   });
   return result;
 }
+
+// function getType(fileName) {
+//   const indexArr = [...document.querySelectorAll(".css-r0xajv")].map((item) => {
+//     const result = item.textContent.replace("Question ", "");
+//     return result;
+//   });
+//   const type = document.querySelector(".css-180s806").textContent;
+//   const filePathArr = location.pathname.split("/");
+//   const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
+//   fetch("http://localhost:2242/updateType", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/json" },
+//     body: JSON.stringify({ fileName, filePath, type, indexArr }),
+//   });
+// }
+
+// function groupData(fileName) {
+//   // 提取问题,可能包含图片
+//   function getQuestionStr(className = ".css-9axr9m") {
+//     const elements = document.querySelectorAll(className);
+//     const result = Array.from(elements).map((element) => {
+//       const question = extractContent(element);
+//       const [maxMark, content] = getMaxMarkAndContent(question);
+//       return content;
+//     });
+//     return result;
+//   }
+
+//   function getMaxMarkAndContent(str) {
+//     // 1. 提取 [Maximum mark: 6] 里的数字
+//     const markMatch = str.match(/\[Maximum mark:\s*(\d+)\]/);
+//     const mark = markMatch ? markMatch[1] : null;
+
+//     // 2. 提取后面的全部内容
+//     const content = str.replace(/\[Maximum mark:\s*\d+\]\n?/, "");
+//     return [mark, content];
+//   }
+
+//   function extractContent(node) {
+//     let result = [];
+
+//     node.childNodes.forEach((child) => {
+//       if (child.nodeType === Node.ELEMENT_NODE) {
+//         if (child.tagName.toLowerCase() === "img") {
+//           result.push(`\n\n![SkillUpp Image](${child.src})\n\n`);
+//         } else {
+//           result.push(...extractContent(child)); // 递归遍历子节点
+//         }
+//       } else if (child.nodeType === Node.TEXT_NODE) {
+//         const text = child.textContent.trim();
+//         if (text) {
+//           result.push(text);
+//         }
+//       }
+//     });
+
+//     return result.join("");
+//   }
+//   const questionArr = getQuestionStr();
+//   const filePathArr = location.pathname.split("/");
+//   const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
+//   const newFileName = document.querySelector(".css-rev78e span").textContent;
+//   fetch("http://localhost:2242/groupData", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/json" },
+//     body: JSON.stringify({ fileName, filePath, questionArr, newFileName }),
+//   });
+// }
