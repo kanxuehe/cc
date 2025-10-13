@@ -74,6 +74,11 @@ function extractContent(node, depth = 0) {
           arr.forEach((item) => {
             item = item.replace(/\n/g, `\n${indent}`);
           });
+          if (index > 1) { //li下面,第二个节点开始都需要加缩进, 注意:li下面第1个节点是::marker ,所以下标为1表示第一个有效节点
+            arr.unshift(indent);
+          }
+          result.push(...arr);
+          return;
         }
         result.push(...arr); // 递归遍历子节点
       }
