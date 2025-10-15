@@ -198,7 +198,7 @@ function getResult(
 
   const filePathArr = location.pathname.split("/");
   const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
-  const fileName = document.querySelector(".css-rev78e span").textContent;
+  const fileName = document.querySelector(".css-12ij61a span").textContent;
   fetch("http://localhost:2242/save", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
