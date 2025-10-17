@@ -207,6 +207,9 @@ function getResult(
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ data: result, filePath, fileName }),
   });
+  // 关闭所有弹窗
+  document.querySelectorAll(".css-8ndowl").forEach((e) => e.style.display = "none");
+  document.querySelector("body").style.overflow = "auto";
   return result;
 }
 
