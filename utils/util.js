@@ -20,6 +20,8 @@ function extractContent(node, depth = 0) {
       const tag = child.tagName.toLowerCase();
       if (tag === "img") {
         result.push(`![SkillUpp Image](${child.src})\n\n`);
+      } else if (tag === "span" && child.className === "marks") {
+        result.push(child.outerHTML);
       } else if (
         tag !== "svg" &&
         tag !== "path" &&
@@ -74,7 +76,8 @@ function extractContent(node, depth = 0) {
           arr.forEach((item) => {
             item = item.replace(/\n/g, `\n${indent}`);
           });
-          if (index > 1) { //li下面,第二个节点开始都需要加缩进, 注意:li下面第1个节点是::marker ,所以下标为1表示第一个有效节点
+          if (index > 1) {
+            //li下面,第二个节点开始都需要加缩进, 注意:li下面第1个节点是::marker ,所以下标为1表示第一个有效节点
             arr.unshift(indent);
           }
           result.push(...arr);
@@ -198,7 +201,7 @@ function getResult(
 
   const filePathArr = location.pathname.split("/");
   const filePath = `${filePathArr[1]}/${filePathArr[2]}`;
-  const fileName = document.querySelector(".css-12ij61a span").textContent;
+  const fileName = document.querySelector(".css-rev78e span").textContent;
   fetch("http://localhost:2242/save", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
