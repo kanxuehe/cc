@@ -117,7 +117,7 @@
       "topicItemId": "topic-item-uuid",
       "type": "SAQ",
       "title": "Question 9",
-      "content": "In this question give all answers correct to the nearest whole\nnumber.\nBenjamin spends € $32\\hspace{0.15em}000$ buying\nbitcoin mining hardware for his cryptocurrency $\\text{mining}$\nbusiness. The hardware depreciates by $16$ %\neach year.\n\n- Find the value of the hardware after two years. <span class=\"marks\">[3]</span>\n\n- Find the number of years it will take for the hardware to be worth\nless than $\\text{\\euro\\hspace{0.05em}\\(8000\\)}$. <span class=\"marks\">[3]</span>\n\n",
+      "content": "In this question give all answers correct to the nearest whole\nnumber.\nBenjamin spends € $32\\hspace{0.15em}000$ buying\nbitcoin mining hardware for his cryptocurrency $\\text{mining}$\nbusiness. The hardware depreciates by $16$ %\neach year.\n\n- Find the value of the hardware after two years. <span class=\"marks\">[3]</span>\n\n- Find the number of years it will take for the hardware to be worth\nless than € 8000. <span class=\"marks\">[3]</span>\n\n",
       "markScheme": "\n- We have\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/9a6278b0-5d6d-4ead-be25-cf6e623be990/images/f4ea5999-da14-46c4-a49f-ae6ab7a1bfba/0586f73ff6162ac0d35f7aa7d72624e24f0856bf.svg)\n\n\n  Hence, using the compound depreciation formula, we get\n\n  $$\n  \\begin{aligned}\n  \\hspace{1.9em} \\mathrm{FV} &= \\text{PV}\\bigg(1 - \\dfrac{r}{100}\\bigg)^n \\\\[5pt]\n  &= 32\\hspace{0.15em}000\\bigg(1 - \\dfrac{16}{100}\\bigg)^2 \\\\[12pt]\n  &\\answer{\\approx \\text{\\euro\\hspace{0.05em}}22\\hspace{0.15em}579}\\end{aligned}\n  $$\n\n- We have\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/9a6278b0-5d6d-4ead-be25-cf6e623be990/images/bd728f37-1f09-41ee-847d-2b9a343c8101/532b7aee114d6a0a16e054edfa0e732a7eb37db7.svg)\n\n\n  Hence, using the compound depreciation formula, we obtain\n\n  $$\n  \\begin{aligned}\n  \\hspace{5.8em} 8000 &= 32\\hspace{0.15em}000\\bigg(1 - \\dfrac{16}{100}\\bigg)^n \\\\[8pt]\n  n &\\approx 7.95 \\hspace{3em} [\\text{by using G.D.C.}] \\\\\n  \\end{aligned}\n  $$\n\n  Hence it takes\n$\\answer{8 \\text{ years}}$\nfor the hardware to be worth less than\n€ $8000$.\n",
       "paper": "PAPER2",
       "difficulty": "EASY",
@@ -203,20 +203,6 @@
       "title": "Question 15",
       "content": "Charles plans to invest in a retirement plan for $30$ years. In this\nplan, he will deposit $1000$ British pounds (GBP) at the end of every\nmonth and receive a $6.5\\hspace{0.05em}\\%$ interest rate per annum,\ncompounded monthly.\n\n- Find the future value of the investment at the end of the $30$\nyears. Give your answer correct to the nearest pound.<span class=\"marks\">[3]</span>\n\n\nAfter the $30$-year period, Charles will start receiving regular monthly\npayments of $1500$ GBP.\n\n- Calculate the number of years it will take Charles's\nmonthly retirement $\\text{payments}$ to match the total\namount originally invested. <span class=\"marks\">[3]</span>  \n",
       "markScheme": "\n- Using the TVM Solver on G.D.C., we have\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/43be05e3-7082-4b01-9acc-d460b81cea14/images/469f7639-6fd8-415d-92a6-530e174de8ac/2c602bcdce03de3ab58076d77f8cc01aa8e5098c.svg)\n\n\n  Hence the value of the investment at the end of the $30$ years is\n$\\answer{1\\hspace{0.15em}106\\hspace{0.15em}178 \\text{ GBP}}$\n- The amount that Charles invests over $30$ years is\n\n  $$\n  \\begin{aligned}\n  \\hspace{1.2em} 1000\\times360 &= 360\\hspace{0.15em}000 \\text{ GBP}\\end{aligned}\n  $$\n\n  Hence Charles breaks even with the amount he invested after\n\n  $$\n  \\begin{aligned}\n  \\dfrac{360\\hspace{0.15em}000}{1500\\times12} &=\\hspace{0.525em}\\answer{20 \\text{ years}}\\end{aligned}\n  $$\n\n",
-      "paper": "PAPER2",
-      "difficulty": "MEDIUM",
-      "calculator": true,
-      "sort": 1,
-      "maxMark": "6",
-      "difficultyLevel": "2.5"
-    },
-    {
-      "topicId": "topic-uuid",
-      "topicItemId": "topic-item-uuid",
-      "type": "SAQ",
-      "title": "Question 16",
-      "content": "Mike wants to deposit part of his savings in a bank account that pays an annual interest rate of $4.1\\,\\%\\, \\textbf{compounded annually}$. The annual inflation rate is expected to be $3\\%$ per year throughout the following $8$ years. Mike wants his initial deposit to have a real value of $\\$5\\,000$ after $8$ years, compared to current values.\nThe bank gives Mike two proposals:\n$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\textbf{Proposal 1:} \\,\\,\\,\\text{A one-time investment at the start of the 8-year period.}$\n$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\textbf{Proposal 2:} \\,\\,\\,\\text{Invest \\$2\\,000 at the start of the 8-year period and make payments of \\$ $x$ at the end of each year.}$\n\n- Find the minimum amount Mike should deposit if he accepts proposal 1. Round your answer to the nearest dollar. <span class=\"marks\">[3]</span>\n\n- Find the minimum value of the annual payments, $x$, if Mike accepts proposal 2. Round your answer to the nearest dollar. <span class=\"marks\">[3]</span>\n\n",
-      "markScheme": "\n- Using the finance solver on the G.D.C., we can determine what amount of money, in $8$ years, would have the same value as $\\$5\\,000$ today.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/903763f2-ec10-4f20-aef5-8db3e31bacc9/images/24e2ab0b-921d-4dc7-a5de-705bc2daee0b/AI1019a.PNG)\n\n\n  Now we can use the finance solver to determine Mike's initial deposit (PV) to ensure he has at least $\\$6\\,333.85$ at the end of 8 years:\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/903763f2-ec10-4f20-aef5-8db3e31bacc9/images/fa4f0448-9af9-46a4-adf1-596ccd8d93e2/AI1019b.PNG)\n\n\n  Hence the minimum initial deposit is $\\answer{\\$4\\hspace{0.15em}593}$\n- We know from part (a) that Mike requires $\\$6\\,333.85$ at the end of $8$ years.\n  Using the finance solver with a present value of $\\$2\\,000$, a future value of $\\$6\\,333.85$, and an annual interest rate of $4.1\\%$, we have:\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/903763f2-ec10-4f20-aef5-8db3e31bacc9/images/cc4bb7a5-f453-4379-a524-963324878c85/AI1019c.PNG)\n\n\n  Hence the amount Mike should pay each year is $\\answer{\\$\\hspace{0.05em}387}$\n",
       "paper": "PAPER2",
       "difficulty": "MEDIUM",
       "calculator": true,
@@ -477,4 +463,5 @@
       "difficultyLevel": "4"
     }
   ]
+  
 }
