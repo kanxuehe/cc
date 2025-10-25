@@ -10,28 +10,28 @@ import path from 'path';
 // });
 
 const paperIds = [
-  '07210af4-4d76-45ea-9481-054f7d7b62ff',
-  'abc48865-cc79-4cc6-85c2-3794809906bf',
-  'c8109bd0-2672-4fc1-b4b1-dd80b8da8167',
-  'cb547d2d-2871-4550-b9e2-785b05c36cf8',
-  '296e9fb6-dbd3-4e54-ae17-a18d67eca965',
-  'b29be8d9-17fc-49d7-8f00-7dbd79f5c5cf',
-  '616b8212-d976-4b61-8523-a84b2f935f9c',
-  '404c0297-d58b-43fe-8e32-14407b26a4c5',
-  'f217335e-9dad-4379-a8e2-250dbcb2a61b',
-  '22e73cd9-f787-478a-b647-6bc8ee453e8a',
-  'dc9447f2-e644-4c9a-990d-70167d9d2904',
-  '448f28e1-bd90-4776-8a02-14118ae94f37',
-  'ee0c105b-707a-4665-af06-6b262a3f885c',
-  'd77fcbd9-fddc-4ac8-956a-a8e203b7e518',
-  'd3b86a32-fa08-4f2d-bc82-4d9dd5fa379a',
-  'da3c1220-f555-454e-a0ae-08b15f0e1bd8',
-  'da9ca04a-0390-4b78-8217-32fd0cbd8c13',
-  'e278d127-e255-405b-b72d-4331d569ecdd',
-  'd85a4f20-876c-4b8b-9fc4-09412b1b5cdc',
-  '0f6cf628-056d-45e8-b4a9-e88281bec11e',
-  '9f20a5a2-b8ad-4dd2-90fa-c37f7973f215',
-  '4a7b8eb1-b41c-4ad2-b009-0e8d8f6e7d52'
+  '275450fc-3de3-46e3-9c30-4428699e5780',
+  '0c66870c-7e12-4af3-8fb0-fc7a956b018b',
+  'b4c5406a-518f-4676-8273-17ed9eb0abac',
+  'c80ba708-c73a-48e8-8f64-8fa606eef03b',
+  'b09801a2-6a79-4ff2-8960-f6d06be3841e',
+  '8841428e-1797-4f9b-b235-c2f86d841928',
+  '92af62cc-351c-4376-b6de-65c5baae172f',
+  '5269e7d8-f778-491d-b797-80caa5e6abc6',
+  '19b97d03-3043-4625-b635-b751c13f982c',
+  'fd22b48c-92e3-45ce-8cef-19d27c2ba249',
+  '05ea51af-a42d-4c58-956b-778da8329666',
+  'bfa9c244-49e0-4d68-8b38-64910705c7c3',
+  '6b17a156-def1-49a7-a5c6-d55294a364e2',
+  'f042c591-a945-4948-805c-9a59ce00be7f',
+  'ee71f11d-6149-4bb7-bb8a-388408b819e8',
+  'b461a656-49fe-4cb8-b3df-fd979569eb77',
+  '8b1667f9-f487-4815-b584-91675ebd4a2c',
+  '2926804f-8a08-498f-8b96-7488e74ce4e2',
+  '6bb8eab3-5bc2-461a-88fd-27ed675c89c7',
+  'b20d8e83-516f-4569-a167-1c8e21f229d3',
+  'd918f84e-5a05-4838-9d21-d154c528c863',
+  'd6fb22f5-2021-4c87-bd44-72fbf27c87c7'
 ];
 
 const data = allData;
@@ -60,4 +60,3 @@ paperIds.forEach((paperId) => {
 const result = data.filter((item) => item.paperId);
 const filepath = path.join('./', 'list.json');
 fs.writeFileSync(filepath, JSON.stringify(result, null, 2), 'utf8');
-
