@@ -1,0 +1,2562 @@
+const list = [
+  {
+    paperId: '16c9303d-b6ab-401a-89d8-0b213277f190',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 1',
+    content:
+      'The diagram below shows a car of mass $m$ descending a slope. The car, initially at rest, covers a distance of 27 m in 3.0 s.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/5b5634a7-bfb0-4c45-859f-2684b781580b/images/3d546597-f800-49ad-b760-e4ace00a2c04/PH0123.png)\n\n\nThe magnitude of the acceleration is given by\n\n\n- A. $\\hspace{1em}$ 3.0 m s$^{-2}$\n- B. $\\hspace{1em}$ 6.0 m s$^{-2}$\n- C. $\\hspace{1em}$ 9.0 m s$^{-2}$\n- D. $\\hspace{1em}$ 81 m s$^{-2}$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nFrom the equation of motion\n\n\n- $ s = ut + \\dfrac{1}{2} at^2$\n\ninitially the velocity, $u$ is zero giving\n\n\n- $a = \\dfrac{\\textrm{2 s}}{t^2} \\hspace{1em}$\n\nSubstituting $t = 3$ s:\n\n\n- $a=\\dfrac{\\textrm{(2)(27.0 m)}}{(3.0\\ \\ce{s})^2} = 6.0$ m s$^{-2}$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '14bffd16-38a6-4b75-8d0b-9db204b2ae24',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 3',
+    content:
+      'A ball rolls horizontally off the edge of the top of a cliff. It hits the ground at a distance 2.0 m horizontally away from the base of the cliff with a vertical speed of 20 m s$^{-1}$. What is the height of the cliff?\n\n\n- A. $\\hspace{1em}$ 20 m\n- B. $\\hspace{1em}$ 40 m\n- C. $\\hspace{1em}$ 60 m\n- D. $\\hspace{1em}$ 80 m\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nOnly the vertical motion needs to be considered here.\n\n\n- $v^2=u^2+2as$\n\nThere is initially no vertical velocity so $u=0$\n\n\n- $v^2=2gs$\n- $20^2 = (2)(10)(s)$\n- $s = \\dfrac{400}{(2)(10)}$\n- $s = 20$ m\n\nNote that for multiple choice questions it is normally appropriate to use 10 m s$^{-2}$ as the acceleration of freefall.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '1ff7ccfc-6436-4dbc-a1fd-0c8d58c69995',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 6',
+    content:
+      'A coin is tossed vertically upwards from an original height of $1.5$ m above the ground. What is the maximum height reached above the ground if the coin was projected with an initial velocity of 3.0 m s$^{-1}$?  (Take $g=10$ m s$^{-2}$)\n\n\n- A. $\\hspace{1em} 0.45$ m\n- B. $\\hspace{1em} 1.50$ m\n- C. $\\hspace{1em} 1.95$ m\n- D. $\\hspace{1em} 6.00$ m\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nSolution 1: \nMaximum height occurs when the final speed $v$ is zero. The height reached above hand\n\n\n- $\\begin{aligned}\n  \\ s &= \\dfrac{v^2 - u^2}{2a}\\\\\n  \\ s&=\\dfrac{0-9}{-20} \\\\\n  \\ &= 0.45\\textrm{ m}\\\\\n  \\end{aligned}$\n\nTo find maximum height above the ground, $0.45$ m $+\\ 1.5$ m = 1.95 m\n\nSolution 2: \nUsing conservation of energy, kinetic energy is converted completely into gravitational potential energy at the top of the motion\n\n\n- $\\dfrac{1}{2} mv^2 = mgh$\n- $\\dfrac{1}{2} (3)^2 = 10h$\n- $h=0.45$ m\n\nTo find maximum height above the ground, $0.45$ m $+\\ 1.5$ m = 1.95 m',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '14bffd16-38a6-4b75-8d0b-9db204b2ae24',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 8',
+    content:
+      'The diagram shows the path of a football kicked from the ground.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/77913ebb-9bae-4e51-930d-46be726c3b93/images/38a80183-388d-4a4e-ba55-7b1ef3d0ed2c/Screenshot%202025-03-24%20at%205.29.42%E2%80%AFPM.JPEG)\n\n\nAir resistance is negligible. Which of the arrows $A$, $B$, $C$, or $D$ represent the direction of the acceleration of the ball at the instant in time shown?',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nIn the absence of air resistance, gravity is the only force acting on the object so its acceleration acts downwards towards the centre of the Earth.\nThe vertical velocity of the ball is decreasing whilst its horizontal velocity remains the same.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'ad162052-fe36-4073-adf0-216437b67815',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 10',
+    content:
+      'The graph shows the variation of velocity $v$ with time $t$ of a car.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/9458b204-64a8-4fd2-a4e3-610338c08910/images/755ea518-7317-4796-9011-b76e19865247/Screenshot%202025-04-07%20at%208.41.51%E2%80%AFAM.JPEG)\n\n\nConsider the following quantities:\n\n\n- I.DisplacementII.AccelerationIII.Change in velocity\n\nAssuming there were numerical values on the axes, which of the following could be deduced from the graph?\n\n\n- A. $\\hspace{1em}$ I only\n- B. $\\hspace{1em}$ II only\n- C. $\\hspace{1em}$ I and II only\n- D. $\\hspace{1em}$ I, II and III\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nChange in velocity can be read from the vertical axis.\nThe area under the line gives the displacement.\nAcceleration can be deduced from the gradient of the graph.\nTherefore, all statements are correct and the answer is D.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'f9ae5e08-7ee9-4f23-a462-592e6070a763',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 14',
+    content:
+      'A car moves clockwise in a circular path as shown. The direction of its instantaneous velocity at two different times is shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/21aa0775-c02f-42e9-9634-13951995f288/PH0496.png)\n\n\nWhich of the following vectors shows the direction of the change in velocity?\nA.$\\hspace{3cm}$B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/88b7624f-0886-4115-8256-99af940a2b46/PH0496A.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/85315f05-4867-40f4-be2d-ccc71a187238/PH0496B.png)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/7fa46ed6-98b1-4454-aee3-ef279b9768b9/PH0496C.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/675b5d83-2283-4319-be39-7fd0e6705a2d/PH0496D.png)\n\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe change in velocity = final velocity - initial velocity = $v_2 + (-v_1)$. In a vector diagram, we represent $-v_1$ as in the opposite direction to the $v_1$ direction, and then add the vectors $v_2$ and  $(-v_1)$ as shown below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/d52701ff-7d73-457d-a85d-d5d2fb5dd7fe/PH0496-1.png)\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'b1ed61fc-4a59-4953-b84e-7e709be14dae',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 15',
+    content:
+      'The graph below shows how the acceleration of an object $a$ varies with time $t$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ac6b76d-2709-453b-9a01-dd8e09fc7d9c/images/225978ea-87fb-406a-9dc7-0b898236dcf3/Screenshot%202025-06-30%20at%205.16.39%E2%80%AFPM.png)\n\n\nWhat is the change in speed of the object?\n\n\n- A. $\\hspace{1em}$ $7.0$ m s$^{-1}$\n- B. $\\hspace{1em}$ $28.0$ m s$^{-1}$\n- C. $\\hspace{1em}$ $42.0$ m s$^{-1}$\n- D. $\\hspace{1em}$ $56.0$ m s$^{-1}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nChange in speed is the magnitude of the area under an acceleration-time graph.\nTo find the area under the graph we can split it into two sections.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ac6b76d-2709-453b-9a01-dd8e09fc7d9c/images/7a3ccd6a-bb00-4cc1-bb74-81d58abd51b8/Screenshot%202025-06-30%20at%205.17.41%E2%80%AFPM.png)\n\n\nSection 1 is a rectangle. Area $=(4)(7)=28$ m s$^{-1}$\nSection 2 is a triangle. Area $= \\dfrac{1}{2}(4)(7)=14$ m s$^{-1}$\nTotal area $= 28+14=42$ m s$^{-1}$\n$\\underline{\\textrm{Alternative solution}}$\nThis can also be done in one step using the area of a trapezium $A=\\dfrac{1}{2}(8+4)(7)=42$ m s$^{-1}$',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'ad162052-fe36-4073-adf0-216437b67815',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 16',
+    content:
+      '\n- Define distance. <span class="marks">[1]</span>\n\n- An object moves in a straight line on a level road. The variation of the object\'s distance d with time t is shown on the graph below.\n  \n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/ec0aad4a-2afd-42a6-8ebe-1a8af181242f/Screenshot%202025-07-02%20at%202.47.38%E2%80%AFPM.JPEG)\n\n\n  \n  - Describe the motion of the object between $t=0.5$ s and $t=1.0$ s. <span class="marks">[1]</span>\n\n  - Calculate the instantaneous speed of the object at $t=0.5$ s. <span class="marks">[2]</span>\n\n  - On the axes below, sketch a possible graph of the variation of velocity $v$ of the object with time $t$. There is no need to add values to the axes. <span class="marks">[2]</span>\n\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/c787d9d0-d867-4d03-980d-27f4c5fbad95/Screenshot%202025-07-02%20at%202.50.32%E2%80%AFPM.png)\n\n\n  - Determine the direction of the change in momentum of the object during the motion. <span class="marks">[2]</span>\n\n\n',
+    markScheme:
+      '\n- Length of the path followed $\\checkmark$\n  \n- \n  - Slows down/decelerates $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe slope of the graph gives the speed of the object. The slope decreases between $t=0.5$ s and  $t=1.0$ s. Therefore the object slows down.\n    \n  - Any evidence for drawing tangent at $t=0.5\\, s$ $\\checkmark$\n    $\\ll\\dfrac{28-10}{1-0}=\\gg18\\pm2\\, m\\,s^{-1}$ $\\checkmark$\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe gradient of the graph at the time of interest gives the instantaneous speed of the object. To find the gradient, the tangent line should be drawn.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/db214a2c-2e68-4bce-8a9a-e0cd2cc8719c/Screenshoot%202025-07-02%20at%202.52.52%E2%80%AFPM.JPEG)\n\n\n    The gradient of the tangent line =$\\dfrac{28-10}{1-0}=18$ m s$^{-1}$\n    \n  - A straight or a curved line with a negative gradient $\\checkmark$\n    Starts from the y-intercept and ends up at the x-axis $\\checkmark$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/4ba5e265-a440-45f1-81d9-62bf89b670e0/Screenshot%202025-06-02%20at%2011.30.12%E2%80%AFAM.png)\n\n\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe gradient of the distance-time graph indicates the speed of the object. In one-dimensional motion, speed and velocity have the same magnitude. Since the gradient gets a smaller value with time and ends up with a zero value, velocity gets smaller and be zero at the end.\n    The exact mathematical shape of the distance-time curve is not known, therefore it is not possible to determine the exact shape of the velocity-time graph. A linear graph has been included here, but curvature in the graph is permitted.\n    \n  - The final momentum is less than the initial momentum $\\checkmark$\n    Opposite to the motion/backwards/negative $\\checkmark$\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe velocity of the object decreases. Therefore, the final momentum $p_f$ is less than the initial $p_i$ momentum. The change in momentum $\\Delta p$;\n    \n    \n    - $\\Delta p=p_f-p_i$\n\n    since $p_i$ > $p_f$, the result should be negative which indicates the direction of the change in momentum is opposite to the motion of the object.\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: '8',
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'f1bd93cd-6579-40c4-bf4d-019d23a187df',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 18',
+    content:
+      'A football player kicks a ball initially at rest. The ball reaches a speed of 36 km h$^{-1}$ in a time of 0.5 s. Which of the following is the acceleration of the ball in terms of the gravitational acceleration, $g$?\n\n\n- A. $\\hspace{1em}$ 0.2$g$\n- B. $\\hspace{1em}$ 0.5$g$\n- C. $\\hspace{1em}$ 2$g$\n- D. $\\hspace{1em}$ 7$g$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nConverting 36 km h$^{-1}$ to m s$^{-1}$:\n\n\n- 36 km h$^{-1}=\\dfrac{36000\\ \\ce{m}}{3600\\ \\ce{s}} = 10\\ \\ce{ m s}^{-1}$\n\nAcceleration is $\\dfrac{\\textrm{change\\ in\\ velocity}}{\\textrm{change\\ in\\ time}}$\ntherefore\n\n\n- $a=\\dfrac{10}{0.5} = 20$  m s$^{-2}$\n\nApproximating $g$ to be 10 m s$^{-2}$, the correct answer is  $2g$.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'd3a9d4b0-03f7-4d6d-a5f3-e8904b2a0bad',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 30',
+    content:
+      "A ball is released from rest at a height $h$ above the ground. At each bounce 75% of its kinetic energy is lost. Which graph represents the variation of the ball's velocity $v$ with time $t$ from the beginning of motion until the moment just before the third bounce? Assume the acceleration of the ball is in in the negative direction and that air resistance is negligible.\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/a516a5f2-3a03-4885-811d-0da67b6ad48e/Screenshot%202025-05-27%20at%205.31.14%E2%80%AFPM.JPEG)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/c52e4b88-650f-407b-aa7e-ecf2ab94b5f1/Screenshot%202025-05-27%20at%205.31.26%E2%80%AFPM.JPEG)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/f9d6effd-a838-49ed-b769-1e65f233ace2/Screenshot%202025-05-27%20at%205.31.34%E2%80%AFPM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/75cb8fb0-e10e-4e0e-b129-422f1813f50d/Screenshot%202025-05-27%20at%205.31.41%E2%80%AFPM.JPEG)\n\n",
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nKinetic energy $E_k$ is directly proportional to the square of the magnitude of velocity $v$\n\n\n- $E_k = \\dfrac{1}{2} mv^2$\n\nThe velocity will decrease to half of its value at each bounce.\nThe value of the acceleration is constant, free fall acceleration $g$. The velocity time graph should be linear and all sections should have a negative gradient to represent downwards acceleration.\nThe direction of velocity is positive on the way up, and negative on the way down.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'c86e9dd6-feb1-44dc-9a68-0bdc8cddcaaa',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 31',
+    content:
+      'A ball is released from rest and falls vertically for 3 s on Earth. Air resistance is negligible. What is the average speed of the ball during the motion?\n\n\n- A. $\\hspace{1em}$ 3 m s$^{-1}$\n- B. $\\hspace{1em}$ 10 m s$^{-1}$\n- C. $\\hspace{1em}$ 15 m s$^{-1}$\n- D. $\\hspace{1em}$ 30 m s$^{-1}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nSolution 1:\n\n\n- $v = u + at = 0 + (10)(3) = 30$ m s$^{-1}$\n- $v_{av} = \\dfrac{v+u}{2} = \\dfrac{30+0}{2} = 15$ m s$^{-1}$\n\n\nSolution 2: \nDistance covered by the ball;\n\n\n- $s = \\dfrac{1}{2} at^2$\n\nDue to absence of air resistance;\n\n\n- $a = g$\n- $s = \\bigg(\\dfrac{1}{2}\\bigg)(10)(3)^2$\n- $s = 45$ m\n\n$\\textrm{average speed} = \\dfrac{\\textrm{total distance}}{\\textrm{total\\ time}}$\n$\\textrm{average speed} = \\dfrac{45}{3} = 15$ m s$^{-1}$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'f1bd93cd-6579-40c4-bf4d-019d23a187df',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 34',
+    content:
+      'A projectile is launched horizontally on Earth with initial speed of $3.0$ m s$^{-1}$ from a height of $5.0$ m above the ground.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/adca8fcd-c774-446b-a421-eb944e4ddd54/images/51e584df-f2d9-4096-bc80-662140961015/PH0851aaaa.png)\n\n\nWhat is the magnitude of the displacement of the stone when it reaches the ground?\n\n\n- A. $\\hspace{1em}$ $5.0$ m\n- B. $\\hspace{1em}$ $8.0$ m\n- C. $\\hspace{1em}$ $\\sqrt{34}$ m\n- D. $\\hspace{1em}$ $\\sqrt{51}$ m\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nFor the time, analyzing the vertical direction\n$\\hspace{1em}$ $s = \\dfrac{1}{2}at^2$\n$\\hspace{1em}$ $5 = \\dfrac{1}{2}(10)t^2$\n$\\hspace{1em}$ $t = 1$ s\nThe horizonal displacement is\n$\\hspace{1em}$ $\\Delta x = u_x t = (3)(1) = 3$ m\nThe vertical displacement from the diagram is $5$ m.\nThe net displacement is\n\n\n- Displacement $=\\sqrt{5^2 + 3^2} = \\sqrt{34}$ m\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '13d1d653-ee30-44a4-accf-305738602c34',
+    selection: 'Selection B',
+    type: 'DBQ',
+    title: 'Question 35',
+    content:
+      'In an experiment, the free-fall of a ball bearing is used to measure the acceleration due to gravity. The ball bearing is suspended with an electromagnet. Then it is released from a height of $h$ above a table.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b6848fbc-0481-4c9b-b67f-b3f36ef6cef1/images/b0277bbd-a6fc-4971-907d-53ec8cd7191f/PH0511_A.png)\n\n\n$\\footnotesize{\\textrm{[Source: Created with chemix - https:// chemix.org/]}}$\nThe time t needed for the ball bearing to reach the ground after release is measured. The experiment is repeated for different values of $h$. The theoretically predicted relationship between time t and h is\n\n$t^2=\\dfrac{2h}{g}$\n\n- State why there is a need to collect data for a range of values of $h$ to verify this relationship. <span class="marks">[1]</span>\n\n- The experimental data for $t^2$ and h are plotted on the graph below.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/b6848fbc-0481-4c9b-b67f-b3f36ef6cef1/images/be791221-65d1-438f-8aba-c562a49fd9e8/Screenshot%202025-04-16%20at%209.01.00%E2%80%AFAM.png)\n\n\n  \n  - Draw the line of best fit for the plotted data on the graph. <span class="marks">[1]</span>\n\n  - Suggest whether the data is consistent with the theoretical prediction. <span class="marks">[2]</span>\n\n  - By using the line of best fit, determine a value for g and state the units. <span class="marks">[4]</span>\n\n\n- The theoretical relationship is for an object falling in a vacuum.\n  \n  - Compare the experimental result to the accepted value of g and suggest a reason for the discrepancy. <span class="marks">[2]</span>\n\n  - State and explain whether the source of error in (c)(i) is a systematic or random error. <span class="marks">[2]</span>\n\n\n',
+    markScheme:
+      '\n- To prove the relationship between $t^2$ and h different values are needed to find a trend\n  OR\n  to reduce random error $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nTo prove a relationship, one piece of data is not enough. The relationship can be generalized by using a graph where multiple points can reveal a trend. More data allows for drawing a graph that can support the relationship. Additionally, using more data and taking the average of them reduces the amount of random error.\n\n\n\n- \n  - A straight line with roughly equal numbers of points above and below the line $\\checkmark$\n\n  \n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/b6848fbc-0481-4c9b-b67f-b3f36ef6cef1/images/e907ca39-4906-4c19-acce-6de827b937d7/Screenshot%202025-04-16%20at%209.01.10%E2%80%AFAM.png)\n\n\n  \n  - $\\ll$ According to the theory $\\gg$  $t^2$ is proportional to $h$ OR ${t^2}\\propto\\ h$ $\\checkmark$\n    A best-fit line that is a straight line that passes through the origin can be drawn $\\checkmark$\n    $\\ll$  Yes $\\gg$\n    $\\underline{\\textrm{Further Explanation}}$: \nAccording to the predicted relationship;\n    \n    \n    - $t^2\\propto h$\n\n    This relationship suggests that the graph should be a straight line which passes through the origin. According to plotted data, that kind of straight line can be drawn.\n  - Rearrangement of the formula to solve for $g$\n    \n    \n    - $g=2\\dfrac{h}{t^2}$ $\\checkmark$\n\n    Using a correct  data point on the line\n    OR\n    Correct calculation of  the gradient $\\checkmark$\n    g is between 9.0 and 9.5 $\\checkmark$\n    $\\ce{m s}^{-2}$ $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe given formula is\n    \n    \n    - $t^2=\\dfrac{2h}{g}$\n\n    The gradient is therefore equal to $\\dfrac{2}{g}$.\n    Finding the gradient gives\n    \n    \n    - gradient = $\\dfrac{0.19}{0.9}=0.21$\n\n    Solving for $g$:\n    \n    \n    - $0.21 = \\dfrac{2}{g}$\n    - $g=\\dfrac{2}{0.21}=9.5\\ \\ce{m s}^{-2}$\n\n\n\n\n\n- \n  - Experimental result is lower $\\checkmark$\n    There is air resistance which $\\ll$ will result in using exaggerated value of time in the equation $\\gg$ $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe time t should be smaller than the measured value under the frictionless environment. According to the equation,\n    \n    \n    - $g=2\\bigg(\\dfrac{h}{t^2}\\bigg)$\n\n    Therefore in the absence of air resistance, the experimental value for $\\dfrac{h}{t^2}$ would be greater than the values obtained in this experiment. Therefore, the calculated value is lower than the accepted value.\n  - Systematic $\\checkmark$\n    The result of the experiment is always less than the actual value/results are biased in one direction only $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe error is the result of the design of the experiment and leads to the results always being less than the actual value. Therefore, it is systematic.\n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '12',
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '0fd4ab02-0d6f-4c95-a7ab-4adc840e8c70',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 41',
+    content:
+      'A body is moving in a straight line with a constant acceleration of $a$. Its speed increases from $u$ to $v$ in a time of $t$. Consider the following expressions:\n\n\n- I.$ut+\\dfrac{(v-u)t}{2}$ $\\hspace{1em}$II.$vt-\\dfrac{1}{2} at^2$ $\\hspace{1em}$III.$\\dfrac{(v-u)t}{2}$\n\nWhich expression(s) can be used to determine the displacement of the body during the time interval $t$?\n\n\n\n- A. I only\n- B. II only\n- C. I and II only\n- D. II, and III only\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nWhen the expression in I is simplified, it is equal to;\n\n\n- $\\dfrac{(v+u)t}{2}$\n\nThis is a uniform acceleration formula for displacement, where the average velocity is multiplied by the time taken.\nThis is included in the data booklet as the formula of displacement.\nComparing expression III to expression I, it can be seen that expression III will give a lower value than expression I. Therefore, It does not give displacement.\nFor expression II:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1eaa9bbe-f2f8-4aec-98be-a12855120b47/images/b5c4fc0d-f50e-49a3-a2c4-636e71ca5341/PH0540.png)\n\n\nUsing the above graph to analyze expression II. The area under the sloping line will give the displacement. The area of this trapezoid can be found by subtracting the area of triangle $vXu$ from the area of rectangle $OvXt$.\nThe area of $OvXt$ is $vt$.\nThe area of $vXu$ is $\\frac{1}{2}(v-u)t$\nWe know that $v - u = at$, thereforen after substitution, the area $vXu$ is equal to $\\frac{1}{2}at^2$.\nSubtracting the two areas gives the expression $vt - \\frac{1}{2}at^2$, which is the same as expression II.\nTherefore the correct answer is C',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'ed02da4d-27d4-4840-a908-16d0a8012df8',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 43',
+    content:
+      'A stone is thrown vertically upward in the presence of air resistance. Which of the following graphs best shows the variation of velocity $v$ of the stone with time $t$ until it reaches the maximum height above the ground?\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/07795333-081c-45d6-a535-7d81fe684558/images/1372cf34-9ff4-41eb-8e1b-409b309a48d5/PH0533aa.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/07795333-081c-45d6-a535-7d81fe684558/images/7a0b7787-0fec-4f49-8e31-29ea318dae6d/PH0533bb.png)\n\n$\\hspace{1em}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/07795333-081c-45d6-a535-7d81fe684558/images/42a7ebb7-983c-4564-8c3c-7e51b7981ded/PH0533cc.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/07795333-081c-45d6-a535-7d81fe684558/images/f92baaf5-5218-4036-bc1c-47f423955d9d/PH0533dd.png)\n\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nWhile the stone is ascending, its speed decreases due to gravitational attraction and air resistance. Although gravitational attraction is constant, air resistance decreases with speed. Therefore, the total force opposing the motion decreases. This results in a decrease in deceleration.\nWhen the acceleration decreases, the change in velocity gets lower for a constant change in time. Thus the gradient should decrease. Additionally, the velocity of the stone must be zero when it reaches maximum height. These two conditions are satisfied in choice C.',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4.5'
+  },
+  {
+    paperId: 'd4703009-2358-48e3-9146-7379c49cfdfe',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 1',
+    content:
+      'The diagram below shows a tennis ball of mass $m$ striking a wall with an initial velocity, $u$, and rebounding with velocity $v$. A second, softer ball of the same mass strikes the wall with the same speed but rebounds with a slower rebound speed.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4bbeffe1-fadb-4f69-a8f6-5a1deb1f20d3/images/a440cac5-43c9-4b14-97ec-4b768f633978/Screenshot%202025-05-14%20at%202.33.06%E2%80%AFPM.png)\n\n\nWhich of the following statements is correct about the magnitudes of the impulse and change in momentum applied to the second ball compared to the first?\n\n$\\hspace{1em}$  Impulse$\\hspace{1em}$Change in momentum$\\hspace{1.5em}$A.$\\hspace{1.5em}$GreaterSmaller$\\hspace{1.5em}$B.$\\hspace{1.5em}$SmallerGreater$\\hspace{1.5em}$C.$\\hspace{1.5em}$GreaterGreater$\\hspace{1.5em}$D.$\\hspace{1.5em}$SmallerSmaller',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe change in momentum and impulse applied to the ball are equal, because the impulse is defined as the change in momentum. Increasing one is the same as increasing the other and vice-versa. The slower rebound speed of the second ball causes a decrease in the magnitude of the impulse since the change in momentum is smaller if the final speed $v$ is smaller.\n\n\n- $J = \\Delta p = m(v - -u) = m(v + u)$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: 'c86e9dd6-feb1-44dc-9a68-0bdc8cddcaaa',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 8',
+    content:
+      'The graph below shows the variation of the resultant force $F$ acting on a box with time $t$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/9dfa696e-4fd4-4a7a-90d1-8830c669456a/PH0579q.png)\n\n\nThe box starts to move from rest. Which of the following graphs shows the variation of the momentum $p$ of the box with time $t$?\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/71fb8624-3e7f-4803-b78f-8670d2c4c075/PH0579a.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/5df1dc95-d879-42fa-9bf5-f4a182c14b3f/PH0579b.png)\n\n$\\hspace{1em}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/10ae312c-2976-4a62-98e5-18a7efeb0dc4/PH0579c.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/9fb48b7f-abee-43b9-9d28-76767fb4650b/PH0579d.png)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe area underneath of the force-time graph gives the change in momentum of the box. Since the area increases with time at a constant rate, the momentum should increase at a constant rate. The only graph that satisfies this condition is the graph in A.\nTherefore, the answer is A.\nAlternatively, the impulse equation gives $\\Delta p = F \\Delta t$ .\nAs $F$ is a constant,  $\\Delta p$ is directly proportional to $t$ and a straight line through the origin is expected.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '1ff7ccfc-6436-4dbc-a1fd-0c8d58c69995',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 9',
+    content:
+      'As a truck is brought to rest, the brakes apply a force of $5.1 \\times 10^3$ N. Which answer best describes the magnitude of the change in momentum of the truck if the brakes are applied for 3.0 s?\n\n\n- A. $\\hspace{1em}$ $15$ kN s\n- B. $\\hspace{1em}$ $15000$ N s\n- C. $\\hspace{1em}$ $15.3$ kN s\n- D. $\\hspace{1em}$ $15300$ N s\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nNOTE this question requires students to use their judgement to determine the best answer, using standard scientific conventions.\n\n\n- Impulse = change in momentum =\r\n$F \\,t $\n\nSo the magnitude of the change in momentum:\n\n\n- $\\Delta p= (5.1 \\times 10^3$)(3.0) = 15300 N s\n\nAll responses match this quantity but the number of significant figures needs to be considered. As both of the values used in the calculation have two significant figures, there should be two significant figures in the answer.\nIn the answer $15000$ N s, the number of significant figures is unclear. It could be 2, 3, 4 or 5. The response $15$ kN s clearly has two significant figures, so it is the best answer.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '1e5b18af-1bd3-4eff-8ea5-3cfcfbc1ce00',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 11',
+    content:
+      'A block of wood is placed on a rough inclined surface. Which of the diagrams below correctly represents the forces acting on the block when it is at rest?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/6fd66c35-5858-47b6-b951-7ef859c5bc49/PH0261A.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/1efb7d4e-b506-4e9a-b16f-c5b29f42f15e/PH0261B.png)\n\n$\\hspace{1cm}$ $\\hspace{1cm}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/d118c599-94cf-4412-bd58-11ec3f440b08/PH0261C.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/371d44f4-7847-4a00-acd9-301f34fdd9b2/PH0261D.png)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nWeight always acts vertically downwards\nNormal reaction force is always normal (perpendicular) to the surface\nIn order to remain at rest, friction must act up the incline in order to keep the block from sliding down the incline under the action of the component of weight acting down the incline.\nIn diagram B, friction is acting down the incline. This will result in an acceleration down the incline.\nIn diagram C, the normal reaction is acting opposite to the weight whereas normal reaction must always be perpendicular to the contact surface.\nIn diagram D, weight is shown to act at an angle to the vertical, whereas weight always acts vertically downwards.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'd4703009-2358-48e3-9146-7379c49cfdfe',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 12',
+    content:
+      'A spring of negligible mass and length of $l_o$ is attached to a fixed point. When the spring is extended by an external force $F$, the length of the spring increases to $l$.  The graph shows how the length of the spring $L$ varies with the tension $T$ in the spring. The tension in the spring is equal to $k \\Delta l$, where k is a constant and $\\Delta l$ is the extension of the spring.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/2bfce454-555d-4156-93d8-281993a72810/images/edd72a10-fd02-4b98-92fe-bdc00c06f9eb/Screenshot%202025-04-03%20at%202.57.48%E2%80%AFPM.JPEG)\n\n\nWhat are the gradient and y-intercept of the graph?\n\n$\\hspace{1.5em}$ Gradient $\\hspace{1.5em}$ $\\hspace{1.5em}$ y-intercept $\\hspace{1.5em}$ $\\hspace{1.5em}$ A. $\\hspace{1.5em}$ $\\dfrac{1}{k}$ $l$ $\\hspace{1.5em}$ B. $\\hspace{1.5em}$ $\\dfrac{1}{k}$ $l_o$ $\\hspace{1.5em}$ C. $\\hspace{1.5em}$ $k$ $l_o$ $\\hspace{1.5em}$ D. $\\hspace{1.5em}$ $\\dfrac{1}{k}$ $\\Delta l$',
+    markScheme:
+      "B\n\n$\\underline{\\textrm{Explanation}}$:\nThe y-intercept is the length of the spring when there is no external force. Therefore, the y-intercept is $l_o$\nGradient is $\\cfrac{\\Delta y}{\\Delta x}$ on the graph\nHooke's Law states that $F = k\\Delta x$ and in this case $\\Delta x = l - l_o$\nThe gradient = $\\cfrac{l-l_o}{F} = \\cfrac{\\Delta x}{F}$\nTherefore, $gradient = \\dfrac{1}{k}$",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'ad162052-fe36-4073-adf0-216437b67815',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 13',
+    content:
+      'A ball of mass $m$ is falling vertically through the air. The drag force acting on the ball is given by $kv^2$ where $k$ is constant and $v$ is the speed of the ball. What is the maximum speed reached by the ball?\n\n\n- A. $\\hspace{1em}  \t\\dfrac{k}{mg}$\n- B. $\\hspace{1em}  \t\\dfrac{mg}{k}$\n- C. $\\hspace{1em}  \t\\sqrt{\\dfrac{k}{mg}}$\n- D. $\\hspace{1em}  \\sqrt{\\dfrac{mg}{k}}$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nWhile the ball is falling, two opposite forces act on it. These are weight and drag. The speed of the ball increases until the drag force balances the weight. Therefore, the following expression can be written for maximum speed $v_{max}$:\n\n\n- $k(v_{max})^2=mg$\n- $(v_{max})^2=\\dfrac{mg}{k}$\n- $v_{max}=\\sqrt{\\dfrac{mg}{k}}$\n\nHence, the correct answer is D.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'f1bd93cd-6579-40c4-bf4d-019d23a187df',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 20',
+    content:
+      'The diagram below shows the total upward and downward forces acting on a hot air balloon. The relative magnitudes of the forces are drawn to scale.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/df4cb97a-03e0-4bd8-a84c-8dda7444c026/images/3942c2b5-5966-4703-a368-fe8f703caa1a/PH0968Edit.png)\n\n\nBelow are three independent statements about the possible motion of the balloon.\n\n\n- I.The balloon is acceleratingII.The balloon is moving upwardsIII.The balloon is moving downwards\n\nWhich of the statements, when considered independently, could be true?\n\n\n\n- A. $\\hspace{1em}$ I and II only\n- B. $\\hspace{1em}$ I and III only\n- C. $\\hspace{1em}$ II and III only\n- D. $\\hspace{1em}$ I, II and III\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nI is correct - The diagram shows that the upward force is greater than the downward force. So, there is a net upward force acting on the balloon. $F=ma$ so there is an upward acceleration.\nII could be correct – Balloon could be moving upwards - acceleration is also upwards so speed of the balloon would be increasing.\nIII could be correct – Balloon could be moving downwards - acceleration is upwards so speed of the balloon would be decreasing (deceleration).\nFor linear motion, acceleration tells us nothing about the speed, just how the speed is changing. The balloon could be moving upwards, moving downwards or stationary.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'f875c4d5-c4b5-4b20-a929-152af48a5ad3',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 21',
+    content:
+      'A car is travelling along a straight line for a total time of 100 s. Throughout this time the driving force provided by the car is 1.2 kN and the total resistive force acting on the car is 500 N.\nWhich row correctly shows the rate of change of momentum and the impulse of the car during the 100 s.\n\nRate of change of momentumImpulse$\\hspace{1.5em}$A.$\\hspace{1.5em}$7 $\\times 10{^2}$ kg m s${^{-2}}$7 $\\times 10{^0}$ kg m s${^{-1}}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$7 $\\times 10{^2}$ kg m s${^{-2}}$7 $\\times 10{^4}$ kg m s${^{-1}}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$1.7 $\\times 10{^3}$ kg m s${^{-2}}$1.7 $\\times 10{^1}$ kg m s${^{-1}}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$1.7 $\\times 10{^3}$ kg m s${^{-2}}$1.7 $\\times 10{^5}$ kg m s${^{-1}}$',
+    markScheme:
+      "B\n\n$\\underline{\\textrm{Explanation}}$:\nNewton's second law states that net force = rate of change of momentum.\nTherefore, the rate of change of momentum is simply the net force acting on the car\n\n\n- $\\dfrac{\\Delta p}{\\Delta t}=1200$ N - 500 N = 700 N = 700 kg m s$^{-2}=7 \\times 10^2$ kg m s$^{-2}$\n\nImpulse\n\n\n- $J$ = $F_{net}\\Delta t$ = (700)(100) = 7 $\\times$ $10{^4}$ kg m s$^{-1}$\n",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'f875c4d5-c4b5-4b20-a929-152af48a5ad3',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 23',
+    content:
+      'An object of mass 3 kg is traveling at velocity of +10 m s$^{-1}$  horizontally. The object explodes into two fragments of mass 1 kg and 2 kg. After explosion, the 1 kg fragment has a horizontal velocity of +30 m s$^{-1}$ and a vertical velocity +20 m s$^{-1}$. This is illustrated below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/726d8f7f-c38d-4f90-846a-264dc5f9390d/images/74ebdb9c-e95a-4274-b0e1-cfcf6b470874/Screenshot%202025-06-03%20at%202.20.48%E2%80%AFPM.png)\n\n\nWhich of the following correctly shows the horizontal and vertical components of the momentum of the 2 kg fragment after the explosion?\nAssume no external forces act on the object.\n\nHorizontal momentum / $\\textrm{kg m s}^{-1}$Vertical momentum / $\\textrm{kg m s}^{-1}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $-30$ $-10$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $-30$ $-20$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$0$-10$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$0$-20$',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nMomentum is conserved in an isolated system so here momentum before collision = momentum after collision.\nHorizontal and vertical directions are independent, momentum is conserved in both.\n$\\textbf{In the horizontal direction}$:\nInitial momentum $= mv=(3)(10)=30$ kg m s$^{-1}$\nFinal momentum $= 30 =(1)(30)+$ horizontal momentum of 2 kg fragment\nHorizontal momentum of 2 kg fragment $=0$\n$\\textbf{In the vertical direction}$:\nInitial momentum $=0$\nFinal momentum $= 0 =(1)(20)+$ horizontal momentum of 2 kg fragment\nHorizontal momentum of 2 kg fragment = $-20$ kg m s$^{-1}$',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '898c3f21-c600-46cb-a4e9-146e910c29f7',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 26',
+    content:
+      'A box is sliding down an incline at a constant speed of $2$ m s$^{-1}$. The angle of the incline is $\\theta$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/18595241-7849-4c02-a19c-712cdb369317/images/bbdade18-80b2-4de8-9c03-a0393cd56ca3/Screenshot%202025-06-30%20at%205.28.45%E2%80%AFPM.png)\n\n\nThe magnitude of the total of the opposing forces is $16$ N. What is the force of gravity acting on the box?\n\n\n- A. $\\hspace{1em}  \t\\dfrac{8}{\\sin\\theta}$\n- B. $\\hspace{1em}  \t\\dfrac{16}{\\sin\\theta}$\n- C. $\\hspace{1em}  \t\\dfrac{8}{\\cos\\theta}$\n- D. $\\hspace{1em}  \t\\dfrac{16}{\\cos\\theta}$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe box is moving at a constant speed. According to Newton’s First Law, the resultant force acting on the box must be zero. The free body diagram of the forces acting on the box:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/18595241-7849-4c02-a19c-712cdb369317/images/fb785bfc-58f2-4616-b01f-1014614efe2a/PH0547-1.png)\n\n\nWeight ($F_g$) has two components (shown in red): perpendicular to the slope and parallel to the slope. From the diagram:\n\n\n- $F_g\\cos\\theta=F_N \\hspace{2em}$ and $\\hspace{2em}F_g\\sin\\theta=16$\n\nTherefore\n\n\n- $F_g=\\dfrac{16}{\\sin\\theta}$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'f9ae5e08-7ee9-4f23-a462-592e6070a763',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 29',
+    content:
+      'A table tennis ball of mass $m$ is dropped on a level surface from a height $H$. The ball rebounds to a height $h < H$ after impact. Air resistance on the ball is negligible. Which of the following is correct about the nature of the collision and magnitude of the change in momentum ($\\Delta p$) of the ball as a result of this impact?\n\nNature of the collisionChange in momentum $\\Delta p$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$Elastic$m(\\sqrt{2gH}-\\sqrt{2gh})$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$Inelastic$m(\\sqrt{2gH}-\\sqrt{2gh})$ $\\hspace{1.5em}$C. $\\hspace{1.5em}$Elastic$m(\\sqrt{2gH}+\\sqrt{2gh})$ $\\hspace{1.5em}$D. $\\hspace{1.5em}$Inelastic$m(\\sqrt{2gH}+\\sqrt{2gh})$',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe height of rebound is less than the height of release. This is evidence that some energy is dissipated at the point of impact. Hence inelastic.\nWe can use conservation of energy to find the velocity upon impact:\n\n\n- $mgH=\\dfrac{1}{2}mu^2$\n- $u^2 =2gH$\n- $u=\\sqrt{2gH} $\n\nSimilarly, the velocity just after impact is: $v=-\\sqrt{2gh} \\hspace{2em}$\nWhere the negative sign represents the opposite direction to $u$ (upwards)\n\n\n- $\\therefore \\Delta p=|mv-mu|$\n- $=|m(v-u)|$\n- $=m|(-\\sqrt{2gh}-\\sqrt{2gH})|$\n\nRemoving the absolute value gives\n\n\n- $=m(\\sqrt{2gH}+\\sqrt{2gh})$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '898c3f21-c600-46cb-a4e9-146e910c29f7',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 33',
+    content:
+      'A car enters a roundabout with a speed $v$. The dotted line shows the path of the car. The road is slightly banked inward at an angle to the horizontal.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/46047306-4c31-4e50-8ee4-a0671285fe55/images/8bef058b-da21-4259-8e52-70155256bcbb/PH0298-1.png)\n\n\nThe coefficient of friction between the tires of the car and the road is $\\mu$. When $\\mu$ decreases, which of the following changes could prevent the car from slipping away on this roundabout?\n\n$\\hspace{1em}$ Banking angle of the turn $\\hspace{1em}$ $\\hspace{3em}$ Speed of the car$\\hspace{3em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$increaseincrease$\\hspace{1.5em}$B.$\\hspace{1.5em}$decreaseincrease$\\hspace{1.5em}$C.$\\hspace{1.5em}$increasedecrease$\\hspace{1.5em}$D.$\\hspace{1.5em}$decreasedecrease',
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nWhen $\\mu$ decreases, the maximum possible frictional force decreases. Friction acts along with the component of the normal force in the horizontal direction to produce the centripetal force. To account for this change, decreasing the speed will allow the car to require less frictional force due to a lower required centripetal acceleration and safely take the turn.\n\n\n- $\\dfrac{mv^2}{r}=\\mu mg$\n\nIncreasing the banking angle increases the component of the normal force that points towards the centre of the circle, providing more centripetal force to compensate for the loss in centripetal force contribution from friction. Remember that in this situation friction is acting towards the centre of the circle, and so having an increased component of the normal force acting towards the centre of the circle will $\\lq$help' friction to turn the car.",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '898c3f21-c600-46cb-a4e9-146e910c29f7',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 37',
+    content:
+      '\n- A ball of mass $0.20$ kg moving on a frictionless horizontal plane collides elastically with a vertical wall.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/53468848-1041-4735-9efe-c31aa4376dbd/images/2895dd52-b8a7-4f2a-8e01-1d5ff5c6a617/Screenshot%202025-06-30%20at%205.32.51%E2%80%AFPM.png)\n\n\n  The variation of the force $F$ acting on the ball during the collision with time $t$ is shown on the graph below.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/53468848-1041-4735-9efe-c31aa4376dbd/images/670df608-825b-4b06-9083-411840c17cbf/Screenshot%202025-06-30%20at%205.13.31%E2%80%AFPM.png)\n\n\n  The speed of the ball just before the impact is $5.0$ m s$^{-1}$. Calculate the maximum force exerted on the wall by the ball. <span class="marks">[3]</span>\n\n- The wall is covered with a coating that causes an inelastic collision.  The ball hits the wall with the same initial speed and bounces back with a speed of $3.0$ m s$^{-1}$.\n  \n  - Explain, by considering the moments just before and after the collision, how the principle of conservation of energy applies to the collision. <span class="marks">[2]</span>\n\n  - Calculate the loss of the energy of the ball during the collision. <span class="marks">[2]</span>\n\n  - During this collision, the ball undergoes a change in momentum. Discuss whether the the law of conservation of momentum applies in this situation. <span class="marks">[2]</span>\n\n\n  \n',
+    markScheme:
+      '\n- Change in momentum = $\\left(0.20\\right)\\left(5.0\\right)-\\left(0.20\\right)\\left(-5.0\\right)=2.0$ kg m s$^{-1}$ $\\checkmark$\n  The area under the graph=change in momentum  $\\checkmark$\n  $\\hspace{2em}$ $F_{max}=\\dfrac{(2.0)(2)}{(10\\times{10}^{-3})}$ = $400$ N $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nThe area under the graph gives the change in momentum $\\Delta p$;\n  $\\hspace{2em}$ Area = $\\dfrac{F_{max}(10\\times{10}^{-3})}{2}=\\Delta p$\n  $\\hspace{2em}$ $\\Delta p=mv-mu$\n  The ball moves in the opposite direction after the collision\n  $\\hspace{2em}$ $\\Delta p=mv-mu$\n  $\\hspace{2em}$ $\\dfrac{F_{max}(10\\times{10}^{-3})}{2}=(0.20)(5.0)-(0.20)(-5.0)$\n  $\\hspace{2em}$ $\\dfrac{F_{max}(10\\times{10}^{-3})}{2}=2.0$\n  $\\hspace{2em}$ $F_{max}=\\dfrac{(2.0)(2)}{(10\\times{10}^{-3})}=400$ N\n  \n- \n  - Loss of kinetic energy of the ball $\\checkmark$\nEquals to the increase in internal energy of the objects and surroundings $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe law of conservation of energy states that in any interaction, energy is not created or destroyed. In this situation, although the ball loses kinetic energy overall, this energy is transferred to thermal energy in the surroundings during the collision.\n    \n  - $\\hspace{2em}$ $E_{Ki}=\\dfrac{1}{2}\\left(0.2\\right)\\left(5.0\\right)^2=2.5$ J\n    and\n    $\\hspace{2em}$ $E_{Kf}=\\dfrac{1}{2}\\left(0.2\\right)\\left(3.0\\right)^2=0.9$ J $\\checkmark$\n    $\\hspace{2em}$ $\\Delta E_K=2.5-0.9$ = $1.6$ J $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe kinetic energy of the ball $E_{K_i}$ before the collision:\n    $\\hspace{2em}$ $E_{K_i}=\\dfrac{1}{2}\\left(0.2\\right)\\left(5.0\\right)^2=2.5$ J\n    The kinetic energy of the ball $E_{K_f}$ after the collision:\n    $\\hspace{2em}$ $E_{K_f}=\\dfrac{1}{2}\\left(0.2\\right)\\left(3.0\\right)^2=0.9$ J\n    The kinetic energy lost $\\Delta E_{K}$:\n    $\\hspace{2em}$ $\\Delta E_{K}=2.5-0.9=1.6$ J\n    \n  - Law states that momentum of a closed system is constant in the absence of external forces. $\\checkmark$\n    Considering the ball only, the wall exerts an external force therefore its momentum changes.\n    OR\n    System incorporates the ball and the wall. The change of momentum of the ball is equal and opposite to the change in momentum of the wall/earth $\\checkmark$\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: '9',
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '0fd4ab02-0d6f-4c95-a7ab-4adc840e8c70',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 40',
+    content:
+      'A ball of mass 0.5 kg moving horizontally strikes a vertical wall with a speed of 30 m s$^{-1}$. The magnitude of the change of the momentum of the ball is 22.5 kg m s$^{-1}$. Calculate the speed of the ball just after it rebounds.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/8425ea05-2617-4ded-b0e9-edb297fa635a/images/d1c76c1d-7e5f-4b4f-b398-e74b073c46a5/PH0247.png)\n\n\n\n\n- A. $\\hspace{1em}$ 0 m s$^{-1}$\n- B. $\\hspace{1em}$ 5 m s$^{-1}$\n- C. $\\hspace{1em}$ 10 m s$^{-1}$\n- D. $\\hspace{1em}$ 15 m s$^{-1}$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nChange in momentum;\n\n\n- $\\Delta p = p_f - p_i$\n\nThe momentum in the left direction is regarded as negative while the right is positive. Therefore;\n$\\begin{aligned}\n\\hspace{0.8\ncm}-\\Delta p &= -p_f - p_i\\\\\n-\\Delta p &= -mv - mu\\\\\n-22.5 &= -0.5v - (0.5)(30)\\\\\n0.5v &= 22.5 - 15\\\\\n0.5v &= 7.5\\\\\nv &= 15\\textrm{ m s}^{-1}\n\\end{aligned}$',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '1d7209f0-d0ce-44fa-ad62-e9bc5b70c775',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 47',
+    content:
+      'A box with a mass of M rests on a balance in an elevator that is moving downwards. The elevator slows with an acceleration of   $\\dfrac{g}{4}$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b7dab1f3-5df3-4e27-9cbf-cd571f4fa49c/images/668949a1-7b88-4532-bf3c-3689bdf6f746/Screenshot%202025-07-03%20at%204.23.51%E2%80%AFPM.png)\n\n\nWhich of the following gives the reading of the balance?\n\n\n- A. $\\hspace{1em}  \t\\dfrac{5Mg}{4}$\n- B. $\\hspace{1em}  \tMg$\n- C. $\\hspace{1em}  \t\\dfrac{3Mg}{4}$\n- D. $\\hspace{1em}  \\dfrac{Mg}{2}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe reading of the balance is equal to the magnitude of the reaction force. The free-body diagram of the box M:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b7dab1f3-5df3-4e27-9cbf-cd571f4fa49c/images/93aad0fb-70d9-4742-9503-89c79a83c9b5/PH0543-2.png)\n\n\nSince the elevator slows down downwards, the acceleration must be upwards and the normal reaction force ($F_N)$ must be greater than the weight ($F_g$). According to Newton’s Second Law, the following relationship can be written:\n\n\n- $F_N - F_g = ma$\n\nWhen the given expressions are substituted:\n\n\n- $F_N - Mg=M\\bigg(\\dfrac{g}{4}\\bigg)$\n- $F_N = M\\bigg(\\dfrac{g}{4}\\bigg)+Mg$\n- $F_N = \\dfrac{5Mg}{4}$\n\nTherefore, the answer is A.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '21f37dfc-70a3-4e54-96b0-200a0a0b6b14',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 51',
+    content:
+      'A ball of mass 100 g hits the ground at an angle of $45\\degree$ and a speed of 10 m s$^{-1}$. The collision is elastic, and the ball makes contact with the ground for a total time of 100 ms. This is illustrated below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1f72f77f-7ad8-483e-b91e-8dfeb4cb15c2/images/99fe19b1-7971-4531-bcfc-196700e2ddb3/Screenshot%202025-06-03%20at%202.03.13%E2%80%AFPM.png)\n\n\nWhat is the magnitude of the average net force on the ball during the collision?\n\n\n- A. $\\hspace{1em}  $ $7.1$ N\n- B. $\\hspace{1em}  $ $10$ N\n- C. $\\hspace{1em}  $ $14$ N\n- D. $\\hspace{1em}  $ $20$ N\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\n\n\n- $F_{net}=\\dfrac{\\Delta p}{\\Delta t}=\\dfrac{m\\Delta v}{\\Delta t}$\n\nThe horizontal component of the speed/momentum of the object does not change - the force exerted by ground is purely vertical.\nInitial and final vertical velocities are $-10\\sin{(45\\degree)}$ and +$10\\sin{(45\\degree)}$ if we take upwards as the positive direction (this will give a positive force as the direction of the force exerted by the ground on the ball is upwards) see diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1f72f77f-7ad8-483e-b91e-8dfeb4cb15c2/images/67e50acf-d004-4a7b-b955-05573f43c304/Screenshot%202025-06-03%20at%202.07.40%E2%80%AFPM.png)\n\n\nFor the vertical direction $\\Delta v=$ final velocity $-$ initial velocity $=10\\sin{45\\degree}-(-10\\sin{45\\degree})=10\\sin{45\\degree}+10\\sin{45\\degree}=20\\sin{45\\degree}$\n\n\n- $F_{net}=\\dfrac{m\\Delta v}{\\Delta t}=\\dfrac{(0.1)(20\\sin{45\\degree})}{0.1}=20\\sin{45\\degree}$ = 14 N\n\n(Here we have converted to SI units 100 g = 0.1 kg and 100 ms = 0.1 s)',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '7430da12-6adb-4bf6-8757-425a8056def6',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 53',
+    content:
+      'An airplane of weight $W$ is flying horizontally with constant velocity. The total forward thrust of the engines is $3W$. Which of the following gives the magnitude of the force of the air on the plane?\n\n\n- A. $\\hspace{1em} 4W$\n- B. $\\hspace{1em} 3W$\n- C. $\\hspace{1em}$ $\\sqrt{10}W$\n- D. $\\hspace{1em}$ $\\sqrt{8} W$\n',
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nDue to the absence of acceleration, the resultant force must be zero. Therefore, both the forward thrust and the weight must be cancelled by forces from the air.\nThe force from the air has two components; $3\\, W$ in backward drag and $W$ in upward lift.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/3007ef36-6df7-4d85-8b06-cbef0a761c62/images/4c76b22c-495d-4463-b7dc-a89c63d18c53/Screenshot%202025-07-03%20at%204.59.56%E2%80%AFPM.png)\n\n\nUsing Pythagoras' theorem to find the resultant of these two components:\n\n\n- R = $\\sqrt{(3W)^2+ W^2 } = \\sqrt{10}\\,  W$\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '0fd4ab02-0d6f-4c95-a7ab-4adc840e8c70',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 54',
+    content:
+      'While practising, a table tennis player hits a ball of mass 2.8 g that collides with the floor and then bounces back from the wall. The speed of the ball just before reaching the floor is 8.0 m s$^{-1}$. The ball leaves the floor with an angle of 65$\\degree$ to the floor as shown.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/3f046049-9d52-4f31-bdb9-04593858342e/images/33f83956-3349-49c0-b000-e177f8854ee9/Screenshot%202025-06-30%20at%205.39.45%E2%80%AFPM.png)\n\n\n\n- Due to the collision with the floor, the ball losses\n30$\\%$ of its initial kinetic energy. Show that the leaving speed of the ball from the floor is around 7 m s$^{-1}$. <span class="marks">[2]</span>\n\n- The ball strikes the wall just as it reaches the highest point of its motion. Determine the horizontal distance between the bounce point and the wall. <span class="marks">[3]</span>\n\n- The ball collides elastically with the wall, with the time of contact during the collision is 0.040 s. Calculate the average horizontal force exerted by the wall on the ball during the collision.     <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- $\\textrm{Initial\\ Kinetic\\ Energy}=\\dfrac{1}{2}(2.8\\times{10}^{-3})({8)}^2=0.090$ J $\\checkmark$\n  \n  \n  - $v= \\sqrt{\\dfrac{(0.7)(.090\\ )(2)}{(2.8\\times{10}^{-3})}}=\\answer{6.7\\ \\ce{m s}^{-1}}$ $\\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$:\nThe kinetic energy $E_{ki}$ just before the collision; $E_{ki}=\\dfrac{1}{2}mu^2$  where $u$ is the speed of the ball just before the collision\n  \n  \n  - $E_{ki}=\\dfrac{1}{2}(2.8\\times{10}^{-3})({8)}^2=0.090$ J\n\n  Since 30$\\%$ of the $E_{ki}$ is lost, the final kinetic energy $E_{Kf}$ is\n  \n  \n  - $E_{kf}=\\left(0.7\\right)\\left(0.090\\right)=0.063$ J\n  - $E_{kf}=\\dfrac{1}{2}mv^2$,  where $v$ is the speed of the ball just after the collision\n  - $0.063=\\dfrac{1}{2}(2.8\\times{10}^{-3})({v)}^2$\n  - $v=\\sqrt{\\dfrac{(0.063)(2)}{(2.8\\times{10}^{-3})}}=6.7$ m s$^{-1}$\n\n  \n- Vertically,\n  \n  \n  - $u_y = 6.7\\sin(65\\degree)$ $\\checkmark$\n  - $t\\ =\\ \\dfrac{v-u}{a}\\ =\\ \\dfrac{0\\ -\\ 6.7\\sin({65\\degree})}{9.8}\\ = \\ 0.62$ s $\\checkmark$\n\n  Horizontally,\n  \n  \n  - $s=vt=6.7\\cos({65\\degree})\\left(0.62\\right)=\\answer{1.8\\ \\ce{m}} \\ \\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$:\nThe ball undergoes projectile motion. The collision with the wall takes place when the ball is at the highest part of its motion, so the vertical component of the motion can be used to find the time of flight.\n  \n  \n  - $u_y = 6.7\\sin(65\\degree)$ and $y = 0$\n  - $t\\ =\\ \\dfrac{v-u}{a}\\ =\\ \\dfrac{0-6.7\\sin\\left({65\\degree}\\right)}{9.8}\\  =\\ 0.62$ s\n\n  Using this time in the horizontal direction, where $u_x = 6.7\\cos(65\\degree)$\n  \n  \n  - $s=vt=6.7\\cos\\left({65\\degree}\\right)\\left(0.62\\right)=1.8$ m\n\n\n\n\n- $\\Delta p = 2mv = 2(0.0028)(6.7\\cos(65\\degree)) =0.016$ N s $\\checkmark$\n  \n  \n  - $F\\ =\\dfrac{\\Delta p}{\\Delta t}= \\dfrac{0.016}{0.040}= \\answer{0.40\\ \\ce{N}} \\ \\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$:\nAs the ball rebounds elastically, the final speed is equal to the initial speed.\n  These speeds are equal to the horizontal component of the velocity\n  \n  \n  - $v_x=6.7\\cos(65\\degree) =2.83$ m s$^{-1}$\n\n  To find change in momentum\n  $\\begin{aligned}\n   \\Delta p&=p_2-p_1 \\\\\n   &=mv_2-mv_1 \\\\\n   &=0.0028\\left(2.83-\\left(-2.83\\right)\\right)\n   =0.016\\textrm{ N s}\n   \\end{aligned}$\n  Note that because of the change in direction, the change in momentum is equal to twice the initial momentum.\n  To find force,\n  \n  \n  \n  - $F\\ =\\ \\dfrac{\\Delta p}{\\Delta t}=\\dfrac{0.016}{0.040}= 0.40$ N\n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '7',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'd3a9d4b0-03f7-4d6d-a5f3-e8904b2a0bad',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 56',
+    content:
+      '\n- \n  - A spacecraft is moving in a zero gravity zone in space with constant speed. Its pilot decided to accelerate by burning fuel. The burned fuel is ejected backwards from the rocket with a constant speed of $2.5\\times{10}^2$ m s$^{-1}$ relative to the rocket at a constant rate of $2.0\\times{10}^2$ kg s$^{-1}$.\n    Show that the net force on the rocket due to the ejection of burnt fuel is $5 \\times 10^4$ N. <span class="marks">[1]</span>\n\n  - The spacecraft has a mass of $4.2\\times{10}^3$ kg at the instant that it starts to burn the fuel. Calculate the acceleration of the spacecraft after $1.0$ s has passed. <span class="marks">[2]</span>\n\n\n\n\n\n- The spacecraft enters the atmosphere of Mars and slows down due to friction. To decelerate its speed more to reach a safe landing speed, the operator runs a propeller that pushes against the gas in the atmosphere.\n  \n  \n  - By referring to Newton\'s Third Law, outline why there is a force acting on the spacecraft due to the propeller. <span class="marks">[2]</span>\n\n  - The average density of the Mars atmosphere is $0.020$ kg m$^{-3}$. The radius of the propeller blades is $1.2$ m.  At a given instant, the average force from the propeller to slow down the spacecraft is $1.4$ kN.\n    Assuming that the propeller causes all gas that it passes through to come to rest relative to the falling spaceship, estimate the speed of the spaceship at this instant. <span class="marks">[4]</span>\n\n  - The landing legs of the spacecraft have springs that can compress as the spacecraft makes contact with the ground. Explain how this decreases the average force acting on the spacecraft as it lands. <span class="marks">[3]</span>\n\n\n',
+    markScheme:
+      "\n- \n  - $F=\\dfrac{\\Delta(mv)}{\\Delta t} = \\dfrac{\\Delta m}{\\Delta t} v = (2.0\\times{10}^2\\ \\ )(2.5\\times{10}^2) = \\answer{5.0 \\times 10^4}$ << N >>$\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nFrom Newton's 3rd Law, the force of the rocket on the gases is equal to the force of the gases on the rocket.\n    For the gases, the net force is equal to the rate of change of momentum.\n    Substituting in the values will lead the net force\n    $\\begin{aligned}\n     F&=\\dfrac{\\Delta(mv)}{\\Delta t}\\\\\n      &= \\dfrac{\\Delta m}{\\Delta t} v \\\\\n      &= (2.0\\times{10}^2\\ \\ )(2.5\\times{10}^2) \\\\\n      &= 5.0 \\times 10^4\\textrm{ N}\\\\\n      \\end{aligned}$\n\n  \n  \n  - Mass of the rocket at $t=1$ s is\n    \n    \n    - $4200-\\left(2.0\\times{10}^2\\right)\\left(1.0\\right)=4.0\\times{10}^3$ kg $\\checkmark$\n    - $a=\\dfrac{F_{net}}{m}=\\dfrac{5\\times{10}^4}{4.0\\times{10}^3} = $ $12.5$ m s$^{-2}$ $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe total mass $m_t$ of the rocket after $1$ s:\n    \n    \n    - $m_t=4200-\\left(2.0\\times{10}^2\\right)\\times\\left(1.0\\right)=4.0\\times{10}^3$ kg\n\n    To find the acceleration of the rocket:\n    \n    \n    - $a=\\dfrac{F_{net}}{m}=\\dfrac{5\\times{10}^4}{4.0\\times{10}^3}=12.5$ m s$^{-2}$\n\n    \n\n- \n  - Propellor exerts a force on the gas $\\checkmark$\n    There is an equal and opposite force from the gas on the propeller $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe gas in the atmosphere experiences a force due to the propeller blades. According to Newton's Third Law, a force with the same magnitude and opposite direction acts on the spacecraft.\n    \n  - $F_{av}=\\dfrac{\\Delta p}{\\Delta t}{} = m\\dfrac{\\Delta v}{\\Delta t}\\, \\checkmark$\n    $m=\\rho V=\\rho Al=\\rho\\pi r^2vt \\, \\checkmark$\n    $v=\\sqrt{\\dfrac{F_{av}}{\\rho\\pi r^2}}\\ \\, \\checkmark$\n    = $120$ m s$^{-1}$ $\\, \\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe distance $l$ covered by the spacetime in a short time of $t$:\n    $l=vt$   where $v$ is the average speed of the spacecraft\n    The mass $m$ of the gas pushed during the time of $t$:\n    $m=\\rho V=\\rho Al=\\rho\\pi r^2vt$ where $r$ is the radius of the blades\n    The mass experiences a change of velocity of $v$, as relative to the aircraft it is initially moving at speed $v$ and comes to rest due to the propellors\n    The average force $F_{av}$ needed from the propeller;\n    $\\begin{aligned}\n     F_{av}&=\\dfrac{\\Delta p}{\\Delta t}\\\\\n     \\hspace{1.3cm}\\\\\n     &=\\dfrac{m\\Delta v}{\\Delta t}\\\\\n     \\hspace{1.3cm}\\\\\n     &= \\dfrac{\\rhoπr^2vt\\Delta v}{\\Delta t}\\\\\n     \\hspace{1.3cm}\\\\\n     &=\\rhoπr^2v^2\\\\\n     \\end{aligned}$\n    Rearranging gives\n    $\\hspace{1.12cm}v=\\sqrt{\\dfrac{F_{av}}{\\rho\\pi r^2}}=\\sqrt{\\dfrac{1.4\\times{10}^3}{(0.020)\\pi{(1.2)}^2}}=120$ m s$^{-1}$\n    \n  - $\\Delta p=F_{av}\\Delta t$   $\\, \\checkmark$\n    duration of the collison is increased $\\, \\checkmark$\n    Change in momentum is the same so the average force is less $\\, \\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe time of collision is increased with using soft material.  By using Newton’s second law;\n    \n    \n    - $F_{av}=\\dfrac{\\Delta p}{\\Delta t}$\n\n    For the same magnitude of the change in momentum, the average force acting on the object is less when the time of collision is increased.\n\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '12',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'b1ed61fc-4a59-4953-b84e-7e709be14dae',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 58',
+    content:
+      'A mass $m$ is moving on a circular path at the end of a rope of constant length. The centripetal force acting on the mass is $F$.\nThe frequency of the motion is gradually increased.\nWhich graph correctly shows the change of the centripetal force $F_c$ as the frequency $f$ is increased?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/775fbf10-3bc4-4ebe-b512-ff6082e1e19e/Screenshot%202025-05-28%20at%2010.18.18%E2%80%AFAM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/5cdacb61-797f-46e1-8f53-056da57c9dda/Screenshot%202025-05-28%20at%2010.18.23%E2%80%AFAM.JPEG)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/08449c73-c15e-47dc-ac1c-b31237189261/Screenshot%202025-05-28%20at%2010.18.28%E2%80%AFAM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/630ba233-a848-4273-b0a6-76a57dfee62b/Screenshot%202025-05-28%20at%2010.18.32%E2%80%AFAM.JPEG)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nIn the data booklet, given centripetal acceleration:\n\n\n- $a=\\dfrac{4\\pi^2r}{T^2}$\n\nwhich can also be expressed as\n\n\n- $a=4\\pi^2rf^2$\n\nSince $F=ma$,\n\n\n- $F=m4\\pi^2rf^2$\n\nTherefore the graph of $F$ vs $f$ must be a quadratic as in A.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '1e5b18af-1bd3-4eff-8ea5-3cfcfbc1ce00',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 60',
+    content:
+      'During a game of pool, a cue ball traveling at a velocity $v$ collides with a stationary ball. After the collision each of the balls move at 45 degrees to the initial velocity of the cue ball as shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4e45fdf3-ab76-456e-a437-96f212df97cb/images/173e20c4-e008-4a67-934a-ffae87cc8b5f/Screenshot%202025-02-26%20at%209.21.31%E2%80%AFAM.JPEG)\n\n\nThe mass of each of the balls is $m$. What is the impulse experienced by either of the balls in the collision?\n\n\n- A. $\\hspace{1em}$ $\\dfrac{mv}{2}$\n- B. $\\hspace{1em}$ $\\dfrac{mv}{\\sqrt{2}}$\n- C. $\\hspace{1em}$ $mv$\n- D. $\\hspace{1em}$ $\\sqrt{2}$\n',
+    markScheme:
+      "B\n\n$\\underline{\\textrm{Explanation}}$:\nDue to symmetry, the final velocities $V$ of the balls will be the same. We can see this as the masses are the same and the magnitude of the vertical components of the velocity must be the same due to conservation of vertical momentum.\nImpulse ($J$) is equal to change in momentum. The simplest way to find the impulse of this collision is to consider the change in momentum of the ball that is initially stationary.\n\n\n- $J=m\\Delta v$\n\nWe can find the horizontal component of this velocity $V_H$ using conservation of momentum. Setting the horizontal momentum before the collision equal to the horizontal momentum after the collision:\n\n\n- $mv+0=mV_H+mV_H$\n- $mv=2mV_H$\n- $V_H=\\dfrac{v}{2}$\n\nAfter the collision, the balls move at 45° (so the vector triangle is isosceles) so the magnitude of the vertical component of the balls' final velocity is equal to the horizontal component\n\n\n- $V_V=V_H=\\dfrac{v}{2}$.\n\nNow $V$ is the vector sum of $V_H$ and $V_V$, which can be calculated using Pythagoras' theorem:\n\n\n- $V=\\sqrt{V_H^2+V_V^2}=\\sqrt{\\left(\\dfrac{v}{2}\\right)^2+\\left(\\dfrac{v}{2}\\right)^2}=\\sqrt{\\dfrac{v^2}{2}}=\\dfrac{v}{\\sqrt{2}}$\n\nBecause the ball was initally stationary, this also represents the change in velocity of the ball. The impulse of the collision is therefore:\n\n\n- $I=mV=\\dfrac{mv}{\\sqrt2}$\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '21f37dfc-70a3-4e54-96b0-200a0a0b6b14',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 64',
+    content:
+      'A block of mass 4.0 kg rests on an inclined plane.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4498c7b1-1fec-4afe-b22e-1ae34aaaf744/images/a2d8fdc5-6a82-406e-a19b-9649d2967b5c/PH0330.png)\n\n\nThe coefficient of static friction between the block and the plane $\\mu _s$ is 0.4.\nWhich of the following gives the angle of inclination at which the block will start to slide?\n\n\n- A. $\\hspace{1em}$ $\\sin^{-1}(0.4)$\n- B. $\\hspace{1em}$ $\\tan^{-1}(0.4)$\n- C. $\\hspace{1em}$ $\\cos^{-1}(0.4)$\n- D. $\\hspace{1em}$ $\\tan^{-1}(0.6)$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4498c7b1-1fec-4afe-b22e-1ae34aaaf744/images/1ea450be-a2a5-44f8-aca9-38d06abc4237/Screenshot%202025-05-27%20at%205.09.47%E2%80%AFPM.JPEG)\n\n\n\n\n- $F_N = mg\\cos\\theta$\n- $F = \\mu_sF_N$\n- $F = mg\\sin\\theta$\n- $mg(\\sin\\theta) = 0.4mg(\\cos\\theta$)\n- $\\dfrac{\\sin\\theta } {\\cos\\theta}=0.4$\n- $\\tan\\theta = 0.4$\n- $\\theta=\\tan^{-1}(0.4)$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'd3a9d4b0-03f7-4d6d-a5f3-e8904b2a0bad',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 65',
+    content:
+      'Two objects of mass $M$ and $m$ are connected via a frictionless pulley. The rope attached to the object of mass $M$ makes an angle $\\theta$ with the horizontal. The objects are at rest.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4a39026f-aa75-494c-a20c-39635e9e1fc0/images/155ede1a-26a4-4810-8047-d312bfef3356/Screenshot%202025-06-30%20at%205.43.54%E2%80%AFPM.png)\n\n\nFor the large mass, which expressions are correct for the force of friction F$_f$  and the normal force F$_N$?\n\n$\\hspace{3em}$ F$_f$ $\\hspace{3em}$ $\\hspace{4em}$ F$_N$ $\\hspace{4em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $mg \\cos\\theta$ $Mg - mg \\sin\\theta$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $mg \\sin \\theta$ $Mg - mg \\sin\\theta$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $mg \\sin \\theta$ $Mg - mg \\cos\\theta$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $mg \\cos\\theta$ $Mg - mg \\cos\\theta$',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nResolving vertical forces on the large block:\n\n\n- $F_g = F_N + T\\sin \\theta$\n\nAnd for the large block,\n\n\n- $F_g = Mg$\n\nSubstituting and solving for $F_N$ gives\n\n\n- $F_N =  Mg - T\\sin \\theta$\n\nResolving horizontal forces on the large block:\n\n\n- $F_f = T \\cos \\theta$\n\nFor the vertical forces small block\n\n\n- $T = mg$\n\nSubstituting gives $F_f = mg \\cos \\theta$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '7430da12-6adb-4bf6-8757-425a8056def6',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 68',
+    content:
+      'A toy of mass $m$ is attached to a rod of length $L$ and undergoes circular motion in the vertical plane. The radial force $F$ of the rod is constant.\nWhat is the ratio of the linear speed at the top to the linear speed at the bottom of its path, $\\dfrac{v_{top}}{v_{bottom}}$?\n\n\n- A. $\\hspace{1em}$ $\\dfrac{F-mg}{F+mg}$\n- B. $\\hspace{1em}$ $\\dfrac{F+mg}{F-mg}$\n- C. $\\hspace{1em}$ $\\sqrt{\\dfrac{F-mg}{F+mg}}$\n- D. $\\hspace{1em}$ $\\sqrt{\\dfrac{F+mg}{F-mg}}$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$: \nAt the top, the centripetal force is $F+mg=\\dfrac{m(v_{top})^2}{r}$\nAt the bottom, the centripetal force is $F-mg=\\dfrac{m(v_{bottom})^2}{r}$\nRearranging the above equations for the required ratio gives:\n$\\hspace{3em}$ $\\dfrac{v_{top}}{v_{bottom}}=\\sqrt{\\dfrac{F+mg}{F-mg}}$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '898c3f21-c600-46cb-a4e9-146e910c29f7',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 70',
+    content:
+      'A car enters a horizontal circular roundabout as shown with a speed of 35 km h$^{-1}$. The radius of the roundabout is 15 m.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/ae5d5d2c-d886-4aa8-875e-97c202da73d1/images/678c565e-beaf-419e-8ae6-5608f15c2ecf/Screenshot%202025-05-29%20at%201.32.11%E2%80%AFPM.png)\n\n\n\n- State the force which provides the centripetal force for the circular motion of the car. <span class="marks">[1]</span>\n\n- Calculate the minimum coefficient of static friction between the tyres of the car and the road for the car to safely complete its motion around the roundabout. <span class="marks">[3]</span>\n\n- State and explain any change in your answer to part (b) if:\n  \n  - The mass of the car increases. <span class="marks">[2]</span>\n\n  - The road is banked at an angle so that the car is tilted towards the center of the roundabout. <span class="marks">[2]</span>\n\n  - The speed of the car increases. <span class="marks">[2]</span>\n\n\n  \n',
+    markScheme:
+      '\n- Frictional force (between the road and the car tyres) $\\checkmark$\n  Weight is not accepted as a response here.\n  $\\underline{\\textrm{Further Explanation}}$: \nIt is the force of friction between the road and the tires that provides the force towards the centre of the roundabout. Without friction, the car would not be able to make the turn.\n  \n- The speed of the car is ($35\\textrm{ km h}^{-1}$, which is $\\dfrac{35000\\textrm{ m}}{3600\\textrm{ s}})=$ 9.72 m s$^{-1}$ $\\checkmark$\n  Frictional force provides the centripetal force, therefore $\\dfrac{mv^2}{r}=mg\\mu$\n  Rearranging gives $\\mu=\\dfrac{v^2}{rg}$ $\\checkmark$\n  OR\n  The substitution: $\\mu=\\dfrac{9.72^2}{(15)(9.8)}$ = 0.64 $\\checkmark$\n  (2 marks max if speed is not converted to m s$^{-1}$. This gives 8.33)\n  \n- \n  - No change $\\checkmark$\n    The mass of the car impacts the calculation of the frictional force and centripetal force equally/cancels in the calculation. $\\checkmark$\n    \n  - Decrease $\\checkmark$\n    The normal force would contribute to the centripetal force, therefore less frictional force would be sufficient. $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nOn a banked turn, the normal force will have a component that points towards the centre of the circle. As the centripetal force required is the same as on a non-banked turn, less frictional force is required and therefore a lower coefficient of friction is sufficient.\n    \n  - Increase $\\checkmark$\n    At a higher speed, a larger centripetal force would be necessary to maintain the circular motion. $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nA higher speed will increase the value of $\\dfrac{mv^2}{r}$, resulting in the need for a higher value for the coefficient of friction $\\mu$.\n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '10',
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '14bffd16-38a6-4b75-8d0b-9db204b2ae24',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 71',
+    content:
+      'A box half filled with sand is pulled by a motor at a constant speed of $2.0$ m s$^{-1}$ on a frictionless surface. During the motion, sand is added to the box from above at a constant rate of $\\sigma$ kg s$^{-1}$.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e91a12f8-310f-42b8-a135-30c0ad0e892e/images/fb1ec50a-d277-4d69-95d5-266cdd06f303/Screenshot%202025-05-29%20at%201.45.240%E2%80%AFPM.JPEG)\n\n\n\n\n- State the condition related to the mass of an object in order for the equation $F_{net}=ma$ to be equivalent to the equation $F_{net}=\\dfrac{\\Delta p}{t}$ . <span class="marks">[1]</span>\n\n- The force applied by the motor on the box is $0.11$ N. Determine $\\sigma$. <span class="marks">[2]</span>\n\n- The motor has an efficiency of 75%. Calculate the total power provided to the motor. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- Mass of the object should be constant $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nNet force is equal to the rate of change of momentum\n  \n  \n  - $F_{net}=\\dfrac{\\Delta p}{\\Delta t}=\\dfrac{\\Delta (mv)}{\\Delta t}$\n\n  Therefore $F_{net}$ can depend on the rate of change of mass or the rate of change of velocity or both.\n  The equation\n  \n  \n  - $F=ma$\n\n  is equivalent to\n  \n  \n  - $F=m\\dfrac{\\Delta v}{t}$\n\n  and therefore assumes that mass is constant and that only velocity is changing with time.\n  \n- \n  \n  - $F=\\dfrac{\\Delta p}{t}=\\dfrac{\\Delta(mv)}{t}$\n  - $\\dfrac{F}{v}=\\dfrac{\\Delta m}{t}$\n  - $\\dfrac{F}{v}=\\sigma$ $\\checkmark$\n  - $\\sigma=\\dfrac{0.11}{2.0}= $ $0.055\\textrm{ kg s}^{-1}$  $\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe force $F$ applied to the box;\n  \n  \n  - $F=\\dfrac{\\Delta p}{t}=\\dfrac{\\Delta(mv)}{t}$\n\n  Since $v$ is constant;\n  \n  \n  - $F=\\dfrac{v\\Delta m}{t}$\n\n  When $\\dfrac{\\Delta m}{t}$ is replaced with $\\sigma$;\n  \n  \n  - $F=v\\sigma$\n  - $\\dfrac{F}{v}=\\sigma$ where $F=0.11$ N and $v=2.0$ m s$^{-1}$\n\n  \n  \n  - $\\sigma=\\dfrac{0.11}{2.0}=0.055$ kg s$^{-1}$\n\n\n\n\n- Useful power output of the motor $=\\ll Fv=(0.11)(2.0)=\\gg 0.22$ W $\\checkmark$\n  The power provided to the motor $=\\ll \\dfrac{0.22}{75\\%} \\times 100\\% = \\gg $  0.29 W $ \\checkmark$\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe useful power output $P_o$ of the motor;\n  \n  \n  - $P_o=Fv=(0.11)(2.0)=0.22$ W\n\n  The efficiency of the motor;\n  \n  \n  - Efficiency = $\\dfrac{\\textrm{Useful power output}}{\\textrm{Input power}} \\times 100\\%$\n\n  So the input power;\n  \n  \n  - Input power = $\\dfrac{\\textrm{Useful power output}}{\\textrm{Efficiency}} \\times 100\\%$\n\n  Substitute the given and calculated values;\n  \n  \n  - Input power = $\\dfrac{0.22}{75\\%} \\times 100\\% = 0.29\\,W$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '5',
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '21f37dfc-70a3-4e54-96b0-200a0a0b6b14',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 72',
+    content:
+      'Two bodies of masses 2 kg and 3 kg are connected by a thread and pulled in the upward direction with an acceleration of $g$ due to an upward force $F$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/eb9106b9-d99e-4523-b2e9-efa16a2c17a6/images/cbe0daf4-7e77-4429-a129-869ae3fb9bb1/PH0245q.JPEG)\n\n\nThe thread between the masses is cut. Which of the following is correct for the bodies just after the cut?\n\nAcceleration of 3 kg massAcceleration of 2 kg mass$\\hspace{1.5em}$A.$\\hspace{1.5em}$ $g$ $g$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $4g$ $g$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $4g$ $4g$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $g$ $4g$',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\n\n\n- $F = ma$\n\nBefore the thread is cut,\n\n\n- $F - W = ma$  for the system\n- $W = mg = 5g    $ and  $\\ ma=5g$\n\nTherefore\n\n\n- $F = 5g + 5g = 10g$\n\nJust after the cut, the 3 kg mass is only under the influence of gravity, so its accleration is equal to $g$\nThe net force on the 2 kg mass is\n\n\n- $F - 2g = 10g - 2g= 8g $\n\nAcceleration of the 3 kg mass = $g$\nAcceleration of 2 kg mass = $ \\dfrac{8g}{2} = 4g$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'ad162052-fe36-4073-adf0-216437b67815',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 73',
+    content:
+      'An object of mass $m$ and initial velocity $v$ collides with a stationary object of mass $2m$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/f1971e54-30eb-442a-aa50-607973aad940/images/3fb732f1-87a9-449f-b833-c4c911243712/Screenshot%202025-03-25%20at%207.24.54%E2%80%AFPM.JPEG)\n\n\nAfter the collision the object of mass $2m$ moves with velocity $\\dfrac{2v}{3}$.  What is the final velocity of the object of mass $m$ and the magnitude of impulse of the collision?\n\n$\\textrm{Final velocity of mass}$ $m$ $\\hspace{1.5em}$ $\\textrm{Impulse}$ $\\hspace{1.5em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $\\dfrac{-v}{3}$ $\\dfrac{2mv}{3}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $\\dfrac{-v}{3}$ $\\dfrac{4mv}{3}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $\\dfrac{v}{3}$ $\\dfrac{2mv}{3}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $\\dfrac{v}{3}$ $\\dfrac{4mv}{3}$',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nUsing conservation of momentum, we set the initial momentum equal of the system equal to the final momentum. We can represent the final velocity of the object of mass $m$ as $v_{fm}$. Applying the law of conservation of momentum gives\n\n\n- $mv=mv_{fm}+2m\\left(\\dfrac{2v}{3}\\right)$\n- $v=v_{fm}+2\\left(\\dfrac{2v}{3}\\right)$\n- $v_{fm}=v-\\dfrac{4v}{3}=\\dfrac{-v}{3}$\n\nThe negative sign represents the fact that the smaller mass will bounce backwards in the collision.\nImpulse $J$ is equal to change in momentum.\n\n\n- $J=m\\Delta v$\n\nThe simplest way to find the impulse of this collision is to consider the change in momentum of the ball that is initially stationary.\n\n\n- $J=m\\Delta v=2m\\left(\\dfrac{2v}{3}-0\\right)=\\dfrac{4mv}{3}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '14bffd16-38a6-4b75-8d0b-9db204b2ae24',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 75',
+    content:
+      'A spherical object of radius $r$ is released from rest inside a fluid, after some time it reaches a terminal velocity $v$. The density of the fluid is $\\rho_f$ and the density of the object is negligible compared to $\\rho_f$. Which of the following is a correct expression for the viscosity of the fluid?\n\n\n- A. $\\hspace{1em}$ $\\dfrac{2\\rho_fr^2g}{9v}$\n- B. $\\hspace{1em}$ $\\dfrac{4\\rho_fr^3g}{9v}$\n- C. $\\hspace{1em}$ $\\dfrac{2\\rho_fr^2gv}{9}$\n- D. $\\hspace{1em}$ $\\dfrac{4\\rho_fr^3gv}{9}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nBecause of the very low density of the object, in this situation it will be rising upwards through the fluid and the drag force will be directed downwards. The forces acting on the object are represented in the diagram below:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/fd1b8088-49d6-4cf0-a32e-2f667b767317/images/54c6d222-8e3b-49ea-a0d9-c1152711872e/Screenshot%202025-06-04%20at%209.35.15%E2%80%AFAM.png)\n\n\nWeight is negligible due to the negligible object density.\n\n\n- $\\rho_{\\textrm{object}}\\ll\\rho_f$\n- $(\\textrm{weight}=\\rho_{\\textrm{object}}Vg\\ll\\rho_{\\textrm{object}}Vg=\\textrm{buoyancy})$\n\nWhen the object is at terminal velocity the net force acting on it is zero so we have:\n\n\n- $\\textrm{weight}=\\textrm{drag force}$\n\nWhere:\n\n\n- Buoyancy $=\\rho_fVg$\n- Drag $=6\\pi\\eta rv$\n\nWhere $g$ is acceleration due to gravity, $V$ is the volume of the ball, and $\\eta$ is the viscosity of the liquid.\n\n\n- $\\rho_fVg=6\\pi\\eta rv$\n\nNow substituting the volume of a sphere $V=\\dfrac{4}{3}\\pi r^3$ and rearranging for $\\eta$ we have:\n\n\n- $\\rho_f\\dfrac{4}{3}r^3g=6\\pi\\eta rv$\n- $\\rho_f\\dfrac{4}{3}r^2g=6\\eta v$\n- $\\eta=\\dfrac{2\\rho_fr^2g}{9v}$\n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'ed02da4d-27d4-4840-a908-16d0a8012df8',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 76',
+    content:
+      'A stationary object explodes and splits into two parts of masses $m$ and $2m$. Mass $m$ moves north with a velocity of $2v$ and mass $2m$ moves south with a velocity of $v$. Calculate the total change in linear momentum of the system as a result of the explosion.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/ff2acbba-2403-4a67-b180-9dbd6ab500fe/images/84602be2-5f8f-4366-be5d-8b3dd6c7f170/Screenshot%202025-06-30%20at%205.56.30%E2%80%AFPM.png)\n\n\n\n\n- A. $\\hspace{1em}$ Zero\n- B. $\\hspace{1em}$ $1.5mv$\n- C. $\\hspace{1em}$ $4mv$\n- D. $\\hspace{1em}$ $6mv$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe change in the momentum of the system in the explosion is zero, as the system is isolated and therefore momentum is conserved.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'b1ed61fc-4a59-4953-b84e-7e709be14dae',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 81',
+    content:
+      'Two blocks of masses 3.0 kg and 4.0 kg are held stationary with a thread connecting the blocks. The mass of 3.0 kg is on a rough incline that makes an angle of 30° with the ground and it starts to slip up when the other mass is slightly more than 4.0 kg.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/3e083eeb-2ac3-45c1-a54c-95d8955270d7/images/b43aec29-c2a0-4524-b402-66e35e1e23b1/PH0559MS.png)\n\n\n\n- State two differences between static friction and dynamic friction <span class="marks">[2]</span>\n\n- Calculate the coefficient of static friction between the mass of 3.0 kg and the rough surface. <span class="marks">[3]</span>\n\n- The thread connecting masses breaks and the mass of 3.0 kg slides down. Show that the acceleration of the mass of 3.0 kg is around 1.5 m s$^{-2}$. The coefficient of dynamic friction between 3.0 kg mass and the rough surface is 0.40. <span class="marks">[2]</span>\n\n- Determine the speed of the mass of 3.0 kg after it has moved through a vertical height of 1.0 m. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- Static friction occurs when the object is not moving (relative to a surface) and Dynamic friction occurs when there is relative motion between the object and a surface $\\checkmark$\n  The magnitude of static friction is dependent on external forces and the magnitude of dynamic friction is not dependent on external forces OR static friction force can vary up to a maximum while dynamic friction is a constant value  $\\checkmark$\n\n\n\n- Component of weight parallel to the incline = $\\ll mg\\sin(30°)=(3.0)(9.81)(0.5)=\\gg 15 \\ll\\textrm{N}\\gg$ and tension in thread $T=mg=(4.0)(9.81)=39$ N $\\checkmark$\n  Static friction = $\\ll 39-15=\\gg 24 \\ll\\textrm{N}\\gg$ $\\checkmark$\n  coefficient of static friction = $\\ll \\dfrac{24}{(3.0)(9.81)\\cos(30°)}= \\gg$ 0.96 $\\checkmark$ (0.94 to 0.96 accepted)\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nAccording to the diagram, the mass of 3 kg is balanced with weight $W$, tension $T$ static friction $F_f$ and normal force $N$;\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/3e083eeb-2ac3-45c1-a54c-95d8955270d7/images/e14de16f-c457-499c-989c-258323ec83e0/PH0559Q.png)\n\n\n  Weight has two components parallel to the incline $W_h$ and perpendicular to the incline $W_v$;\n  \n  \n  - $W_h=mg\\sin(30°)=(3.0)(9.81)(0.5)=15$ N down to the slope\n\n  The tension balances the weight of the mass of 4.0 kg;\n  \n  \n  - $T=mg=(4.0)(9.81)=39$ N\n\n  The forces parallel to the incline must cancel each other;\n  \n  \n  - $\\begin{aligned}\n     W_h+F_f&=T\\\\\n     \\hspace{1em}\\\\\n     15+F_f&=39\\\\\n     \\hspace{1em}\\\\\n     F_f&=24\\textrm{ N}\\\\\n     \\end{aligned}$\n\n  By using the equation of static friction;\n  $\\begin{aligned}\n   F_f&=\\mu R\\\\\n   \\hspace{1em}\\\\\n   \\mu(3.0)(9.81)\\cos(30°)&=24\\\\\n   \\hspace{1em}\\\\\n   \\mu&=0.96\\\\\n   \\end{aligned}$\n  \n- The dynamic friction = $\\ll\\mu R=(0.40)(3.0)(9.81)\\cos30°=\\gg 10 \\ll N\\gg$ $\\checkmark$\n  \n  \n  - $a$ = $\\ll\\dfrac{14.7-10.2}{3}=\\gg $     1.5 m s$^{-2}$ $\\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$: \nThere are only two forces that act on the mass parallel to the incline. They are components of the weight $W_h$ down to the slope and dynamic friction $F_f$ up the slope. The dynamic friction;\n  \n  \n  - $F_f=\\mu R=(0.40)(3.0)(9.81)\\cos(30°)=10$ N\n  - $F_{net}=ma$\n  - $14.7-10.2=3.0a$\n  - $a=1.5$ m s$^{-2}$\n\n  \n- displacement of the mass = $\\ll \\dfrac{1.0}{\\sin(30^o)} = \\gg 2.0 \\ll\\textrm{m}\\gg$ $\\checkmark$\n  \n  \n  - $v = \\ll\\sqrt{(2)(1.5)(2.0)}=\\gg 2.4 \\ll\\textrm{m s}^{-1}\\gg$ $\\checkmark$\n\n  OR\n  Heat lost due to friction = $\\ll F_f d=(10)(2.0)=\\gg 20\\ll\\textrm{J}\\gg$ $\\checkmark$\n  \n  \n  - $v$ = $\\ll \\sqrt{\\dfrac{(2)(9.0)}{(3.0)}}=\\gg$     2.4 m s$^{-1}$ $\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe overall displacement s of the mass when it displaced 1.0 m vertically;\n  \n  \n  - $s=\\dfrac{1.0}{\\sin(30^o)}=2.0$ m\n\n  By using a suvat equation;\n  \n  \n  - $v^2=u^2+2as$ while $u=0$, $a=1.5$ m s$^{-2}$, and $s=2.0$ m\n  - $v^2=(2)(1.5)(2.0)=6.0$\n  - $v=2.4$ m s$^{-1}$\n\n  This question can be also done with the conservation of energy approach;\n  The energy dissipated due to friction is\n  \n  \n  - $Q=F_f d=(10)(2)=20$ J\n\n  and the change in gravitational potential energy can be found by\n  \n  \n  - $\\Delta E_p=mg\\Delta h=(3.0)(9.81)(1.0)=29$ J\n\n  The gravitational potential energy was converted to thermal energy from friction and kinetic energy, therefore\n  \n  \n  - $29=\\Delta E_k+20$\n  - $\\Delta E_k=9.0$ J\n\n  Solving for speed gives\n  \n  \n  - $\\Delta E_k=\\frac{1}{2} mv^2$\n  - $v=\\sqrt{\\dfrac{2\\Delta E_k}{m}}$\n  - $v=\\sqrt{\\dfrac{(2)(9.0)}{(3.0)}}=2.4$ m s$^{-1}$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '9',
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '1d7209f0-d0ce-44fa-ad62-e9bc5b70c775',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 87',
+    content:
+      'A ball is falling vertically in a liquid. The overall density of the ball and the density of the liquid are the same. Which of the following is correct for the change in speed of the ball and and the direction of the acceleration?\n\n$\\hspace{1.5em}$The motion of the ball$\\hspace{1.5em}$Acceleration$\\hspace{1.5em}$A.$\\hspace{1.5em}$Speeding upUpwards$\\hspace{1.5em}$B.$\\hspace{1.5em}$Slowing downUpwards$\\hspace{1.5em}$C.$\\hspace{1.5em}$Speeding upDownwards$\\hspace{1.5em}$D.$\\hspace{1.5em}$Slowing down$\\hspace{1.5em}$ Downwards $\\hspace{1.5em}$',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThree forces are acting on the ball the weight of the ball, buoyancy, and drag. While buoyancy and drag are upwards, weight is downwards.\nThe buoyancy :\n\n\n- $F_B = {\\rho}_{liquid}Vg$\n\nWeight:\n\n\n- $W=mg={\\rho}_{ball}Vg$\n\nSince the density of the ball and the liquid are the same, weight and buoyancy cancel each other and the net force acting on the ball is the drag force. Due to having upward net force while moving downwards, the ball must be slowing down. Moreover, if the initial speed was zero at the time of contact with the water, the ball would experience zero net force. The drag force provides a net upwards force, so the acceleration of the ball is upwards.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: 'c86e9dd6-feb1-44dc-9a68-0bdc8cddcaaa',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 90',
+    content:
+      'A ball of mass $m$ strikes a vertical wall with a speed of $v$. It bounces back with the same speed. The angle between the wall and the trajectory of the incoming ball is $\\theta_1$. The angle between the wall and the trajectory of the ball after the bounce is  $\\theta_2$. During the collision, the only force that acts on the ball is normal to the wall.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/ad019d36-8753-4d72-a8aa-514000db4270/images/15fb46e9-c502-4194-ac44-81c73f291932/Screenshot%202025-05-30%20at%2012.42.17%E2%80%AFPM.JPEG)\n\n\nWhat is the magnitude of the change in momentum of the ball?\n\n\n- A. $\\hspace{1em}  \t2mv(\\cos\\,\\theta_1)$\n- B. $\\hspace{1em}  \t2mv(\\sin\\,\\theta_1)$\n- C. $\\hspace{1em}  \t2mv(\\sin(\\theta_1+\\theta_2))$\n- D. $\\hspace{1em}  \t2mv(\\cos(\\theta_1+\\theta_2))$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe question states that the only force from the wall on the ball during the collision is perpendicular to the surface. Due to the absence of a vertical force, there will be no change in the vertical component of the momentum of the ball, and all of the momentum change is in the horizontal direction.\nBecause the collision is elastic, the speed of the ball is unchanged in the collision. As the vertical component of the velocity is unchanged, it follows that the magnitude of the horizontal component of the velocity is also unchanged.\nGiven that the magnitudes of the components are both unchanged, the angles $\\theta_1\\ $and $\\theta_2$ must be equal.\nIt has been determined that the only change in momentum is in the horizontal direction.\nTherefore,\n\n\n- $∆p_h=p_{fh}-p_{ih}$\n- $p_{ih}=mv\\,(\\sin\\,\\theta_1)$\n\nand\n\n\n- $p_{fh}=-mv(\\sin\\,\\theta_2)$\n- $\\Delta p_h=p_{fh}-p_{ih}=-mv\\sin\\,θ_2-mv\\sin\\,θ_1$\n\nBut\n\n\n- $\\theta_1=\\theta_2$\n\nTherefore\n\n\n- $\\Delta p_h=-2mv(\\sin\\,θ_1)$\n\nThus\n\n\n- $\\Delta p=-2mv(\\sin\\,θ_1)$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '1e5b18af-1bd3-4eff-8ea5-3cfcfbc1ce00',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 95',
+    content:
+      'A mass moving with a constant speed $u$ encounters a rough surface and comes to a stop. The mass takes a time $t$ to stop after encountering the rough surface.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b39534bd-d7cb-4a8d-b23e-28aa458816db/images/37cb5cf0-1f11-43ce-af51-ed8a25184738/Screenshot%202025-05-28%20at%201.43.46%E2%80%AFPM.png)\n\n\nThe coefficient of dynamic friction between the rough surface and the mass is 0.40. Which of the following expressions gives the initial speed $u$?\n\n\n- A. $\\hspace{1em}  \t0.2gt$\n- B. $\\hspace{1em}  \t0.4gt$\n- C. $\\hspace{1em}  \tgt$\n- D. $\\hspace{1em}  \t2.5gt$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nWhen the mass is moving on the rough surface, the only horizontal force acting on it is dynamic friction. Due to Newton’s Second Law, the following relationship can be written:\n\n\n- $F_f = ma$\n\nusing $F_f=\\mu_dF_N$ and $a=\\dfrac{v-u}{t}$;\n\n\n- $\n  \\mu_dF_N=m\\dfrac{v-u}{t}$\n\n$F_N=mg$,  therefore\n\n\n- $\\mu_dmg=m\\dfrac{v-u}{t}$\n- $\\mu_dg=\\dfrac{v-u}{t}$\n- $\\mu_dgt=v-u$\n- $u=v-\\mu_dgt$\n\nBy substituting the given values\n\n\n- $u=0-0.4gt$\n- $u=-0.4gt$\n\nBecause we are asked for the speed, we can remove the negative sign to get\n\n\n- $u=0.4gt$\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'f9ae5e08-7ee9-4f23-a462-592e6070a763',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 96',
+    content:
+      'Three identical masses are connected as shown with a string that passes over an ideal pulley. The tension in the string connecting $m_1$ and $m_2$ is $T_1$. The tension of the string attached to $m_3$ is $T_2$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/39d40768-7d77-4ea9-8484-933e7732fbe0/images/a0a1b313-a16d-4619-920a-428e20554518/PH0546.png)\n\n\nWhich of the following is correct for $T_2$ and the acceleration of  $m_1$?\n\n$\\hspace{1.5em} \\bf{T_2} \\hspace{1.5em}$Acceleration of $\\bf{m_1}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $2T_1$ $\\dfrac{g}{3}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $2T_1$ $\\dfrac{g}{2}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $\\dfrac{3T_1}{2}$ $\\dfrac{g}{3}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $\\dfrac{3T_1}{2}$ $\\dfrac{g}{2}$',
+    markScheme:
+      "A\n\n$\\underline{\\textrm{Explanation}}$:\nLet all masses be equal to $m$.\nFor the acceleration, we can assume all masses to be one system. There is a force of gravity of $2mg$ pulling the system one direction, and a force of gravity of $mg$ pulling the other direction.\n\n\n- $F_{net}=2mg-mg=mg$\n\nThe total mass of the system is $3m$.\nTherefore the acceleration of the system is the total mass of the system divided by the net force.\n\n\n- $a=\\dfrac{F_{net}}{m}=\\dfrac{mg}{3m}=\\dfrac{g}{3}$\n\nWhen Newton's second law is applied to $m_1$;\n$\\begin{aligned}\nma&=F_{net}\\\\\n\\hspace{2.3cm}\\\\\nm \\left( \\dfrac{g}{3} \\right) &=mg-T_1\\\\\n\\hspace{2.3cm}\\\\\nT_1&=\\left(\\frac{2}{3}\\right)mg\\\\\n\\end{aligned}$\nWhen Newton's second law is applied to $m_3$\n$\\begin{aligned}\nT_2-mg&=m\\left(\\frac{g}{3}\\right)\\\\\n\\hspace{2.3cm}\\\\\nT_2&=\\left(\\frac{4}{3}\\right)mg\\\\\n\\end{aligned}$\nTherefore\n$\\hspace{2cm} T_2=2T_1$",
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'b1ed61fc-4a59-4953-b84e-7e709be14dae',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 99',
+    content:
+      '\n- Define Newton\'s First Law. <span class="marks">[2]</span>\n\n- A block of mass 2.0 kg slides at the constant speed of $v$ on a rough inclined plane. A string attached to the hanging mass of 0.50 kg passes over a pulley and supports the block. The slope of the incline is 25$\\degree$.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/b024c43e-7f2c-4b87-87b1-1c5ac07573a3/images/67a19126-12d9-4478-afd2-f45c35ba5e95/Screenshot%202025-05-28%20at%2011.46.01%E2%80%AFAM.png)\n\n\r\n$\\small{\\textrm{[Source: Created with Chemix - https://chemix.org/]}}$\n  \n  \n  - Show that the direction of the motion of the box is down the slope. <span class="marks">[3]</span>\n\n  - Draw and label a free-body diagram for the forces acting on the block. <span class="marks">[2]</span>\n\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/b024c43e-7f2c-4b87-87b1-1c5ac07573a3/images/d218363b-c52d-447a-a681-c5888a85a386/Screenshot%202025-05-28%20at%2011.48.51%E2%80%AFAM.png)\n\n\n  - Determine the coefficient of dynamic friction between the block and the inclined plane. <span class="marks">[3]</span>\n\n  - In reality, air resistance will also have an effect on the motion of the block and the calculated coefficient of friction. If air resistance were taken into account for this constant speed scenario, discuss how the calculated value would be affected. <span class="marks">[2]</span>\n\n\n',
+    markScheme:
+      "\n- When the net force acting on the body is zero $\\checkmark$\n  The body has constant velocity/does not accelerate $\\checkmark$\n  $\\textbf{OR}$\n  An object at constant velocity $\\ll$and in a state of rest$\\gg$ will remain so $\\checkmark$\n  Unless acted on by an external/unbalanced force $\\checkmark$\n\n\n\n- \n  - Tension/Weight of the mass hunger = $\\ll (0.50)(9.81) = \\gg$ $4.9$ N $\\checkmark$\n    The component of the weight of the block on the plane of incline = $\\ll (2.0)(9.81)(sin25) = \\gg(2.0)(9.81)(0.42)$ = $8.3$ N $\\checkmark$\n    8.3 > 4.9 $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe direction of the friction on the block should be in the opposite direction of the block's motion.\n    There is no acceleration. According to Newton's second law, there is no net force either on the object separately or the system. The forces on the block must be balanced.\n    Weight $W_T$ of the block:\n    \n    \n    - $W_T = mg = (2.0)(9.81) = 20$ N\n\n    The component of the weight of the block $W_{Tx}$ on the plane of the incline:\n    \n    \n    - $W_{Tx} = mg\\sin25\\degree = (19.62)(0.42) = 8.3$ N\n\n    Weight $W_M$ of the mass hanger:\n    \n    \n    - $W_M = mg = (0.50)(9.81) = 4.9$ N\n\n    The weight of the mass hanger should be the tension of the string and the tension of the spring is less than the component of the weight of the block. Therefore, the friction force acting on the block should be up to the slope. The block moves down to the slope.\n    \n  - $\\textrm{ }$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/b024c43e-7f2c-4b87-87b1-1c5ac07573a3/images/13bfe0ba-398f-410a-8572-e2e8f45b8c5e/Screenshot%202025-05-28%20at%2011.54.23%E2%80%AFAM.png)\n\n\n    Correct directions and labels $\\checkmark$\n    Weight is longer than the other three by eye $\\checkmark$\r\n\n    $\\underline{\\textrm{Further Explanation}}$: \nFour forces are acting on the block. They are weight towards the bottom of the page, normal force perpendicular to the plane of incline, tension and frictional force up to the slope. Since weight balances the vertical components of the other three forces, it should be greater in magnitude. This can be represented by longer arrows in the free-body diagram.\n    \n  - Normal reaction force = $\\ll$ Component of the weight perpendicular to the plane of incline $=\\gg 18$ N $\\checkmark$\n    \n    \n    - $8.3\\textrm{ N} - 4.9\\textrm{ N} = 3.4\\textrm{ N}$ $\\checkmark$\n    - $\\mu_d = \\dfrac{3.4}{18}$ = 0.19 $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe net force acting on the block should be zero. The forces on the plane of incline are the force of dynamic friction, the tension up to the slope and the component of weight down to the slope. The force of dynamic friction $F_f$:\n    \n    \n    - $F_f = \\mu_dF_N$\n\n    The component of the weight of the block $W_{Tx}$ on the plane of the incline:\n    \n    \n    - $W_{Tx} = mg\\sin25° = (2.0)(9.81)(0.42) = 8.3$ N\n\n    The tension $T$:\n    \n    \n    - $T = W_m = mg = (0.50)(9.81) = 4.9$ N\n\n    The forces that are perpendicular to the plane of the incline are normal reaction force and the component of the weight of the block.\n    The component of the weight of the block $W_{Ty}$ perpendicular to the plane of the incline:\n    \n    \n    - $W_{Ty} = mg\\cos25° = (2.0)(9.81)(0.91) = 18$ N\n\n    $W_{Ty}$ must be equal to $R$.\n    So, dynamic friction can be rewritten as:\n    \n    \n    - $F_f = \\mu_dW_{Ty}$\n\n    Since $W_{Tx}$ must be balanced with $F_f$ and $T$:\n    \n    \n    - $F_f+T=W_{Tx}$\n    - $\\mu_d W_{Ty}=W_{Tx}-T$\n    - $\\mu_d = \\dfrac{W_{Tx}-T}{W_{Ty}} = \\dfrac{8.3-4.9}{18} = 0.19$\n\n    \n  - air resistance also contributes a force up the slope, which means there is less force due to dynamic friction. $\\checkmark$\n    the calculated value for the coefficient of friction would be lower $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe direction of air resistance is always opposite to the motion of the object. Therefore, it is in the same direction as the force of dynamic friction and tension. Instead of the force of dynamic friction with tension only, the resultant force of air friction, tension and the force of dynamic friction balances the component of weight. Hence, the force of dynamic friction would be lower. This would lead to a lower calculated value for coefficient of friction.\n\n",
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: '12',
+    difficultyLevel: '4'
+  },
+  {
+    paperId: '4a23d8ee-e443-43cb-9d6e-61c1bbd1e9ba',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 101',
+    content:
+      'A washing machine contains a cylinder that carries clothes and rotates in a circular motion about a horizontal axis as shown in the diagram. Frictional forces act between the clothes and the inner surface of the cylinder.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e35b42a3-c332-42ad-854b-e89d4b5c91ff/images/7a7a1a0e-4360-43f7-bff1-e494115729c8/PH0641.png)\n\n\nThe radius of the cylinder is $0.27$ m and its linear speed of rotation of the outside of the cylinder is $1.60$ m s$^{-1}$.\n\n- Draw the free body diagram for the piece of clothing at the position shown. <span class="marks">[3]</span>\n\n- \n  - The laundry machine cylinder is designed to make the piece of clothing lose contact with the cylinder at an angle $\\theta$ above the horizontal as shown.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/e35b42a3-c332-42ad-854b-e89d4b5c91ff/images/a3196421-cf22-4499-a5ba-d1c29429d5da/Screenshot%202025-06-02%20at%208.12.44%E2%80%AFAM.JPEG)\n\n\n    The free body diagram for the piece of clothing at this position is given below.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/e35b42a3-c332-42ad-854b-e89d4b5c91ff/images/b1c0dad4-0f88-4747-b2da-170b6286eea4/Screenshot%202025-06-02%20at%208.13.51%E2%80%AFAM.png)\n\n\n    Give an expression for the centripetal force at the position shown. <span class="marks">[1]</span>\n\n  - Calculate the angular speed, expressing your answer to the correct number of significant figures. <span class="marks">[3]</span>\n\n  - Show that $\\theta=75\\degree$ when the piece of clothing loses contact with the cylinder. <span class="marks">[2]</span>\n\n  - Determine the time taken for a piece of clothing to move from the lowest point of the cylinder (point A) to the point where it loses contact. <span class="marks">[3]</span>\n\n\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/e35b42a3-c332-42ad-854b-e89d4b5c91ff/images/e607d6fc-b5eb-4a30-8f11-d0eb837b7b2b/Screenshot%202025-06-02%20at%208.14.34%E2%80%AFAM.JPEG)\n\n\n',
+    markScheme:
+      '\n- $\\hspace{1em}$\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/e35b42a3-c332-42ad-854b-e89d4b5c91ff/images/b10324d1-96ec-4217-a8aa-81a044ec36b4/Screenshot%202025-06-02%20at%208.11.09%E2%80%AFAM.JPEG)\n\n\n  Gravitational force vertically downwards. $\\checkmark$\nFriction force vertically upwards. $\\checkmark$\nNormal force horizontally to the right. $\\checkmark$\n  \n- \n  - \n    \n    - $N + mg \\sin\\theta$ $\\checkmark$\n\n    \n  - \n    \n    - $\\omega=\\ll\\dfrac{v}{r}=\\gg\\dfrac{1.60}{0.27}$ $\\checkmark$\n    - $\\omega$ = $5.9\\ll\\ rad\\,s^{-1}\\gg$ $\\checkmark$\n\n    2 significant figures $\\checkmark$\n    \n  - Normal force is zero $\\checkmark$\n    \n    \n    - $\\dfrac{mv^2}{r}=mg\\sin\\theta$ $\\checkmark$\n    - $\\sin\\theta=\\ll\\dfrac{v^2}{rg}\\ = \\gg\\dfrac{{(1.6)}^2}{(0.27)(9.81)}$  $\\checkmark$\n    - $\\theta={\\ll75}\\degree\\gg$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nWhen the piece of clothing loses contact, the normal force of the cylinder on the clothing is zero.\n    The centripetal force in this case is only the component of the gravitational force towards the centre of the circular path.\n    \n    \n    - $mg\\sin\\theta\\ =\\dfrac{mv^2}{r}$\n\n    Then,\n    \n    \n    - $\\sin\\ \\theta=\\dfrac{v^2}{rg}\\ =\\dfrac{\\left(1.6\\right)^2}{\\left(0.27\\right)\\left(9.81\\right)}\\ =0.967$\n    - $\\theta  ={75}\\degree$\n\n    \n  - The angular displacement is 2.9 rad $\\checkmark$\n    \n    \n    - $t=\\ll\\dfrac{\\theta}{\\omega}\\gg=\\dfrac{2.9}{5.9}$ $\\checkmark$\n    - $t$ =$0.49\\ll$ s $\\gg$ $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nAngular displacement is 90$\\degree$ + 75$\\degree$  = 165$\\degree$\n    In radians, this gives\n    \n    \n    - $\\dfrac{\\left(165\\right)\\left(\\pi\\right)}{180}=2.9$ rad\n    - $t=\\dfrac{\\theta}{\\omega}=\\dfrac{2.9}{5.9} $\n    - $t=0.49$ s\n\n    Allow ECF for use of $\\omega$ value from b(ii)\n\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: '12',
+    difficultyLevel: '4'
+  },
+  {
+    paperId: '13d1d653-ee30-44a4-accf-305738602c34',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 107',
+    content:
+      '\n- State Newton\'s Third Law. <span class="marks">[2]</span>\n\n- A block of mass 2.0 kg is placed on another block of mass 5.0 kg. The blocks sit on a frictionless surface, but the coefficient of static friction between the blocks is 0.50. The block at the top is pulled with a varying horizontal force $F$.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/d3918ccc-5576-4eff-a23b-7749484ed10c/images/be6d5caa-15a5-4319-bcbe-83970ed4e5e3/Screenshot%202025-05-28%20at%201.12.55%E2%80%AFPM.png)\n\n\n  \n  - Calculate the magnitude of the maximum force $F_{max}$ which results in both of the blocks moving together without slipping. <span class="marks">[3]</span>\n\n  - On the graph, sketch how the force of static friction $F_f$ acting on the bottom block varies with the force $F$. <span class="marks">[2]</span>\n\n    (no need to add values on the axis)\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/d3918ccc-5576-4eff-a23b-7749484ed10c/images/8cdd5549-4070-486e-8593-4ad4bbed35bd/Screenshot%202025-05-28%20at%201.06.47%E2%80%AFPM.png)\n\n\n    $F_{max}$ is your answer to (b)(i) and draw your graph up to $F_{max}$\n  - According to Newton\'s Third Law, there must be another force paired with the weight of the top block. Describe this force. <span class="marks">[2]</span>\n\n\n- On another occasion, the blocks are moved with the help of a force of $12$ N acting on the block at the top. The drag force $D$ on the blocks is given by $D=0.025v^2$ where $v$ is the speed of the blocks. Calculate the top speed of the blocks for this force. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      "\n- when two bodies A and B interact, the $\\ll$action$\\gg$ $\\underline{\\textrm{force}}$ that A exerts on B is equal and $\\checkmark$\n  opposite in direction to the $\\ll$reaction$\\gg$ $\\underline{\\textrm{force}}$ that B exerts on A $\\checkmark$\n\n\n\n- \n  - The magnitude of maximum force of friction = $ \\mu_s R =  9.8$ N $\\checkmark$\n    The acceleration of both blocks = $\\ll \\dfrac{F_{fmax}}{5} = \\gg = 1.96 =2.0$ m s$^{-2}$ $\\checkmark$\n    $ F = ma  = \\ll(5+2)(1.96)=13.7=\\gg$ 14 N  $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nTo have the blocks moving together, the acceleration of each block must be the same. The vertical forces on each block cancel each other. Therefore, only horizontal forces create acceleration. The only horizontal force acting on the block with a mass of 5.0 kg is the force due to static friction between the blocks. The acceleration of 5.0 kg mass can be found by Newton's second law ($F_{net}=ma$):\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/d3918ccc-5576-4eff-a23b-7749484ed10c/images/3af533e6-d79a-41ea-8adb-f805fc93cde4/Screenshot%202025-05-28%20at%201.16.32%E2%80%AFPM.png)\n\n\n    The acceleration of 5.0 kg mass can be found by Newton's second law ($F_{net}=ma$):\n    \n    \n    - $F_f = 5a \\hspace{2em}$ (first expression)\n\n    Two horizontal forces are acting on the 2.0 kg mass as $F$ and the force of static friction.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/d3918ccc-5576-4eff-a23b-7749484ed10c/images/4c19e1d9-65aa-4a50-a913-d1ad7c2cc1f6/Screenshot%202025-05-28%20at%201.16.22%E2%80%AFPM.png)\n\n\n    The acceleration of 2.0 kg mass can be found by:\n    \n    \n    - $F - F_f = 2.0a \\hspace{2em}$ (second expression)\n\n    Since maximum $F$ is investigated, the maximum value of $F_f$ should be employed.\n    \n    \n    - $F_{fmax}=\\mu_s R \\hspace{1em}$    where $\\mu_s=0.5$ and $R=mg=(2.0)(9.81)=20$ N\n    - $F_{fmax} = (0.50)(20) = 9.8$ N\n\n    This is the net force acting on the bottom block. We can use this to find the acceleration. When $F_{fmax}$ is substituted to the first expression:\n    \n    \n    - $9.8 = 5.0a$\n    - $1.96$ m s$^{-2}=a$\n\n    As both blocks must have the same acceleration, they can be treated as one object of mass $2 + 5  = 7$ kg\n    The applied force F is also the net force for the two blocks\n    Therefore,\n    \n    \n    - $F_{net} = ma = (7)(1.96) = 13.7 =14$ N\n\n\n  \n  \n  - $\\textrm{ }$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/d3918ccc-5576-4eff-a23b-7749484ed10c/images/bf06ade7-18bc-4506-ab6a-19bdab0c0710/Screenshot%202025-05-28%20at%201.08.54%E2%80%AFPM.png)\n\n\n    a straight line $\\checkmark$\n    passing through the origin $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nWhen both of the objects are considered as one block. There is no opposing force due to a lack of friction between the surface and bottom block. Hence, the applied force can not be balanced and the acceleration of the blocks will never be zero. The forces acting on the block at the top are the force of static friction $F_f$  (It is the same as the friction force on the block at the bottom) and applied force F. The net force on the top block:\n    \n    \n    - $F - F_f = 2a \\hspace{2em} a \\neq 0$\n\n    Due to this relationship, when $F$ is increased, $F_f$ is also increased. The maximum value for the force of static friction:\n    \n    \n    - $F_f = \\mu N = (0.5)(2.0)(9.81) = 9.8\\textrm{ N}$ when the $F_{max}$ is applied.\n\n    Since there is no scaling on the x and y axis, this relation can be expressed with a straight line passing through the origin at any angle.\n    \n  - The gravitational pull of  mass at the top $\\checkmark$\n    on the earth $\\checkmark$\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe paired force should be on the other object and the same type of force. Since weight is the pull of the earth on the mass, paired force should be the pull of the mass on the earth.\n    \n\n- $\\hspace{2.2em} F = Dv^2$\n  \n  \n  - $12 = 0.025v^{-2} \\checkmark$\n  - $v = \\ll \\sqrt{\\dfrac{12}{0.025}} = \\gg$ 22 m s$^{-1}$ $\\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$: \nThe acceleration of the blocks must be zero when they are moving at top speed. The resultant force should be zero to have no acceleration. Since two forces acting on the blocks are drag force and 12 N, they must be balanced by each other;\n  \n  \n  - $F = D v^2$\n  - $12=(2.5 \\times 10^{-2})(v^2)$\n  - $\\dfrac{12}{0.025} = v^2$\n  - $\\sqrt{\\dfrac{12}{0.025}} = v$\n  - $v = 22$ m s$^{-1}$\n\n  \n",
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: '11',
+    difficultyLevel: '4.5'
+  },
+  {
+    paperId: '16c9303d-b6ab-401a-89d8-0b213277f190',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 1',
+    content:
+      'Below shows a Sankey diagram for an LED.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/32db4f78-02b8-43c8-82fb-6de54d482356/images/0cc12eab-6d49-485c-82a5-a201da16c116/Screenshot%202025-07-02%20at%202.58.46%E2%80%AFPM.JPEG)\n\n\nWhich of the following shows the percentage efficiency of the LED and the total power input?\n\nPercentage efficiencyTotal power input$\\hspace{1.5em}$A.$\\hspace{1.5em}$ $40\\%$ $4$ W$\\hspace{1.5em}$B.$\\hspace{1.5em}$ $40\\%$ $20$ W$\\hspace{1.5em}$C.$\\hspace{1.5em}$ $60\\%$ $4$ W$\\hspace{1.5em}$D.$\\hspace{1.5em}$ $60\\%$ $20$ W',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nTotal power unput = total power output = $12\\ +\\ 8\\ =\\ 20$ W\nFor an LED useful energy is visible light energy:\nPercentage efficiency = $\\dfrac{\\textrm{ Useful energy output}}{\\textrm{ Total energy input}}\\ (100)\\ =\\ \\dfrac{8}{20}\\ (100)\\ =\\ 40\\%$',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: 'ed02da4d-27d4-4840-a908-16d0a8012df8',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 6',
+    content:
+      'A box is pulled by a child with a horizontal force of 5 N. The box moves a horizontal distance of 4 m in a time of 2 s. What is the average power delivered by the child to the box?\n\n\n- A. $\\hspace{1em}$ 2.5 W\n- B. $\\hspace{1em}$ 5.0 W\n- C. $\\hspace{1em}$ 10 W\n- D. $\\hspace{1em}$ 40 W\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nPower = $\\dfrac{\\Delta W}{t}$ and $W = Fs$\n\n\n- $W = (5\\ \\ce{ N})(4\\ \\ce{m}) = 20$ J\n- $P=\\dfrac{20\\textrm{ J}}{2\\textrm{ s}} = 10$ W\n\n\r\nAlternative:\n\n\n- $P_{av} = Fv_{av} = F\\bigg(\\dfrac{\\textrm{s}}{\\textrm{t}}\\bigg) = 5\\bigg(\\dfrac{4}{2}\\bigg) = 10$ W\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '1e5b18af-1bd3-4eff-8ea5-3cfcfbc1ce00',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 10',
+    content:
+      '\n- State the law of conservation of momentum. <span class="marks">[2]</span>\n\n- A stationary body explodes into two pieces of mass as $m_1$ and $m_2$ in opposite directions.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/429bf6fe-dca5-47bd-b7e0-b199cab3baa5/images/eb3d1823-146c-4af3-9a6b-1e4afd9aafe7/PH0463.png)\n\n\n  Just after the explosion, the ratio of the kinetic energy of $m_1$ to the kinetic energy of $m_2$ is found to be 9. Calculate the ratio of masses $\\dfrac{m_1}{m_2}$. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- When the net force on a system is zero / the system is isolated $\\checkmark$\n  The momentum of the system does not change / the total momentum is constant $\\checkmark$\n\n\n\n- The magnitude of the momentum of the pieces is equal $\\checkmark$\n  \n  \n  - $\\ll \\dfrac{\\frac{p^2}{2m_1}}{\\frac{p^2}{2m_2}} = 9 \\gg$\n  - $\\dfrac{m_1}{m_2} = \\dfrac{1}{9}\\,\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nSince the body is at rest, the total momentum before the explosion is zero. Due to the conservation of momentum, total momentum after the collision must be zero. The two pieces move in the opposite directions. Therefore, the magnitude of momentum they possess must be the same to cancel each other. The ratio of kinetic energies;\n  \n  \n  - $\\dfrac{\\frac{p^2}{2m_1}}{\\frac{p^2}{2m_2}} = 9$\n  - $\\dfrac{m_2}{m_1} = 9$\n\n  Therefore,\n  \n  \n  - $\\dfrac{m_1}{m_2} = \\dfrac{1}{9}$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: '4',
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'ed02da4d-27d4-4840-a908-16d0a8012df8',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 17',
+    content:
+      'A box is pulled up a slope inclined at 30° to the horizontal by a force of $F$. The angle between the direction of $F$ and the plane of the incline is also 30°.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/f7c7fada-3e7a-40ef-8afc-46a456e898cb/images/73fc01a0-5e0f-4607-82ff-a8c692a1b23d/PH0571.png)\n\n\nThe box is pulled a distance of d up along the slope. What is the work done by F on the box?\n\n\n- A. $\\hspace{1em}  \tFd\\cos(30°) $\n- B. $\\hspace{1em}  \tFd\\cos(60°) $\n- C. $\\hspace{1em}  \tFd\\sin(30°) $\n- D. $\\hspace{1em}  \tFd\\cos^2(30°) $\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe component of the force parallel to the slope can be expressed as\n\n\n- $F_p=F\\cos(30°)$\n\nThe work done $W$ is the product of the force $F_p$ in the direction of motion and distance $d$.\n\n\n- $W=F_pd$\n- $W=F\\cos(30°) d=Fd\\cos(30°)$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '4a23d8ee-e443-43cb-9d6e-61c1bbd1e9ba',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 20',
+    content:
+      'A camping stove uses fuel for cooking food in a pot. The fuel has an energy density of $u\\,\\ce{J m}^{-3}$, and the volume of fuel consumed is $V$ m$^3$. The energy transferred from the fuel to the cooking pot is $E\\,$J.\nWhat is the efficiency of the cooking stove?\n\n\n- A. $\\hspace{1em}  $ $\\dfrac{EV}{u}$\n- B. $\\hspace{1em}  $ $\\dfrac{u}{EV}$\n- C. $\\hspace{1em}  $ $\\dfrac{E}{uV}$\n- D. $\\hspace{1em}  $ $\\dfrac{uV}{E}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\n\n\n- Energy density = $\\dfrac{\\textrm{energy provided}}{\\textrm{volume}}$\n\nThe energy $E_F$ provided by the fuel (total energy in):\n\n\n- $E_F = \\textrm{Energy density}\\times\\textrm{Volume}$\n- $E_F=uV$\n\nThe efficiency $\\eta$ of the stove:\n\n\n- $\\eta = \\dfrac{\\textrm{Useful energy out}}{\\textrm{Total energy in}}=\\dfrac{E}{uV}$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '4a23d8ee-e443-43cb-9d6e-61c1bbd1e9ba',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 22',
+    content:
+      'A car engine has an input power of $P_{in}$ and efficiency of $\\eta$.  Which of the following gives the wasted energy from the engine in time of $t$?\n\n\n- A. $\\hspace{1em}$ P$_{in}$ $\\eta$t\n- B. $\\hspace{1em}$ P$_{in}$ $\\dfrac{\\eta}{t}$\n- C. $\\hspace{1em}$ P$_{in}$t - P$_{in}$ $\\eta$t\n- D. $\\hspace{1em}$ P$_{in}$t - $\\dfrac{\\eta}{t}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nUseful power output is given by $P_{in}\\eta$, so the useful energy is $P_{in}\\eta t$.\nInput energy is given by $P_{in}t$,\ntherefore, wasted energy is given by $P_{in} t$ - $P_{in}\\eta t$\nTherefore the answer is C.\nAlternative 2: \n$E_{Waste} = E_T(100\\% - \\eta) = P_{in}t(1-\\eta) = P_{in}t - P_{in}\\eta t$',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '7430da12-6adb-4bf6-8757-425a8056def6',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 28',
+    content:
+      'An elastic bungee cord of natural length $20$ m is being tested. A spherical object, originally at rest, is released from a platform. Air resistance and the mass of the cord are insignificant.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/61cee8d4-0539-4c4c-8657-de344244e996/images/08604633-fc44-4b7b-b6e7-ff05446ce89d/PH0644-000.png)\n\n\n\n- State the principle of conservation of energy. <span class="marks">[2]</span>\n\n- Describe the energy changes that take place in the spherical object from the time it is released until it comes to rest for the first time.    <span class="marks">[2]</span>\n\n- Show that the speed of the object just before the cord starts to extend is approximately $20$ m s$^{-1}$. <span class="marks">[2]</span>\n\n- The magnitude of the average $\\underline{\\textrm{net}}$ force acting on the object between the point where the cord starts to extend and the point where it reaches maximum extension is $360$ N. The time taken during the fall of the object between these points is $0.28$ s.\n  \n  \n  - Show that the mass of the object is approximately $5.0$ kg. <span class="marks">[2]</span>\n\n  - On the graph below, sketch how the the elastic potential energy $E_{H}$ of the spring changes with the vertical displacement $s$ as the cord stretches. There is no need to add values to the axes.  <span class="marks">[2]</span>\n\n\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/61cee8d4-0539-4c4c-8657-de344244e996/images/a3f03b0a-9936-43ec-b0e8-351bd0ef3d31/Screenshot%202025-06-02%20at%208.28.03%E2%80%AFAM.JPEG)\n\n\n  \n  - The extension of the cord at the point in time when the object has zero acceleration is $11$ m. Determine the spring constant of the cord. <span class="marks">[2]</span>    \n\n',
+    markScheme:
+      "\n- (in any process) energy is neither created nor destroyed $\\checkmark$\n  It can only be transformed from one form into another. $\\checkmark$\n  \n- The gravitational potential energy of the object is converted to the kinetic energy of the object. $\\checkmark$\n  The kinetic and gravitational potential energy of the object are converted into elastic potential energy within the cord. $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nWhen it is released, its gravitational potential energy is converted to kinetic energy due to the decrease in height above the ground. As soon as the centre of mass of the object has fallen by $20$ m, the cord starts to extend and store elastic potential energy. As it comes to rest, the object's kinetic and gravitational potential energy are converted to the elastic potential energy of the cord.\n  \n- \n  \n  - $mg \\Delta h=\\dfrac{1}{2}mv^2$ $\\checkmark$\n  - $v=\\answer{19.8\\ \\ce{ m s}^{-1}}$ $\\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$: \nThe decrease in height of the object is $20$ m. Its decrease in gravitational potential energy equals the increase in kinetic energy.\n  \n  \n  - $mg\\Delta h= \\dfrac{1}{2}mv^2$\n  - $v=\\sqrt{2g\\Delta h}$\n  - $v=\\sqrt{(2)(9.81)(20)}$\n  - $v=19.8$ m s$^{-1}$\n\n  Alternatively,\n  \n  \n  - $v^2=u^2+2as$\n  - $v^2=0^2+2(-9.81)(-20)$\n  - $v=19.8$ m s$^{-1}$\n\n  \n- \n  - \n    \n    - $F_{avg}\\Delta t=\\Delta p$ $\\checkmark$\n    - $m = \\answer{5.04\\ \\ce{kg} }\\ \\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe object is stationary and has zero momentum when the cord has maximum extension. By using impulse = change in momentum;\n    $\\begin{aligned}\n      F_{avg}\\Delta t&=\\Delta p\\\\\n      (360)(0.28)&=m(19.8)\\\\\n      100.8&=m(19.8)\\\\\n      m&=\\dfrac{100.8}{19.8}\\\\\n      m&=5.09\\textrm{ kg}\\\\\n      \\end{aligned}$\n    \n  - $\\hspace{2em}$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/61cee8d4-0539-4c4c-8657-de344244e996/images/91a2589c-b619-4d71-90f8-2a7948064acb/Screenshot%202025-06-02%20at%208.32.17%E2%80%AF0AM.JPEG)\n\n\n    Parabolic graph with positive gradient. $\\checkmark$\n    Passes through origin. $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe elastic potential energy stored in the cord is proportional to the square of the extension. Since the force acting on the cord is downwards due to the weight of the object, the vertical displacement of the object s as the cord starts to extend equals the extension x of the cord.\n    \n    \n    - $s^2\\propto x^2\\propto E_{H}$\n\n    This relationship can be represented by a graph in the shape of\n    \n    \n    - $y=x^2$\n\n    \n  - Weight of the object = force of the spring on the object/$W=kx$ $\\checkmark$\n    \n    \n    - $k=\\dfrac{W}{x} = \\dfrac{49}{11}$\n    - $k=\\answer{4.5\\ \\ce{ N m}^{-1}}$ $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe forces acting on the object are the weight of the object and the force of spring on the object. When the object has no acceleration, these two forces are balanced by each other. The weight of the object;\n    \n    \n    - $W=mg=\\left(5.0\\right)\\left(9.81\\right)=49$ N\n\n    By using Hooke's Law:\n    \n    \n    - $F=kx$\n    - $k=\\dfrac{F}{x}$\n    - $k=\\dfrac{49}{11}$\n    - $k=4.5$ N m$^{-1}$\n\n    \n\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '12',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'd4703009-2358-48e3-9146-7379c49cfdfe',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 30',
+    content:
+      '\n- Define momentum. <span class="marks">[1]</span>\n\n- A golf ball of mass 45 g moving with a constant velocity of 2.0 m s$^{-1}$ undergoes a head-on collision with a stationary ball of mass 2.0 kg. The line that joins the centres of the balls is along the direction of the velocity of the golf ball.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/8938a3c8-d2bf-44c4-b8c6-8c7e95c8b110/images/a31f1159-d99f-4baa-a497-a3dd8fb09c8a/Screenshot%202025-06-30%20at%205.41.16%E2%80%AFPM.png)\n\n\n  \n  - Use Newton\'s Third Law and Second Law to deduce why the change in momentum of the golf ball is equal and opposite to the change in momentum of the stationary ball during the collision. <span class="marks">[3]</span>\n\n  - The variation of force acting on the golf ball $F$  with the time $t$ during the collision is shown in the graph.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/8938a3c8-d2bf-44c4-b8c6-8c7e95c8b110/images/56c450d9-aa69-4205-b5b8-66efcaaa540a/Screenshot%202025-06-30%20at%205.05.14%E2%80%AFPM.png)\n\n\n    Show that the magnitude of the change in momentum of the golf ball is approximately 0.09 kg m s$^{-1}$. <span class="marks">[2]</span>\n\n  - Calculate the speed of the golf ball just after the collision. <span class="marks">[3]</span>\n\n  - Discuss whether the collision is elastic or inelastic. <span class="marks">[4]</span>\n\n\n',
+    markScheme:
+      "\n- The product of mass and velocity. $\\checkmark$\n\n\n\n- \n  - According to Newton's third Law, the force acting on the golf ball equals and is opposite to the force acting on the stationary ball/$F_g=-F_s$ $\\checkmark$\n    According to Newton's Second Law, the net force equals the rate of change in momentum/$\\dfrac{\\Delta p_g}{\\Delta t}=-\\dfrac{\\Delta p_s}{\\Delta t}$ $\\checkmark$\n    Since the time of collision is the same for both of the objects, changes in momenta are equal but in opposite directions/ since $\\Delta t$ for each ball is equal, $\\Delta p_g=-\\Delta p_s$ $\\checkmark$\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nAccording to Newton's third law, the force acting on the golf ball $F_g$ equals and is opposite to the force acting on the stationary ball $F_s$ during the collision.\n    \n    \n    - $F_g=-F_s$\n\n    According to Newton's Second Law, the net force equals the rate of change in momentum. Therefore, the rate of change in momentum of the ball $\\dfrac{\\Delta p_g}{\\Delta t}$   equals and is opposite to the rate of change of momentum in the stationary ball $\\dfrac{\\Delta p_s}{\\Delta t}$.\n    \n    \n    - $\\dfrac{\\Delta p_g}{\\Delta t}=-\\dfrac{\\Delta p_s}{\\Delta t}$\n\n    Since the time of collision is the same for both of the objects, changes in momenta are equal but in opposite directions.\n    \n  - Area under the graph = impulse / change in momentum $\\checkmark$\n    change in momentum = $\\dfrac{1}{2}(2.4)(72 \\times 10^{-3}) = \\answer{0.086\\ \\textrm{kg m s}^{-1}}$ $\\checkmark$ (extra significant figures must be shown to receive full marks)\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe area under the “Force acting on the object” “Time of acting force” graph equals the impulse and also the change in momentum. Therefore, the area of the triangle $A_t$ should be calculated to get the change in momentum $\\Delta p$;\n    $\\begin{aligned}\n     \\Delta p &= A_t\\\\\n      &= \\dfrac{1}{2}bh\\\\ \n      &= \\dfrac{1}{2}(2.4)(72 \\times 10^{-3})\\\\\n      &=0.086\\textrm{ kg m s}^{-1}\n      \\end{aligned}$\n    \n  - Use of $\\Delta p=mv-mu$ $\\checkmark$\n    $-0.086=(45 \\times 10^{-3})v-(45 \\times 10^{-3})(2.0)$ $\\checkmark$ (negative sign on change in momentum must be seen)\n    $v=\\ll \\dfrac{4 \\times 10^{-3}}{45 \\times 10^{-3}}\\gg= \\answer{0.089\\textrm{ m s}^{-1}}$ $\\checkmark$\n    Note: Use of 0.09 kg m s$^{-1}$ gives a final speed of 0 m s$^{-1}$. This is accepted if full working is shown.\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe force acting on the golf ball during the collision is towards the left. Hence, the change in momentum of the golf ball must be towards the left. When left is chosen as negative and right is chosen as positive for the vectors, the following relationship can be written for change in momentum;\n    $\\Delta p=mv-mu$ where $\\Delta p=-0.086$ kg m s$^{-1}$, $m=45\\times10^{-3}$ kg, $u=2.0$ m s$^{-1}$, and $v=$ final velocity after the collision.\n    $\\begin{aligned}\n     -0.086&=(45 \\times 10^{-3})v-(45 \\times 10^{-3})(2.0)\\\\\n     \\hspace{1em}\\\\\n     (90 \\times 10^{-3})-0.086&=(45 \\times 10^{-3})v\\\\\n     \\hspace{1em}\\\\\n     4 \\times 10^{-3}&=(45 \\times 10^{-3})v\\\\\n     \\hspace{1em}\\\\\n     \\frac{4 \\times 10^{-3}}{45 \\times 10^{-3}}&=v\\\\\n     \\hspace{1em}\\\\\n     0.089\\textrm{ m s}^{-1}&=v\n     \\end{aligned}$\n    \n  - Kinetic energy before the collision = $\\dfrac{1}{2}m_g u_g^2=\\dfrac{1}{2}(45 \\times 10^{-3})(2.0)^2=0.090$ J $\\checkmark$\n    Change in momentum of larger ball = 0.086 N s\n    \n    \n    - $p = mv$\n    - $0.086=2.0v$\n\n    Speed of the stationary ball after the collision $=0.043\\,\\ce{m s}^{-1}$ $\\checkmark$\n    Correct calculation of final total kinetic energy according to the result of (b)(iii)\n    \n    \n    - $E_{total}=\\dfrac{1}{2}(45 \\times 10^{-3})(0.089)^2+ \\dfrac{1}{2}(2.0)(0.043)^2=0.0020$ J\n    - $0.0020$ J $\\checkmark$\n\n    Kinetic energy after is less so the collision is inelastic. $\\checkmark$\n    Note: A calculation leading to the kinetic energy after being equal to the kinetic energy before and a statement that the collision is elastic would score only one mark total.\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe total kinetic energy of the balls before the collision $E_{tkb}$ equals the kinetic energy of the golf ball before the collision $E_{kgb}$;\n    \n    \n    - $E_{tkb}=E_{kgb}=\\dfrac{1}{2} m_g u_g^2=\\dfrac{1}{2}(45 \\times 10^{-3})(2.0)^2=0.090$ J\n\n    The speed of the stationary ball after the collision can be found by\n    $\\Delta p=mv-mu$ where $\\Delta p=0.086$ kg m s$^{-1}$, $m=2.0$ kg, $u=0$ m s$^{-1}$\n    \n    \n    - $\\begin{aligned}\n       \\ 0.086 &=2.0v\\\\\n       \\ \\frac{0.086}{2.0}&= v\\\\\n       \\ 0.043\\textrm{ m s}^{-1}&=v\\\\\n       \\end{aligned}$\n\n    The total kinetic energy of the balls after the collision $E_{tka}$ equals the sum of the kinetic energy of the golf $E_{kga}$ and stationary balls $E_{ksa}$ after the collision;\n    \n    \n    - $\\begin{aligned}\n       E_{tka}&=E_{kga}+E_{ksa}\\\\\n       &=\\frac{1}{2} m_g v_g^2+\\frac{1}{2} m_s v_s^2\\\\\n       &=\\frac{1}{2}(45 \\times 10^{-3})(0.089)^2+\\frac{1}{2}(2.0)(0.043)^2\\\\\n       &=0.0020\\textrm{ J}\n       \\end{aligned}$\n\n    $E_{tkb}>E_{tka}$, the kinetic energy of the systems is not conserved. Therefore, collision is inelastic.\n\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '13',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '0fd4ab02-0d6f-4c95-a7ab-4adc840e8c70',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 33',
+    content:
+      'The engine of a car exerts a constant driving force as the car accelerates from rest along a straight horizontal road. Friction and air resistance are negligible. Which of the following graphs shows how the power of the engine $P$ varies with distance traveled by the car $s$?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/55b65c2b-1a3d-497c-9cb3-9430459ba7ff/images/63372b4f-5716-4339-8b66-882283cf92b4/Screenshot%202025-06-02%20at%2011.25.18%E2%80%AFAM.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/55b65c2b-1a3d-497c-9cb3-9430459ba7ff/images/96b2c4f9-dac1-41fa-9bd8-be6fefb7b546/Screenshot%202025-06-02%20at%2011.25.23%E2%80%AFAM.png)\n\n$\\hspace{1em}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/55b65c2b-1a3d-497c-9cb3-9430459ba7ff/images/5bfae98b-84b2-4180-9db5-f6759bd83290/Screenshot%202025-06-02%20at%2011.25.28%E2%80%AFAM.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/55b65c2b-1a3d-497c-9cb3-9430459ba7ff/images/e66290cc-6d6b-4620-b582-d97535073873/Screenshot%202025-06-02%20at%2011.25.32%E2%80%AFAM.png)\n\n',
+    markScheme:
+      'A\n$\\underline{\\textrm{Explanation}}$:\n\n\n- $P=Fv$\n\nForce is constant so $P\\propto v$.\nConstant force implies constant acceleration. So, we may use the equations for constant acceleration (suvat).\n\n\n- $v^2=u^2+2as$\n\nThe car starts from rest so\n\n\n- $v^2=2as$\n\nGiven that $a$ is constant we can say\n\n\n- $v^2 \\propto s$\n- $v \\propto \\sqrt{s}$\n\nSo as $s$ increases $v$ increases at a decreasing rate.\n\n\n- $P \\propto v \\propto \\sqrt{s}$\n\nTherefore\n\n\n- $P \\propto \\sqrt{s}$\n\nSo as $s$ increases $P$ increases at a decreasing rate and the graph will take the shape of a square-root curve.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '13d1d653-ee30-44a4-accf-305738602c34',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 34',
+    content:
+      'An object is thrown vertically upwards on the surface of the moon. The maximum height that the object can reach is $h$. When the object reaches the height of  $\\dfrac{h}{3}$ above the surface, what is the ratio\n\n$\\hspace{3cm} \\dfrac{\\textrm{Kinetic\\ energy\\ of\\ the\\ object\\ at}\\ \\dfrac{h}{3}\\ }{\\textrm{Gravitational\\ potential\\ energy\\ of\\ the\\ object\\ at}\\ \\dfrac{h}{3}\\ }$\n\n\n\n- A. $\\hspace{1em} 1 $\n- B. $\\hspace{1em}  \t\\dfrac{2}{3}$\n- C. $\\hspace{1em}  \t\\dfrac{3}{2}$\n- D. $\\hspace{1em}  2$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nSince there is no atmosphere on the moon, energy is not lost to the surroundings due to air resistance. At the highest position of the object, all of the kinetic energy will have been converted to gravitational potential energy $E_t$.\nThus the total energy of the object:\n\n\n- $E_t=mgh$\n\nwhere $mg$ is the weight of the object.\nThe total energy at $\\dfrac{h}{3}$ should be the sum of the kinetic $E_{k\\ at\\ \\frac{h}{3}}$ and the gravitational potential energy of the object $E_{p\\ at\\ \\frac{h}{3}}$.\n\n\n- $E_t=E_{k\\ at\\ \\frac{h}{3}}+E_{p\\ at\\ \\frac{h}{3}}$\n- $mgh=E_{k\\ at\\ \\frac{h}{3}}+mg\\dfrac{h}{3}$\n- $mg\\dfrac{2h}{3}=E_{k\\ at\\ \\frac{h}{3}}$\n\nTherefore\n\n\n- $\\dfrac{E_{k\\ at\\ \\frac{h}{3}}}{E_{p\\ at\\ \\frac{h}{3}}}=\\dfrac{mg\\frac{2h}{3}}{mg\\frac{h}{3}}=2$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '13d1d653-ee30-44a4-accf-305738602c34',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 37',
+    content:
+      "A ball with mass $m$ is released from a height of $h$ and undergoes free fall. The ball hits the ground and rebounds vertically. On rebound, the ball reaches a maximum height of $h'$. The time taken for the collision is $T$. During the collision, what are the change in kinetic energy of the ball and the magnitude of the average net force on the ball?\n\n$\\hspace{1em}$ Change in kinetic energy $\\hspace{1em}$ $\\hspace{1em}$ Average force $\\hspace{1em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $mg(h-h')$ $\\dfrac{m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $mg(h'-h)$ $\\dfrac{m(\\sqrt{2gh} - \\sqrt{2gh'})}{T}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $mg(h'-h)$ $\\dfrac{m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $mg(h-h')$ $\\dfrac{m(\\sqrt{2gh} - \\sqrt{2gh'})}{T}$",
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nChange in kinetic energy  = Loss of mechanical energy = change in potential energy\n\n\n- = $mgh' - mgh = mg(h'-h)$\n\nWe can find the velocity before hitting the ground using conservation of energy\n\n\n- $\\dfrac{1}{2}mu^2=mgh$\n\ngiving\n\n\n- $u = \\sqrt{2gh}$\n\nSimilarly, velocity after bouncing from the ground\n\n\n- $v = - \\sqrt{2gh'}$\n\nChange in momentum\n\n\n- $\\Delta p = m (v-u)$ = $m (-\\sqrt{2gh'} - \\sqrt{2gh})$\n\nForce is rate of change of momentum\n\n\n- $F_{av} = \\dfrac{-m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$\n\nBecause the question asks for the magnitude of the average force, we can take the positive value.\n\n\n- $F_{av} = \\dfrac{m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '1d7209f0-d0ce-44fa-ad62-e9bc5b70c775',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 40',
+    content:
+      'A box of mass $2$ kg is pushed with an initial speed of 10 m s$^{-1}$ on a rough horizontal floor. A uniform frictional force of $10$ N acts on the box. What is the distance travelled by the box at the instant when the kinetic energy of the box is halved?\n\n\n- A. $\\hspace{1em}$ 10 m\n- B. $\\hspace{1em}$ 5 m\n- C. $\\hspace{1em}$ 2 m\n- D. $\\hspace{1em}$ 1 m\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe loss of kinetic energy is equal to half of the orinal kinetic energy:\n\n\n- $E_{k(Lost)}= \\dfrac{E_{k(initial)}}{2}$\n\nWork done by friction is equal to the loss of kinetic energy.\n\n\n- $E_{k(Lost)} = W = F_fs$\n- $\\dfrac{E_{k(initial)}}{2} = F_fs$\n\nBy substituting given values in the equation using $E_k=\\dfrac{1}{2}mv^2$\n$\\begin{aligned}\n\\hspace{2em} \\bigg(\\dfrac{1}{2}\\bigg) \\dfrac{(2)(10^2)}{2}  &= 10\\,s\\\\\n\\bigg(\\dfrac{1}{2}\\bigg)(100) &= 10\\,s\\\\\n50 &= 10\\,s\\\\\ns &= 5 \n\\end{aligned}$\nTherefore, the answer is B.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '21f37dfc-70a3-4e54-96b0-200a0a0b6b14',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 44',
+    content:
+      'A box half filled with sand is pulled by a motor at a constant speed of $2.0$ m s$^{-1}$ on a frictionless surface. During the motion, sand is added to the box from above at a constant rate of $\\sigma$ kg s$^{-1}$.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e91a12f8-310f-42b8-a135-30c0ad0e892e/images/fb1ec50a-d277-4d69-95d5-266cdd06f303/Screenshot%202025-05-29%20at%201.45.240%E2%80%AFPM.JPEG)\n\n\n\n\n- State the condition related to the mass of an object in order for the equation $F_{net}=ma$ to be equivalent to the equation $F_{net}=\\dfrac{\\Delta p}{t}$ . <span class="marks">[1]</span>\n\n- The force applied by the motor on the box is $0.11$ N. Determine $\\sigma$. <span class="marks">[2]</span>\n\n- The motor has an efficiency of 75%. Calculate the total power provided to the motor. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- Mass of the object should be constant $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nNet force is equal to the rate of change of momentum\n  \n  \n  - $F_{net}=\\dfrac{\\Delta p}{\\Delta t}=\\dfrac{\\Delta (mv)}{\\Delta t}$\n\n  Therefore $F_{net}$ can depend on the rate of change of mass or the rate of change of velocity or both.\n  The equation\n  \n  \n  - $F=ma$\n\n  is equivalent to\n  \n  \n  - $F=m\\dfrac{\\Delta v}{t}$\n\n  and therefore assumes that mass is constant and that only velocity is changing with time.\n  \n- \n  \n  - $F=\\dfrac{\\Delta p}{t}=\\dfrac{\\Delta(mv)}{t}$\n  - $\\dfrac{F}{v}=\\dfrac{\\Delta m}{t}$\n  - $\\dfrac{F}{v}=\\sigma$ $\\checkmark$\n  - $\\sigma=\\dfrac{0.11}{2.0}= $ $0.055\\textrm{ kg s}^{-1}$  $\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe force $F$ applied to the box;\n  \n  \n  - $F=\\dfrac{\\Delta p}{t}=\\dfrac{\\Delta(mv)}{t}$\n\n  Since $v$ is constant;\n  \n  \n  - $F=\\dfrac{v\\Delta m}{t}$\n\n  When $\\dfrac{\\Delta m}{t}$ is replaced with $\\sigma$;\n  \n  \n  - $F=v\\sigma$\n  - $\\dfrac{F}{v}=\\sigma$ where $F=0.11$ N and $v=2.0$ m s$^{-1}$\n\n  \n  \n  - $\\sigma=\\dfrac{0.11}{2.0}=0.055$ kg s$^{-1}$\n\n\n\n\n- Useful power output of the motor $=\\ll Fv=(0.11)(2.0)=\\gg 0.22$ W $\\checkmark$\n  The power provided to the motor $=\\ll \\dfrac{0.22}{75\\%} \\times 100\\% = \\gg $  0.29 W $ \\checkmark$\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe useful power output $P_o$ of the motor;\n  \n  \n  - $P_o=Fv=(0.11)(2.0)=0.22$ W\n\n  The efficiency of the motor;\n  \n  \n  - Efficiency = $\\dfrac{\\textrm{Useful power output}}{\\textrm{Input power}} \\times 100\\%$\n\n  So the input power;\n  \n  \n  - Input power = $\\dfrac{\\textrm{Useful power output}}{\\textrm{Efficiency}} \\times 100\\%$\n\n  Substitute the given and calculated values;\n  \n  \n  - Input power = $\\dfrac{0.22}{75\\%} \\times 100\\% = 0.29\\,W$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '5',
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'f875c4d5-c4b5-4b20-a929-152af48a5ad3',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 45',
+    content:
+      'A cannonball is fired horizontally from a cannon positioned at the edge of a cliff.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/075709d5-6b82-4c14-84e3-4e295554dd8f/images/a8bab8c2-0aad-4a4d-8b10-7371910c8ac9/PH0562zzz.png)\n\n\n\n- In the context of Newton\'s Laws, explain why the cannon recoils to the left when the cannonball is fired. <span class="marks">[2]</span>\n\n- The initial recoil speed of the cannon is $1.0$ m s$^{-1}$ and its mass is 1200 kg.\n  \n  - After the ball is fired, the cannon rolls to the left and experiences a resistive force of $8.0$ kN as it rolls. Determine the distance covered by the cannon. <span class="marks">[2]</span>\n\n  - The mass of the cannonball is $9.0$ kg. Show that the magnitude of the velocity of the ball after being fired is approximately $133$ m s$^{-1}$. <span class="marks">[2]</span>\n\n  - Calculate the magnitude of the displacement of the cannonball after $5.0$ s.  Air resistance can be ignored. <span class="marks">[3]</span>\n\n\n',
+    markScheme:
+      "\n- By Newton's 3rd law, there is a force to the right acting on the cannonball $\\checkmark$\n  There is an equal and opposite force (to the left) on the cannon $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nThere is a force acting on the cannonball during the firing. According to Newton's third law, there must be an equal and opposite force on the cannon.\n\n\n\n- \n  - $a=\\dfrac{F}{m}=\\dfrac{8000}{1200}=6.7$ m s$^{-2}$\n    $s=\\dfrac{v^2}{2a}=\\dfrac{1}{(2)(6.7)}= $ 0.074 m\n    $\\underline{\\textrm{Further Explanation}}$: \nThe deceleration a of the cannon is:\n    \n    \n    - $a=\\dfrac{F}{m}=\\dfrac{8000}{1200}=6.7$ m s$^{-2}$\n\n    The distance s can be calculated using the uniform acceleration equations\n    \n    \n    - $v^2=u^2+2as$\n\n    where\n    \n    \n    - $v=0$\n    - $u=1$ m s$^{-1}$\n    - $a=-6.7$ m s$^{-2}$\n    - $0=1^2+(2)(-6.7)s$\n    - $s=\\dfrac{1}{(2)(6.7)}=0.074$ m\n\n    \n  - Any reference to the conservation of momentum $\\checkmark$\n    $v_2 = \\dfrac{(-m_1)(v_1)}{m_2} = \\dfrac{-(1200)(1.0)}{9.0} = \\ll$ -133 m s$^{-1} \\gg$ $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nDue to the conservation of momentum, the total momentum of the objects before the firing should be equal to the total momentum of the objects after the firing.\n    The total momentum of the objects before the firing is zero due to the absence of motion. Therefore there total momentum of the objects after firing is also zero\n    \n    \n    - $0=m_1v_1+m_2v_2$\n\n    where\n    \n    \n    - $m_1=1200$ kg\n    - $v_1=1$ m s$^{-1}$\n    - $m_2=9.0$ kg\n    - $v_2=\\dfrac{{-m}_1v_1}{m_2}=\\dfrac{-(1200)(1.0)}{9.0}=-133$ m s$^{-1}$\n\n    The negative sign represents the direction of the velocity. Therefore it is opposite to the direction of the motion of the cannon.\n    \n  - Horizontal displacement $=vt=\\left(133\\right)\\left(5.0\\right)=666$ m $\\checkmark$\n    Vertical displacement=$ut+\\fdrac{1}{2}at^2=\\dfrac{1}{2}\\left(9.81\\right)\\left(5^2\\right)=122$ m $\\checkmark$\n    Displacement of the cannonball$=\\sqrt{{666}^2+{122}^2}= $ 677 m  $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nDue to the absence of air resistance, the horizontal velocity of the ball is constant and vertical velocity increases with the acceleration of free fall. The horizontal displacement x of the cannonball\n    \n    \n    - $x=vt$  where $v=133$ m s$^{-1}$ and $t=3.0$ s\n    - $x=\\left(133\\right)\\left(5.0\\right)=666$ m\n\n    The vertical displacement y of the cannonball\n    \n    \n    - $y=ut+\\dfrac{1}{2}at^2$\n\n    where\n    \n    \n    - $u=0$\n    - $a=9.81$ m s$^{-1}$\n    - $t=5.0\\, s$\n    - $y=\\dfrac{1}{2}\\left(9.81\\right)\\left(5^2\\right)=122\\, $m\n\n    The magnitude of the displacement s can be found by using Pythagoras's theorem;\n    \n    \n    - $s=\\sqrt{x^2+y^2}$\n    - $s=\\sqrt{{666}^2+{122}^2}=677$ m\n\n    \n\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '9',
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '1ff7ccfc-6436-4dbc-a1fd-0c8d58c69995',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 46',
+    content:
+      'A system that consists of two light identical springs connected in series stores a total elastic potential energy $E_p$ when a load is added to the springs. One of the springs is then removed and the same load is added to the remaining spring.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/33f5116a-a5fd-45d6-9813-47893ca89f34/images/673d5011-a1de-4871-a58f-ca4a34260938/Screenshot%202025-05-14%20at%202.13.46%E2%80%AFPM.JPEG)\n\n\n$\\footnotesize{\\textrm{[Created with Chemix (https://chemix.org)]}}$\nIn terms of $E_p$, what is the total elastic potential energy stored in the single spring situation?\n\n\n- A. $\\hspace{1em}$ 2$E_p$\n- B. $\\hspace{1em}$ $E_p$\n- C. $\\hspace{1em}$ 0.5$E_p$\n- D. $\\hspace{1em}$ 0.25$E_p$\n',
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nUsing Hooke's law,\n\n\n- $F=k\\Delta x$\n\nthe elastic potential energy is\n\n\n- $E_p=\\dfrac{1}{2} k\\Delta x^2=\\dfrac{1}{2} F\\Delta x$.\n\nIn the two-spring situation, both springs have an extension given by the equation\n\n\n- $F=k\\Delta x$.\n\nWhen one of the springs is removed, the load remains unchanged and the remaining spring experiences the same extension. Therefore the elastic potential energy stored is also halved.",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: 'f875c4d5-c4b5-4b20-a929-152af48a5ad3',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 47',
+    content:
+      'Two blocks of masses 3.0 kg and 4.0 kg are held stationary with a thread connecting the blocks. The mass of 3.0 kg is on a rough incline that makes an angle of 30° with the ground and it starts to slip up when the other mass is slightly more than 4.0 kg.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/3e083eeb-2ac3-45c1-a54c-95d8955270d7/images/b43aec29-c2a0-4524-b402-66e35e1e23b1/PH0559MS.png)\n\n\n\n- State two differences between static friction and dynamic friction <span class="marks">[2]</span>\n\n- Calculate the coefficient of static friction between the mass of 3.0 kg and the rough surface. <span class="marks">[3]</span>\n\n- The thread connecting masses breaks and the mass of 3.0 kg slides down. Show that the acceleration of the mass of 3.0 kg is around 1.5 m s$^{-2}$. The coefficient of dynamic friction between 3.0 kg mass and the rough surface is 0.40. <span class="marks">[2]</span>\n\n- Determine the speed of the mass of 3.0 kg after it has moved through a vertical height of 1.0 m. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- Static friction occurs when the object is not moving (relative to a surface) and Dynamic friction occurs when there is relative motion between the object and a surface $\\checkmark$\n  The magnitude of static friction is dependent on external forces and the magnitude of dynamic friction is not dependent on external forces OR static friction force can vary up to a maximum while dynamic friction is a constant value  $\\checkmark$\n\n\n\n- Component of weight parallel to the incline = $\\ll mg\\sin(30°)=(3.0)(9.81)(0.5)=\\gg 15 \\ll\\textrm{N}\\gg$ and tension in thread $T=mg=(4.0)(9.81)=39$ N $\\checkmark$\n  Static friction = $\\ll 39-15=\\gg 24 \\ll\\textrm{N}\\gg$ $\\checkmark$\n  coefficient of static friction = $\\ll \\dfrac{24}{(3.0)(9.81)\\cos(30°)}= \\gg$ 0.96 $\\checkmark$ (0.94 to 0.96 accepted)\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nAccording to the diagram, the mass of 3 kg is balanced with weight $W$, tension $T$ static friction $F_f$ and normal force $N$;\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/3e083eeb-2ac3-45c1-a54c-95d8955270d7/images/e14de16f-c457-499c-989c-258323ec83e0/PH0559Q.png)\n\n\n  Weight has two components parallel to the incline $W_h$ and perpendicular to the incline $W_v$;\n  \n  \n  - $W_h=mg\\sin(30°)=(3.0)(9.81)(0.5)=15$ N down to the slope\n\n  The tension balances the weight of the mass of 4.0 kg;\n  \n  \n  - $T=mg=(4.0)(9.81)=39$ N\n\n  The forces parallel to the incline must cancel each other;\n  \n  \n  - $\\begin{aligned}\n     W_h+F_f&=T\\\\\n     \\hspace{1em}\\\\\n     15+F_f&=39\\\\\n     \\hspace{1em}\\\\\n     F_f&=24\\textrm{ N}\\\\\n     \\end{aligned}$\n\n  By using the equation of static friction;\n  $\\begin{aligned}\n   F_f&=\\mu R\\\\\n   \\hspace{1em}\\\\\n   \\mu(3.0)(9.81)\\cos(30°)&=24\\\\\n   \\hspace{1em}\\\\\n   \\mu&=0.96\\\\\n   \\end{aligned}$\n  \n- The dynamic friction = $\\ll\\mu R=(0.40)(3.0)(9.81)\\cos30°=\\gg 10 \\ll N\\gg$ $\\checkmark$\n  \n  \n  - $a$ = $\\ll\\dfrac{14.7-10.2}{3}=\\gg $     1.5 m s$^{-2}$ $\\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$: \nThere are only two forces that act on the mass parallel to the incline. They are components of the weight $W_h$ down to the slope and dynamic friction $F_f$ up the slope. The dynamic friction;\n  \n  \n  - $F_f=\\mu R=(0.40)(3.0)(9.81)\\cos(30°)=10$ N\n  - $F_{net}=ma$\n  - $14.7-10.2=3.0a$\n  - $a=1.5$ m s$^{-2}$\n\n  \n- displacement of the mass = $\\ll \\dfrac{1.0}{\\sin(30^o)} = \\gg 2.0 \\ll\\textrm{m}\\gg$ $\\checkmark$\n  \n  \n  - $v = \\ll\\sqrt{(2)(1.5)(2.0)}=\\gg 2.4 \\ll\\textrm{m s}^{-1}\\gg$ $\\checkmark$\n\n  OR\n  Heat lost due to friction = $\\ll F_f d=(10)(2.0)=\\gg 20\\ll\\textrm{J}\\gg$ $\\checkmark$\n  \n  \n  - $v$ = $\\ll \\sqrt{\\dfrac{(2)(9.0)}{(3.0)}}=\\gg$     2.4 m s$^{-1}$ $\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe overall displacement s of the mass when it displaced 1.0 m vertically;\n  \n  \n  - $s=\\dfrac{1.0}{\\sin(30^o)}=2.0$ m\n\n  By using a suvat equation;\n  \n  \n  - $v^2=u^2+2as$ while $u=0$, $a=1.5$ m s$^{-2}$, and $s=2.0$ m\n  - $v^2=(2)(1.5)(2.0)=6.0$\n  - $v=2.4$ m s$^{-1}$\n\n  This question can be also done with the conservation of energy approach;\n  The energy dissipated due to friction is\n  \n  \n  - $Q=F_f d=(10)(2)=20$ J\n\n  and the change in gravitational potential energy can be found by\n  \n  \n  - $\\Delta E_p=mg\\Delta h=(3.0)(9.81)(1.0)=29$ J\n\n  The gravitational potential energy was converted to thermal energy from friction and kinetic energy, therefore\n  \n  \n  - $29=\\Delta E_k+20$\n  - $\\Delta E_k=9.0$ J\n\n  Solving for speed gives\n  \n  \n  - $\\Delta E_k=\\frac{1}{2} mv^2$\n  - $v=\\sqrt{\\dfrac{2\\Delta E_k}{m}}$\n  - $v=\\sqrt{\\dfrac{(2)(9.0)}{(3.0)}}=2.4$ m s$^{-1}$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '9',
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '16c9303d-b6ab-401a-89d8-0b213277f190',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 49',
+    content:
+      '![SkillUpp Image](https://assets.revisionvillage.com/public/question/a07393e2-13b6-4cef-b722-c8894c128a01/images/c42117b3-7ee7-46c1-b4b9-bd159e6e5cb7/Screenshot%202025-07-08%20at%204.01.21%E2%80%AFPM.png)\n\n\nA cart of mass $m$ enters a smooth vertical loop the loop of radius $R$ with a horizontal speed $u$ at the bottom of the track, as shown. The cart just manages to stay in contact with the track at the top most point of its path.\nIts speed at the bottom of the loop $u$, is given by:\n\n\n\n- A. $\\hspace{1em}$ $u=\\sqrt{5gR}$\n- B. $\\hspace{1em}$ $u=\\sqrt{4gR}$\n- C. $\\hspace{1em}$ $u=\\sqrt{gR}$\n- D. $\\hspace{1em}$ $u=\\sqrt{2gR}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nConservation of energy:\n$E_k + E_p$ at the bottom of the circle = $E_k + E_p$ at the top of the circle.\n\n\n- (I)$\\hspace{0.8em}$ $\\dfrac{1}{2}mu^2+0=\\dfrac{1}{2}mv^2+mg(2R)$\n- $\\hspace{2.2em}u^2=v^2+4gR$\n\nCentripetal force at the top of the loop comes from the weight of the cart and the normal reaction force from the track which both point downwards, towards the centre of the circle at that point. Because the question states that the car just keeps contact with the the track, we can assume that the normal reaction force is effectively zero.\nWriting Newton’s second law at that point gives:\n$\\begin{aligned}\n\\hspace{0.7cm} mg+N &=m\\bigg(\\frac{v^2}{R}\\bigg) \\\\\n\\hspace{1em}\\\\\nmg+0 &= m\\bigg(\\frac{v^2}{R}\\bigg) \\\\\n\\hspace{1em}\\\\\n{v^2}&= gR \\\\\n\\end{aligned}$\nSubstituting this result into (I) gives\n\n\n- $u^2=gR+4gR$\n- $u=\\sqrt{5gR}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '7430da12-6adb-4bf6-8757-425a8056def6',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 50',
+    content:
+      'A mass, $m$, is attached to a spring (of negligible mass) of spring constant $k$ on a smooth horizontal surface. The mass is initially pulled a distance, $x$, from its equilibrium position on the surface and released. At the point where the mass has moved a distance $\\dfrac{x}{3}$ from its starting point, the speed of the mass is $v$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b62c54b1-8f15-4ea7-ab55-a6675f1dc82c/images/e7a41f5e-ccae-4876-b0f5-a8c7b6679199/Screenshot%202025-06-03%20at%205.22.20%E2%80%AFPM.png)\n\n\nWhich expression is equal to $k$?\n\n\n- A. $\\hspace{1em}  $ $\\dfrac{9mv^2}{5x^2}$\n- B. $\\hspace{1em}  $ $\\dfrac{5x^2}{9mv^2}$\n- C. $\\hspace{1em}  $ $\\dfrac{9mv^2}{8x^2}$\n- D. $\\hspace{1em}  $ $\\dfrac{8x^2}{9mv^2}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nSince there is no energy loss due to friction or external forces, the mechanical energy of the system remains constant. After the release of the mass, some of the elastic potential energy of the system is transferred to the kinetic energy of the mass. The extension of the spring at the moment the mass covers the distance of $\\dfrac{x}{3}$:\n\n\n- $x-\\dfrac{x}{3}=\\dfrac{2x}{3}$\n\nThe energy elastic potential energy decreased $\\Delta E_H$ after release to the point where the mass covers the distance of $\\dfrac{x}{3}$:\n\n\n- $\\Delta E_H=\\dfrac{1}{2}kx^2-\\dfrac{1}{2}k\\Bigl(\\dfrac{2x}{3}\\Bigr)^2=\\dfrac{1}{2}k\\dfrac{5x^2}{9}$\n\nThe energy is transferred to kinetic energy $E_K$:\n\n\n- $E_K=\\dfrac{1}{2}mv^2=\\dfrac{1}{2}k\\dfrac{5x^2}{9}$\n- $k=\\dfrac{9mv^2}{5x^2}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: 'd3a9d4b0-03f7-4d6d-a5f3-e8904b2a0bad',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 55',
+    content:
+      'A trapeze artist is swinging from position A to position C as shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/59fccbf9-fd3e-4471-9a50-940ba5f27060/images/c0aaf0a7-fc7e-4d09-a5db-088c89da3945/PH0634a.png)\n\n\n$\\footnotesize{\\textrm{[Source: Image created using Images by OpenClipart-Vectors from Pixabay - https ://pixabay.com]}}$\n\nThe combined mass of the artist and the swing is 70 kg, the length of the rope of the swing is $L$ and the tension in the rope at position B is $T$.\nWhich expression gives the kinetic energy at position B?\n\n\n- A. $\\hspace{1em} \\ \\dfrac{L\\left(T-700\\right)}{2}$\n- B. $\\hspace{1em} \\ \\dfrac{LT}{2}$\n- C. $\\hspace{1em} \\ LT$\n- D. $\\hspace{1em} \\ \\dfrac{L\\left(T+700\\right)}{2}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nAt position B, at the bottom of the circular path, the net force is\n$\\hspace{2em}$ $\\sum F=T-mg=\\dfrac{mv^2}{r}$\nThen, the tension of the rope\n$\\hspace{2em}$ $T=\\dfrac{mv^2}{r}+mg$\nand\n$\\hspace{2em}$ $mg=700 \\ N$\nThe kinetic energy at position B\n$\\hspace{2em}$ $E_k=\\dfrac{1}{2}mv^2$\nRearranging the formula giving the tension we can find an expression for $v^2$:\n$\\hspace{2em}$ $v^2=\\dfrac{r\\left(T-mg\\right)}{m}$\n$\\hspace{2em}$ $v^2=\\dfrac{L\\left(T-700\\right)}{m}$\nThen\n$\\hspace{2em}$ $E_k=\\dfrac{1}{2}m\\left(\\dfrac{L\\left(T-700\\right)}{m}\\right)=\\dfrac{L\\left(T-700\\right)}{2}$',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: '16c9303d-b6ab-401a-89d8-0b213277f190',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 62',
+    content:
+      'An object of mass $1.0$ kg rests on a rough surface. Another object of mass $2.0$ kg is connected to it with a string.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/da1c56d0-cbd4-4733-83bb-5f602f012e48/images/5ad23e85-206e-4711-b2ed-20c0481d45a3/Screenshot%202025-07-08%20at%205.53.49%E2%80%AFPM.png)\n\n\nWhen the objects are released, the masses accelerate at $\\dfrac{g}{2}$. The work done by the tension of the string on the $1.0$ kg mass is $40$ J. Which of the following is correct for the $1.0$ kg mass during this period?\n\nMagnitude of the force of friction / NDistance travelled / m$\\hspace{1.5em}$A.$\\hspace{1.5em}$10$4.0$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$5$4.0$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$10$2.0$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$5$2.0$',
+    markScheme:
+      "B\n\n$\\underline{\\textrm{Explanation}}$:\nThe acceleration is given as $\\dfrac{g}{2}$ which is equal to $\\dfrac{10}{2} = 5$ m s$^{-2}$\nThe free body diagram of the forces on the mass of $2.0$ kg:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/da1c56d0-cbd4-4733-83bb-5f602f012e48/images/c2d6f4fb-acd4-4d56-a0c4-8def2c43d211/Screenshot%202025-05-30%20at%2012.18.45%E2%80%AFPM.JPEG)\n\n\nAccording to Newton's second law, the relationship between tension $T$, the weight of the object $W$ and the acceleration of the object:\n$\\begin{aligned}\nF_{net}&=ma\\\\\n\\hspace{2.3cm}\\\\\nW_2-T&=(2.0)(5)\\\\\n\\hspace{2.3cm}\\\\\n(2)(10)-T&=(2.0)(5)\\\\\n\\hspace{2.3cm}\\\\\nT&=10\\textrm{ N}\\\\\n\\end{aligned}$\nThe free body diagram of the forces on the mass of $1.0$ kg:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/da1c56d0-cbd4-4733-83bb-5f602f012e48/images/60248a9f-84bf-4dfd-b06e-48f3db63eec5/Screenshot%202025-05-30%20at%2012.18.51%E2%80%AFPM.JPEG)\n\n\nThe normal reaction force $F_N$ of the ground on the box balances the weight $W$ of the object. According to Newton's second law, the relationship between Tension $T$, the force of friction on the object $F_f$ and the acceleration of the object\n\n\n- $T-F_f=(1.0)(5)$\n\nWhen the magnitude of $T$ is substituted in the equation;\n\n\n- $10-F_f=(1.0)(5)$\n- $\\hspace{2em}F_f=5$ N\n\nThe work done $W$ by $T$ can be found by the product of $T$ and the distance $d$ travelled by the object.\n\n\n- $W_1=Td$\n- $40=10d$\n- $d=4.0$ m\n",
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4.5'
+  },
+  {
+    paperId: '4a23d8ee-e443-43cb-9d6e-61c1bbd1e9ba',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 64',
+    content:
+      'A mass of $m$ kg is hung on the end of the spring. When the system is in equilibrium, the elastic potential energy stored in the spring is $E$.\nA downward force is then applied to the system causing the total elastic potential energy stored to double. This is shown in the diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/994b69a7-9232-4ddf-af1a-8fc88644a46e/images/f5d4dd36-540a-481c-9368-870249a86090/Screenshot%202025-06-02%20at%2010.50.30%E2%80%AFAM.png)\n\n\n[© Revision Village 2022. Created with https://chemix.org/]\nThe downward force is then removed, and the system oscillates about the equilibrium position.\nWhat is the magnitude of the downward force and the kinetic energy of the mass as it passes the equilibrium position?\nYou may assume friction and air resistance are negligible.\n\nMagnitude of downward forceKinetic energy of mass as it passes equilibrium$\\hspace{1.5em}$A.$\\hspace{1.5em}$($\\sqrt {2}$ - 1)$mg$ $E$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$($\\sqrt {2}$ - 1)$mg$(3 $-$ 2 $\\sqrt {2}) E$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $\\sqrt {2}\\,mg$ $E$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $\\sqrt {2}\\,mg$(3 $-$ 2 $\\sqrt {2}) E$',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nLet\n\n\n- $E = \\dfrac {1}{2} kx{^2}$\n\nWhere $k$ is the spring constant and $x$ is that extension of the spring when it is in the equilibrium position. (This is the length of the spring with mass $m$ attached - natural length of the spring).\nLet $W = mg$ be the (weight) force of the mass hanging on the spring.\n\n\n- $W = kx$\n\nSubstituting $x = \\dfrac {W}{k}$ into $E = \\dfrac {1}{2} kx{^2}$  gives\n\n\n- $E = \\dfrac {W{^2}}{2k}$\n\n$k$ is constant so we may say that $E$ $\\alpha$ $W{^2}$\n\n\n- $\\dfrac {E}{W{^2}}$ = constant\n\nSo, we may write\n\n\n- $\\dfrac {W{^2}}{E} = \\dfrac{(F_{t})^2}{2E}$\n\nwhere $F_{t}$ is the total force acting on the spring when it is being pulled down.\n\n\n- $W{^2} = \\dfrac{(F_{t})^2}{2}$\n\n\n\n- $2W{^2} = {(F_{t})^2}$\n\n\n\n- $\\sqrt {2} W = F_{t}$\n\nFinding the extra force gives\n\n\n- $F_{extra}=F_{t} - W = \\sqrt {2} W - W = (\\sqrt {2} - 1) W = (\\sqrt {2} - 1)mg$\n\nFor kinetic energy:\n$E_{k}$ is not equal to $2E - E = E$ because $GPE$ is involved as well as $E_{k}$ and $EPE$.\nThe simplest way to treat this scenario is to consider the ‘extra force’, $F_{extra}$ and ‘extra extension from equilibrium’, $x_{extra}$.\n\n\n- $F_{extra}$ = $kx_{extra}$\n\nAnd $k = \\dfrac{mg}{x}$\nSo\n\n\n- $(\\sqrt {2} - 1)mg = \\dfrac{mg}{x}(x_{extra})$\n- $(\\sqrt {2} - 1) = \\dfrac{1}{x} (x_{extra})$\n- $(x_{extra})= (\\sqrt {2} - 1)x$\n- $E_{k} = \\dfrac{1}{2}k((\\sqrt {2} - 1)x){^2}$\n- $E_{k} = \\dfrac{1}{2}kx{^2}((\\sqrt {2} - 1)){^2}$\n- $E_{k} = E ((\\sqrt {2}){^2} - \\sqrt {2} - \\sqrt {2} + 1)$\n- $E_{k} = (3 - 2 \\sqrt {2})E$\n\n\n$\\underline{\\textrm{Further intuition}}$:\nIt may seem strange that $E_{k} = \\dfrac{1}{2}k(x_{extra})^2$  because:\n\n\n- $1)$ $EPE$ $\\not= E_{k}$ because $GPE$ is also involved\n- $2)$ $A$ $\\propto$ $B{^2}$ does not imply that (Extra A) $\\propto$ (Extra B)${^2}$\n- $\\hspace{1em}$For example: If $A = B{^2}$, $1 = 1{^2}$ and $4 = 2{^2}$ but $(4 - 1) \\not= (2 - 1){^2}$\n\nBut it turns out that these facts taken together produce the result that $E_{k} = \\dfrac{1}{2}k(x_{extra})^2$ . Here is proof:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/994b69a7-9232-4ddf-af1a-8fc88644a46e/images/2ed1869c-46b6-41fc-bb1d-862f99f222a5/Screenshot%202025-06-02%20at%2010.49.31%E2%80%AFAM.png)\n\n\nIf the spring is in position 3 and the extra force is released, the mass will move upwards (past position 2) and oscillate in simple harmonic motion with position 2 as the equilibrium.\nLet us take $GPE$ to be zero in position 3.\nTotal energy in position $3 = \\dfrac{1}{2}k(x + y){^2} = \\dfrac{1}{2}k(x{^2} + 2xy + y{^2})$\nTotal energy in position $2 = E_{k} + mgy + \\dfrac{1}{2}kx{^2}$\nEnergy is conserved so $E_{k} + mgy + \\dfrac{1}{2}kx{^2} = \\dfrac{1}{2}k(x{^2} + 2xy + y{^2})$\n\n\n- $E_{k} + mgy + \\dfrac{1}{2}kx{^2} = \\dfrac{1}{2}kx{^2} + kxy+ \\dfrac{1}{2}ky{^2}$\n- $E_{k} + mgy = kxy + \\dfrac{1}{2}ky{^2}$\n\nNow $k = mgx$ so\n\n\n- $E_{k} + mgy = (\\dfrac{mg}{x})xy + \\dfrac{1}{2}ky{^2}$\n- $E_{k} + mgy = mgy + \\dfrac{1}{2}ky{^2}$\n- $E_{k} = \\dfrac{1}{2}ky{^2}$\n- $E_{k} = \\dfrac{1}{2}k(x_{extra})^2$\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '5'
+  },
+  {
+    paperId: 'f9ae5e08-7ee9-4f23-a462-592e6070a763',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 12',
+    content:
+      'A uniform beam of total length $L$ and mass $m$ is hinged on one end and acted upon by a horizontal force of magnitude $F$ on its other end.\nThe beam is held stationary at rest at an angle $\\theta$ above the horizontal as shown in the diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/648289e9-f8b8-498b-a242-e4013c1aede6/images/2a6cb9b3-26cf-446b-82e6-8eaa0049c35a/Screenshot%202025-06-03%20at%202.37.01%E2%80%AFPM.png)\n\n\nWhich of the following correctly expresses the value of $F$?\n\n\n\n- A. $\\hspace{1em}  $ $2mg\\tan{\\theta}$\n- B. $\\hspace{1em}  $ $\\dfrac{2mg}{\\tan{\\theta}}$\n- C. $\\hspace{1em}  $ $\\dfrac{mg}{2\\tan{\\theta}}$\n- D. $\\hspace{1em}  $ $\\dfrac{mg\\tan{\\theta}}{2}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe beam is in rotational equilibrium which means that the total torque (from any point) must be zero.\nTaking the axis of the hinge as the centre of torques there are two forces exerting torque on the beam: weight and the horizontal force of magnitude $F$.\nThe magnitude of the torque exerted by the weight is given by:\n\n\n- ${\\tau}_{weight}=\\dfrac{L}{2}mg\\cos{\\theta}$\n\nThe magnitude of the torque exerted by the horizontal force is given by:\n\n\n- ${\\tau}_F=L(\\sin{\\theta}) F$\n\nBy equating these equations, we get:\n\n\n- $\\dfrac{L}{2}mg\\cos{\\theta} = L(\\sin{\\theta}) F$\n\nWhich can be solved for $F$ leading to:\n\n\n- $F=\\dfrac{mg\\cos{\\theta}}{2\\sin{\\theta}}=\\dfrac{mg}{2\\tan{\\theta}}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '1ff7ccfc-6436-4dbc-a1fd-0c8d58c69995',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 13',
+    content:
+      'An object which is initially rotating with a frequency of 2 s$^{-1}$. It is acted upon a constant torque which produces an angular deceleration of magnitude 6 rad s$^{-2}$.\nWhich of the following best describes the number of complete rotations of the object until it comes to rest?\n\n\n- A. $\\hspace{1em}  $ 2\n- B. $\\hspace{1em}  $ 3\n- C. $\\hspace{1em}  $ 4\n- D. $\\hspace{1em}  $ 6\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe angular speed can be expressed in terms of the frequency of rotation $f$ as:\n\n\n- $\\omega=2\\pi f$\n\nThe object is initially rotating with an angular speed equal to:\n\n\n- $\\omega = 2\\pi (2\\textrm{ s}^{-1} )$\n- $\\omega = 4\\pi \\, \\text{rad}\\textrm{ s}^{-1}$\n\nGiven that the torque is described constant (constant angular acceleration) the following equation from the booklet can be used:\n\n\n- ${\\omega}_f^2={\\omega}_i^2+2\\alpha \\theta$\n\nSubstituting the given values and the fact that as the object comes to a rest $ω_f$ is zero, the equation can be written as:\n\n\n- $0=(4\\pi \\, \\text{rad s}^{-1})^2+2(-6\\,\\text{rad s}^{-2} )\\theta $\n\nSolving for $\\theta$ leads to:\n\n\n- $\\theta=\\dfrac{(4\\pi \\, \\text{rad s}^{-1})^2}{12\\, \\text{rad s}^{-2}}=\\dfrac{4}{3}{\\pi}^2 \\, \\text{rad}$\n\nThis value represents the angle through which the object rotates until coming to a rest. It can then be divided by $2\\pi$ leading to the number of complete rotations.\n\n\n- #rotations $=\\dfrac{\\theta}{2\\pi}=\\dfrac{2}{3}\\pi$\n- #rotations $\\approx 2.09$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'f1bd93cd-6579-40c4-bf4d-019d23a187df',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 15',
+    content:
+      'A uniform rod of mass $M$ and length $L$ rotates around a vertical axis through its center. Two equal forces act on the rod as shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/abc8552b-f2af-406e-9782-98ecc856ffa9/images/643b69ac-8b0a-4838-b20d-66e33be9978b/Screenshot%202023-08-07%20at%202.12.35%20PM.png)\n\n\nThe moment of inertia of the rod when rotating about its centre is  $\\dfrac{1}{12} ML^2$.\nWhich of the following gives the angular acceleration of the rod?\n\n\n- A. $\\hspace{1em}  0$\n- B. $\\hspace{1em}  \t\\dfrac{6F}{ML}$\n- C. $\\hspace{1em}  \t\\dfrac{12F}{ML}$\n- D. $\\hspace{1em}  \\dfrac{24F}{ML}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe net torque of the two forces is\n\n\n- $\\tau =2Fr$\n\nSince\n\n\n- $r=\\dfrac{L}{2}$\n\nThen\n\n\n- $\\tau =2F\\dfrac{L}{2}=FL$\n\nThe torque is related to angular acceleration by\n\n\n- $\\tau =I\\alpha$\n- $FL=  \\dfrac{1}{12} ML^2 \\alpha$\n- $\\alpha=\\dfrac{12F}{ML}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '1d7209f0-d0ce-44fa-ad62-e9bc5b70c775',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 13',
+    content:
+      'At a relativistic speed, a rocket journeyed from Earth to Saturn. The duration of the travel is measured according to the stationary observer on earth as $t$. The length of the rocket is measured according to the observer in the rocket as $L$.  Which of the following is correct for the time of travel according to the observer in the rocket and the length of the rocket according to the observer on the Earth?\n\nTime of travel (rocket observer)Length of the rocket (Earth observer)$\\hspace{1.5em}$A.$\\hspace{1.5em}$Less than $t$Shorter than $L$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$Less than $t$Longer than $L$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$Greater than $t$Shorter than $L$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$Greater than $t$Longer than $L$',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nAt relativistic speeds, the duration of an event measured by an observer in the same reference frame as the event is shorter than the measured time by the stationary observer due to dime dilation. Therefore, the time of travel should be measured as less than $t$. Similarly, when an object moves at a relativistic speed relative to an observer, its length appears to contract in the direction of motion from the perspective of the stationary observer. Hence, the length of the rocket should be shorter than $L$.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'd4703009-2358-48e3-9146-7379c49cfdfe',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 22',
+    content:
+      'A spaceship is moving at a speed of $0.80 c$ relative to a stationary observer on Earth. An event occurring in the spaceship is measured by an observer in the spaceship to have a duration of $12$ s. What is the duration of the event as measured by the stationary observer on Earth?\n\n\n- A. $\\hspace{1em}  \t7.2$ s\n- B. $\\hspace{1em}  \t12$ s\n- C. $\\hspace{1em}  \t15$ s\n- D. $\\hspace{1em}  \t20$ s\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nLorentz factor for the situation:\n\n\n- $\\gamma=\\dfrac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}=\\dfrac{1}{\\sqrt{1-\\frac{{(0.8c)}^2}{c^2}}}$\n- $\\hspace{1em} =\\dfrac{1}{\\sqrt{1-0.64}}=\\dfrac{1}{0.6}=\\dfrac{5}{3}$\n\nTime measured by stationary observer\n\n\n- $=\\gamma t=\\left(\\dfrac{5}{3}\\right)\\left(12\\right)=20$ s\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: 'c86e9dd6-feb1-44dc-9a68-0bdc8cddcaaa',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 26',
+    content:
+      'A train with a proper length of $500$ m  is moving at a speed $v=0.76c$ with respect to an external stationary observer $X$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/212f2581-bbe3-4530-99ef-33fcb93ee8ae/images/18eafed2-6eca-4fbf-8d4c-5a651623a1e0/Screenshot%202025-06-03%20at%205.14.22%E2%80%AFPM.png)\n\n\nWhen exactly half the train has passed next to the observer, two light bulbs placed at opposite ends of the train are turned on simultaneously, according to the frame reference of the train.\nAccording to observer $X$, which light bulb is turned on first and what is the time interval, $\\Delta t$ between the two lights turning on?\n\n$\\hspace{1.5em}$ Turns on first $\\hspace{1.5em}$ $\\hspace{1.5em}$ $\\Delta t$ $\\hspace{1.5em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$A$1.95\\,\\mu$s$\\hspace{1.5em}$B.$\\hspace{1.5em}$B$1.95\\,\\mu$s$\\hspace{1.5em}$C.$\\hspace{1.5em}$A$3.90\\,\\mu$s$\\hspace{1.5em}$D.$\\hspace{1.5em}$B$3.90\\,\\mu$s',
+    markScheme:
+      "A\n\n$\\underline{\\textrm{Explanation:}}$\nThere two independent events which correspond to both light bulbs turning on.\nThe coordinates of these events, according to the reference frame $S'$ (moving train) are as follows:\n$t_A'=0;\\ x_A'=-250$ m $\\hspace{5em}$ $t_B'=0;\\ x_B'=250$ m\nIn order to find the time coordinates of these events in the frame of the observer we can use Lorentz transformation:\n\n\n- $t=\\gamma \\Bigl(t'+\\dfrac{vx}{c^2}\\Bigl)$\n- $t_A=\\dfrac{1}{\\sqrt{1-\\frac{(0.76c)^2}{c^2}}}\\Bigl(0+\\dfrac{(0.76 c)(-250\\,\\ce{m})}{c^2}\\Bigr)$\n- $\\hspace{1.2em}=-9.74\\times10^{-7}$ s\n- $t_B=\\dfrac{1}{\\sqrt{1-\\frac{(0.76c)^2}{c^2}}} \\Bigl(0+\\dfrac{(0.76c)(250\\,\\ce{m})}{c^2}\\Bigr)=9.74\\times10^{-7}$ s\n\nThese times represent the instants in which the lights are turned on according to the reference frame of the observer. For the observer to see the lights turned on, light would have to travel to the observer. Due to the symmetry of the situation, both signals would have to travel through the same distance up to the observer's eyes, this means that the time difference $t_B-t_A$ is the same as the time difference received by the observer.\nIt is then:\n\n\n- $\\Delta t=t_B-t_A=1.95\\times10^{-6}\\,\\ce{s}=1.95\\,\\mu$s\n",
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '5'
+  },
+  {
+    paperId: '4797ba34-fb46-4d9e-841a-3485d34eb4e4',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 2',
+    content:
+      'An object moves at constant velocity for a period of time, after which it undergoes uniform deceleration until it comes to rest. A velocity-time graph is plotted for this motion. On the graph, which of the following would represent the displacement of the object?\n\n\n- A. $\\hspace{1em}$ Gradient of the line connecting the initial and final velocities.\n- B. $\\hspace{1em}$ x-intercept\n- C. $\\hspace{1em}$ y-intercept\n- D. $\\hspace{1em}$ Area under the graph\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nFor option A, the gradient of the line connecting the starting and ending velocities gives the average acceleration.\nFor option B, x-intercept represents the time of when velocity is zero, therefore is incorrect.\nFor option C, y-intercept represents the velocity when the time is zero, therefore is incorrect.\nFor option D, area under the graph is the displacement, which is the correct answer.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '1a8a092b-8816-4f15-856a-1bd2113cac70',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 6',
+    content:
+      'A coin is tossed vertically upwards from an original height of $1.5$ m above the ground. What is the maximum height reached above the ground if the coin was projected with an initial velocity of 3.0 m s$^{-1}$?  (Take $g=10$ m s$^{-2}$)\n\n\n- A. $\\hspace{1em} 0.45$ m\n- B. $\\hspace{1em} 1.50$ m\n- C. $\\hspace{1em} 1.95$ m\n- D. $\\hspace{1em} 6.00$ m\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nSolution 1: \nMaximum height occurs when the final speed $v$ is zero. The height reached above hand\n\n\n- $\\begin{aligned}\n  \\ s &= \\dfrac{v^2 - u^2}{2a}\\\\\n  \\ s&=\\dfrac{0-9}{-20} \\\\\n  \\ &= 0.45\\textrm{ m}\\\\\n  \\end{aligned}$\n\nTo find maximum height above the ground, $0.45$ m $+\\ 1.5$ m = 1.95 m\n\nSolution 2: \nUsing conservation of energy, kinetic energy is converted completely into gravitational potential energy at the top of the motion\n\n\n- $\\dfrac{1}{2} mv^2 = mgh$\n- $\\dfrac{1}{2} (3)^2 = 10h$\n- $h=0.45$ m\n\nTo find maximum height above the ground, $0.45$ m $+\\ 1.5$ m = 1.95 m',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'b0b6acf0-28c2-4a92-9bc2-e3f3b6b5fcc4',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 12',
+    content:
+      'An object moves 9 m east, then 12 m north.\nWhat is the magnitude of the total displacement of this object?\n\n\n- A. $\\hspace{1em}$ 3 m\n- B. $\\hspace{1em}$ 15 m\n- C. $\\hspace{1em}$ 21 m\n- D. $\\hspace{1em}$ 36 m\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThrough vector addition,\nDisplacement = $\\sqrt{12^2+9^2}=$ 15 m\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e50b399f-ba85-45b3-9d7a-2d74e67e1d12/images/dc7fbbc7-404a-4ee4-a92a-16430a6afe38/Screenshot%202025-04-07%20at%2011.15.26%E2%80%AFAM.JPEG)\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'bf7485ac-c53c-49b6-9b3d-ee1f14a06588',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 13',
+    content:
+      'A car moves clockwise in a circular path as shown. The direction of its instantaneous velocity at two different times is shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/21aa0775-c02f-42e9-9634-13951995f288/PH0496.png)\n\n\nWhich of the following vectors shows the direction of the change in velocity?\nA.$\\hspace{3cm}$B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/88b7624f-0886-4115-8256-99af940a2b46/PH0496A.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/85315f05-4867-40f4-be2d-ccc71a187238/PH0496B.png)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/7fa46ed6-98b1-4454-aee3-ef279b9768b9/PH0496C.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/675b5d83-2283-4319-be39-7fd0e6705a2d/PH0496D.png)\n\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe change in velocity = final velocity - initial velocity = $v_2 + (-v_1)$. In a vector diagram, we represent $-v_1$ as in the opposite direction to the $v_1$ direction, and then add the vectors $v_2$ and  $(-v_1)$ as shown below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d69f696e-7bca-4638-956c-90ddd79961d8/images/d52701ff-7d73-457d-a85d-d5d2fb5dd7fe/PH0496-1.png)\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'c8d4116b-898a-4c28-9c5a-53c2f48ca749',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 15',
+    content:
+      '\n- Define distance. <span class="marks">[1]</span>\n\n- An object moves in a straight line on a level road. The variation of the object\'s distance d with time t is shown on the graph below.\n  \n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/ec0aad4a-2afd-42a6-8ebe-1a8af181242f/Screenshot%202025-07-02%20at%202.47.38%E2%80%AFPM.JPEG)\n\n\n  \n  - Describe the motion of the object between $t=0.5$ s and $t=1.0$ s. <span class="marks">[1]</span>\n\n  - Calculate the instantaneous speed of the object at $t=0.5$ s. <span class="marks">[2]</span>\n\n  - On the axes below, sketch a possible graph of the variation of velocity $v$ of the object with time $t$. There is no need to add values to the axes. <span class="marks">[2]</span>\n\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/c787d9d0-d867-4d03-980d-27f4c5fbad95/Screenshot%202025-07-02%20at%202.50.32%E2%80%AFPM.png)\n\n\n  - Determine the direction of the change in momentum of the object during the motion. <span class="marks">[2]</span>\n\n\n',
+    markScheme:
+      '\n- Length of the path followed $\\checkmark$\n  \n- \n  - Slows down/decelerates $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe slope of the graph gives the speed of the object. The slope decreases between $t=0.5$ s and  $t=1.0$ s. Therefore the object slows down.\n    \n  - Any evidence for drawing tangent at $t=0.5\\, s$ $\\checkmark$\n    $\\ll\\dfrac{28-10}{1-0}=\\gg18\\pm2\\, m\\,s^{-1}$ $\\checkmark$\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe gradient of the graph at the time of interest gives the instantaneous speed of the object. To find the gradient, the tangent line should be drawn.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/db214a2c-2e68-4bce-8a9a-e0cd2cc8719c/Screenshoot%202025-07-02%20at%202.52.52%E2%80%AFPM.JPEG)\n\n\n    The gradient of the tangent line =$\\dfrac{28-10}{1-0}=18$ m s$^{-1}$\n    \n  - A straight or a curved line with a negative gradient $\\checkmark$\n    Starts from the y-intercept and ends up at the x-axis $\\checkmark$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/2ad709bc-247a-45b1-a942-664f5d258dce/images/4ba5e265-a440-45f1-81d9-62bf89b670e0/Screenshot%202025-06-02%20at%2011.30.12%E2%80%AFAM.png)\n\n\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe gradient of the distance-time graph indicates the speed of the object. In one-dimensional motion, speed and velocity have the same magnitude. Since the gradient gets a smaller value with time and ends up with a zero value, velocity gets smaller and be zero at the end.\n    The exact mathematical shape of the distance-time curve is not known, therefore it is not possible to determine the exact shape of the velocity-time graph. A linear graph has been included here, but curvature in the graph is permitted.\n    \n  - The final momentum is less than the initial momentum $\\checkmark$\n    Opposite to the motion/backwards/negative $\\checkmark$\n    \n    $\\underline{\\textrm{Further Explanation}}$: \nThe velocity of the object decreases. Therefore, the final momentum $p_f$ is less than the initial $p_i$ momentum. The change in momentum $\\Delta p$;\n    \n    \n    - $\\Delta p=p_f-p_i$\n\n    since $p_i$ > $p_f$, the result should be negative which indicates the direction of the change in momentum is opposite to the motion of the object.\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: '8',
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '7c00a611-fc38-4533-9ac0-68c970d5153b',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 17',
+    content:
+      'A football player kicks a ball initially at rest. The ball reaches a speed of 36 km h$^{-1}$ in a time of 0.5 s. Which of the following is the acceleration of the ball in terms of the gravitational acceleration, $g$?\n\n\n- A. $\\hspace{1em}$ 0.2$g$\n- B. $\\hspace{1em}$ 0.5$g$\n- C. $\\hspace{1em}$ 2$g$\n- D. $\\hspace{1em}$ 7$g$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nConverting 36 km h$^{-1}$ to m s$^{-1}$:\n\n\n- 36 km h$^{-1}=\\dfrac{36000\\ \\ce{m}}{3600\\ \\ce{s}} = 10\\ \\ce{ m s}^{-1}$\n\nAcceleration is $\\dfrac{\\textrm{change\\ in\\ velocity}}{\\textrm{change\\ in\\ time}}$\ntherefore\n\n\n- $a=\\dfrac{10}{0.5} = 20$  m s$^{-2}$\n\nApproximating $g$ to be 10 m s$^{-2}$, the correct answer is  $2g$.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'a1b6994c-9012-4067-b0ce-3217867ba026',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 20',
+    content:
+      'A student throws a ball with an initial velocity in the horizontal direction. Air resistance is negligible. At $t = 2.0$ s, the ball has travelled a distance $x$ in the horizontal direction and a distance $y$ in the vertical direction.\nWhat are the horizontal and vertical distances covered at $t = 1.0$ s, in terms of $x$ and $y$?\n\nHorizontal distanceVertical distance$\\hspace{1.5em}$A.$\\hspace{1.5em}$ $\\dfrac{x}{2}$ $\\dfrac{y}{4}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $\\dfrac{x}{2}$ $\\dfrac{y}{2}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $\\dfrac{x}{4}$ $\\dfrac{y}{2}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $\\dfrac{x}{4}$ $\\dfrac{y}{4}$',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nHorizontal velocity is constant, therefore, the distance travelled will be half in half the time.\nVertical height is proportional to $t^2$ ($s=\\dfrac{1}{2}at^2$) therefore if time is divided by 2, height will be divided by $2^2$ = 4.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '411f3085-4102-4799-9611-1c1cd5f8f73d',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 22',
+    content:
+      'A train, initially at rest, accelerates steadily at $1.0$ m s$^{-2}$. The distance $s$ travelled during each successive second, for the first five seconds of its motion, was recorded in meters. Which of the following correctly represents the distance covered in each successive second?\n(Diagram is not to scale)\n\n$\\hspace{1.5em}$A.$\\hspace{3.5em}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/e5bba360-5130-4997-81c9-12cafddafa67/images/a83f3eae-d161-4a41-9f8f-d22606e464ef/Screenshot%202025-05-27%20at%204.26.18%E2%80%AFPM.JPEG)\n\n$\\hspace{1em}$ $\\hspace{1.5em}$B.$\\hspace{3.5em}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/e5bba360-5130-4997-81c9-12cafddafa67/images/386b2086-8e1c-4e9e-bf4a-6231d750be7b/Screenshot%202025-05-27%20at%204.26.23%E2%80%AFPM.JPEG)\n\n$\\hspace{1em}$ $\\hspace{1.5em}$C.$\\hspace{3.5em}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/e5bba360-5130-4997-81c9-12cafddafa67/images/fc9e005d-60a8-4f17-a00f-1e4d7de3be39/Screenshot%202025-05-27%20at%204.26.28%E2%80%AFPM.JPEG)\n\n$\\hspace{1em}$ $\\hspace{1.5em}$D.$\\hspace{3.5em}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/e5bba360-5130-4997-81c9-12cafddafa67/images/c2df3d3a-dfd6-4210-ae9f-73009dd848b2/Screenshot%202025-05-27%20at%204.26.34%E2%80%AFPM.JPEG)\n\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nSince the question requires values of distance and provides values of initial velocity, acceleration and time, use a suitable kinematics equation to determine the distance travelled from 0 - 1 s, 0 - 2 s, 0 - 3 s, 0 - 4 s, and 0 - 5 s.\nThen find the distance travelled during each second by subtraction (Subtract distance traveled in first second from distance traveled on first two seconds, etc.)\nCompare your values of distance for each second with the choices given to determine the most suitable choice.\n1$^{\\textrm{st}}$ second: $s = \\dfrac{1}{2}at^2 = \\dfrac{1}{2}(1)(1)^2 = 0.5$ m\nTime 0 to 2: $s = \\dfrac{1}{2}at^2 = \\dfrac{1}{2}(1)(2)^2 = 2$ m (distance traveled 1.5 m)',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'f1f47fc0-3b82-441e-aed5-bc698f1085ed',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 23',
+    content:
+      '\n- \n  - Define acceleration. <span class="marks">[1]</span>\n\n  - A car is moving on a straight road. The variation of the car\'s velocity $v$ with time $t$ is seen in the graph below.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/193123c3-4376-4eb0-a6d6-eaab5e1ac6f9/images/89d74bbe-f554-4361-83e3-86838d4d2316/Screenshot%202025-05-28%20at%2011.18.30%E2%80%AFAM.png)\n\n\n    Describe, in terms of acceleration, the motion of the car. <span class="marks">[2]</span>\n\n\n- A truck with a speed of 20 m s$^{-1}$ passes by a stationary car. The car starts to move with an acceleration of 4 m s$^{-2}$ just as the truck goes past. Both of the vehicles move in the same direction.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/193123c3-4376-4eb0-a6d6-eaab5e1ac6f9/images/a2c4a308-86fe-4749-8457-388fdd6baf59/Screenshot%202025-05-28%20at%2011.20.52%E2%80%AFAM.JPEG)\n\n\n  \n  - Show that the time needed for the car to overtake the truck is 10 s. <span class="marks">[3]</span>\n\n  - On the graph below, draw the variation in speed $v$ of both vehicles with time $t$ during the first 10 seconds of the motion and comment about the areas under the graphs without calculation. <span class="marks">[4]</span>\n\n\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/193123c3-4376-4eb0-a6d6-eaab5e1ac6f9/images/244e46d9-6793-400d-a64e-03bc982e8300/Screenshot%202025-07-03%20at%204.43.13%E2%80%AFPM.png)\n\n\n- In an accident scene, skid marks of a car stretching 100 m are found. According to the manufacturer of the car\'s tires, the deceleration that the car experiences with skidding tires is 5 m s$^{-2}$.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/193123c3-4376-4eb0-a6d6-eaab5e1ac6f9/images/38dc3d97-3a12-41d5-bb01-27933fb461a2/Screenshot%202025-05-28%20at%2011.35.58%E2%80%AFAM.png)\n\n\n  Determine whether the car exceeded the speed limit of 72 km h$^{-1}$. <span class="marks">[4]</span>\n\n',
+    markScheme:
+      '\n- \n  - Rate of change of velocity $\\checkmark$\n  - Accelerates at an increasing rate/increasing acceleration $\\checkmark$\n    Accelerates at a constant rate/constant acceleration $\\checkmark$\n    $\\underline{\\textrm{Further Explanation:}}$ \nThe gradient of the velocity-time graph shows the acceleration of the car. Initially, the slope increases. Then the steepness of the graph is constant. Therefore, acceleration of the car increases initially then it is constant.\n    \n\n- \n  - Use of $s = ut + \\dfrac{1}{2} at^2$ for the car $\\checkmark$\n    Equating distances covered by both vehicles $\\checkmark$\n    \n    \n    - $\\ll s = 2t^2 = 20t \\gg$\n    - $\\ll t^2 = 10t \\gg$\n    - $t =$ 10 s $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation:}}$ \nSince they are at the same position initially, the car has to cover the same distance as the truck in the same time interval. The car accelerates uniformly which enables us to employ suvat equations. The distance travelled by car for a time of $t$;\n    \n    \n    - $s = ut + \\dfrac{1}{2} at^2$ where $u = 0$ and $a = 4$ m s$^{-2}$\n\n    Therefore;\n    \n    \n    - $s = \\dfrac{1}{2} (4)t^2 = 2t^2$\n\n    The truck moves at a constant speed. Hence, its distance for the time of $t$;\n    \n    \n    - $s = vt$\n    - $s = 20t$\n\n    When both of the distances are equated;\n    \n    \n    - $s = 2t^2 = 20t$\n    - $t^2 = 10t$\n    - $t = 10$ $s$\n\n  - Straight line $\\checkmark$\n    Starts from (0,0) and ends at (10,40) $\\checkmark$\n    Horizontal line starts from (0,20) and ends at (10,20) $\\checkmark$\n    $\\ll$ area under the graph of speed time gives distance travelled by the vehicles. Since $\\gg$ they cover the same distance in 10 s according to 2 b (i)   and areas are equal/same $\\checkmark$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/193123c3-4376-4eb0-a6d6-eaab5e1ac6f9/images/8c8caf0f-b37e-434c-86be-355597421efd/Screenshot%202025-07-03%20at%204.45.25%E2%80%AFPM.png)\n\n\n    $\\underline{\\textrm{Further Explanation:}}$ \nThe slope of a speed-time graph of an object moving in one direction is acceleration. Since the car travels with a constant acceleration, the slope of the graph should be constant. Therefore, the graph should be a straight line. The car starts from rest and its speed at $t=10$ s can be found by;\n    \n    \n    - $v=u+at$ where $u=0$, $a=4$ m s$^{-1}$ and $t=10$ s\n    - $v=0+(4)(10)=40$ m s$^{-1}$\n\n    The speed of the truck does not change and it moves at 20 m s$^{-1}$. Its graph should be a horizontal line which has a y-intercept of 20.\n    The areas under the graphs of speed-time equal to the distance covered by the vehicles. Since both of the vehicles travelled the same distance in 10 seconds according to the previous part of the question, the areas should be the same.\n    \n\n- Use of $2as=u^2$ $\\checkmark$\n  $u=31.6$ m s$^{-1}$ $\\checkmark$\n  Conversion of $72$ km h$^{-1}$ to $20$ m s$^{-1}$ $\\checkmark$\n  $30$ m s$^{-1} > 20$ m s$^{-1}$ and yes $\\ll$ it exceeds $\\gg$ $\\checkmark$\n  $\\underline{\\textrm{Further Explanation:}}$ \nThe speed before pushing the brakes can be found by;\n  \n  \n  - $v^2=u^2+2as$ where $v=0$, $a=-5$  m s$^{-2}$ and $s=100$ m\n\n  Substitute given values in the equation;\n  \n  \n  - $0 = u^2 + (2)(-5)(100)$\n  - $0 = u^2 - 1000$\n  - $1000 = u^2$\n  - $u = 31.62$ m s$^{-1}$\n\n  To compare with the speed limit, the unit of speed limit should be converted to m s$^{-1}$ or the initial speed should be converted to km h$^{-1}$\n  \n  \n  - $\\dfrac{\\textrm{72 km}}{\\textrm{1 h}} = \\dfrac{\\textrm{72000 m}}{\\textrm{3600 s}} = 20$ m s$^{-1}$\n\n  Since 31.62 m s$^{-1}$ > 20 m s$^{-1}$ the car exceeds the speed limit.\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '13',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'ebe6991e-043a-4c73-846d-dc972c217a57',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 24',
+    content:
+      'A small object is fired horizontally at a speed of 300 m s$^{-1}$ from the top of a building. Air resistance is negligible. The object lands 900 m from the base of the building. What is the height of the building?\n\n\n- A. $\\hspace{1em}$ 15 m\n- B. $\\hspace{1em}$ 34 m\n- C. $\\hspace{1em}$ 44 m\n- D. $\\hspace{1em}$ 88 m\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nCalculate the time taken for the bullet to land\n\n\n- Speed = $\\dfrac{\\textrm{distance}}{\\textrm{time}} \\Rightarrow \\textrm{time} = \\dfrac{\\textrm{distance}}{\\textrm{speed}} \\Rightarrow \\dfrac{900}{300}$ = 3 s\n\nFor the vertical motion, u = 0 m s$^{-1}$, a = g = 9.81 m s$^{-2}$ , t = 3 s\nUsing the uniform acceleration equation:\n\n\n- $s = ut + \\dfrac{1}{2}at^2$\n- $s = 0 + \\bigg(\\dfrac{1}{2}\\bigg)(9.81)(3)^2$\n- $s = 44$ m\n\nNote that using $g=10$ m s$^{-2}$  here gives an answer of 45 m, with the closest answer being $44$ m.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'ebe6991e-043a-4c73-846d-dc972c217a57',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 25',
+    content:
+      'The graph shows how the speed v of a car varies with time t.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/39bef262-a62a-4d85-baac-207456cf9093/images/fe6ad622-3858-44f9-a2c1-5a9d34a15873/Screenshot%202025-07-03%20at%205.18.15%E2%80%AFPM.png)\n\n\n\n- State the difference between average and instantaneous accelerations. <span class="marks">[2]</span>\n\n- Calculate the instantaneous acceleration of the car at $t=1.0$ s. <span class="marks">[2]</span>\n\n- Determine, with explanation, whether the car covers more distance before or after the car reaches a constant speed. <span class="marks">[5]</span>\n\n',
+    markScheme:
+      "\n- Average acceleration is the change in velocity over a period of time $\\checkmark$\n  Instantaneous acceleration is the acceleration at a particular instant/time/point in space $\\checkmark$\n\n\n\n- Reference to the gradient of the graph = instantenous acceleration $\\checkmark$\n  $7.9\\pm0.5\\ll\\textrm{m s}^{-2}\\gg$ $\\checkmark$\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe gradient of the graph at the interested time gives the instantaneous acceleration of the car. To find the gradient, the tangent line should be drawn. To do this, we draw a line that represents the gradient of the curve at the exact moment when $t=1$ s. Note that this line needs to be estimated by eye, and the mark scheme will normally have an allowed range of values to account for different answers.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/39bef262-a62a-4d85-baac-207456cf9093/images/304dcb46-f0c9-4a4a-a1e9-9844c3f8479d/Screenshot%202025-07-03%20at%205.21.16%E2%80%AFPM.png)\n\n\n  The gradient of the tangent line $= \\dfrac{\\textrm{rise}}{\\textrm{run}}=\\dfrac{26.0-11.0}{1.9-0}=7.9\\textrm{ m s}^{-2}$\n  \n- Time of reaching constant speed = 2.7 or 2.8 s $\\checkmark$\n  Any evidence of distance covered = area under the line $\\checkmark$\n  The distance covered at constant speed  $= \\ \\ll(25.0)(5.0-2.8)=\\ \\gg$ 55$\\ \\ll\\textrm{m}\\gg$ $\\checkmark$\n  Accept 58 m\n  Any sensible estimate of the area to determine displacment before reaching a constant speed $\\checkmark$\n  After $\\checkmark$\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe car reaches the constant speed of $25.0$ m s$^{-1}$ at $t=2.8$ s. This is the point where the graph becomes horizontal. The area under the speed-time graph equals the car's distance travelled. The distance $d_1$ while moving at non-constant speed can be found by the method of small square approximation.\n  The area of one small square =$(1.0\\ \\ce{m s}^{-1})(0.1 \\ce{s}) = 0.1\\textrm{ m}$  and the number of small squares $= 524$\n  $d_1=\\left(524\\right)\\left(0.1\\right)=52.4\\ $m\n  The distance $d_2$ at a constant speed \n$d_2=(25)(5.0-2.8)=55$ m\n  $d_2$ > $d_1$  therefore, the cover covers more distance after reaching the constant speed.\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '9',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '88e9ea2b-f50f-44fb-ae00-8408d81406ed',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 26',
+    content:
+      'An object is moving in a straight line. The graph shows the variation of the velocity $v$ of the object with time $t$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/9c89cf28-1ed7-42b7-a459-43d3f38fd733/images/346ccd81-3ae2-4296-9d59-33ebd8a889f0/Screenshot%202025-07-04%20at%201.18.36%E2%80%AFPM.png)\n\n\nConsider the following statements about the graph:\n\n\n- I.At point A, the object changes its direction.II.At point C the object is at rest.III.The magnitude of the acceleration at point D is greater than at point B.\n\nWhich of the statements is/are correct?\n\n\n- A. I only\n- B. II only\n- C. I and II only\n- D. II and III only\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe slope of the velocity time graph gives the acceleration of the object. Therefore, at points A and D, there is no acceleration due to zero gradient. At point B, there is a negative acceleration.\nAdditionally, the velocity of the object at point C is as it aligns with the horizontal axis where $v=0$.\nHence, the answer is B.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'f1f47fc0-3b82-441e-aed5-bc698f1085ed',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 34',
+    content:
+      'A projectile is launched horizontally on Earth with initial speed of $3.0$ m s$^{-1}$ from a height of $5.0$ m above the ground.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/adca8fcd-c774-446b-a421-eb944e4ddd54/images/51e584df-f2d9-4096-bc80-662140961015/PH0851aaaa.png)\n\n\nWhat is the magnitude of the displacement of the stone when it reaches the ground?\n\n\n- A. $\\hspace{1em}$ $5.0$ m\n- B. $\\hspace{1em}$ $8.0$ m\n- C. $\\hspace{1em}$ $\\sqrt{34}$ m\n- D. $\\hspace{1em}$ $\\sqrt{51}$ m\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nFor the time, analyzing the vertical direction\n$\\hspace{1em}$ $s = \\dfrac{1}{2}at^2$\n$\\hspace{1em}$ $5 = \\dfrac{1}{2}(10)t^2$\n$\\hspace{1em}$ $t = 1$ s\nThe horizonal displacement is\n$\\hspace{1em}$ $\\Delta x = u_x t = (3)(1) = 3$ m\nThe vertical displacement from the diagram is $5$ m.\nThe net displacement is\n\n\n- Displacement $=\\sqrt{5^2 + 3^2} = \\sqrt{34}$ m\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'cbd2b2eb-5fcf-40a9-8944-19c6403a4baf',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 36',
+    content:
+      'The graph shows the variation of speed $v$ of a ball with time $t$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/13b5c41f-9e6b-4937-8397-65c5b2d2336e/images/5281444d-ae8d-4868-83f7-f80dd8085194/Screenshot%202025-05-29%20at%201.10.05%E2%80%AFPM.png)\n\n\nThe initial speed of the ball is very high. Which of the following statements could be true for the ball?\n\n\n- A. It is thrown vertically upward in the presence of air resistance.\n- B. It is thrown vertically upward in the absence of air resistance.\n- C. It is thrown vertically downward in the presence of air resistance.\n- D. It is thrown vertically downward in the absence of air resistance.\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nAccording to the graph, the ball has a decreasing deceleration and reaches terminal velocity. Since the acceleration of the ball is not constant, air resistance must be acting on the ball. Air resistance always acts in the direction opposite to the velocity.\nIn an upward motion, air friction and gravity are in the same direction. Therefore, it is not possible for them to cancel each other so that the ball reaches terminal velocity. It should be moving in the downward direction. Hence, the answer is C.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '88e9ea2b-f50f-44fb-ae00-8408d81406ed',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 40',
+    content:
+      'A car decelerates with a constant rate until it stops.\nWhich graph shows the variation of speed of the car  $v$ with the distance travelled $s$?\n\nA.$\\hspace{2cm}$B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/a6049235-a4da-4a75-84ef-fa4f125f17a1/images/dc6c106f-9423-4076-af71-349a76f6d49e/PH0850aa.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/a6049235-a4da-4a75-84ef-fa4f125f17a1/images/ecdf9631-dbe2-4c9e-9471-91455293b072/PH0850bb.png)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/a6049235-a4da-4a75-84ef-fa4f125f17a1/images/7012af2d-9e8a-48b5-89f7-b121537e78be/PH0850cc.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/a6049235-a4da-4a75-84ef-fa4f125f17a1/images/b643a4ae-9ad7-4081-851b-10148999bcbb/PH0850dd.png)\n\n\n$\\footnotesize{\\textrm{[Source: Image created using https://www.geogebra.org/m/CtfF7SBc]}}$',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nNote that this is a velocity-displacement graph, and so needs to be considered carefully.\nSince\n\n\n- $v^2=u^2+2as$\n\nThe car decelerates to stop\n\n\n- $a$ is negative\n\nThen\n\n\n- $v^2=u^2-2as$\n\nAs the car moves slower, it takes more time to cover the same distance. The velocity changes at a constant rate. Therefore, each increment of distance has a larger and larger change in $velocity$.',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: '20417697-40c7-4517-9f25-2a50218a1629',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 1',
+    content:
+      'The diagram below shows a tennis ball of mass $m$ striking a wall with an initial velocity, $u$, and rebounding with velocity $v$. A second, softer ball of the same mass strikes the wall with the same speed but rebounds with a slower rebound speed.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4bbeffe1-fadb-4f69-a8f6-5a1deb1f20d3/images/a440cac5-43c9-4b14-97ec-4b768f633978/Screenshot%202025-05-14%20at%202.33.06%E2%80%AFPM.png)\n\n\nWhich of the following statements is correct about the magnitudes of the impulse and change in momentum applied to the second ball compared to the first?\n\n$\\hspace{1em}$  Impulse$\\hspace{1em}$Change in momentum$\\hspace{1.5em}$A.$\\hspace{1.5em}$GreaterSmaller$\\hspace{1.5em}$B.$\\hspace{1.5em}$SmallerGreater$\\hspace{1.5em}$C.$\\hspace{1.5em}$GreaterGreater$\\hspace{1.5em}$D.$\\hspace{1.5em}$SmallerSmaller',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe change in momentum and impulse applied to the ball are equal, because the impulse is defined as the change in momentum. Increasing one is the same as increasing the other and vice-versa. The slower rebound speed of the second ball causes a decrease in the magnitude of the impulse since the change in momentum is smaller if the final speed $v$ is smaller.\n\n\n- $J = \\Delta p = m(v - -u) = m(v + u)$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '411f3085-4102-4799-9611-1c1cd5f8f73d',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 3',
+    content:
+      'An object moves in a circular path of radius $2$ m with angular displacement of $\\dfrac{\\pi}{2}$ rad in $5$ s.\nWhat is the average linear speed of the object?\n\n\n- A. $\\hspace{1em}$ $\\dfrac{\\pi}{20}$ m s$^{-1}$\n- B. $\\hspace{1em}$ $\\dfrac{\\pi}{10}$ m s$^{-1}$\n- C. $\\hspace{1em}$ $\\dfrac{\\pi}{5}$ m s$^{-1}$\n- D. $\\hspace{1em}$ $\\dfrac{2\\pi}{5}$ m s$^{-1}$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe linear speed is given by\n\n\n- $v=r\\omega$\n\nand\n\n\n- $\\omega=\\dfrac{\\Delta \\theta }{\\Delta t}$\n\nThen:\n\n\n- $v = (r) \\dfrac{\\Delta \\theta}{\\Delta t} = (2) \\dfrac{(\\frac{\\pi}{2})}{5} = \\dfrac{\\pi}{5}$ m s$^{-1}$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: 'a12d30c8-d9c0-4a62-8c27-aedcbd843b39',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 4',
+    content:
+      'A skydiver of weight, $W$, of a skydiver falls through air with a drag force $F_{drag}$\nIf the skydiver experiences terminal velocity, which of the following best represents the free body diagram of the skydiver?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/c5e968b4-d927-490b-9df8-95e8e1c4c510/images/f7d98c67-c67c-413e-b6dc-6ce1eaddd8f0/Screenshot%202025-04-03%20at%202.26.28%E2%80%AFPM.JPEG)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/c5e968b4-d927-490b-9df8-95e8e1c4c510/images/7e66ac3f-29ca-49cc-965b-4b1ac077eb37/Screenshot%202025-04-03%20at%202.26.38%E2%80%AFPM.JPEG)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/c5e968b4-d927-490b-9df8-95e8e1c4c510/images/c264232f-f4f5-4f65-b6d4-07507de5161f/Screenshot%202025-04-03%20at%202.26.45%E2%80%AFPM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/c5e968b4-d927-490b-9df8-95e8e1c4c510/images/26ffa821-04f6-4987-8f19-ab4c4a016b76/Screenshot%202025-04-03%20at%202.26.56%E2%80%AFPM.JPEG)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nAt terminal velocity there is no accleration. Forces must be balanced, therefore the drag force is equal and opposite to the weight.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '1a8a092b-8816-4f15-856a-1bd2113cac70',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 5',
+    content:
+      'A car of mass $m$ and a truck of mass $3m$ travelling in opposite directions collide and stick together. The speeds of the car and the truck just before the crash are $2v$ and $v$ respectively. What is their speed after the collision?\n\n\n- A. $\\hspace{1em}  \t\\dfrac{1}{4}v$\n- B. $\\hspace{1em}  \t\\dfrac{4}{5}v$\n- C. $\\hspace{1em}  \t\\dfrac{5}{4}v$\n- D. $\\hspace{1em}  \t4v $\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe vehicles move in opposite directions, therefore the total momentum before the collision is\n\n\n- $m(2v)+(-3m)v=-mv$\n\nBy the principle of conservation of momentum, the momentum of the vehicles after the collision is equal to the total momentum before the collision.\n\n\n- $-mv=\\left(m+3m\\right)v_f$\n\nwhere $v_f$ is the velocity of the vehicles after the collisions.\n\n\n- $v_f=\\dfrac{-mv}{4m}$\n- $v_f=\\dfrac{-v}{4}$\n\nTherefore the speed is $\\dfrac{1}{4}v$.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '5c28011b-9529-4b8b-b86f-2c0194ba2da3',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 6',
+    content:
+      'The diagram below shows an object attached to a light inextensible string. The object is travelling in a horizontal circle at a constant speed.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e1407380-c5d8-4cf6-8000-1ed0057396fd/images/86154aae-6a39-4d62-927f-7719e616b6c7/image.png)\n\n\nWhat is the direction of the resultant force acting on the object? Select from the labeled arrows on the diagram.',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe object is moving in a circle at a constant speed so the resultant force = centripetal force. The centripetal force is directed towards the center of the circular path that the object is following. The answer is D.\nThere are two forces acting on the object. Weight (acting in the direction C) and tension (acting in direction A). The resultant of these two forces in the vertical plane is zero. The resultant force is the horizontal component of the tension (acting in the direction D).',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '5c28011b-9529-4b8b-b86f-2c0194ba2da3',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 8',
+    content:
+      'The graph below shows the variation of the resultant force $F$ acting on a box with time $t$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/9dfa696e-4fd4-4a7a-90d1-8830c669456a/PH0579q.png)\n\n\nThe box starts to move from rest. Which of the following graphs shows the variation of the momentum $p$ of the box with time $t$?\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/71fb8624-3e7f-4803-b78f-8670d2c4c075/PH0579a.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/5df1dc95-d879-42fa-9bf5-f4a182c14b3f/PH0579b.png)\n\n$\\hspace{1em}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/10ae312c-2976-4a62-98e5-18a7efeb0dc4/PH0579c.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4aa12405-aa9a-459e-a7d1-0f7fb93cfd4d/images/9fb48b7f-abee-43b9-9d28-76767fb4650b/PH0579d.png)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe area underneath of the force-time graph gives the change in momentum of the box. Since the area increases with time at a constant rate, the momentum should increase at a constant rate. The only graph that satisfies this condition is the graph in A.\nTherefore, the answer is A.\nAlternatively, the impulse equation gives $\\Delta p = F \\Delta t$ .\nAs $F$ is a constant,  $\\Delta p$ is directly proportional to $t$ and a straight line through the origin is expected.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '863d9c45-4b2e-4dab-9d5c-8ea0312b84d1',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 9',
+    content:
+      'As a truck is brought to rest, the brakes apply a force of $5.1 \\times 10^3$ N. Which answer best describes the magnitude of the change in momentum of the truck if the brakes are applied for 3.0 s?\n\n\n- A. $\\hspace{1em}$ $15$ kN s\n- B. $\\hspace{1em}$ $15000$ N s\n- C. $\\hspace{1em}$ $15.3$ kN s\n- D. $\\hspace{1em}$ $15300$ N s\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nNOTE this question requires students to use their judgement to determine the best answer, using standard scientific conventions.\n\n\n- Impulse = change in momentum =\r\n$F \\,t $\n\nSo the magnitude of the change in momentum:\n\n\n- $\\Delta p= (5.1 \\times 10^3$)(3.0) = 15300 N s\n\nAll responses match this quantity but the number of significant figures needs to be considered. As both of the values used in the calculation have two significant figures, there should be two significant figures in the answer.\nIn the answer $15000$ N s, the number of significant figures is unclear. It could be 2, 3, 4 or 5. The response $15$ kN s clearly has two significant figures, so it is the best answer.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'f1f47fc0-3b82-441e-aed5-bc698f1085ed',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 10',
+    content:
+      "A football player bounced the ball off their head as shown while diving sideways:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/db6d3d8f-a4f9-44a6-ac1d-3d502dc3fe03/images/625404da-8e05-4718-839c-665afe99d9b7/PH0146-1.png)\n\n\nWhich of the following gives a Newton's Third Law pair of forces that applies to this situation?\n\nForce 1Force 2$\\hspace{1.5em}$A.$\\hspace{1.5em}$Force of the ball on the playerForce of the ball on the earth$\\hspace{1.5em}$B.$\\hspace{1.5em}$Force of the player on the earthForce of the ball on the player$\\hspace{1.5em}$C.$\\hspace{1.5em}$Force of the earth on the ballForce of the ball on the earth$\\hspace{1.5em}$D.$\\hspace{1.5em}$Force of the earth on the playerForce of the player on the ball",
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe only combination of answers which mentions the correct Newton’s Third Law  force pair is C. In Newton’s Third Law force pairs always occur between only the same two objects.\nIn this case, because the ball and Earth are not in contact, it is the gravitational force that is equal and opposite here.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'd117af49-7e34-428c-b7cb-0229fa77820c',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 11',
+    content:
+      'A block of wood is placed on a rough inclined surface. Which of the diagrams below correctly represents the forces acting on the block when it is at rest?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/6fd66c35-5858-47b6-b951-7ef859c5bc49/PH0261A.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/1efb7d4e-b506-4e9a-b16f-c5b29f42f15e/PH0261B.png)\n\n$\\hspace{1cm}$ $\\hspace{1cm}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/d118c599-94cf-4412-bd58-11ec3f440b08/PH0261C.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/7eecdfde-2269-4e07-9298-f4a45be13e55/images/371d44f4-7847-4a00-acd9-301f34fdd9b2/PH0261D.png)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nWeight always acts vertically downwards\nNormal reaction force is always normal (perpendicular) to the surface\nIn order to remain at rest, friction must act up the incline in order to keep the block from sliding down the incline under the action of the component of weight acting down the incline.\nIn diagram B, friction is acting down the incline. This will result in an acceleration down the incline.\nIn diagram C, the normal reaction is acting opposite to the weight whereas normal reaction must always be perpendicular to the contact surface.\nIn diagram D, weight is shown to act at an angle to the vertical, whereas weight always acts vertically downwards.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'ebe6991e-043a-4c73-846d-dc972c217a57',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 15',
+    content:
+      'Two eggs of equal mass fall from the same height onto a padded floor. One of them is broken while the other one bounces upwards intact. The time of collision is the same for both. Which of the following correctly describes the egg that exerts a greater averge force on the floor and the reason?\n\nEgg with greater average forceReason$\\hspace{1.5em}$A.$\\hspace{1.5em}$BrokenGreater change in momentum$\\hspace{1.5em}$B.$\\hspace{1.5em}$BouncesLess change in momentum$\\hspace{1.5em}$C.$\\hspace{1.5em}$BrokenLess change in momentum$\\hspace{1.5em}$D.$\\hspace{1.5em}$BouncesGreater change in momentum',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nAs the direction of motion of the bouncing egg is changed after the collision, it has a greater change in velocity than the egg that breaks. Therefore, its has a greter change in momentum.\nThe time of collision is the same for both situations. According to $F=\\dfrac{\\Delta p}{\\Delta t}$, the force acting on the egg that bounces back is greater. By using Newton’s third law, it can be stated that the average force acting on the floor from the bouncing egg is greater.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'b0b6acf0-28c2-4a92-9bc2-e3f3b6b5fcc4',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 17',
+    content:
+      'A jet aircraft is performing a “loop-the-loop” stunt in which it moves in a vertical circular path as shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/90c5b45a-7c54-4da3-a9d9-5ad0b4ad3cac/images/d0824da3-0194-4631-aa10-9d3ce1dfd00f/PH00631zz.png)\n\n\n$\\footnotesize{\\textrm{[Source: Image created using Images by nnaakk from Pixabay - https ://pixabay.com]}}$\n\nWhich of the following represents the free body diagram of the pilot at the top of the loop?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/90c5b45a-7c54-4da3-a9d9-5ad0b4ad3cac/images/4c742c4f-98f0-4d85-a677-6f1c23762946/PH0631az.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/90c5b45a-7c54-4da3-a9d9-5ad0b4ad3cac/images/8067d5fd-b147-485f-a09c-216f201100a5/PH0631bz.png)\n\n$\\hspace{1em}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/90c5b45a-7c54-4da3-a9d9-5ad0b4ad3cac/images/6feee77a-249b-4a4b-930a-4620c1310f57/PH0631cz.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/90c5b45a-7c54-4da3-a9d9-5ad0b4ad3cac/images/47a89b02-ad42-4196-b582-3b7bc3e63fbb/PH0631dz.png)\n\n$\\footnotesize{\\textrm{[Source: Image created using Images by OpenClipart-Vectors from Pixabay - https ://pixabay.com]}}$',
+    markScheme:
+      "D\n\n$\\underline{\\textrm{Explanation}}$:\nThere are two forces acting on the pilot which are the gravitational force (weight) and the normal force of the pilot's chair.\nThe normal force always acts from the chair onto the person. At the top of the loop, this will act vertically downwards.\nThe weight is always vertically downwards.",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '88e9ea2b-f50f-44fb-ae00-8408d81406ed',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 18',
+    content:
+      'A stone attached to one end of a rod rotates in a vertical circle at a constant speed. Two positions of the stone at two different instants, X and Y, are shown in the diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d4352f8d-c820-4f4d-bca6-df53ec8d5067/images/791ea751-6d76-46b7-bc0b-d17159b63e87/PH0231-1.png)\n\n\n\nIn the table below, which row is correct for the centripetal force acting on the stone at X and Y?\n\n$\\hspace{1em}$ Direction of centripetal force $\\hspace{1em}$ $\\hspace{1em}$Magnitude of centripetal force$\\hspace{1em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$SameSame$\\hspace{1.5em}$B.$\\hspace{1.5em}$SameDifferent$\\hspace{1.5em}$C.$\\hspace{1.5em}$DifferentSame$\\hspace{1.5em}$D.$\\hspace{1.5em}$DifferentDifferent',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe centripetal force on an object undergoing uniform circular motion is always towards the centre of the circle therefore the direction is different at the different locations. The magnitude of centripetal force is dependent on the radius of the circular path and the speed of the object. Since both locations have the same radius and speed, the magnitude of centripetal force is constant throughout the motion. Therefore, the answer is C.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'c8d4116b-898a-4c28-9c5a-53c2f48ca749',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 19',
+    content:
+      'The diagram below shows the total upward and downward forces acting on a hot air balloon. The relative magnitudes of the forces are drawn to scale.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/df4cb97a-03e0-4bd8-a84c-8dda7444c026/images/3942c2b5-5966-4703-a368-fe8f703caa1a/PH0968Edit.png)\n\n\nBelow are three independent statements about the possible motion of the balloon.\n\n\n- I.The balloon is acceleratingII.The balloon is moving upwardsIII.The balloon is moving downwards\n\nWhich of the statements, when considered independently, could be true?\n\n\n\n- A. $\\hspace{1em}$ I and II only\n- B. $\\hspace{1em}$ I and III only\n- C. $\\hspace{1em}$ II and III only\n- D. $\\hspace{1em}$ I, II and III\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nI is correct - The diagram shows that the upward force is greater than the downward force. So, there is a net upward force acting on the balloon. $F=ma$ so there is an upward acceleration.\nII could be correct – Balloon could be moving upwards - acceleration is also upwards so speed of the balloon would be increasing.\nIII could be correct – Balloon could be moving downwards - acceleration is upwards so speed of the balloon would be decreasing (deceleration).\nFor linear motion, acceleration tells us nothing about the speed, just how the speed is changing. The balloon could be moving upwards, moving downwards or stationary.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '20417697-40c7-4517-9f25-2a50218a1629',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 20',
+    content:
+      'A car is travelling along a straight line for a total time of 100 s. Throughout this time the driving force provided by the car is 1.2 kN and the total resistive force acting on the car is 500 N.\nWhich row correctly shows the rate of change of momentum and the impulse of the car during the 100 s.\n\nRate of change of momentumImpulse$\\hspace{1.5em}$A.$\\hspace{1.5em}$7 $\\times 10{^2}$ kg m s${^{-2}}$7 $\\times 10{^0}$ kg m s${^{-1}}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$7 $\\times 10{^2}$ kg m s${^{-2}}$7 $\\times 10{^4}$ kg m s${^{-1}}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$1.7 $\\times 10{^3}$ kg m s${^{-2}}$1.7 $\\times 10{^1}$ kg m s${^{-1}}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$1.7 $\\times 10{^3}$ kg m s${^{-2}}$1.7 $\\times 10{^5}$ kg m s${^{-1}}$',
+    markScheme:
+      "B\n\n$\\underline{\\textrm{Explanation}}$:\nNewton's second law states that net force = rate of change of momentum.\nTherefore, the rate of change of momentum is simply the net force acting on the car\n\n\n- $\\dfrac{\\Delta p}{\\Delta t}=1200$ N - 500 N = 700 N = 700 kg m s$^{-2}=7 \\times 10^2$ kg m s$^{-2}$\n\nImpulse\n\n\n- $J$ = $F_{net}\\Delta t$ = (700)(100) = 7 $\\times$ $10{^4}$ kg m s$^{-1}$\n",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '4797ba34-fb46-4d9e-841a-3485d34eb4e4',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 22',
+    content:
+      'A block of mass 16 kg is pushed and released along a rough horizontal surface at an initial speed of 2 m s$^{-1}$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/7c45a6b1-fd52-47f4-87cf-51ddb2c7383c/images/0f148f8c-b290-441d-943e-e1bc0eba3a33/Screenshot%202025-05-14%20at%202.30.42%E2%80%AFPM.png)\n\n\nThe block travels through a distance of 16 m and is brought to rest. What is the magnitude of the frictional force that brings the block to rest?\n\n\n- A. $\\hspace{1em}$ 2 N\n- B. $\\hspace{1em}$ 4 N\n- C. $\\hspace{1em}$ 8 N\n- D. $\\hspace{1em}$ 16 N\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe net work done on the block \n= Change in kinetic energy of the block\n$\\begin{aligned}\n W_{net}&=\\Delta E_k \\\\\n \\hspace{1em}\\\\\n Fs \\cos(\\theta)& = \\frac{1}{2}m(v_f)^2 - \\frac{1}{2}m(v_i)^2 \\\\\n\\hspace{1em}\\\\Fs\\cos(\\theta) &= 0 -\\frac{1}{2}m(v_i)^2 \\\\\n\\hspace{1em}\\\\\n(F)(16)(\\cos\\,180^o)&=-\\frac{1}{2}(16)(2)^2 \\\\\n\\hspace{1em}\\\\\n(F)(16)(-1)&=-32 \\\\\n\\hspace{1em}\\\\\nF&=2\\textrm{ N}\\\n\\end{aligned}$\nAlternative:\n\n\n- $v^2 = u^2 + 2as \\Rightarrow a = \\dfrac{v^2 - u^2}{2s} = \\dfrac{0^2 - 2^2}{2(16)} = -0.125$ m s$^{-2}$\n- $|F| = m|a| = 16|-0.125| = 2$ N\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '7c00a611-fc38-4533-9ac0-68c970d5153b',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 23',
+    content:
+      'Two trucks X and Y are pulling a car out of thick mud along a straight path. The only other horizontal force acting on the car is a drag force opposite to the direction of motion. The diagram shows a top view of the direction of the force applied by truck $X$ and the direction of motion of the car.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/039af546-0a6a-489b-aa52-94a641645c42/images/799656dd-0ea3-431e-9ae2-ec036fc0097a/Screenshot%202025-06-30%20at%205.26.09%E2%80%AFPM.png)\n\n\nWhich of the following vectors shows the direction of the force applied by truck $Y$?\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/039af546-0a6a-489b-aa52-94a641645c42/images/af518a6b-1c74-4e1c-9e25-c26470c9ae43/Screenshot%202025-06-30%20at%205.26.19%E2%80%AFPM.png)\n\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe motion of the car here is in the direction of the sum of the two forces vectors from $X$ and $Y$. \nThe only vector that will add to vector $X$ to produce a net force vector to the right is one in the direction of C.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/039af546-0a6a-489b-aa52-94a641645c42/images/e3fe004e-d88c-4539-9390-2d8f35066f14/Screenshot%202025-06-30%20at%205.26.14%E2%80%AFPM.png)\n\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '6327e88e-2eb7-4ab5-ad6b-876b4bc77a73',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 25',
+    content:
+      'A rocket ejects hot gas in space in a direction opposite to its travelling direction. What is correct for the magnitude of the momentum and the kinetic energy of the rocket?\n\nMomentumKinetic Energy$\\hspace{1.5em}$A.$\\hspace{1.5em}$ConservedConserved$\\hspace{1.5em}$B.$\\hspace{1.5em}$IncreasedConserved$\\hspace{1.5em}$C.$\\hspace{1.5em}$ConservedIncreased$\\hspace{1.5em}$D.$\\hspace{1.5em}$IncreasedIncreased',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe rocket is not a closed system. The reaction force from ejecting hot gas will increasingly accelerate the rocket, hence both momentum and kinetic energy will increase.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'a1b6994c-9012-4067-b0ce-3217867ba026',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 30',
+    content:
+      'A car enters a roundabout with a speed $v$. The dotted line shows the path of the car. The road is slightly banked inward at an angle to the horizontal.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/46047306-4c31-4e50-8ee4-a0671285fe55/images/8bef058b-da21-4259-8e52-70155256bcbb/PH0298-1.png)\n\n\nThe coefficient of friction between the tires of the car and the road is $\\mu$. When $\\mu$ decreases, which of the following changes could prevent the car from slipping away on this roundabout?\n\n$\\hspace{1em}$ Banking angle of the turn $\\hspace{1em}$ $\\hspace{3em}$ Speed of the car$\\hspace{3em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$increaseincrease$\\hspace{1.5em}$B.$\\hspace{1.5em}$decreaseincrease$\\hspace{1.5em}$C.$\\hspace{1.5em}$increasedecrease$\\hspace{1.5em}$D.$\\hspace{1.5em}$decreasedecrease',
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nWhen $\\mu$ decreases, the maximum possible frictional force decreases. Friction acts along with the component of the normal force in the horizontal direction to produce the centripetal force. To account for this change, decreasing the speed will allow the car to require less frictional force due to a lower required centripetal acceleration and safely take the turn.\n\n\n- $\\dfrac{mv^2}{r}=\\mu mg$\n\nIncreasing the banking angle increases the component of the normal force that points towards the centre of the circle, providing more centripetal force to compensate for the loss in centripetal force contribution from friction. Remember that in this situation friction is acting towards the centre of the circle, and so having an increased component of the normal force acting towards the centre of the circle will $\\lq$help' friction to turn the car.",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'a12d30c8-d9c0-4a62-8c27-aedcbd843b39',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 32',
+    content:
+      'An object with a weight $W$ connected to one end of a rod of negligible mass rotates at constant speed in a vertical plane.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/51f2e4d1-787c-4b55-bf29-fb6b924bf7bd/images/3c969e82-6e66-4e40-9546-9680f77d93a8/Screenshot%202025-05-14%20at%201.50.52%E2%80%AFPM.JPEG)\n\n\nWhen the object is at the top position of the circular path, the tension on the rod is zero. What is the magnitude of tension at the bottom position of the circular path?\n\n\n- A. $\\hspace{1em}$ Equal to $W$\n- B. $\\hspace{1em}$ Smaller than $W$\n- C. $\\hspace{1em}$ Equal to $2W$\n- D. $\\hspace{1em}$ Greater than $2W$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nAt the top position\n\n\n- $T + W=F_{centripetal}$ and $T = 0$\n\nTherefore,\n\n\n- $F_{centripetal} = W$\n\nAt the bottom\n\n\n- $T - W  =  F_{centripetal}$\n\nSince speed is constant:\n\n\n- $F_{centripetal} = W$\n\nTherefore, the tension at the bottom\n\n\n- $T = 2W$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: 'ebe6991e-043a-4c73-846d-dc972c217a57',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 44',
+    content:
+      'A box with a mass of M rests on a balance in an elevator that is moving downwards. The elevator slows with an acceleration of   $\\dfrac{g}{4}$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b7dab1f3-5df3-4e27-9cbf-cd571f4fa49c/images/668949a1-7b88-4532-bf3c-3689bdf6f746/Screenshot%202025-07-03%20at%204.23.51%E2%80%AFPM.png)\n\n\nWhich of the following gives the reading of the balance?\n\n\n- A. $\\hspace{1em}  \t\\dfrac{5Mg}{4}$\n- B. $\\hspace{1em}  \tMg$\n- C. $\\hspace{1em}  \t\\dfrac{3Mg}{4}$\n- D. $\\hspace{1em}  \\dfrac{Mg}{2}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe reading of the balance is equal to the magnitude of the reaction force. The free-body diagram of the box M:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b7dab1f3-5df3-4e27-9cbf-cd571f4fa49c/images/93aad0fb-70d9-4742-9503-89c79a83c9b5/PH0543-2.png)\n\n\nSince the elevator slows down downwards, the acceleration must be upwards and the normal reaction force ($F_N)$ must be greater than the weight ($F_g$). According to Newton’s Second Law, the following relationship can be written:\n\n\n- $F_N - F_g = ma$\n\nWhen the given expressions are substituted:\n\n\n- $F_N - Mg=M\\bigg(\\dfrac{g}{4}\\bigg)$\n- $F_N = M\\bigg(\\dfrac{g}{4}\\bigg)+Mg$\n- $F_N = \\dfrac{5Mg}{4}$\n\nTherefore, the answer is A.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'cbd2b2eb-5fcf-40a9-8944-19c6403a4baf',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 45',
+    content:
+      'Two blocks of masses $m$ and $2m$ approach each other and collide on a horizontal smooth surface. After the collision, they move together. The speeds of the blocks before the collision are $5v$ and $2v$ as shown.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/f19e4d29-0626-4d4e-860f-091ac4774da8/images/e2a5e8eb-26c4-4918-8298-bcc5c293080c/Screenshot%202025-06-30%20at%205.36.05%E2%80%AFPM.png)\n\n\nWhich of the following correctly gives the speed of the blocks after the collision and the nature of the collision?\n\nSpeed after collisionNature of collision$\\hspace{1.5em}$A.$\\hspace{1.5em}$ $3v$Elastic$\\hspace{1.5em}$B.$\\hspace{1.5em}$ $\\dfrac{v}{3}$Elastic$\\hspace{1.5em}$C.$\\hspace{1.5em}$ $3v$Inelastic$\\hspace{1.5em}$D.$\\hspace{1.5em}$ $\\dfrac{v}{3}$Inelastic',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nAccording to the principle of conservation of momentum, the total momentum before the collision equals the total momentum after the collision.\nAs the blocks are moving in opposite directions, a sign convention is introduced where motion to the right is positive.\n\n\n- $p_{initial} = p_{final}$\n- $m(5v)+2m\\left(-2v\\right)=3mv_f$  where $v_f$ is the speed of the blocks after the collision\n- $mv=3mv_f$\n- $\\dfrac{v}{3}=v_f$\n\nThe initial total kinetic energy of the blocks before the collision $E_{ki}$:\n\n\n- $E_{ki}=\\dfrac{1}{2}m{(5v)}^2+\\dfrac{1}{2}2m{(2v)}^2$\n- $E_{ki}=\\dfrac{1}{2}(33mv^2)$\n\nThe total kinetic energy of the blocks after the collision $E_{kf}$:\n\n\n- $E_{kf}=\\dfrac{1}{2}(3m){\\bigg(\\dfrac{v}{3}\\bigg)}^2$\n- $E_{kf}=\\dfrac{1}{6}mv^2$\n\nThe total kinetic energy is conserved in elastic collisions while it is not conserved in inelastic collisions.  Since the total kinetic energy before the collision is less than the total kinetic energy of the blocks after the collision, the collision is inelastic.\n(In any collision where objects “stick together” the situation is an inelastic collision.)',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'c8d4116b-898a-4c28-9c5a-53c2f48ca749',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 46',
+    content:
+      'A solid sphere of mass $m$ is released from rest below the surface of oil and moves downwards.\n\n- Draw the free body diagram of the sphere at the instant it was released. <span class="marks">[2]</span>  \n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/0eb89091-7544-4714-b967-648688309f05/images/5abc5ee9-e827-4a82-8625-f76a3d1c9c85/Screenshot%202025-07-03%20at%204.33.43%E2%80%AFPM.png)\n\n\n\n- \n  - Show that the terminal speed of the sphere is given by:\n    $v=\\dfrac{2r^2 g(\\rho_s-\\rho_o)}{9\\eta}$\n    where $\\rho_s$ is the density of the sphere and $\\rho_o$ is the density of oil. <span class="marks">[2]</span>\n\n  - Another sphere from the same material but with mass $8m$ released in the oil. Determine the terminal velocity of the new sphere in terms of the terminal velocity of the smaller sphere, $v$. <span class="marks">[3]</span>\n\n\n',
+    markScheme:
+      '\n- Weight downwards and buoyant force upwards  $\\checkmark$\nWeight arrow is longer than the buoyant force arrow.  $\\checkmark$\n  $\\underline{\\textrm{Further Explanation:}}$\nThe sphere is accelerating downwards. This is because the gravitational force on the sphere is bigger than the buoyant force. Note that at the instant of release, the is no velocity and therefore no drag force.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/0eb89091-7544-4714-b967-648688309f05/images/6b72ec4a-a248-4bff-903d-3f6c8ffa03fc/Screenshot%202025-06-03%20at%204.44.43%E2%80%AFPM.png)\n\n\n  \n- \n  - $mg=\\rho_o Vg+6\\pi \\eta rv$  $\\checkmark$ \nCorrect steps to reach $v=\\dfrac{2r^2 g(\\rho_s-\\rho_o)}{9\\eta}$  $\\checkmark$\n    $\\underline{\\textrm{Further Explanation:}}$\nWhen the sphere reaches terminal speed, its weight is equal to the sum of the buoyant and drag forces.\n    \n    \n    - $F_g=F_b+F_d$\n    - $mg=\\rho_o Vg+6\\pi \\eta rv$\n    - $\\rho_s Vg=\\rho_o Vg+6\\pi \\eta rv$\n    - $v=\\dfrac{\\rho_s Vg-\\rho_o Vg}{6\\pi \\eta r}$\n    - $v=\\dfrac{Vg(\\rho_s-\\rho_o)}{6\\pi \\eta r}$\n    - $v=\\dfrac{\\frac{4}{3}\\pi r^3 g(\\rho_s-\\rho_o)}{6\\pi \\eta r}$\n    - $v=\\dfrac{2r^2 g(\\rho_s-\\rho_o)}{9\\eta}$\n\n    \n  - $r_2=2r$  $\\checkmark$\n$v \\propto r^2$  $\\checkmark$\n$v_2=4v$  $\\checkmark$\n    $\\underline{\\textrm{Further Explanation:}}$\nSince the new sphere is from the same material as that in part (b) (i), then:\n    \n    \n    - $\\dfrac{m_2}{V_2} = \\dfrac{m}{V}$\n    - $\\dfrac{8m}{V_2} = \\dfrac{m}{V}$\n    - $V_2=8V$\n    - $(r_2)^3=8r^3$\n    - $r_2=2r$\n\n    From the relation in (b)(i)\n    \n    \n    - $v \\propto r^2$\n\n    Then\n    \n    \n    - $v_2=4v$\n\n    \n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '7',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'd87da338-cf4f-4b01-a8a0-8b5b970e3d08',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 47',
+    content:
+      'A ball of mass 100 g hits the ground at an angle of $45\\degree$ and a speed of 10 m s$^{-1}$. The collision is elastic, and the ball makes contact with the ground for a total time of 100 ms. This is illustrated below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1f72f77f-7ad8-483e-b91e-8dfeb4cb15c2/images/99fe19b1-7971-4531-bcfc-196700e2ddb3/Screenshot%202025-06-03%20at%202.03.13%E2%80%AFPM.png)\n\n\nWhat is the magnitude of the average net force on the ball during the collision?\n\n\n- A. $\\hspace{1em}  $ $7.1$ N\n- B. $\\hspace{1em}  $ $10$ N\n- C. $\\hspace{1em}  $ $14$ N\n- D. $\\hspace{1em}  $ $20$ N\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\n\n\n- $F_{net}=\\dfrac{\\Delta p}{\\Delta t}=\\dfrac{m\\Delta v}{\\Delta t}$\n\nThe horizontal component of the speed/momentum of the object does not change - the force exerted by ground is purely vertical.\nInitial and final vertical velocities are $-10\\sin{(45\\degree)}$ and +$10\\sin{(45\\degree)}$ if we take upwards as the positive direction (this will give a positive force as the direction of the force exerted by the ground on the ball is upwards) see diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/1f72f77f-7ad8-483e-b91e-8dfeb4cb15c2/images/67e50acf-d004-4a7b-b955-05573f43c304/Screenshot%202025-06-03%20at%202.07.40%E2%80%AFPM.png)\n\n\nFor the vertical direction $\\Delta v=$ final velocity $-$ initial velocity $=10\\sin{45\\degree}-(-10\\sin{45\\degree})=10\\sin{45\\degree}+10\\sin{45\\degree}=20\\sin{45\\degree}$\n\n\n- $F_{net}=\\dfrac{m\\Delta v}{\\Delta t}=\\dfrac{(0.1)(20\\sin{45\\degree})}{0.1}=20\\sin{45\\degree}$ = 14 N\n\n(Here we have converted to SI units 100 g = 0.1 kg and 100 ms = 0.1 s)',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: '7c00a611-fc38-4533-9ac0-68c970d5153b',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 51',
+    content:
+      'A roller coaster car with a mass of 80 kg moves on the track shown in the diagram starting from point A.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/6f8b40cd-a38f-4e89-a840-e407d2693c6d/images/8e2a2b25-a38d-4443-889f-8825dd14b886/PH1005_a.png)\n\n\n$\\footnotesize{\\textrm{[Source: Image created using Images by OpenClipart-Vectors from Pixabay - https:// pixabay.com]}}$\nAt points B and C, the track approximates a circular path so that the radii at at B and C are 12 m and 18 m respectively.\n\n- Compare the normal force exerted by the track on the car at points B and C. <span class="marks">[2]</span>\n\n- Draw and label the free body diagram of the car at point C. <span class="marks">[2]</span>\n\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/6f8b40cd-a38f-4e89-a840-e407d2693c6d/images/ea0213e1-1751-4828-b183-089d74c0f60a/Screenshot%202025-07-04%20at%201.08.24%E2%80%AFPM.png)\n\n\n\n- Calculate the maximum speed of the car at point C so that it could remain on the track. <span class="marks">[3]</span>  \n',
+    markScheme:
+      '\n- $N_B=\\dfrac{mv^2}{r_B}+mg$ AND $N_C=mg-\\dfrac{mv^2}{r_C}$ $\\checkmark$\n  The normal force at B is greater than the normal force at C. $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$:\n  Resolving the forces at B\n  \n  \n  - $\\dfrac{mv^2}{r_B}=N_B-mg$\n  - $N_B=mg +\\dfrac{mv^2}{r_B}$\n\n  While at C,\n  \n  \n  - $\\dfrac{mv^2}{r_C}=mg-N_C$\n  - $N_C=mg-\\dfrac{mv^2}{r_C}$\n\n  The normal force at B is greater than the normal force at C.\n\n\n\n- \n  - .\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/6f8b40cd-a38f-4e89-a840-e407d2693c6d/images/a06209b9-e955-4a18-9e31-0075792f4caa/Screenshot%202025-07-04%20at%201.11.27%E2%80%AFPM.png)\n\n\n    Upward normal force AND downward gravitational force. $\\checkmark$\n    The downward arrow is bigger than the upward arrow. $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$:\nBecause the car is at the top of a curve, the centripetal accleration must be towards the centre which is in the downwards direction. The accleration must also therefore be downwards, so the gravitational force must be greater than the upwards normal force.\n    \n  - The maximum speed is when the normal force is zero. $\\checkmark$\n    $v=\\ll\\sqrt{r_cg}\\gg=\\sqrt{\\left(18\\right)(9.81)}$ $\\checkmark$\n    $v=\\answer{13\\  \\textrm{m s}^{-1}}\\ \\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$:\n    The maximum speed at point C is when the normal force of the track on the car is zero.\n    The normal force at C\n    \n    \n    - $F_N=mg-\\dfrac{mv^2}{r_c}$\n\n    When $F_N = 0$\n    \n    \n    - $mg=\\dfrac{mv^2}{r_c}$\n\n    Using the given value of $r=18$ m\n    \n    \n    - $v=\\sqrt{r_cg}=\\sqrt{(18)(9.81)}=13.29\\textrm{ m s}^{-1}$\n\n    \n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '7',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'd117af49-7e34-428c-b7cb-0229fa77820c',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 54',
+    content:
+      'A mass $m$ is moving on a circular path at the end of a rope of constant length. The centripetal force acting on the mass is $F$.\nThe frequency of the motion is gradually increased.\nWhich graph correctly shows the change of the centripetal force $F_c$ as the frequency $f$ is increased?\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/775fbf10-3bc4-4ebe-b512-ff6082e1e19e/Screenshot%202025-05-28%20at%2010.18.18%E2%80%AFAM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/5cdacb61-797f-46e1-8f53-056da57c9dda/Screenshot%202025-05-28%20at%2010.18.23%E2%80%AFAM.JPEG)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/08449c73-c15e-47dc-ac1c-b31237189261/Screenshot%202025-05-28%20at%2010.18.28%E2%80%AFAM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/9355d0bc-b468-46df-9c70-230fb22bb2de/images/630ba233-a848-4273-b0a6-76a57dfee62b/Screenshot%202025-05-28%20at%2010.18.32%E2%80%AFAM.JPEG)\n\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nIn the data booklet, given centripetal acceleration:\n\n\n- $a=\\dfrac{4\\pi^2r}{T^2}$\n\nwhich can also be expressed as\n\n\n- $a=4\\pi^2rf^2$\n\nSince $F=ma$,\n\n\n- $F=m4\\pi^2rf^2$\n\nTherefore the graph of $F$ vs $f$ must be a quadratic as in A.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'a12d30c8-d9c0-4a62-8c27-aedcbd843b39',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 56',
+    content:
+      'A roller coaster car of mass $m$ approximates circular motion at point $A$ as shown in the diagram.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/10007213-04cb-4d62-9b1c-88f2b14aaab5/images/8e8ebb9e-4b0d-4aa0-a92a-3b7d7d42fb2c/PH0637.png)\n\n\nThe circular radius of the track curvature at point $A$ is $r$ and the track exerts a normal reaction force $F_N$ on the cart.\nWhich expression gives the linear speed of the cart at point $A$?\n\n\n- A. $\\hspace{1em}$ 0\n- B. $\\hspace{1em}$ $\\sqrt{2rg}$\n- C. $\\hspace{1em}$ $\\sqrt{\\dfrac{r(F_N-mg)}{m}}$\n- D. $\\hspace{1em}$ $\\sqrt{\\dfrac{r(mg-F_N)}{m}}$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe centripetal force at point $A$ is the vector sum of the weight of the cart and the normal reaction force of the track\n$\\hspace{2em}$ $F_{centripetal}=mg-F_N$\nAnd\n$\\hspace{2em}$ $F_{centripetal}=\\dfrac{mv^2}{r}$\nThen\n$\\hspace{2em}$ $\\dfrac{mv^2}{r}=mg-F_N$\n$\\hspace{2em}$ $v=\\sqrt{\\dfrac{r(mg-F_N)}{m}}$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '4797ba34-fb46-4d9e-841a-3485d34eb4e4',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 59',
+    content:
+      'A block of mass 4.0 kg rests on an inclined plane.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4498c7b1-1fec-4afe-b22e-1ae34aaaf744/images/a2d8fdc5-6a82-406e-a19b-9649d2967b5c/PH0330.png)\n\n\nThe coefficient of static friction between the block and the plane $\\mu _s$ is 0.4.\nWhich of the following gives the angle of inclination at which the block will start to slide?\n\n\n- A. $\\hspace{1em}$ $\\sin^{-1}(0.4)$\n- B. $\\hspace{1em}$ $\\tan^{-1}(0.4)$\n- C. $\\hspace{1em}$ $\\cos^{-1}(0.4)$\n- D. $\\hspace{1em}$ $\\tan^{-1}(0.6)$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4498c7b1-1fec-4afe-b22e-1ae34aaaf744/images/1ea450be-a2a5-44f8-aca9-38d06abc4237/Screenshot%202025-05-27%20at%205.09.47%E2%80%AFPM.JPEG)\n\n\n\n\n- $F_N = mg\\cos\\theta$\n- $F = \\mu_sF_N$\n- $F = mg\\sin\\theta$\n- $mg(\\sin\\theta) = 0.4mg(\\cos\\theta$)\n- $\\dfrac{\\sin\\theta } {\\cos\\theta}=0.4$\n- $\\tan\\theta = 0.4$\n- $\\theta=\\tan^{-1}(0.4)$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '6327e88e-2eb7-4ab5-ad6b-876b4bc77a73',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 60',
+    content:
+      'Two objects of mass $M$ and $m$ are connected via a frictionless pulley. The rope attached to the object of mass $M$ makes an angle $\\theta$ with the horizontal. The objects are at rest.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/4a39026f-aa75-494c-a20c-39635e9e1fc0/images/155ede1a-26a4-4810-8047-d312bfef3356/Screenshot%202025-06-30%20at%205.43.54%E2%80%AFPM.png)\n\n\nFor the large mass, which expressions are correct for the force of friction F$_f$  and the normal force F$_N$?\n\n$\\hspace{3em}$ F$_f$ $\\hspace{3em}$ $\\hspace{4em}$ F$_N$ $\\hspace{4em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $mg \\cos\\theta$ $Mg - mg \\sin\\theta$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $mg \\sin \\theta$ $Mg - mg \\sin\\theta$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $mg \\sin \\theta$ $Mg - mg \\cos\\theta$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $mg \\cos\\theta$ $Mg - mg \\cos\\theta$',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nResolving vertical forces on the large block:\n\n\n- $F_g = F_N + T\\sin \\theta$\n\nAnd for the large block,\n\n\n- $F_g = Mg$\n\nSubstituting and solving for $F_N$ gives\n\n\n- $F_N =  Mg - T\\sin \\theta$\n\nResolving horizontal forces on the large block:\n\n\n- $F_f = T \\cos \\theta$\n\nFor the vertical forces small block\n\n\n- $T = mg$\n\nSubstituting gives $F_f = mg \\cos \\theta$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '20417697-40c7-4517-9f25-2a50218a1629',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 61',
+    content:
+      'Below are three suggested units for viscocity\n\n\n- I.kg m$^{-1}$ s$^{-1}$II.Pa sIII.N s m$^{-1}$\n\nWhich of the unit combinations is/are correct?\n\n\n- A. $\\hspace{1em}  $ I only\n- B. $\\hspace{1em}  $ II only\n- C. $\\hspace{1em}  $ I and II\n- D. $\\hspace{1em}  $ II and III\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nDrag:\n\n\n- $F_d=6\\pi \\eta rv$\n\nBy making viscosity the subject of the formula:\n\n\n- $\\eta =\\dfrac{F_d}{6\\pi rv}$\n\nUnits are substituted:\n\n\n- $\\eta = \\dfrac{\\textrm{N}}{(\\textrm{m})(\\textrm{m s}^{-1})}=\\dfrac{\\textrm{N}}{(\\textrm{m}^2\\textrm{ s}^{-1})}=\\textrm{ N s m}^{-2}$\n\nBy replacing N m$^{-2}$ = Pa:\n\n\n- N s m$^{-2}$ = Pa s\n\nBy replacing N = kg m s$^{-2}$:\n\n\n- $\\dfrac{\\textrm{N}}{\\textrm{m}^2\\textrm{ s}^{-1}}=\\dfrac{\\textrm{kg m s}^{-2}}{\\textrm{m}^2\\textrm{ s}^{-1}}=\\textrm{kg m}^{-1}\\textrm{ s}^{-1}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'c1adbf45-a8da-4cef-ab48-ee3b2bb05875',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 62',
+    content:
+      'A point $P$ is subjected to three simultaneous forces of magnitudes $F_A > F_B > F_C$. Point $P$ is in equilibrium. Consider of the following statements.\n\n\n- I.$F_A = F_B + F_C$II.$F_A \\leq F_B + F_C$III.$F_A > F_B - F_C$\n\nWhich of the statements is not always true about the magnitudes of the forces?\n\n\n- A. $\\hspace{1em}$ I only\n- B. $\\hspace{1em}$ I and II only\n- C. $\\hspace{1em}$ I and III only\n- D. $\\hspace{1em}$ II and III only\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nVectors of forces in equilibrium form a triangle or a straight line.\nThe sum of two sides of a triangle is always greater than the third (II is always true).\nThe difference between two sides of a triangle is always less than the third (III is also always true).\nI is true only when the three forces are in a straight line and $F_B$ and $F_C$ are both opposing $F_A$(not always true, as required by the question).',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'd87da338-cf4f-4b01-a8a0-8b5b970e3d08',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 66',
+    content:
+      'A box half filled with sand is pulled by a motor at a constant speed of $2.0$ m s$^{-1}$ on a frictionless surface. During the motion, sand is added to the box from above at a constant rate of $\\sigma$ kg s$^{-1}$.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e91a12f8-310f-42b8-a135-30c0ad0e892e/images/fb1ec50a-d277-4d69-95d5-266cdd06f303/Screenshot%202025-05-29%20at%201.45.240%E2%80%AFPM.JPEG)\n\n\n\n\n- State the condition related to the mass of an object in order for the equation $F_{net}=ma$ to be equivalent to the equation $F_{net}=\\dfrac{\\Delta p}{t}$ . <span class="marks">[1]</span>\n\n- The force applied by the motor on the box is $0.11$ N. Determine $\\sigma$. <span class="marks">[2]</span>\n\n- The motor has an efficiency of 75%. Calculate the total power provided to the motor. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- Mass of the object should be constant $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nNet force is equal to the rate of change of momentum\n  \n  \n  - $F_{net}=\\dfrac{\\Delta p}{\\Delta t}=\\dfrac{\\Delta (mv)}{\\Delta t}$\n\n  Therefore $F_{net}$ can depend on the rate of change of mass or the rate of change of velocity or both.\n  The equation\n  \n  \n  - $F=ma$\n\n  is equivalent to\n  \n  \n  - $F=m\\dfrac{\\Delta v}{t}$\n\n  and therefore assumes that mass is constant and that only velocity is changing with time.\n  \n- \n  \n  - $F=\\dfrac{\\Delta p}{t}=\\dfrac{\\Delta(mv)}{t}$\n  - $\\dfrac{F}{v}=\\dfrac{\\Delta m}{t}$\n  - $\\dfrac{F}{v}=\\sigma$ $\\checkmark$\n  - $\\sigma=\\dfrac{0.11}{2.0}= $ $0.055\\textrm{ kg s}^{-1}$  $\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe force $F$ applied to the box;\n  \n  \n  - $F=\\dfrac{\\Delta p}{t}=\\dfrac{\\Delta(mv)}{t}$\n\n  Since $v$ is constant;\n  \n  \n  - $F=\\dfrac{v\\Delta m}{t}$\n\n  When $\\dfrac{\\Delta m}{t}$ is replaced with $\\sigma$;\n  \n  \n  - $F=v\\sigma$\n  - $\\dfrac{F}{v}=\\sigma$ where $F=0.11$ N and $v=2.0$ m s$^{-1}$\n\n  \n  \n  - $\\sigma=\\dfrac{0.11}{2.0}=0.055$ kg s$^{-1}$\n\n\n\n\n- Useful power output of the motor $=\\ll Fv=(0.11)(2.0)=\\gg 0.22$ W $\\checkmark$\n  The power provided to the motor $=\\ll \\dfrac{0.22}{75\\%} \\times 100\\% = \\gg $  0.29 W $ \\checkmark$\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe useful power output $P_o$ of the motor;\n  \n  \n  - $P_o=Fv=(0.11)(2.0)=0.22$ W\n\n  The efficiency of the motor;\n  \n  \n  - Efficiency = $\\dfrac{\\textrm{Useful power output}}{\\textrm{Input power}} \\times 100\\%$\n\n  So the input power;\n  \n  \n  - Input power = $\\dfrac{\\textrm{Useful power output}}{\\textrm{Efficiency}} \\times 100\\%$\n\n  Substitute the given and calculated values;\n  \n  \n  - Input power = $\\dfrac{0.22}{75\\%} \\times 100\\% = 0.29\\,W$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '5',
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'cbd2b2eb-5fcf-40a9-8944-19c6403a4baf',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 67',
+    content:
+      'Two bodies of masses 2 kg and 3 kg are connected by a thread and pulled in the upward direction with an acceleration of $g$ due to an upward force $F$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/eb9106b9-d99e-4523-b2e9-efa16a2c17a6/images/cbe0daf4-7e77-4429-a129-869ae3fb9bb1/PH0245q.JPEG)\n\n\nThe thread between the masses is cut. Which of the following is correct for the bodies just after the cut?\n\nAcceleration of 3 kg massAcceleration of 2 kg mass$\\hspace{1.5em}$A.$\\hspace{1.5em}$ $g$ $g$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $4g$ $g$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $4g$ $4g$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $g$ $4g$',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\n\n\n- $F = ma$\n\nBefore the thread is cut,\n\n\n- $F - W = ma$  for the system\n- $W = mg = 5g    $ and  $\\ ma=5g$\n\nTherefore\n\n\n- $F = 5g + 5g = 10g$\n\nJust after the cut, the 3 kg mass is only under the influence of gravity, so its accleration is equal to $g$\nThe net force on the 2 kg mass is\n\n\n- $F - 2g = 10g - 2g= 8g $\n\nAcceleration of the 3 kg mass = $g$\nAcceleration of 2 kg mass = $ \\dfrac{8g}{2} = 4g$',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'd117af49-7e34-428c-b7cb-0229fa77820c',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 70',
+    content:
+      'A spherical object of radius $r$ is released from rest inside a fluid, after some time it reaches a terminal velocity $v$. The density of the fluid is $\\rho_f$ and the density of the object is negligible compared to $\\rho_f$. Which of the following is a correct expression for the viscosity of the fluid?\n\n\n- A. $\\hspace{1em}$ $\\dfrac{2\\rho_fr^2g}{9v}$\n- B. $\\hspace{1em}$ $\\dfrac{4\\rho_fr^3g}{9v}$\n- C. $\\hspace{1em}$ $\\dfrac{2\\rho_fr^2gv}{9}$\n- D. $\\hspace{1em}$ $\\dfrac{4\\rho_fr^3gv}{9}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nBecause of the very low density of the object, in this situation it will be rising upwards through the fluid and the drag force will be directed downwards. The forces acting on the object are represented in the diagram below:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/fd1b8088-49d6-4cf0-a32e-2f667b767317/images/54c6d222-8e3b-49ea-a0d9-c1152711872e/Screenshot%202025-06-04%20at%209.35.15%E2%80%AFAM.png)\n\n\nWeight is negligible due to the negligible object density.\n\n\n- $\\rho_{\\textrm{object}}\\ll\\rho_f$\n- $(\\textrm{weight}=\\rho_{\\textrm{object}}Vg\\ll\\rho_{\\textrm{object}}Vg=\\textrm{buoyancy})$\n\nWhen the object is at terminal velocity the net force acting on it is zero so we have:\n\n\n- $\\textrm{weight}=\\textrm{drag force}$\n\nWhere:\n\n\n- Buoyancy $=\\rho_fVg$\n- Drag $=6\\pi\\eta rv$\n\nWhere $g$ is acceleration due to gravity, $V$ is the volume of the ball, and $\\eta$ is the viscosity of the liquid.\n\n\n- $\\rho_fVg=6\\pi\\eta rv$\n\nNow substituting the volume of a sphere $V=\\dfrac{4}{3}\\pi r^3$ and rearranging for $\\eta$ we have:\n\n\n- $\\rho_f\\dfrac{4}{3}r^3g=6\\pi\\eta rv$\n- $\\rho_f\\dfrac{4}{3}r^2g=6\\eta v$\n- $\\eta=\\dfrac{2\\rho_fr^2g}{9v}$\n\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'a1b6994c-9012-4067-b0ce-3217867ba026',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 74',
+    content:
+      'A system that consists of two light identical springs connected in series stores a total elastic potential energy $E_p$ when a load is added to the springs. One of the springs is then removed and the same load is added to the remaining spring.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/33f5116a-a5fd-45d6-9813-47893ca89f34/images/673d5011-a1de-4871-a58f-ca4a34260938/Screenshot%202025-05-14%20at%202.13.46%E2%80%AFPM.JPEG)\n\n\n$\\footnotesize{\\textrm{[Created with Chemix (https://chemix.org)]}}$\nIn terms of $E_p$, what is the total elastic potential energy stored in the single spring situation?\n\n\n- A. $\\hspace{1em}$ 2$E_p$\n- B. $\\hspace{1em}$ $E_p$\n- C. $\\hspace{1em}$ 0.5$E_p$\n- D. $\\hspace{1em}$ 0.25$E_p$\n',
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nUsing Hooke's law,\n\n\n- $F=k\\Delta x$\n\nthe elastic potential energy is\n\n\n- $E_p=\\dfrac{1}{2} k\\Delta x^2=\\dfrac{1}{2} F\\Delta x$.\n\nIn the two-spring situation, both springs have an extension given by the equation\n\n\n- $F=k\\Delta x$.\n\nWhen one of the springs is removed, the load remains unchanged and the remaining spring experiences the same extension. Therefore the elastic potential energy stored is also halved.",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '863d9c45-4b2e-4dab-9d5c-8ea0312b84d1',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 81',
+    content:
+      'A ball is falling vertically in a liquid. The overall density of the ball and the density of the liquid are the same. Which of the following is correct for the change in speed of the ball and and the direction of the acceleration?\n\n$\\hspace{1.5em}$The motion of the ball$\\hspace{1.5em}$Acceleration$\\hspace{1.5em}$A.$\\hspace{1.5em}$Speeding upUpwards$\\hspace{1.5em}$B.$\\hspace{1.5em}$Slowing downUpwards$\\hspace{1.5em}$C.$\\hspace{1.5em}$Speeding upDownwards$\\hspace{1.5em}$D.$\\hspace{1.5em}$Slowing down$\\hspace{1.5em}$ Downwards $\\hspace{1.5em}$',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThree forces are acting on the ball the weight of the ball, buoyancy, and drag. While buoyancy and drag are upwards, weight is downwards.\nThe buoyancy :\n\n\n- $F_B = {\\rho}_{liquid}Vg$\n\nWeight:\n\n\n- $W=mg={\\rho}_{ball}Vg$\n\nSince the density of the ball and the liquid are the same, weight and buoyancy cancel each other and the net force acting on the ball is the drag force. Due to having upward net force while moving downwards, the ball must be slowing down. Moreover, if the initial speed was zero at the time of contact with the water, the ball would experience zero net force. The drag force provides a net upwards force, so the acceleration of the ball is upwards.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: 'd87da338-cf4f-4b01-a8a0-8b5b970e3d08',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 83',
+    content:
+      '![SkillUpp Image](https://assets.revisionvillage.com/public/question/a07393e2-13b6-4cef-b722-c8894c128a01/images/c42117b3-7ee7-46c1-b4b9-bd159e6e5cb7/Screenshot%202025-07-08%20at%204.01.21%E2%80%AFPM.png)\n\n\nA cart of mass $m$ enters a smooth vertical loop the loop of radius $R$ with a horizontal speed $u$ at the bottom of the track, as shown. The cart just manages to stay in contact with the track at the top most point of its path.\nIts speed at the bottom of the loop $u$, is given by:\n\n\n\n- A. $\\hspace{1em}$ $u=\\sqrt{5gR}$\n- B. $\\hspace{1em}$ $u=\\sqrt{4gR}$\n- C. $\\hspace{1em}$ $u=\\sqrt{gR}$\n- D. $\\hspace{1em}$ $u=\\sqrt{2gR}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nConservation of energy:\n$E_k + E_p$ at the bottom of the circle = $E_k + E_p$ at the top of the circle.\n\n\n- (I)$\\hspace{0.8em}$ $\\dfrac{1}{2}mu^2+0=\\dfrac{1}{2}mv^2+mg(2R)$\n- $\\hspace{2.2em}u^2=v^2+4gR$\n\nCentripetal force at the top of the loop comes from the weight of the cart and the normal reaction force from the track which both point downwards, towards the centre of the circle at that point. Because the question states that the car just keeps contact with the the track, we can assume that the normal reaction force is effectively zero.\nWriting Newton’s second law at that point gives:\n$\\begin{aligned}\n\\hspace{0.7cm} mg+N &=m\\bigg(\\frac{v^2}{R}\\bigg) \\\\\n\\hspace{1em}\\\\\nmg+0 &= m\\bigg(\\frac{v^2}{R}\\bigg) \\\\\n\\hspace{1em}\\\\\n{v^2}&= gR \\\\\n\\end{aligned}$\nSubstituting this result into (I) gives\n\n\n- $u^2=gR+4gR$\n- $u=\\sqrt{5gR}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: '20417697-40c7-4517-9f25-2a50218a1629',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 90',
+    content:
+      "A 200 g ball is moving in a horizontal circle shown with the dotted path in the diagram. The diameter of the bowl is 40 cm and the angular speed is $4\\pi$ rad s$^{-1}$.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/7a344575-2f87-453a-9f77-83741c73fc95/images/606c350c-ec49-41a6-a2c6-1c0319094817/Screenshot%202025-05-28%20at%209.56.32%E2%80%AFAM.JPEG)\n\n\nWhat is the magnitude of the ball's centripetal acceleration?\n\n\n- A. $\\hspace{1em}$ $0.64\\pi$ rad s$^{-2}$\n- B. $\\hspace{1em}$\t$3.2\\pi$ rad s$^{-2}$\n- C. $\\hspace{1em}$\t$6.4\\pi$ rad s$^{-2}$\n- D. $\\hspace{1em}$\tCannot be determined with the given information.\n",
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe equation for the centripetal acceleration is $a_c=\\omega^2r$.\nAlthough $\\omega$ is given in the question, the radius of the circular path is smaller than the radius of the bowl and no information is given to calculate it, therefore answer is D.',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'd87da338-cf4f-4b01-a8a0-8b5b970e3d08',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 95',
+    content:
+      'A rocket is moving in the absence of a gravitational field with constant speed. It starts to accelerate by burning fuel. At the start, the fuel contributes to most of the mass of the rocket. The burned fuel is ejected backwards from the rocket with a constant speed of $v$  relative to the rocket and a constant rate of $\\sigma\\ {kg\\,s}^{-1}$. Which graph shows the variation of acceleration $a$ of the rocket with time $t$ as most of the fuel is used?\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/e7060cb9-df03-455a-9ad3-9ae05af73650/images/d73b21e2-e1fb-4bf9-92cf-9ac8121ccc18/PH0583a.png)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/e7060cb9-df03-455a-9ad3-9ae05af73650/images/abf76f2f-87c3-412a-a029-1b61180b8190/PH0583b.png)\n\n$\\hspace{1em}$C.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/e7060cb9-df03-455a-9ad3-9ae05af73650/images/8216d464-f854-405c-85a8-1ea9ebe0d6df/PH0583c.png)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/e7060cb9-df03-455a-9ad3-9ae05af73650/images/926c08c6-953b-475d-a760-ecf65928e706/PH0583d.png)\n\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe resultant force $F_{net}$ acting on the space rocket:\n\n\n- $F_{net}=ma \\hspace{2em}$\n\nWhere $m$ is the mass of the rocket at any given time.\nWhen fuel is ejected from the rocket, it experiences a change in momentum in the frame of reference of the rocket.\nA given mass $m$ of fuel has its velocity change from 0 relative to the rocket to its ejected speed of $v$.\nTherefore the change of momentum of this mass of fuel is $p_2 - p_1 = mv - 0 = mv$\nThe force on the fuel causing this change in momentum is given by the equation\n$\\hspace{2em}F_{net}=\\dfrac{\\Delta p}{\\Delta t}=\\dfrac{mv}{\\Delta t}$\nAnd we know that the rate of fuel ejected is\n$\\sigma$ which equal to $\\dfrac{m}{\\Delta t}$\nTherefore the net force on the ejected fuel is\n\n\n- $F_{net}=v\\sigma$\n\nTherefore\n\n\n- $a=\\dfrac{F_{net}}{M}=\\dfrac{v\\sigma}{M}$\n\nwhere $M$ is the total initial mass of the rocket and $v$ is the velocity of the ejected fuel relative to the rocket.\nThe mass $m_f$ of the burned fuel after the time $t$:\n\n\n- $m_f=\\sigma t$\n\nThe total mass of the rocket decreases over time due to burned fuel ejection, the acceleration of the rocket after the time $t$:\n\n\n- $a=\\dfrac{v\\sigma}{\\left(M-\\sigma t\\right)}$\n\nAccording to this relationship, acceleration increases at an increasing rate. So the answer is D.\nQualitatively, the total mass of the rocket is constantly decreasing due to the ejected fuel. As the fuel is ejected at a constant rate, there is a constant net force on the rocket. With a constant net force and decreasing mass, there will be an increasing acceleration. At the start, the change in mass will have little effect on the acceleration, but over time the effect of the decrease in mass will become more and more significant and result in greater and greater acceleration.',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: '5c28011b-9529-4b8b-b86f-2c0194ba2da3',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 96',
+    content:
+      'A jet of water with a cross sectional area of $A$ strikes perpendicular to a wall at a speed of $v$. After the collision, the water loses all of its horizontal speed and falls to the ground. The magnitude of the force created on the wall due to the water is $F$.\nWhich expression give the density of the water?\n\n\n\n- A. $\\hspace{1em}  \t\\dfrac{F}{Av^2}$\n- B. $\\hspace{1em}  \t\\dfrac{F}{Av}$\n- C. $\\hspace{1em} \tFAv$\n- D. $\\hspace{1em}  \tFAv^2$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nConsidering the mass of water that strikes the wall in 1 second:\n\n\n- $m=\\rho V \\hspace{2em}$\n\nwhere $\\rho$ is the density of the water and $V$ is the volume of the water.\nAssigning the length of the column of water to be $l$ and cross sectional area $A$\n\n\n- $m=\\rho V=\\rho Al$\n\nBut $l = vt$ and $t=1$, therefore $l\\ =v$\nGiving\n\n\n- $m=\\rho Av$\n\nAfter the impact, the horizontal velocity of the jet is zero.\n\n\n- $F=\\dfrac{\\Delta p}{\\Delta t}\\hspace{2em}$ and   $\\hspace{2em}\\Delta t = 1$\n- $F=\\dfrac{\\Delta (mv)}{1}=m\\Delta v$\n$ = (\\rho Av)v\\ =\\ \\rho Av^2$\n\nRearranging gives\n\n\n- $\\rho=\\dfrac{F}{Av^2}$\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4.5'
+  },
+  {
+    paperId: 'c1adbf45-a8da-4cef-ab48-ee3b2bb05875',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 100',
+    content:
+      'An object is swung at the end of a rigid rod in a vertical circle at a constant speed $v$ such that there is an outward tension on the rod at all times. The radius of the circle is $r$. This is illustrated in the diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/fe75a6af-4f26-486a-a8a6-c3c7a1d1385d/images/509a7eb6-1250-45e2-b3d2-4474aebbfe64/PH0946.png)\n\n\nThe tension in the rod when the object is at its lowest point in the circle is 50% greater than the tension in the rod when the object is at its highest point.\nWhich of the following expressions is equivalent to the acceleration of freefall on Earth, $g$?\n\n\n\n- A. $\\hspace{1em} $ $\\dfrac{v{^2}}{5r}$\n- B. $\\hspace{1em} $ $\\dfrac{2v{^2}}{3r}$\n- C. $\\hspace{1em} $ $\\dfrac{v{^2}}{r}$\n- D. $\\hspace{1em} $ $\\dfrac{3v{^2}}{2r}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nBelow shows a free body diagram for the object at its highest and lowest points.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/fe75a6af-4f26-486a-a8a6-c3c7a1d1385d/images/cb338b09-6560-4e28-87e1-f9046c093a52/Screenshot%202025-06-02%20at%2010.54.38%E2%80%AFAM.png)\n\n\nIn both scenarios the object is moving in a circle therefore the net force is a centripetal force. Beccause the speed and radius are constant, the centrepetal acceleration is the same at both locations.\n\n\n- $F_{net}=ma = \\dfrac{mv{^2}}{r}$\n\nWhere $m$ is the mass of the object.\n(Acceleration is always towards the centre of the circle so at highest point acceleration points downwards and at highest point acceleration points upwards)\nLet the tension in the rod when the object is at its highest point be $T$. We are told that the tension at the lowest point is 50% higher, therefore at the lowest point the tension is $1.5T$.\nHighest point:\n\n\n- $T + mg = \\dfrac{mv{^2}}{r}$\n\nLowest point:\n\n\n- $1.5T - mg = \\dfrac{mv{^2}}{r}$\n\nNow solving these to eliminate $T$:\n\n\n- $3T + 3mg = \\dfrac{3mv{^2}}{r}$\n\n\n\n- $3T - 2mg = \\dfrac{2mv{^2}}{r}$\n\nSubtracting the equations gives\n\n\n- $5mg = \\dfrac{mv{^2}}{r}$\n\n\n\n- $g = \\dfrac{v{^2}}{5r}$\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4.5'
+  },
+  {
+    paperId: 'a1b6994c-9012-4067-b0ce-3217867ba026',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 2',
+    content:
+      'Which of the following units is not a unit of power?\n\n\n- A. $\\hspace{1em}$ W\n- B. $\\hspace{1em}$ J\n- C. $\\hspace{1em}$ N m s$^{-1}$\n- D. $\\hspace{1em}$ J s$^{-1}$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe SI unit of power is W and it is defined as J s$^{-1}$.\nAdditionally, power can be calculated by\n\n\n- $P = Fv$\n\nWhen units of force and speed are substituted in the equation, the units become\n$\\hspace{1.5em}$ N m s$^{-1}$\nBut J is the SI unit of energy.\nTherefore, the answer is B.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: 'cbd2b2eb-5fcf-40a9-8944-19c6403a4baf',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 3',
+    content:
+      'A builder uses a block and tackle pulley system to lift a bundle of materials of mass 15 kg to the top of a building of height 6 m in 9 s. What is the power delivered to the bundle? Assume $g=10$ N kg$^{-1}$.\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/39d1489c-8ba8-4cb6-8d7b-fe039bac7303/images/94315b8c-73e2-407b-bd29-9b312cbeeda6/PH0125.png)\n\n\n$\\footnotesize{\\textrm{[Image Source: Block-and-tackle-in-use.svg by Themightyquill licensed under CC BY-SA 4.0}]}$\n\n\n\n- A. $\\hspace{1em}$ 10 W\n- B. $\\hspace{1em}$ 17 W\n- C. $\\hspace{1em}$ 100 W\n- D. $\\hspace{1em}$ 900 W\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\n$\\begin{aligned}\n\\textrm{Power} &= \\dfrac{mgh}{t}\\\\\n\\hspace{2.3cm}\\\\\n&= \\dfrac{(15\\textrm{ kg})(6\\textrm{ m})(10\\textrm{ N kg}^{-1})}{9\\textrm{ s}}\\\\\n\\hspace{2.3cm}\\\\\n &= 100\\textrm{ W}\\\n \\end{aligned}$',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1'
+  },
+  {
+    paperId: '7c00a611-fc38-4533-9ac0-68c970d5153b',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 8',
+    content:
+      'The Sankey diagram below shows the energy degraded at different stages of a nuclear power plant.\nWhich of the following sections corresponds to the stage with the highest energy degradation?\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/db5024fd-1b28-45ad-a251-ca5baea6bb09/images/8565468f-e12a-4875-8ebe-e68ae78f9fc8/PH0139.png)\n\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe arrows that turn downwards represent energy degradation. The widths are proportional to the amount of energy in that stage. The widest of these is B.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '6327e88e-2eb7-4ab5-ad6b-876b4bc77a73',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 9',
+    content:
+      'A coin is tossed vertically upwards from an original height of $1.5$ m above the ground. What is the maximum height reached above the ground if the coin was projected with an initial velocity of 3.0 m s$^{-1}$?  (Take $g=10$ m s$^{-2}$)\n\n\n- A. $\\hspace{1em} 0.45$ m\n- B. $\\hspace{1em} 1.50$ m\n- C. $\\hspace{1em} 1.95$ m\n- D. $\\hspace{1em} 6.00$ m\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nSolution 1: \nMaximum height occurs when the final speed $v$ is zero. The height reached above hand\n\n\n- $\\begin{aligned}\n  \\ s &= \\dfrac{v^2 - u^2}{2a}\\\\\n  \\ s&=\\dfrac{0-9}{-20} \\\\\n  \\ &= 0.45\\textrm{ m}\\\\\n  \\end{aligned}$\n\nTo find maximum height above the ground, $0.45$ m $+\\ 1.5$ m = 1.95 m\n\nSolution 2: \nUsing conservation of energy, kinetic energy is converted completely into gravitational potential energy at the top of the motion\n\n\n- $\\dfrac{1}{2} mv^2 = mgh$\n- $\\dfrac{1}{2} (3)^2 = 10h$\n- $h=0.45$ m\n\nTo find maximum height above the ground, $0.45$ m $+\\ 1.5$ m = 1.95 m',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'c8d4116b-898a-4c28-9c5a-53c2f48ca749',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 10',
+    content:
+      '\n- State the law of conservation of momentum. <span class="marks">[2]</span>\n\n- A stationary body explodes into two pieces of mass as $m_1$ and $m_2$ in opposite directions.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/429bf6fe-dca5-47bd-b7e0-b199cab3baa5/images/eb3d1823-146c-4af3-9a6b-1e4afd9aafe7/PH0463.png)\n\n\n  Just after the explosion, the ratio of the kinetic energy of $m_1$ to the kinetic energy of $m_2$ is found to be 9. Calculate the ratio of masses $\\dfrac{m_1}{m_2}$. <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- When the net force on a system is zero / the system is isolated $\\checkmark$\n  The momentum of the system does not change / the total momentum is constant $\\checkmark$\n\n\n\n- The magnitude of the momentum of the pieces is equal $\\checkmark$\n  \n  \n  - $\\ll \\dfrac{\\frac{p^2}{2m_1}}{\\frac{p^2}{2m_2}} = 9 \\gg$\n  - $\\dfrac{m_1}{m_2} = \\dfrac{1}{9}\\,\\checkmark$\n\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nSince the body is at rest, the total momentum before the explosion is zero. Due to the conservation of momentum, total momentum after the collision must be zero. The two pieces move in the opposite directions. Therefore, the magnitude of momentum they possess must be the same to cancel each other. The ratio of kinetic energies;\n  \n  \n  - $\\dfrac{\\frac{p^2}{2m_1}}{\\frac{p^2}{2m_2}} = 9$\n  - $\\dfrac{m_2}{m_1} = 9$\n\n  Therefore,\n  \n  \n  - $\\dfrac{m_1}{m_2} = \\dfrac{1}{9}$\n\n  \n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: '4',
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '5c28011b-9529-4b8b-b86f-2c0194ba2da3',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 11',
+    content:
+      'A spring with spring constant $k$ is extended by a distance $x$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/75c10d0f-876b-4ad3-8025-7af70691d5b7/images/b7cb87cb-4bf9-4e63-9b30-1a5a397b29ca/Screenshot%202025-04-07%20at%208.19.25%E2%80%AFAM.JPEG)\n\n\r\n$\\small{\\textrm{[Created using Geogebra https://www.geogebra.org/m/vUK7gGkN]}}$\nThe uncertainty of $k$ is 2% and that of $x$ is 3%.\nWhat is the uncertainty of the potential energy stored in the spring?\n\n\n- A. $\\hspace{1em}$ 8%\n- B. $\\hspace{1em}$ 11%\n- C. $\\hspace{1em}$ 12%\n- D. $\\hspace{1em}$ 18%\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe formula for potential energy stored is\n\n\n- $E_H=\\dfrac{1}{2}kx^2$\n\nSince $E_H$ is calculated from multiplying $k$ and $x^2$ (ignoring the constant $\\frac{1}{2}$ as there is no uncertainty for it), then the uncertainty of $E_H$ is calculated by adding the fractional uncertainties of $x^2$ and $k$.\nThe fractional uncertainty of $x^2$ is double the fractional uncertainty on $x$, which gives\n\n\n- $2\\times3\\% = 6\\%$\n\nThe uncertainty of $E_P$ therefore\n\n\n- 2% + 6% = 8%\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: '411f3085-4102-4799-9611-1c1cd5f8f73d',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 12',
+    content:
+      'A box of mass $m$ is pulled across a horizontal surface with a force $F$ as shown in the diagram. The coefficient of dynamic friction between the box and the surface is $\\mu$. What is the energy transferred to thermal energy while a box is moved by a distance of $d$?\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d68b186d-1f20-40cd-babc-b130ca4c968e/images/195ea83c-ec2e-42af-aa16-8f5e1a02e01e/Screenshot%202025-04-07%20at%2011.10.31%E2%80%AFAM2.JPEG)\n\n\n\n\n- A. $\\hspace{1em}$ $Fd$\n- B. $\\hspace{1em}$ $(F-\\mu mg)d$\n- C. $\\hspace{1em}$ $\\mu mgd$\n- D. $\\hspace{1em}$ $mgd$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nEnergy transferred to thermal energy will be the work done by the frictional force.\n\n\n- $F_F=\\mu F_N = \\mu mg$  (where $F_N=mg$)\n- $W = Fs = \\mu mgd$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '1.5'
+  },
+  {
+    paperId: 'd117af49-7e34-428c-b7cb-0229fa77820c',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 14',
+    content:
+      'The engine of a racing  car provides a forward thrust of 800 N. The average of the total resistive forces acting on the car is 300 N and the car covers a distance of 1.0 km in 10 s.\nWhat is the average power input of the engine?\n\n\n- A. $\\hspace{1em}  \t5.0\\times{10}^3$ W\n- B. $\\hspace{1em}  \t8.0\\times{10}^3$ W\n- C. $\\hspace{1em}  \t5.0\\times{10}^4$ W\n- D. $\\hspace{1em}  8.0\\times{10}^4$ W\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nThe distance covered by the car in meters;\n\n\n- $1\\ \\ce{km}=1000$ m\n\nThe average speed $v_{av}$  of the car;\n\n\n- $v_{av}=\\dfrac{s}{t}=\\dfrac{1000\\textrm{ m}}{10\\textrm{ s}}=100$ m s$^{-1}$\n\nThe average output power $P_{av}$ of the engine;\n\n\n- $P_{av}=Fv_{av} \\hspace{2em}$ where  $\\hspace{2em}F=800$ N since it is the force of the engine\n- $P_{av}=\\left(800\\right)\\left(100\\right)=8.0\\times{10}^4$ W\n\nNote that this power from the engine does not all contribute to the kinetic energy of the car, as some of it is used to overcome the resistive forces.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '1a8a092b-8816-4f15-856a-1bd2113cac70',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 16',
+    content:
+      'An object of mass $2$ kg with initial kinetic energy $10$ J comes to rest as it travels a distance of $3$ m along a flat horizontal rough surface as shown in the diagram below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/efa48de6-a923-458e-b5b0-b3f399753505/images/08aa8a00-e6f6-44bc-a347-3dcafca9cf08/Screenshot%202025-04-07%20at%2011.38.35%E2%80%AFAM.png)\n\n\nWhat is the coefficient of dynamic friction between the object and the surface?\n\n\n- A. $\\hspace{1em}  $ $\\dfrac{1}{6}$\n- B. $\\hspace{1em}  $ $\\dfrac{1}{3}$\n- C. $\\hspace{1em}  $ $\\dfrac{1}{2}$\n- D. $\\hspace{1em}  $ $\\dfrac{2}{3}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation:}}$\nKinetic energy is transferred to work done (by friction)\n\n\n- $\\Delta E_K = F_f s = (\\mu F_N)s =(\\mu_dmg)s$\n\nSubstituting the given values leads to\n\n\n- $10 = \\mu_d(2)(10)(3)$\n- $1 = \\mu_d(2)(3)$\n- $\\mu_d = \\dfrac{1}{6}$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '863d9c45-4b2e-4dab-9d5c-8ea0312b84d1',
+    selection: 'Selection B',
+    type: 'SAQ',
+    title: 'Question 18',
+    content:
+      'A spring of mass m is compressed against a block of mass $2m$ on a frictionless surface. The system is held stationary and the elastic potential energy stored in spring is $E_H$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/04be70e3-9fb6-45cf-81d3-0066e5826298/images/ae44405c-172d-46c3-9b47-ee19e589be98/Screenshot%202025-06-04%20at%209.31.08%E2%80%AFAM.png)\n\n\n$\\footnotesize{\\textrm{[Source: Created with chemix - https://chemix.org/]}}$\nThe system is released and the block and spring move horizontally. All of the elastic potential energy of the spring is converted into kinetic energy of the system.\n\n- \n  - Show that after the system is released, the speed of the block $v_b$ is given by the equation:\n    \n    \n    - $v_b=\\sqrt{\\dfrac{E_H}{3m}}$ <span class="marks">[3]</span>      \n\n     \n\n  - The following data are given:\n    \n    \n    - Mass of spring $m=120$ g\n    - Spring constant of spring $k=85$ N m$^{-2}$\n    - Initial compression of the spring $x=8.0$ cm\n\n    Calculate $v_b$. <span class="marks">[2]</span>\n\n\n- \n  - The block moves onto a surface where the coefficient of dynamic friction between the block and the ground is $\\mu_d=0.07$. When the block is at point $A$ its velocity is $0.71$ m s$^{-1}$. The block comes at a complete stop at point $B$.\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/04be70e3-9fb6-45cf-81d3-0066e5826298/images/1e747ed3-6739-44b6-a508-87c8724e142b/Screenshoot%202025-06-04%20at%209.29.42%E2%80%AFAM.png)\n\n\n    Determine the distance between $A$ and $B$. <span class="marks">[3]</span>\n\n  - It is observed that the force required to start the block moving again is greater than the force required to keep it moving at a constant speed. Explain this observation. <span class="marks">[1]</span>\n\n\n',
+    markScheme:
+      "\n- \n  - Conservation of energy:\n    \n    \n    - $E_H=\\dfrac{1}{2}mv^2_s+\\dfrac{1}{2}(2m)(v_b)^2$ $\\checkmark$\n\n    Conservation of momentum:\n    \n    \n    - $2mv_b=mv_s$ $\\checkmark$\n\n    Correct substitution and rearranging for $v_b$:\n    \n    \n    - $E_H=\\dfrac{1}{2}m(2v_b)^2+\\dfrac{1}{2}(2m)(v_b)^2$\n    - $E_H=\\dfrac{1}{2}m(6v_b)^2$\n    - $v_b=\\sqrt{\\dfrac{E_H}{3m}}$ $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nDue to the conservation of energy, we have:\n    \n    \n    - $E_H=\\dfrac{1}{2}mv_s^2+\\dfrac{1}{2}(2m)(v_b)^2$\n    - $E_H=\\dfrac{1}{2}m(v_s^2+2v_b^2)$\n\n    The initial momentum of the system is zero. Due to the conservation of momentum, the magnitudes of the the two momenta will be equal:\n    \n    \n    - $2mv_b=mv_s$\n    - $2v_b=v_s$\n\n    (working with (scalar) speeds $v_s$ and $v_b$ rather than (vector) velocities)\n    Combining these equations we have:\n    \n    \n    - $E_H=\\dfrac{1}{2}m((2v_b)^2+2v_b^2)$\n    - $E_H=\\dfrac{1}{2}m(6v_b^2)$\n    - $E_H=3m(v_b)^2$\n    - $(v_b)^2=\\dfrac{E_H}{3m}$\n    - $v_b=\\sqrt{\\dfrac{E_H}{3m}}$\n\n    \n  - \n    \n    - $E_H=\\dfrac{1}{2}k(\\Delta x)^2=\\dfrac{1}{2}(85)(0.080)^2\\ll=0.272\\gg$ $\\checkmark$\n    - $v_b=\\sqrt{\\dfrac{0.272}{3(0.12)}}=$ 0.87 m s$^{-1}$ $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nElastic potential energy $E_H$ is given by:\n    \n    \n    - $E_H=\\dfrac{1}{2}k(\\Delta x)^2$\n\n    Where $k$ is the spring constant and $x$ is the extension or compression of the spring.\n    Substituting in our values gives:\n    \n    \n    - $E_H=\\dfrac{1}{2}k(\\Delta x)^2=\\dfrac{1}{2}(85)(0.08)^2=0.272$ J\n\n    Now substituting these values into the equation given in part (a)(i) we have:\n    \n    \n    - $v_b=\\sqrt{\\dfrac{0.272}{3(0.12)}}=0.87$ m s$^{-1}$\n\n    \n\n- \n  - \n    \n    - $a=\\ll-\\gg\\dfrac{\\mu_dmg}{m}=\\ll-\\gg(0.07)(9.81)=\\ll-\\gg0.687$ m s$^{-2}$ (3sf) $\\checkmark$\n    - $s=\\dfrac{v^2-u^2}{2a}=\\dfrac{0^2-0.71^2}{2(-0.687)}=0.37$ m $\\checkmark$\n    - OR\n\n    \n    \n    - $\\mu_dmgs=\\dfrac{1}{2}mv^2$ $\\checkmark$\n    - $s=\\dfrac{0.71^2}{2(0.687)}=$ $0.37$ m $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe net force acting on the block is equal to the frictional force given by:\n    \n    \n    - $F_f=\\mu_dF_N$\n\n    Where $\\mu_d$ is the coefficient of dynamic friction and $F_N$ is the normal reaction force.\n    The net vertical force is zero so the normal reaction force acting on the block is equal to its weight:\n    \n    \n    - $F_N=mg$\n    - $F_f=\\mu_dmg$\n\n    Net force:\n    \n    \n    - $F_{net}=ma$\n\n    Where $m$ is the mass of the block and $a$ is its acceleration. The net force on the block is negative as it acts in the opposite direction to the block's velocity:\n    \n    \n    - $ma=-\\mu_dmg$\n    - $a=-\\mu_dg$\n    - $a=-(0.07)(9.81)=-0.6867$ m s$^{-2}$\n\n    Now for constant acceleration we have:\n    \n    \n    - $v^2=u^2+2as$\n\n    Where $v$ is final velocity, $u$ is initial velocity, $a$ is acceleration and $s$ is displacement. Rearranging for $s$ and substituting our values we have:\n    \n    \n    - $v^2-u^2=2as$\n    - $s=\\dfrac{v^2-u^2}{2a}=\\dfrac{0^2-0.71^2}{2(-0.687)}=0.37$ m\n\n    Alternatively, we can use conservation of energy. The block loses all its kinetic energy due to work done by friction.\n    Work done by friction is given by:\n    \n    \n    - $W = Fs$\n\n    And the force of friction can be found from:\n    \n    \n    - $F_f=\\mu_dF_N$\n    - $F_N=mg$\n    - $F_f=\\mu_dmg$\n\n    Equating the change in kinetic energy to the work done by friction gives:\n    \n    \n    - $\\mu_dmgs=\\dfrac{1}{2}mv^2$\n\n    Solving for $s$ leads to the same equation as the other solution:\n    \n    \n    - $s=\\dfrac{v^2-u^2}{2a}=\\dfrac{0^2-0.71^2}{2(-0.687)}=0.37$ m\n\n    \n  - coefficient of static friction/ maximum static frictional force is greater than the coefficient of dynamic friction/dynamic frictional force. $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nWhen an object is already in motion, the dynamic frictional force opposes its motion and remains constant. However, when the object is at rest, the static frictional force prevents it from moving.\n    Static friction can take any value up to its maximum limit, which is given by:\n    \n    \n    - $F_f=\\mu_sF_N$\n\n    where $\\mu_s$ is the coefficient of static friction and $F_N$ is the normal reaction force.\n    The coefficient of static friction is greater than the coefficient of dynamic friction, so the maximum static frictional force is also greater than the dynamic frictional force. This means that more force is required to start on object moving from rest than is required to keep it moving at a constant speed against a dynamic frictional force.\n\n",
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: '9',
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '411f3085-4102-4799-9611-1c1cd5f8f73d',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 23',
+    content:
+      'Energy density is defined as the amount of energy stored in a substance per unit volume. Amounts of substances A and B are employed to supply the same average power to a city over an identical time period. The densities of these substances are $\\rho$ and $2\\rho$, respectively, with their respective volumes being $2V$ and $V$. Consider the following statements:\n\n\n- I.A greater mass was used than substance BII.It has a lower energy density than substance BIII.It provided the same amount of energy as substance B\n\nWhich statement is/are correct for substance A and the amount of it used in the time period?\n\n\n- A. $\\hspace{1em}  $ III only\n- B. $\\hspace{1em}  $ I and II only\n- C. $\\hspace{1em}  $ II and III only\n- D. $\\hspace{1em}  $ I, II, and III\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe mass of substances can be determined by multiplying their density and volume, ensuring their masses are equal. Since both substances provide the same average of power over the same time, they provide the same amount of energy. ($E=Pt$)\nEnergy density can be calculated by\n\n\n- Energy density = $\\dfrac{\\textrm{energy provided}}{\\textrm{volume}}$\n\nWhile both provide the same amount of energy, Substance B has a smaller volume compared to Substance A. Consequently, Substance A possesses a lower energy density.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '88e9ea2b-f50f-44fb-ae00-8408d81406ed',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 24',
+    content:
+      "A boat is traveling along a straight line for a total time of one hour. The boat travels at a constant speed and covers a total distance of 2.4 km. The thrust of the boat's engine is 1.8 kN.\nWhat is the energy exerted by the boat's engine in one second?\n\n\n- A. $\\hspace{1em} $ 0.67 kJ\n- B. $\\hspace{1em} $ 1.2 kJ\n- C. $\\hspace{1em} $ 4.3 kJ\n- D. $\\hspace{1em} $ 78 kJ\n",
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\n\n\n- $P = \\dfrac{E}{t}$\n\nso energy exerted in one second is the same as power.\n\n\n- $P = Fv$\n\n\n\n- $v = 2.4$ km h$^{-1} = 2.4(1000$ m)(3600 s)$^{-1}$ = $\\dfrac{2400\\textrm{ m}}{3600\\textrm{ s}} = \\dfrac{2}{3}$  m s$^{-1}$\n\n\n\n- $P = (1.8$ kN)$\\bigg(\\dfrac{2}{3}$ m s$^{-1}\\bigg)$ = 1.2 kW\n\nTherefore the energy exerted in one second is 1.2 kJ.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2'
+  },
+  {
+    paperId: '863d9c45-4b2e-4dab-9d5c-8ea0312b84d1',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 25',
+    content:
+      'A box of mass 2.0 kg starts to move on a level surface under the effect of a varying net force $F$. The variation of $F$ with the displacement $s$ of the object is shown in the graph below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b4bfc368-0267-49cf-8736-1f84399bfb17/images/203a8d73-301e-4840-b6e9-aede11252de9/Screenshot%202025-06-30%20at%205.12.14%E2%80%AFPM.png)\n\n\nWhat is the speed of the box at s = 5 m?\n\n\n- A. $\\hspace{1em}  $5 m s$^{-1}$\n- B. $\\hspace{1em}  \\sqrt{5}$ m s$^{-1}$\n- C. $\\hspace{1em}  \t1$5 m s$^{-1}$\n- D. $\\hspace{1em}  \t\\sqrt{15}$ m s$^{-1}$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nThe work done $W$ by the $F$ on the box equals the change in kinetic energy $\\Delta E_k$ of the box and work done can be found by calculating the area under the graph, the area between the line and the displacement axis.\n\n\n- $W=\\Delta E_k \\hspace{2em}$     and   $\\hspace{2em} W=$ Area of the graph\n- $\\Delta E_k=$ Area of the graph (using trapezond formula)\n- $\\dfrac{1}{2}\\left(2\\right)v^2=\\dfrac{1}{2}(8+2)(5)$\n- $v^2=25$\n- $v=5\\, $m$\\,$s$^{-1}$\n\nAlternatively, we can treat the area as a rectangle and a triangle.\n\n\n- $\\Delta E_k=$ Area of the graph (using rectangle and triangle)\n- $\\dfrac{1}{2}\\left(2\\right)v^2=(2)(5)+\\dfrac{1}{2}(6)(5)$\n- $v^2=25$\n- $v=5\\, $m$\\,$s$^{-1}$\n',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'bf7485ac-c53c-49b6-9b3d-ee1f14a06588',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 26',
+    content:
+      'A varying force acts on a spring. The variation of the extension $x$ of the spring with force $F$ acting on it is shown in the graph below.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/ec27ecb3-2d0f-45e3-9076-c10b42685391/images/77ac9eb1-21af-49dc-951a-c2d213bf94cb/Screenshot%202025-05-30%20at%2011.51.09%E2%80%AFAM.JPEG)\n\n\nThe elastic potential energy stored in the spring is $E$ when the extension of the spring is $e$. What is the work done by force on the spring to increase the extension from $e$ to $3e$ ?\n\n\n- A. $\\hspace{1em}  2E$\n- B. $\\hspace{1em}  \t4E$\n- C. $\\hspace{1em}  \t8E$\n- D. $\\hspace{1em}  \t9E$\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nThe elastic potential energy stored in the spring is $E$ when it is stretched by $e$;\n\n\n- $E_H=\\dfrac{1}{2}ke^2$  where $k$ is the spring constant of the spring\n\nThe elastic potential energy stored in the spring when it is stretched by $3e$ can be found  as;\n\n\n- $E_{Hfinal}=\\dfrac{1}{2}k{(3e)}^2=\\dfrac{1}{2}k{9e}^2=9E$\n\nThe work done on the spring can be found by calculating the change in the elastic potential energy $\\Delta E_H$ of the spring.\n\n\n- $\\mathrm{\\Delta}E_H=\\mathrm{\\Delta}E_{H(final)}-\\mathrm{\\Delta}E_{H\\left(initial\\right)}$\n- $\\mathrm{\\Delta}E_H=9E-E=8E$\n\nTherefore, the answer is C.',
+    paper: 'PAPER2',
+    difficulty: 'EASY',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'f1f47fc0-3b82-441e-aed5-bc698f1085ed',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 28',
+    content:
+      'An elastic bungee cord of natural length $20$ m is being tested. A spherical object, originally at rest, is released from a platform. Air resistance and the mass of the cord are insignificant.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/61cee8d4-0539-4c4c-8657-de344244e996/images/08604633-fc44-4b7b-b6e7-ff05446ce89d/PH0644-000.png)\n\n\n\n- State the principle of conservation of energy. <span class="marks">[2]</span>\n\n- Describe the energy changes that take place in the spherical object from the time it is released until it comes to rest for the first time.    <span class="marks">[2]</span>\n\n- Show that the speed of the object just before the cord starts to extend is approximately $20$ m s$^{-1}$. <span class="marks">[2]</span>\n\n- The magnitude of the average $\\underline{\\textrm{net}}$ force acting on the object between the point where the cord starts to extend and the point where it reaches maximum extension is $360$ N. The time taken during the fall of the object between these points is $0.28$ s.\n  \n  \n  - Show that the mass of the object is approximately $5.0$ kg. <span class="marks">[2]</span>\n\n  - On the graph below, sketch how the the elastic potential energy $E_{H}$ of the spring changes with the vertical displacement $s$ as the cord stretches. There is no need to add values to the axes.  <span class="marks">[2]</span>\n\n\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/61cee8d4-0539-4c4c-8657-de344244e996/images/a3f03b0a-9936-43ec-b0e8-351bd0ef3d31/Screenshot%202025-06-02%20at%208.28.03%E2%80%AFAM.JPEG)\n\n\n  \n  - The extension of the cord at the point in time when the object has zero acceleration is $11$ m. Determine the spring constant of the cord. <span class="marks">[2]</span>    \n\n',
+    markScheme:
+      "\n- (in any process) energy is neither created nor destroyed $\\checkmark$\n  It can only be transformed from one form into another. $\\checkmark$\n  \n- The gravitational potential energy of the object is converted to the kinetic energy of the object. $\\checkmark$\n  The kinetic and gravitational potential energy of the object are converted into elastic potential energy within the cord. $\\checkmark$\n  $\\underline{\\textrm{Further Explanation}}$: \nWhen it is released, its gravitational potential energy is converted to kinetic energy due to the decrease in height above the ground. As soon as the centre of mass of the object has fallen by $20$ m, the cord starts to extend and store elastic potential energy. As it comes to rest, the object's kinetic and gravitational potential energy are converted to the elastic potential energy of the cord.\n  \n- \n  \n  - $mg \\Delta h=\\dfrac{1}{2}mv^2$ $\\checkmark$\n  - $v=\\answer{19.8\\ \\ce{ m s}^{-1}}$ $\\checkmark$\n\n  $\\underline{\\textrm{Further Explanation}}$: \nThe decrease in height of the object is $20$ m. Its decrease in gravitational potential energy equals the increase in kinetic energy.\n  \n  \n  - $mg\\Delta h= \\dfrac{1}{2}mv^2$\n  - $v=\\sqrt{2g\\Delta h}$\n  - $v=\\sqrt{(2)(9.81)(20)}$\n  - $v=19.8$ m s$^{-1}$\n\n  Alternatively,\n  \n  \n  - $v^2=u^2+2as$\n  - $v^2=0^2+2(-9.81)(-20)$\n  - $v=19.8$ m s$^{-1}$\n\n  \n- \n  - \n    \n    - $F_{avg}\\Delta t=\\Delta p$ $\\checkmark$\n    - $m = \\answer{5.04\\ \\ce{kg} }\\ \\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe object is stationary and has zero momentum when the cord has maximum extension. By using impulse = change in momentum;\n    $\\begin{aligned}\n      F_{avg}\\Delta t&=\\Delta p\\\\\n      (360)(0.28)&=m(19.8)\\\\\n      100.8&=m(19.8)\\\\\n      m&=\\dfrac{100.8}{19.8}\\\\\n      m&=5.09\\textrm{ kg}\\\\\n      \\end{aligned}$\n    \n  - $\\hspace{2em}$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/61cee8d4-0539-4c4c-8657-de344244e996/images/91a2589c-b619-4d71-90f8-2a7948064acb/Screenshot%202025-06-02%20at%208.32.17%E2%80%AF0AM.JPEG)\n\n\n    Parabolic graph with positive gradient. $\\checkmark$\n    Passes through origin. $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe elastic potential energy stored in the cord is proportional to the square of the extension. Since the force acting on the cord is downwards due to the weight of the object, the vertical displacement of the object s as the cord starts to extend equals the extension x of the cord.\n    \n    \n    - $s^2\\propto x^2\\propto E_{H}$\n\n    This relationship can be represented by a graph in the shape of\n    \n    \n    - $y=x^2$\n\n    \n  - Weight of the object = force of the spring on the object/$W=kx$ $\\checkmark$\n    \n    \n    - $k=\\dfrac{W}{x} = \\dfrac{49}{11}$\n    - $k=\\answer{4.5\\ \\ce{ N m}^{-1}}$ $\\checkmark$\n\n    $\\underline{\\textrm{Further Explanation}}$: \nThe forces acting on the object are the weight of the object and the force of spring on the object. When the object has no acceleration, these two forces are balanced by each other. The weight of the object;\n    \n    \n    - $W=mg=\\left(5.0\\right)\\left(9.81\\right)=49$ N\n\n    By using Hooke's Law:\n    \n    \n    - $F=kx$\n    - $k=\\dfrac{F}{x}$\n    - $k=\\dfrac{49}{11}$\n    - $k=4.5$ N m$^{-1}$\n\n    \n\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: '12',
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'bf7485ac-c53c-49b6-9b3d-ee1f14a06588',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 29',
+    content:
+      'A natural gas plant burns fuel with a specific energy of 80 MJ kg$^{-1}$.\nThe rate of energy input of the natural gas is 1.6 GW. What is the rate at which the fuel burns?\n\n\n- A. $\\hspace{1em}$ 0.0005 kg s$^{-1}$\n- B. $\\hspace{1em}$ 10 kg s$^{-1}$\n- C. $\\hspace{1em}$ 1500 kg s$^{-1}$\n- D. $\\hspace{1em}$ 20 kg s$^{-1}$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$: \nThe energy delivered per second (power) will be equal to the product of the mass burning rate and the specific energy.\nTherefore,\n\n\n- $\\dfrac{\\Delta m}{\\Delta t}(80\\textrm{ MJ kg}^{-1})=1.6$ GW\n- $\\dfrac{\\Delta m}{\\Delta t}=\\dfrac{1.6\\times10^9\\textrm{ J s}^{-1}}{8.0\\times10^7\\textrm{ J kg}^{-1}}=20$ kg s$^{-1}$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '2.5'
+  },
+  {
+    paperId: 'b0b6acf0-28c2-4a92-9bc2-e3f3b6b5fcc4',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 31',
+    content:
+      'A car is moving with a kinetic energy of ${10}^5$ J.\nEstimate the order of magnitude of its momemtum.\n\n\n- A. $\\hspace{1em}  \t{10}^3$ kg m s$^{-1}$\n- B. $\\hspace{1em}  \t{10}^4$ kg m s$^{-1}$\n- C. $\\hspace{1em}  \t{10}^5$ kg m s$^{-1}$\n- D. $\\hspace{1em}  \t{10}^6$ kg m s$^{-1}$\n',
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nThe relationship between kinetic energy $E_k$ and momentum $p$ of the car is given by the following formula:\n\n\n- $E_k=\\dfrac{p^2}{2m}$\n- $p^2=2mE_k$\n\nThe order of magnitude of the mass of a car is ${10}^3\\, kg$.\n\n\n- $p^2\\approx 2\\left({10}^3\\right)\\left({10}^5\\right)$\n- $p^2\\approx{10}^8 $\n- $p\\approx{10}^4$\n',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '4797ba34-fb46-4d9e-841a-3485d34eb4e4',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 37',
+    content:
+      "A ball with mass $m$ is released from a height of $h$ and undergoes free fall. The ball hits the ground and rebounds vertically. On rebound, the ball reaches a maximum height of $h'$. The time taken for the collision is $T$. During the collision, what are the change in kinetic energy of the ball and the magnitude of the average net force on the ball?\n\n$\\hspace{1em}$ Change in kinetic energy $\\hspace{1em}$ $\\hspace{1em}$ Average force $\\hspace{1em}$ $\\hspace{1.5em}$A.$\\hspace{1.5em}$ $mg(h-h')$ $\\dfrac{m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$ $mg(h'-h)$ $\\dfrac{m(\\sqrt{2gh} - \\sqrt{2gh'})}{T}$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$ $mg(h'-h)$ $\\dfrac{m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$ $mg(h-h')$ $\\dfrac{m(\\sqrt{2gh} - \\sqrt{2gh'})}{T}$",
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nChange in kinetic energy  = Loss of mechanical energy = change in potential energy\n\n\n- = $mgh' - mgh = mg(h'-h)$\n\nWe can find the velocity before hitting the ground using conservation of energy\n\n\n- $\\dfrac{1}{2}mu^2=mgh$\n\ngiving\n\n\n- $u = \\sqrt{2gh}$\n\nSimilarly, velocity after bouncing from the ground\n\n\n- $v = - \\sqrt{2gh'}$\n\nChange in momentum\n\n\n- $\\Delta p = m (v-u)$ = $m (-\\sqrt{2gh'} - \\sqrt{2gh})$\n\nForce is rate of change of momentum\n\n\n- $F_{av} = \\dfrac{-m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$\n\nBecause the question asks for the magnitude of the average force, we can take the positive value.\n\n\n- $F_{av} = \\dfrac{m(\\sqrt{2gh} + \\sqrt{2gh'})}{T}$\n",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: 'c1adbf45-a8da-4cef-ab48-ee3b2bb05875',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 39',
+    content:
+      "A ball is released from rest at a height $h$ above the ground. At each bounce 75% of its kinetic energy is lost. Which graph represents the variation of the ball's velocity $v$ with time $t$ from the beginning of motion until the moment just before the third bounce? Assume the acceleration of the ball is in in the negative direction and that air resistance is negligible.\n\nA.B.![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/a516a5f2-3a03-4885-811d-0da67b6ad48e/Screenshot%202025-05-27%20at%205.31.14%E2%80%AFPM.JPEG)\n\n$\\hspace{1cm}$![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/c52e4b88-650f-407b-aa7e-ecf2ab94b5f1/Screenshot%202025-05-27%20at%205.31.26%E2%80%AFPM.JPEG)\n\nC.D.![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/f9d6effd-a838-49ed-b769-1e65f233ace2/Screenshot%202025-05-27%20at%205.31.34%E2%80%AFPM.JPEG)\n\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/396ed74a-f81b-44b3-b9ab-6a05c85de26b/images/75cb8fb0-e10e-4e0e-b129-422f1813f50d/Screenshot%202025-05-27%20at%205.31.41%E2%80%AFPM.JPEG)\n\n",
+    markScheme:
+      'B\n\n$\\underline{\\textrm{Explanation}}$:\nKinetic energy $E_k$ is directly proportional to the square of the magnitude of velocity $v$\n\n\n- $E_k = \\dfrac{1}{2} mv^2$\n\nThe velocity will decrease to half of its value at each bounce.\nThe value of the acceleration is constant, free fall acceleration $g$. The velocity time graph should be linear and all sections should have a negative gradient to represent downwards acceleration.\nThe direction of velocity is positive on the way up, and negative on the way down.',
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3'
+  },
+  {
+    paperId: '6327e88e-2eb7-4ab5-ad6b-876b4bc77a73',
+    selection: 'Selection A',
+    type: 'MCQ',
+    title: 'Question 46',
+    content:
+      'A system that consists of two light identical springs connected in series stores a total elastic potential energy $E_p$ when a load is added to the springs. One of the springs is then removed and the same load is added to the remaining spring.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/33f5116a-a5fd-45d6-9813-47893ca89f34/images/673d5011-a1de-4871-a58f-ca4a34260938/Screenshot%202025-05-14%20at%202.13.46%E2%80%AFPM.JPEG)\n\n\n$\\footnotesize{\\textrm{[Created with Chemix (https://chemix.org)]}}$\nIn terms of $E_p$, what is the total elastic potential energy stored in the single spring situation?\n\n\n- A. $\\hspace{1em}$ 2$E_p$\n- B. $\\hspace{1em}$ $E_p$\n- C. $\\hspace{1em}$ 0.5$E_p$\n- D. $\\hspace{1em}$ 0.25$E_p$\n',
+    markScheme:
+      "C\n\n$\\underline{\\textrm{Explanation}}$:\nUsing Hooke's law,\n\n\n- $F=k\\Delta x$\n\nthe elastic potential energy is\n\n\n- $E_p=\\dfrac{1}{2} k\\Delta x^2=\\dfrac{1}{2} F\\Delta x$.\n\nIn the two-spring situation, both springs have an extension given by the equation\n\n\n- $F=k\\Delta x$.\n\nWhen one of the springs is removed, the load remains unchanged and the remaining spring experiences the same extension. Therefore the elastic potential energy stored is also halved.",
+    paper: 'PAPER2',
+    difficulty: 'MEDIUM',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '3.5'
+  },
+  {
+    paperId: 'c1adbf45-a8da-4cef-ab48-ee3b2bb05875',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 58',
+    content:
+      'Two masses of $2$ kg and $4$ kg are connected with a string that passes over a pulley. They are released from rest. Energy is lost in the pulley due to friction.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/a3935bc0-26a9-423f-98b1-8976d18dc4d7/images/ba606c7f-40fe-40a9-9904-adf078fef49f/Screenshot%202025-07-08%20at%205.43.14%E2%80%AFPM.png)\n\n\nWhen the $2$ kg mass has gained a gravitational potential energy of $E$, the $4$ kg mass has a kinetic energy of $\\dfrac{1}{2}E$. How much energy has been lost to friction up to that point in time?\n\n\n- A. $\\hspace{1em}  \t\\dfrac{E}{4}$\n- B. $\\hspace{1em}  \t\\dfrac{E}{2}$\n- C. $\\hspace{1em}  \tE$\n- D. $\\hspace{1em}  \t2E$\n',
+    markScheme:
+      'A\n\n$\\underline{\\textrm{Explanation}}$:\nSince both of the masses are connected by the string, they should have the same speed and vertical displacement.\nBecause both $E_p$ and $E_k$ are proportional to the mass of the object,\nGravitational potential energy loss of the mass of $4$ kg will be twice the gain of the small mass, which would be $2E$\nSimilarly, the kinetic energy of the mass of $2\\, kg$ will be half of that of the $4\\,kg$ which gives $\\dfrac{E}{4}$\nDue to the principle of energy conservation;\nThe potential energy lost by the mass of  $4$ kg is equal to the sum of\n\n\n- The potential energy gained by the mass of $2$ kg $(2E)$\n- energy lost due to friction $(U)$\n- kinetic energy of the mass of $2$ kg $\\bigg(\\dfrac{E}{4}\\bigg)$ and $4$ kg $\\bigg(\\dfrac{E}{2}\\bigg)$\n\n\n\n- $2E\\ =E+U+\\dfrac{E}{4}+\\dfrac{E}{2}$\n- $U=\\dfrac{E}{4}$\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'bf7485ac-c53c-49b6-9b3d-ee1f14a06588',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 59',
+    content:
+      'A metal ball of mass $m$ is released from a height of $h$ above a massless platform attached to a vertical spring.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/b5cb7aae-5a20-4225-b7e7-576050644152/images/83f09acf-9277-45e6-9188-189b131b1bb6/PH0565.png)\n\n\n$\\footnotesize{\\textrm{[Source: Created with chemix - https://chemix.org/]}}$\nThe spring constant of the spring is given by $\\dfrac{mg}{h}$. The ball hits the spring and compresses it. When the spring is compressed by a distance $h$, what is the speed of the ball?\n(Energy transfer only happens between spring and ball and the kinetic energy of the spring can be ignored)\n\n\n- A. $\\hspace{1em}  \t\\sqrt{2h}$\n- B. $\\hspace{1em}  \t\\sqrt{2gh}$\n- C. $\\hspace{1em}  \t\\sqrt{3h}$\n- D. $\\hspace{1em}  \\sqrt{3gh}$\n',
+    markScheme:
+      'D\n\n$\\underline{\\textrm{Explanation}}$:\nWhen the initial position and final position of the ball are compared in terms of energy, it can be realized that the decrease in gravitational potential energy $E_p$ of the ball equals to increase in kinetic energy $E_{k}$ of the ball and the increase in elastic potential energy $E_H$ of the spring. Additionally, the total decrease in height of the ball is $2h$.\n$\\begin{aligned}\n\\Delta E_p&=E_k +E_H\\\\\n\\hspace{2.3cm}\\\\\nmg(2h)&=\\frac{1}{2}mv^2+\\frac{1}{2}\\frac{mg}{h}h^2 \\\\\n\\hspace{2.3cm}\\\\\n\\frac{1}{2}mv^2&=mg(2h)-\\frac{1}{2}mgh\\\\\n\\hspace{2.3cm}\\\\\nmv^2&=4mgh-mgh\\\\\n\\hspace{2.3cm}\\\\\nmv^2&=3mgh\\\\\n\\hspace{2.3cm}\\\\\nv&=\\sqrt{3gh}\\\\\n\\end{aligned}$\nTherefore, the answer is D.',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'a12d30c8-d9c0-4a62-8c27-aedcbd843b39',
+    selection: 'Selection A',
+    type: 'SAQ',
+    title: 'Question 60',
+    content:
+      '\n- Define potential energy. <span class="marks">[1]</span>\n\n- A body of mass 2.0 kg is pushed with an initial speed of 1.2 m s$^{-1}$  down the slope of a frictionless 30$\\degree$ incline from a height of $h$. As soon as it reaches the bottom of the incline, it begins to move on a rough horizontal table where it comes to rest momentarily after colliding with a spring of spring constant 32 N m$^{-1}$. (Air friction is ignored)\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/f8235c2b-58f5-4ef1-b323-f3a1908362b0/images/f4457c50-c03d-4ce6-8c85-95822296a5f5/Screenshot%202025-05-28%20at%201.38.19%E2%80%AFPM.png)\n\n\r\n$\\footnotesize{\\textrm{[Created with Chemix (https://chemix.org)]}}$\n  \n  - The speed of the body is 3.06 m s$^{-1}$ when it reaches the bottom of the incline. Calculate $h$. <span class="marks">[2]</span>\n\n  - The distance between the bottom of the slope and the body\'s position is $x$. On the graph, sketch the variation of the square of the speed $v^2$ of the body with distance $x$ from the bottom of the slope. <span class="marks">[2]</span>\n\n    (no need to add values to the axes)\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/f8235c2b-58f5-4ef1-b323-f3a1908362b0/images/259e6e21-40a1-43ae-a7ea-d3ed5221df9d/Screenshot%202025-05-28%20at%201.21.26%E2%80%AFPM.png)\n\n\n  - At the instant that the body stops momentarily, the spring is compressed as 0.43 m. The coefficient of friction between the body and the rough surface is 0.40. Determine the distance that the body covered on the horizontal rough surface between the point of leaving the ramp and stopping momentarily. <span class="marks">[4]</span>\n\n\n- The incline is replaced with one of a steeper gradient. The body is pushed at the same speed from the same height. Explain the effect of the increase in gradient on the maximum compression of the spring in comparison to the maximum compression in the original situation.          <span class="marks">[2]</span>\n\n',
+    markScheme:
+      '\n- The energy possessed by the system due to the relative positions of its components or parts OR energy possessed by an object due to its position in a field $\\checkmark$\n\n\n\n- \n  - Use of conservation of energy $\\checkmark$\n    $h = \\ll \\dfrac{1}{2g}(v^2-u^2) = \\gg$ $0.40$ m $\\checkmark$\n    (also allow use of forces and acceration to achieve the same result)\n    $\\underline{\\textrm{Further Explanation}}$: \nThe energy of the body $E_i$ at the beginning is the sum of the kinetic energy $E_{ki}$ and the difference in the potential energy $\\Delta E_p$  between the starting point and the bottom of the incline;\n    \n    \n    - $E_i = E_{ki} + \\Delta E_p = \\dfrac{1}{2}mu^2 + mgh \\hspace{1em}$ where $u = 1.2$ m s$^{-1}$ and $m = 2.0$ kg\n\n    The energy $E_f$ when the body reaches the rough surface equals the kinetic energy $E_{kf}$ due to the final speed;\n    \n    \n    - $E_f = E_{kf} = \\dfrac{1}{2}mv^2$ where $v=3.06$ m s$^{-1}$ and $m=2$ kg\n\n    The incline is frictionless and there is no air friction. Therefore, the total energy must be conserved throughout the motion.\n    $\\begin{aligned}\n      E_i &= E_f\\\\\n      \\hspace{2.3cm}\\\\\n      \\frac{1}{2}mu^2 + mgh &= \\frac{1}{2}mv^2\\\\      \n      \\hspace{2.3cm}\\\\\n      \\frac{1}{2}u^2 + gh &= \\frac{1}{2}v^2\\\\      \n      \\hspace{2.3cm}\\\\\n      gh &= \\frac{1}{2}v^2 - \\frac{1}{2}u^2\\\\      \n      \\hspace{2.3cm}\\\\\n      h &= \\frac{1}{2g}(v^2-u^2)\\\\\n      \\end{aligned}$\n    when the given values are substituted in the equation;\n    \n    \n    - $h = \\dfrac{1}{(2)(9.81)}(3.06^2 - 1.2^2) = 0.40$ m\n\n\n  \n  \n  - $\\textrm{ }$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/f8235c2b-58f5-4ef1-b323-f3a1908362b0/images/42d6466e-d66e-4619-9b23-3288d3daf221/Screenshot%202025-05-28%20at%201.22.42%E2%80%AFPM.png)\n\n\n    A straight line with a non-zero minimum value of $v^2$ at $x=$max $\\checkmark$\n    negative gradient $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe height of the body at any position can be expressed as;\n    \n    \n    - $h=x\\sin\\theta$\n\n    The sum of gravitational potential energy and kinetic energy of the body is constant for every position of the body on the incline;\n    \n    \n    - $E_{tot} = \\dfrac{1}{2}mv^2 + mgh = \\dfrac{1}{2}mv^2 + mgx\\sin\\theta$ where $c$ is a constant.\n\n    Is can be rearranged as;\n    \n    \n    - $E_{tot} - mgx\\sin\\theta = \\dfrac{1}{2}mv^2$\n    - $v^2=\\dfrac{2E_{tot}}{m} - 2gx\\sin\\theta$ where $\\dfrac{2E_{tot}}{m}$ and $2g\\sin\\theta$ are constant\n\n    This relationship is similar to the following expression:\n    \n    \n    - $y=mx + C$ where $C=\\dfrac{2E_{tot}}{m}$, $m=-2g\\sin\\theta$, $x = x$ and $y = v^2$\n\n    Therefore, the relationship between $x$ and $v^2$ can be expressed with a straight line that starts from a non-zero value and has a negative gradient.\n    \n  - Change in energy in the spring = $\\ll \\dfrac{1}{2}(32)(0.43)^2 = \\gg 3.0$ J $\\checkmark$\n    Energy difference/lost = $\\ll \\dfrac{1}{2}(2.0)(3.06)^2 - 3.0 = \\gg - 6.4$ J $\\checkmark$\n    Work done = $\\ll$ Friction = $\\mu mg\\cos\\theta d = (0.40)(2.0)(9.81)d(-1) \\gg - 7.8\\,d\\,\\checkmark$\n    $d=$ $0.82$ m $\\checkmark$\n    $\\underline{\\textrm{Further Explanation}}$: \nThe change in energy between the time at which the body starts to move on the rough surface and stops momentarily is the difference between the kinetic energy $E_{Ki}$ of the body and the elastic potential energy of the spring $E_{pi}$;\n    \n    \n    - $\\Delta E = E_{Ki} - E_{Pi}$\n    - $\\Delta E = \\dfrac{1}{2}mv^2 - \\dfrac{1}{2}kx^2$ where $v = 3.06$ m s$^{-1}$, $m=2.0$ kg, $k=32$ N m$^{-1}$ and $x = 0.43$\n    - $\\Delta E = \\dfrac{1}{2}(2.0)(3.06)^2 - \\dfrac{1}{2}(32)(0.43)^2=6.4$ J\n\n    Work is done by the friction force $F_f$ on the body for a distance $d$;\n    \n    \n    - $W = F_fd\\cos\\theta = \\mu Nd\\cos\\theta = \\mu mgd\\cos\\theta$\n\n    where\n    \n    \n    - $\\mu = 0.40,\\,\\theta = 180°$\n    - $W = (0.40)(2.0)(9.81)d (-1) = -7.8d$\n\n    The work done $W$ acting on the system equals the change in energy $\\Delta E$\n    \n    \n    - $W = \\Delta E$\n    - $-7.8\\,d = -6.4$ J\n    - $d = \\dfrac{-6.4}{-7.8} = 0.82$ m\n\n    \n\n- No change/same $\\checkmark$\n  The initial total energy of the body is same with previous alignment $\\checkmark$\n  \n  $\\underline{\\textrm{Further Explanation}}$: \nThe initial total energy of the body $E$\n  \n  \n  - $E = \\dfrac{1}{2}mv^2 + mgh$\n\n  None of the quantities above is changed. So the initial total energy is the same as the previous situation.\n  The initial total energy of the body equals the sum of elastic potential energy $E_p$ and the magnitude of work done by friction $W$;\n  \n  \n  - $E = E_p + W$\n  - $E = \\dfrac{1}{2}kx^2 + \\mu mgd$\n\n  None of the quantities above is changed with the angle of the incline. Hence, compression does not change.\n',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: '11',
+    difficultyLevel: '4'
+  },
+  {
+    paperId: 'b0b6acf0-28c2-4a92-9bc2-e3f3b6b5fcc4',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 61',
+    content:
+      'A 74 kg boy starts to ride a 6.0 kg bicycle from rest. The graph shows how the acceleration $a$ of the bicycle varies with the distance travelled $x$.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/d4d2c1c2-6eda-4118-be39-9118e7b4d664/images/66c0c029-7c83-49ce-91c5-fb1a477bf51b/Screenshot%202025-06-05%20at%208.49.04%E2%80%AFAM.png)\n\n\nWhat is the total work done by the boy?\n\n\n- A. $\\hspace{1em}$ 0.3 kJ\n- B. $\\hspace{1em}$ 3.7 kJ\n- C. $\\hspace{1em}$ 4.0 kJ\n- D. $\\hspace{1em}$ 6.0 kJ\n',
+    markScheme:
+      'C\n\n$\\underline{\\textrm{Explanation}}$:\nWork Done = (Force $\\times$ Distance) = (Mass $\\times$ Acceleration $\\times$ Distance)\n(Acceleration $\\times$ Distance) is the area under the graph.\nWork done is (Mass $\\times$ Graph Area) = (74+6)(50) = 4000 J = 4 kJ',
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4.5'
+  },
+  {
+    paperId: '1a8a092b-8816-4f15-856a-1bd2113cac70',
+    selection: 'Selection B',
+    type: 'MCQ',
+    title: 'Question 62',
+    content:
+      'An object of mass $1.0$ kg rests on a rough surface. Another object of mass $2.0$ kg is connected to it with a string.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/da1c56d0-cbd4-4733-83bb-5f602f012e48/images/5ad23e85-206e-4711-b2ed-20c0481d45a3/Screenshot%202025-07-08%20at%205.53.49%E2%80%AFPM.png)\n\n\nWhen the objects are released, the masses accelerate at $\\dfrac{g}{2}$. The work done by the tension of the string on the $1.0$ kg mass is $40$ J. Which of the following is correct for the $1.0$ kg mass during this period?\n\nMagnitude of the force of friction / NDistance travelled / m$\\hspace{1.5em}$A.$\\hspace{1.5em}$10$4.0$ $\\hspace{1.5em}$B.$\\hspace{1.5em}$5$4.0$ $\\hspace{1.5em}$C.$\\hspace{1.5em}$10$2.0$ $\\hspace{1.5em}$D.$\\hspace{1.5em}$5$2.0$',
+    markScheme:
+      "B\n\n$\\underline{\\textrm{Explanation}}$:\nThe acceleration is given as $\\dfrac{g}{2}$ which is equal to $\\dfrac{10}{2} = 5$ m s$^{-2}$\nThe free body diagram of the forces on the mass of $2.0$ kg:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/da1c56d0-cbd4-4733-83bb-5f602f012e48/images/c2d6f4fb-acd4-4d56-a0c4-8def2c43d211/Screenshot%202025-05-30%20at%2012.18.45%E2%80%AFPM.JPEG)\n\n\nAccording to Newton's second law, the relationship between tension $T$, the weight of the object $W$ and the acceleration of the object:\n$\\begin{aligned}\nF_{net}&=ma\\\\\n\\hspace{2.3cm}\\\\\nW_2-T&=(2.0)(5)\\\\\n\\hspace{2.3cm}\\\\\n(2)(10)-T&=(2.0)(5)\\\\\n\\hspace{2.3cm}\\\\\nT&=10\\textrm{ N}\\\\\n\\end{aligned}$\nThe free body diagram of the forces on the mass of $1.0$ kg:\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/da1c56d0-cbd4-4733-83bb-5f602f012e48/images/60248a9f-84bf-4dfd-b06e-48f3db63eec5/Screenshot%202025-05-30%20at%2012.18.51%E2%80%AFPM.JPEG)\n\n\nThe normal reaction force $F_N$ of the ground on the box balances the weight $W$ of the object. According to Newton's second law, the relationship between Tension $T$, the force of friction on the object $F_f$ and the acceleration of the object\n\n\n- $T-F_f=(1.0)(5)$\n\nWhen the magnitude of $T$ is substituted in the equation;\n\n\n- $10-F_f=(1.0)(5)$\n- $\\hspace{2em}F_f=5$ N\n\nThe work done $W$ by $T$ can be found by the product of $T$ and the distance $d$ travelled by the object.\n\n\n- $W_1=Td$\n- $40=10d$\n- $d=4.0$ m\n",
+    paper: 'PAPER2',
+    difficulty: 'HARD',
+    calculator: true,
+    sort: 1,
+    maxMark: null,
+    difficultyLevel: '4.5'
+  }
+];

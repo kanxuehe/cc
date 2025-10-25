@@ -1,30 +1,68 @@
-[
-    "4a2680d7-096a-4ffe-953f-b46a59b71a9d",
-    "9ad174b4-7106-4efd-b233-94109771b5d9",
-    "4cc11078-3d95-4f9c-812f-273ebf2daa28",
-    "71489dfa-c5d1-49f5-91d1-2e2aeb99c7a8",
-    "d147b809-b305-4b31-952f-d425b33f226b",
-    "62c5b384-6bc3-4457-8b10-0e554f2fa74a",
-    "a662fe3a-44b8-4301-8819-d0f50330dbb5",
-    "97136736-206f-4a40-94ed-bb8d9a2e6cbf",
-    "baa18f7f-b280-4773-bd00-d17397d49cc3",
-    "0b60ff72-7601-4fb5-bfb2-08f5b8a82ab7",
-    "92aeb5b5-6b4a-4662-928c-28e4661b86ef",
-    "71b8e197-412b-4996-a354-a84ad218c786",
-    "332b84ef-fc80-4de4-aee9-369db62929ed",
-    "7471e8a3-dabe-4d8f-8a92-1b79cee10598",
-    "cebb9358-b0f5-401e-b8cd-4a5d4528b73a",
-    "6b06ffe7-96ad-401a-92f4-3ce39ce52e03",
-    "d42a19cd-fe1a-4cef-8f3c-2a27ded2792b",
-    "28760a5b-e6c6-4536-bde6-707e11404a87",
-    "d3e8fd82-a96a-45b5-99b8-8adde7504a58",
-    "4e2174ae-3234-4899-b509-6214fb091b7c",
-    "dd1bada6-f3f2-4f47-8f21-ce8814f16458",
-    "14072c00-8475-4875-ad34-ddaed363f99f",
-    "8b47eeb2-ab68-45f2-9af3-13b9ed9e8842",
-    "59fff522-df6a-4fa2-a770-1ea965783f06",
-    "2ec7e4e1-0530-483b-a726-42fb8a016cd0",
-    "86f2cbf7-2efa-444a-98e6-12a83547731b",
-    "57553e28-bbff-4a02-a904-439ae185cb21",
-    "7327906c-13df-4a8d-9897-a02d8d5e0b58"
-]
+import { allData } from './allData.js';
+import fs from 'fs';
+import path from 'path';
+
+// const list = []
+// const result = [];
+// list.map((item) => {
+//   const ids = item.papers.map((paper) => paper.id);
+//   result.push(...ids);
+// });
+
+const paperIds = [
+  '4a2680d7-096a-4ffe-953f-b46a59b71a9d',
+  '9ad174b4-7106-4efd-b233-94109771b5d9',
+  '4cc11078-3d95-4f9c-812f-273ebf2daa28',
+  '71489dfa-c5d1-49f5-91d1-2e2aeb99c7a8',
+  'd147b809-b305-4b31-952f-d425b33f226b',
+  '62c5b384-6bc3-4457-8b10-0e554f2fa74a',
+  'a662fe3a-44b8-4301-8819-d0f50330dbb5',
+  '97136736-206f-4a40-94ed-bb8d9a2e6cbf',
+  'baa18f7f-b280-4773-bd00-d17397d49cc3',
+  '0b60ff72-7601-4fb5-bfb2-08f5b8a82ab7',
+  '92aeb5b5-6b4a-4662-928c-28e4661b86ef',
+  '71b8e197-412b-4996-a354-a84ad218c786',
+  '332b84ef-fc80-4de4-aee9-369db62929ed',
+  '7471e8a3-dabe-4d8f-8a92-1b79cee10598',
+  'cebb9358-b0f5-401e-b8cd-4a5d4528b73a',
+  '6b06ffe7-96ad-401a-92f4-3ce39ce52e03',
+  'd42a19cd-fe1a-4cef-8f3c-2a27ded2792b',
+  '28760a5b-e6c6-4536-bde6-707e11404a87',
+  'd3e8fd82-a96a-45b5-99b8-8adde7504a58',
+  '4e2174ae-3234-4899-b509-6214fb091b7c',
+  'dd1bada6-f3f2-4f47-8f21-ce8814f16458',
+  '14072c00-8475-4875-ad34-ddaed363f99f',
+  '8b47eeb2-ab68-45f2-9af3-13b9ed9e8842',
+  '59fff522-df6a-4fa2-a770-1ea965783f06',
+  '2ec7e4e1-0530-483b-a726-42fb8a016cd0',
+  '86f2cbf7-2efa-444a-98e6-12a83547731b',
+  '57553e28-bbff-4a02-a904-439ae185cb21',
+  '7327906c-13df-4a8d-9897-a02d8d5e0b58'
+];
+
+const data = allData;
+const length = data.length;
+function getRandomInt(x, data) {
+  const index = Math.floor(Math.random() * (x + 1));
+  if (data[index].paperId) {
+    return getRandomInt(x, data);
+  }
+  return index;
+}
+paperIds.forEach((paperId) => {
+  for (let i = 0; i < 6; i++) {
+    let index = getRandomInt(length - 1, data);
+    data[index].paperId = paperId;
+    const selectionA = data.filter(
+      (item) => item.paperId === paperId && item.selection === 'Selection A'
+    );
+    if (selectionA.length <= 3) {
+      data[index].selection = 'Selection A';
+    } else {
+      data[index].selection = 'Selection B';
+    }
+  }
+});
+const result = data.filter((item) => item.paperId);
+const filepath = path.join('./', 'list.json');
+fs.writeFileSync(filepath, JSON.stringify(result, null, 2), 'utf8');
