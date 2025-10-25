@@ -1,0 +1,102 @@
+{
+  "list": [
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "SAQ",
+      "title": "Question 1",
+      "content": "Prove that the sum of three consecutive positive integers is divisible\nby $3$.",
+      "markScheme": "Let $n, \\, n + 1$ and $n+2$ be three consecutive positive integers for\nsome $n \\in \\mathbb{Z^{+}}$.\nThe sum of the three integers is\n\n$$\n\\begin{aligned}\n\\hspace{8em} n + (n + 1) + (n+2) &= 3n + 3 \\\\[6pt]\n&= 3(n+1) \\hspace{3em} [\\text{multiple of $3$}]\\end{aligned}\n$$\n\nHence the sum of three consecutive positive integers is divisible by\n$3$.",
+      "paper": "PAPER1",
+      "difficulty": "EASY",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "4",
+      "difficultyLevel": "1.5"
+    },
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "SAQ",
+      "title": "Question 2",
+      "content": "Consider two consecutive positive integers, $k$ and $k+1$.\nShow that the difference of their squares is equal to the sum of the two\nintegers.",
+      "markScheme": "The difference of the squares of $k$ and $k+1$ is\n\n$$\n\\begin{aligned}\n\\hspace{9.5em}(k+1)^2 - k^2 &= k^2 + 2k + 1 - k^2 \\\\[6pt]\n&= 2k + 1 \\\\[6pt]\n&= k + (k + 1) \\hspace{3em} [\\text{sum of $k$ and $k+1$}]\\end{aligned}\n$$\n\nHence the difference of the squares of two consecutive positive integers\nis equal to their sum.",
+      "paper": "PAPER1",
+      "difficulty": "EASY",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "4",
+      "difficultyLevel": "1.5"
+    },
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "SAQ",
+      "title": "Question 3",
+      "content": "The product of three consecutive integers is increased by the middle\ninteger.\nProve that the result is a perfect cube.",
+      "markScheme": "Let $n-1,\\, n$ and $n+1$ be three consecutive integers for some\n$n \\in \\mathbb{Z}$.\nThe product of these three integers is\n\n$$\n\\begin{aligned}\n(n-1) \\times n \\times (n + 1) &=  n \\times (n^2 - 1) \\\\[6pt]\n&= n^3 - n\\end{aligned}\n$$\n\nIf this product is\nincreased by the middle integer, $n$, then the result would be\n\n$$\n\\begin{aligned}\n\\hspace{6.25em} (n^3 - n) + n &= n^3 \\hspace{3em} [\\text{perfect cube}]\\end{aligned}\n$$\n\nHence the result of increasing the product of three consecutive integers\nby the middle integer is a perfect cube.",
+      "paper": "PAPER1",
+      "difficulty": "EASY",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "4",
+      "difficultyLevel": "1.5"
+    },
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "SAQ",
+      "title": "Question 4",
+      "content": "\n- Show that $(2n-1)^3 + (2n+1)^3 = 16n^3+12n$ for $n \\in \\mathbb{Z}$.\n<span class=\"marks\">[3]</span>\n\n- Hence, or otherwise, prove that the sum of the cubes of any two\nconsecutive odd integers is divisible by four. <span class=\"marks\">[3]</span>\n\n",
+      "markScheme": "\n- We have\n\n  $$\n  \\begin{aligned}\n  (2n-1)^3 &= (2n)^3 - 3(2n)^2 + 3(2n) - 1 \\hspace{2em} \\\\[6pt]\n  &= 8n^3 - 12n^2 + 6n - 1\\end{aligned}\n  $$\n\n  and\n\n  $$\n  \\begin{aligned}\n  (2n+1)^3 &= (2n)^3 + 3(2n)^2 + 3(2n) + 1 \\hspace{2em} \\\\[6pt]\n  &= 8n^3 + 12n^2 + 6n + 1\\end{aligned}\n  $$\n\n  Summing our expressions for $(2n-1)^3$ and $(2n+1)^3$, we get\n\n  $$\n  \\begin{aligned}\n  (2n-1)^3 + (2n+1)^3 &= 8n^3 - \\cancel{12n^2} + 6n - \\cancel{1} + 8n^3 + \\cancel{12n^2} + 6n + \\cancel{1}\n  \\end{aligned}\n  $$\n\n  Hence we get\n\n  $$\n  \\begin{aligned}\n  \\answer{(2n-1)^3 + (2n+1)^3 = 16n^3 + 12n} \\hspace{2em}\\end{aligned}\n  $$\n\n- Let $2n-1$ and $2n+1$ be two consecutive odd integers for some\n$n \\in \\mathbb{Z}$.\n  The sum of the cubes of $2n-1$ and $2n+1$ is\n\n  $$\n  \\begin{aligned}\n  \\hspace{6.4em} (2n-1)^3 + (2n+1)^3 &= 16n^3 + 12n \\hspace{2em} [\\text{by part (a)}] \\\\[6pt]\n  &= 4n(4n^2 + 3) \\hspace{2.22em} [\\text{multiple of $4$}]\\end{aligned}\n  $$\n\n  Hence the sum of the cubes of any two consecutive odd integers is\ndivisible by four.\n",
+      "paper": "PAPER1",
+      "difficulty": "EASY",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "6",
+      "difficultyLevel": "2.5"
+    },
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "SAQ",
+      "title": "Question 5",
+      "content": "\n- Prove that $\\dfrac{5}{x^2} = \\dfrac{5}{x(x-2)}-\\dfrac{10}{x^2(x-2)}$. <span class=\"marks\">[3]</span>\n\n- Determine the set of numbers $x$ for which the proof in part (a) is valid. <span class=\"marks\">[2]</span>\n\n\n\n$$\n\n$$\n",
+      "markScheme": "\n- By working out the right side of the equation, we have\n\n  $$\n  \\begin{align*}\n      \\dfrac{5}{x(x-2)}-\\dfrac{10}{x^2(x-2)} &= \\dfrac{5x}{x^2(x-2)}-\\dfrac{10}{x^2(x-2)} \\\\[9pt]\n      &= \\dfrac{5x-10}{x^2(x-2)} \\\\[9pt]\n      &= \\dfrac{5\\ \\cancel{(x-2)}}{x^2\\ \\cancel{(x-2)}} \\\\[9pt]\n      &= \\dfrac{5}{x^2}   .\n  \\end{align*}\n  $$\n\n- We cannot have a denominator equal to zero, and therefore\n\n  $$\n  \\begin{align*}\n      x^2 &\\neq 0 \\Rightarrow x \\neq 0 \\hspace{3.95em} \\text{[from L.H.S.]} \\\\[8pt]\n      x(x-2) &\\neq 0 \\Rightarrow x \\neq 0 , 2 \\hspace{3em} \\text{[from R.H.S.]} \\\\[8pt]\n      x^2(x-2) &\\neq 0 \\Rightarrow x \\neq 0 , 2 \\hspace{3em} \\text{[from R.H.S.]}\n  \\end{align*}\n  $$\n\n\nTherefore the proof is valid for all values of $x$ except $x = 0$ and $x=2$.\n$\\answer{x \\in \\mathbb{R}, x \\neq 0 \\text{  and  } x\\neq 2}$",
+      "paper": "PAPER1",
+      "difficulty": "EASY",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "5",
+      "difficultyLevel": "2.5"
+    },
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "ERQ",
+      "title": "Question 6",
+      "content": "Consider the function $f(x)=4x-x^2-1$.\n\n- Write $f(x)$ in the form $(x-h)^2+k$.<span class=\"marks\">[2]</span>  \n\nA line is drawn through the points $A(0, f(0))$ and $B(2, f(2))$.\n\n- \n  - Write down the coordinates of points $A$ and $B$.\n  - Find $g(x)$, the equation of the line passing through points $A$ and $B$.\n  - Hence, show that the area enclosed by $f(x)$ and $g(x)$ is $\\dfrac{4}{3}$ units$^2$. <span class=\"marks\">[4]</span>\n\n\n\nA horizontal line is drawn through the points $C(1, f(1))$ and $D(3, f(3))$.\n\n- Show that the area enclosed by $f(x)$ and line $CD$ is $\\dfrac{4}{3}$ units$^2$.<span class=\"marks\">[2]</span>  \n\nConsider the two points $E(a, f(a))$ and $F(a+2, f(a+2))$.\n\n- Show that the area enclosed by the function $f$ and the line $EF$ is $\\dfrac{4}{3}$ units$^2$.<span class=\"marks\">[5]</span>  \n",
+      "markScheme": "\n- To write $f$ in the desired form we must complete the square\n\n  $$\n  \\begin{align*}\n  \\tag*{\\textbf{(M1)}}\n  \\end{align*}\n  $$\n\n\n  $$\n  \\begin{align*}\n      f(x)&=4x-x^2-1\\\\[6pt]\n      &=-(x^2-4x)-1\\\\[6pt]\n      &=-[(x-2)^2-(2)^2]-1\\\\[6pt]\n      &=-(x-2)^2+4-1\\\\[6pt]\n      &=\\answer{3-(x-2)^2}\\tag*{\\textbf{\\textcolor{black}{A1}}}\n  \\end{align*}\n  $$\n\n- \n  - We can find the $y-$coordinate by evaluating the function at both $x=0$ and $x=2$.\n\n    $$\n    \\begin{align*}\n        &&f(0)&=3-(0-2)^2&\\hspace{-1em} &&f(2)&= 3-(2-2)^2&  \\\\[6pt]\n        &&&=-1&\\hspace{-1em} && &= 3& \n    \\end{align*}\n    $$\n\n    Hence the coordinates are $\\answer{A(0,-1)\\text{ and }B(2,3)}$\n\n    $$\n    \\begin{align*}\n    \\tag*{\\textbf{A1}}\n    \\end{align*}\n    $$\n\n  - We can make a quick sketch of $f$\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/41d8354f-4cec-4922-8437-0ca160d21c7a/images/8a3d4b08-1625-4d2d-b1a0-4194dc8e9e19/AA1290-a.JPEG)\n\n\n    We have the $y-$intercept already.\n    And the gradient of the line through $A$ and $B$ is\n\n    $$\n    \\begin{align*}\n        m&=\\dfrac{3-(-1)}{2-0}\\\\[6pt]\n        m&=2 \n    \\end{align*}\n    $$\n\n    Therefore, the line through $A$ and $B$ is $\\answer{y=2x-1}$\n\n    $$\n    \\begin{align*}\n    \\tag*{\\textbf{A1}}\n    \\end{align*}\n    $$\n\n  - The shaded area, seen below, shows the area we need to find\n    ![SkillUpp Image](https://assets.revisionvillage.com/public/question/41d8354f-4cec-4922-8437-0ca160d21c7a/images/7d705ca2-0e34-498c-9547-5edd23168ba9/AA1290-a2.JPEG)\n\n\n    To find the area we evaluate the following definite integral, where $A_x$ and $B_x$ are the $x-$coordinates of points $A$ and $B$ respectively\n\n    $$\n    \\begin{align*}\n        &=\\int_{A_x}^{B_x} (\\mathrm{f}(x)-\\mathrm{g}(x)) \\,dx \\\\[4pt]\n        &=\\int_{0}^{2} (4x-x^2-1-(2x-1)) \\,dx\\tag*{\\textbf{\\textcolor{black}{M1}}}\\\\[4pt]\n        &=\\int_{0}^{2} (2x-x^2) \\,dx\n    \\end{align*}\n    $$\n\n    Using the inverse power rule and substituting in the limits we get\n\n    $$\n    \\begin{align*}\n        &=\\left[x^2-\\dfrac{1}{3}x^3\\right]_{0}^{2}\\\\[4pt]\n         &=(2)^2-\\dfrac{1}{3}(2)^3-\\left((0)^2-\\dfrac{1}{3}(0)^3\\right) \\tag*{\\textbf{\\textcolor{black}{A1}}}\\\\[4pt]\n         &=\\answer{\\dfrac{4}{3}\\text{ units}^2}\\hspace{1em}\\text{...as required}\n    \\end{align*}\n    $$\n\n\n- We can make a quick sketch of the new region enclosed by $f(x)$ and the new (horizontal) $g(x)$.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/41d8354f-4cec-4922-8437-0ca160d21c7a/images/93eaf720-1029-402e-8f97-65cddb8026ba/AA1290-a3.JPEG)\n\n\n  We now evaluate the definite integral, where $C_x$ and $D_x$ are the $x-$coordinates of points $C$ and $D$ respectively\n\n  $$\n  \\begin{align*}\n      &=\\int_{C_x}^{D_x} (\\mathrm{f}(x)-\\mathrm{g}(x)) \\,dx\\\\[3pt]\n      &=\\int_{1}^{3} (4x-x^2-1-(2)) \\,dx\\\\[3pt]\n      &=\\int_{1}^{3} (4x-x^2-3) \\,dx \\tag*{\\textbf{\\textcolor{black}{M1}}}\\\\[3pt]\n  \\end{align*}\n  $$\n\n  Using the inverse power rule, to integrate each term and substitute in the limits, we get\n\n  $$\n  \\begin{align*}\n      &=\\left[2x^2-\\frac{1}{3}x^3-3x\\right]_{1}^{3}\\\\[3pt]\n          &=2(3)^2-\\dfrac{1}{3}(3)^3-3(3)-\\left((2(1)^2-\\dfrac{1}{3}(1)^3-3(1)\\right) \\\\[3pt]\n          &=18-9-9-(2-\\frac{1}{3}-3)\\tag*{\\textbf{\\textcolor{black}{A1}}}\\\\[3pt]\n          &=\\answer{\\dfrac{4}{3}\\text{ units}^2}\\hspace{1em}\\text{...as required}\n  \\end{align*}\n  $$\n\n- The diagram below shows a region bound by $f(x)$ and $g(x)$ and the points $E(a, f(a))$ and $F(a+2, f(a+2)))$.\n  The function $f$ needs to be used to calculate the $y-$coordinate values of $E$ and $F$.\n  ![SkillUpp Image](https://assets.revisionvillage.com/public/question/41d8354f-4cec-4922-8437-0ca160d21c7a/images/7597d9d0-8ed4-4fea-8e36-94f1a14efc4c/AA1290-a4.JPEG)\n\n\n  To find the area we need to find the linear function $g(x)$ in terms of $a$.\n\n  $$\n  \\begin{align*}\n  \\tag*{\\textbf{(M1)}}\n  \\end{align*}\n  $$\n\n  $\\mathrm{g}(x)$ is of the form $g(x)=m_gx+c_g$.\n  Where the gradient, $m_g$, is\n\n  $$\n  \\begin{align*}\n      m_g&=\\dfrac{y_2+y_1}{x_2-x_1}\\\\[3pt]\n      &=\\dfrac{\\mathrm{f}(a+2)-\\mathrm{f}(a)}{a+2-a}\\\\[3pt]\n      &=\\dfrac{(3-a^2)-(3-(a-2)^2))}{2}\n  \\end{align*}\n  $$\n\n  Simplifying we get\n\n  $$\n  \\begin{align*}\n      &=\\dfrac{-a^2+(a-2)^2}{2}\\\\[3pt]\n      &=\\dfrac{-a^2+a^2-4a+4}{2}\\\\[3pt]\n      m_g&=2-2a \\tag*{\\textbf{\\textcolor{black}{A1}}}\\\\[3pt]    \n  \\end{align*} \n  $$\n\n  Using the point $A(a, f(a))$ we can find the $y-$intercept, $c_g$, of $g(x)$\n\n  $$\n  \\begin{align*}\n      y&=(2-2a)x+c_g\\\\[3pt]\n      \\mathrm{f}(a)&=(2-2a)a+c_g\\\\[3pt]\n      3-(a-2)^2&=(2-2a)a+c_g\\\\[3pt]    \n      c_g&=3-(a-2)^2-2a+2a^2\\\\[3pt]    \n      c_g&=a^2+2a-1 \\tag*{\\textbf{\\textcolor{black}{A1}}}\\\\[3pt] \n  \\end{align*} \n  $$\n\n  The function $g(x)$ in terms of $a$ is\n\n  $$\n  \\begin{align*}\n      \\mathrm{g}(x)=(2-2a)x+a^2+2a-1\n  \\end{align*}\n  $$\n\n  The shaded area is given by the following definite integral\n\n  $$\n  \\begin{align*}\n      &=\\int_{E_x}^{F_x} (f(x)-g(x)) \\,dx\\\\[3pt]\n      &=\\int_{a}^{a+2} (4x-x^2-1-((2-2a)x+a^2+2a-1)) \\,dx \\tag*{\\textbf{\\textcolor{black}{M1}}}\n  \\end{align*}\n  $$\n\n  Simplifying we get\n\n  $$\n  \\begin{align*}\n      &=\\int_{a}^{a+2} (4x-x^2-1-(2x-2ax+a^2+2a-1)) \\,dx\\\\[3pt]\n      &=\\int_{a}^{a+2} (2x-x^2+2ax-a^2-2a) \\,dx\\\\[3pt]\n      &=\\int_{a}^{a+2} (-x^2+(2a+2)x-a^2-2a) \\,dx\n  \\end{align*}\n  $$\n\n  Now we can integrate each term, using the inverse power rule, and substitute in the limits.\n\n  $$\n  \\begin{align*}\n  =\\left[-\\dfrac{1}{3}x^3+\\dfrac{2a+2}{2}x^2-x(a^2+2a)\\right]_{a}^{a+2}\\tag*{\\textbf{A1}}\n  \\end{align*}\n  $$\n\n\n  $$\n  \\begin{align*}\n  =-\\dfrac{1}{3}(a+2)^3+(a+1)(a+2)^2-(a+2)(a^2+2a)-...\\\\\n  ...\\left(-\\dfrac{1}{3}a^3+(a+1)a^2-a(a^2+2a)\\right)\n  \\end{align*}\n  $$\n\n  Expanding and simplifying we gradient\n\n  $$\n  \\begin{align*}\n  =-\\dfrac{1}{3}(a^3+6a^2+12a+8)+a^3+5a^2+8a+4-(a^3+4a^2+4a)-...\\\\\n  ...\\left(-\\dfrac{1}{3}a^3+a^3+a^2-a^3-2a^2\\right)\n  \\end{align*}\n  $$\n\n  We continue to collect any like terms and simplify to get\n\n  $$\n  \\begin{align*}\n  =\\cancel{-\\dfrac{1}{3}a^3}-2a^2-4a-\\dfrac{8}{3}+a^2+4a+4-...\\\\\n  ...\\left(\\cancel{-\\dfrac{1}{3}a^3}-a^2\\right)\n  \\end{align*}\n  $$\n\n\n  $$\n  \\begin{align*}\n  &=\\cancel{-2a^2}-\\cancel{4a}-\\dfrac{8}{3}+\\cancel{a^2}+\\cancel{4a}+4+\\cancel{a^2}\\tag*{\\textbf{A1}}\\\\\n  &=-\\dfrac{8}{3}+4\\\\\n  &=\\answer{\\dfrac{4}{3} \\,\\text{units}^2}\\hspace{3em}\\text{...as required}\n  \\end{align*}\n  $$\n\n",
+      "paper": "PAPER1",
+      "difficulty": "HARD",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "13",
+      "difficultyLevel": "4"
+    },
+    {
+      "paperId": "",
+      "selection": "Selection A",
+      "type": "SAQ",
+      "title": "Question 7",
+      "content": "Prove that if the sum of the digits of a 4-digit number is divisible by 3, then the four-digit number is also divisible by 3.",
+      "markScheme": "Let $n$ be a four-digit number such that\n\n$$\n\\begin{align*}\n    n=a_3a_2a_1a_0\n\\end{align*}\n$$\n\nwhere\n\n$$\n\\begin{align*}\n    a_3&=m \\times 10^3\\\\\n    a_2&=p\\times10^2\\\\\n    a_1&=r\\times 10^1\\\\\n    a_0&=s\\times 10^0\n\\end{align*}\n$$\n\n$m,p,r,s\\in\\mathbb{Z^+}$ and $0 \\leq m,p,r,s\\leq9$ and $m\\neq0$.\nWe can therefore rewrite $n$ as:\n\n$$\n\\begin{align*}\nn=m\\times10^3+p\\times10^2+r\\times10^1+s\\times10^0\\tag*{\\textbf{\\textcolor{black}{(M1)}}}\n\\end{align*}\n$$\n\nBecause the sum of the digits is divisible by three, we know that\n\n$$\n\\begin{align*}\n    m+p+r+s=3k\\hspace{1em}(k\\in\\mathbb{Z^+})\n    \\tag*{\\textbf{\\textcolor{black}{(M1)}}}\\\\\n\\end{align*}\n$$\n\nWe want to get that $3k$ into our equation for $n$ above as it is clearly divisible by 3, so we will rearrange to isolate for $s$:\n\n$$\n\\begin{align*}\n    s=3k-m-p-r\n\\end{align*}\n$$\n\nSubstituting this into the equation for $n$:\n\n$$\n\\begin{align*}\n    n&=m\\times10^3+p\\times10^2+r\\times10^1+3k-m-p-r\n    \\tag*{\\textbf{\\textcolor{black}{(M1)}}}\\\\[6pt]\n    n&=m\\times10^3-m+p\\times10^2-p+r\\times10^1-r+3k\\\\[6pt]\n    n&=m(1000-1)+p(100-1)+r(10-1)+3k\\\\[6pt]\n    n&=999m+99p+9r+3k \\tag*{\\textbf{\\textcolor{black}{A1}}}\\\\[6pt]\n    n&=3(333m+33p+3r+k)\\tag*{\\textbf{\\textcolor{black}{A1}}}\\\\[6pt]\n    &\\hspace{-0.5em}n \\text{ is divisible by 3}\\\\[6pt]\n\\end{align*}\n$$\n\nHence the four-digit number is also divisible by $3$.",
+      "paper": "PAPER1",
+      "difficulty": "HARD",
+      "calculator": false,
+      "sort": 1,
+      "maxMark": "5",
+      "difficultyLevel": "5"
+    }
+  ]
+}

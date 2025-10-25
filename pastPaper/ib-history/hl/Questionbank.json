@@ -1,0 +1,336 @@
+{
+  "list": [
+    {
+      "name": "Prescribed Subject 3",
+      "fullName": "Move to Global War",
+      "slug": "move-to-global-war",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Prescribed Subject 3 All",
+          "description": "All Questions in Prescribed Subject 3 Move to Global War",
+          "type": "ALL",
+          "slug": "move-to-global-war",
+          "sort": 1
+        },
+        {
+          "name": "PS3.1 - Japanese Expansion",
+          "description": "Nationalism & militarism, Japanese domestic issues, Manchuria, Pearl Harbor, League of Nations, international response",
+          "type": "ALL",
+          "slug": "move-to-global-war/japanese-expansion",
+          "sort": 1
+        },
+        {
+          "name": "PS3.2 - German and Italian Expansion",
+          "description": "Fascism & Nazism, economic issues, appeasement, Abyssinia, Nazi-Soviet Pact, and international responses",
+          "type": "ALL",
+          "slug": "move-to-global-war/german-and-italian-expansion",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Prescribed Subject 4",
+      "fullName": "Rights & Protest",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Prescribed Subject 4 All",
+          "description": "All Questions in Prescribed Subject 4 Rights & Protest",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "PS4.1 - US Civil Rights Movement",
+          "description": "African Americans, segregation, Jim Crow, non-violent protests, Civil & Voting Rights Acts, Martin Luther King Jr, NAACP",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "PS4.2 - Apartheid South Africa",
+          "description": "Legislation, \"classification\" systems, Bantustans, defiance campaign, Sharpeville, Rivonia, Mandela, and key groups",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Prescribed Subject 5",
+      "fullName": "Conflict & Intervention",
+      "slug": "conflict-and-intervention",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Prescribed Subject 5 All",
+          "description": "All Questions in Prescribed Subject 5 Conflict & Intervention",
+          "type": "ALL",
+          "slug": "conflict-and-intervention",
+          "sort": 1
+        },
+        {
+          "name": "PS5.1 - Rwanda",
+          "description": "Ethnic tension, Hutu power, colonial legacy, Rwandan Civil War, genocide, justice, the refugee crisis, and other impacts",
+          "type": "ALL",
+          "slug": "conflict-and-intervention/rwanda",
+          "sort": 1
+        },
+        {
+          "name": "PS5.2 - Kosovo",
+          "description": "Ethnic tension, political issues, Milosevic, ethnic cleansing, international response, refugee crisis, and other impacts",
+          "type": "ALL",
+          "slug": "conflict-and-intervention/kosovo",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "WH Topic 8",
+      "fullName": "Independence Movements (1800-2000)",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "WH Topic 8 All",
+          "description": "All Questions in WH Topic 8 Independence Movements (1800-2000)",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "WHT8.1 - Origins & Rise to Independence",
+          "description": "Relative importance of nationalism, political ideology, religion, race, social & economic issues, wars and other factors",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "WHT8.2 - Methods Used & Reasons for Success",
+          "description": "Violent & non-violent methods used, importance of leaders and other factors in success of independence movements",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "WHT8.3 - Challenges & Responses in First 10 Years",
+          "description": "Political problems, ethnic, racial, and separatist movements, social & economic challenges, and responses",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "WH Topic 10",
+      "fullName": "Authoritarian States (20th Century)",
+      "slug": "authoritarian-states",
+      "sort": 1,
+      "children": [
+        {
+          "name": "WH Topic 10 All",
+          "description": "All Questions in WH Topic 10 Authoritarian States (20th Century)",
+          "type": "ALL",
+          "slug": "authoritarian-states",
+          "sort": 1
+        },
+        {
+          "name": "WHT10.1 - Emergence",
+          "description": "Economic, social, political, and other factors influencing emergence and methods to establish control",
+          "type": "ALL",
+          "slug": "authoritarian-states/emergence",
+          "sort": 1
+        },
+        {
+          "name": "WHT10.2 - Consolidation & Maintenance of Power",
+          "description": "Methods to consolidate and maintain power, treatment of opposition, and impacts of foreign policy on power",
+          "type": "ALL",
+          "slug": "authoritarian-states/consolidation-and-maintenance-of-power",
+          "sort": 1
+        },
+        {
+          "name": "WHT10.3 - Aims & Results of Policies",
+          "description": "Domestic policies on economy, society, culture, women, and minorities, extent of authoritarian control",
+          "type": "ALL",
+          "slug": "authoritarian-states/aims-and-results-of-policies",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "WH Topic 11",
+      "fullName": "20th Century Wars",
+      "slug": "20th-century-wars",
+      "sort": 1,
+      "children": [
+        {
+          "name": "WH Topic 11 All",
+          "description": "All Questions in WH Topic 11 20th Century Wars",
+          "type": "ALL",
+          "slug": "20th-century-wars",
+          "sort": 1
+        },
+        {
+          "name": "WHT11.1 - Causes",
+          "description": "Economic, ideological, political, and territorial causes including short- and long-term causes",
+          "type": "ALL",
+          "slug": "20th-century-wars/causes",
+          "sort": 1
+        },
+        {
+          "name": "WHT11.2 - Practices & Their Impact on Outcome",
+          "description": "Types of war, technological developments, mobilization of resources, influence of foreign powers",
+          "type": "ALL",
+          "slug": "20th-century-wars/practices",
+          "sort": 1
+        },
+        {
+          "name": "WHT11.3 - Effects",
+          "description": "Peacemaking, territorial changes, political impacts, economic & social impacts including changes for women",
+          "type": "ALL",
+          "slug": "20th-century-wars/effects",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "WH Topic 12",
+      "fullName": "The Cold War",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "WH Topic 12 All",
+          "description": "All Questions in WH Topic 12 The Cold War",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "WHT12.1 - Rivalry, Mistrust, and Accord",
+          "description": "Breakdown of the Grand Alliance, role of ideology, containment, superpower relations, detente, arms race",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "WHT12.2 - Leaders & Nations",
+          "description": "Impact of leaders on the Cold War & impact of the Cold War on countries around the world",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "WHT12.3 - Cold War Crises",
+          "description": "Causes, impact and significance of Cold War crises around the world",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Regional Option 2",
+      "fullName": "History of the Americas",
+      "slug": "history-of-the-americas",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Regional Option 2 All",
+          "description": "All Questions in Regional Option 2 History of the Americas",
+          "type": "ALL",
+          "slug": "history-of-the-americas",
+          "sort": 1
+        },
+        {
+          "name": "A13 - World War II and the Americas",
+          "description": "World War 2 and its impacts: diplomacy, the Good Neighbor policy, treatment of women & minorities, and atomic weapons",
+          "type": "ALL",
+          "slug": "history-of-the-americas/world-war-ii-and-the-americas",
+          "sort": 1
+        },
+        {
+          "name": "A16 - The Cold War and the Americas",
+          "description": "Cold War in the Americas: Truman, McCarthyism, the Korean War, Eisenhower, Vietnam, Kennedy, Johnson, Nixon and Carter",
+          "type": "ALL",
+          "slug": "history-of-the-americas/the-cold-war-and-the-americas",
+          "sort": 1
+        },
+        {
+          "name": "A17 - Civil Rights and Social Movements",
+          "description": "Social movements post-1945: indigenous, African American, feminist, Hispanic America and youth movements in the Americas",
+          "type": "ALL",
+          "slug": "history-of-the-americas/civil-rights-and-social-movements",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Regional Option 3",
+      "fullName": "History of Asia and Oceania",
+      "slug": "history-of-asia-and-oceania",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Regional Option 3 All",
+          "description": "All Questions in Regional Option 3 History of Asia and Oceania",
+          "type": "ALL",
+          "slug": "history-of-asia-and-oceania",
+          "sort": 1
+        },
+        {
+          "name": "AO14 - The People’s Republic of China",
+          "description": "China under the CCP, role of Mao, the Cultural Revolution, foreign affairs, post-Mao power struggle and changes",
+          "type": "ALL",
+          "slug": "history-of-asia-and-oceania/the-peoples-republic-of-china",
+          "sort": 1
+        },
+        {
+          "name": "AO15 - Cold War Conflicts in Asia",
+          "description": "Cold War conflicts in Asia: Malayan Emergency, Korean War, Vietnam, Cambodia and Afghanistan",
+          "type": "ALL",
+          "slug": "history-of-asia-and-oceania/cold-war-conflicts-in-asia",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Regional Option 4",
+      "fullName": "History of Europe",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Regional Option 4 All",
+          "description": "All Questions in Regional Option 4 History of Europe",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "EU12 - Imperial Russia and the Soviet Union",
+          "description": "Tsarist Russia and its eventual collapse, the revolutions of 1917, the Civil War and Lenin's rule",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "EU13 - Europe and World War I",
+          "description": "Short- and long-term origins of World War I, diplomacy, foreign policy, alliances, nationalism and the arms race",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "EU14 - Inter-war Domestic Developments in Europe",
+          "description": "Domestic developments in Germany, Italy, Spain and one other country in the Inter-war years",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    }
+  ]
+}

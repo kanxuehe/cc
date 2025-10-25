@@ -1,0 +1,198 @@
+{
+  "list": [
+    {
+      "name": "Topic 1",
+      "fullName": "Number & Algebra",
+      "slug": "number-and-algebra",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 1 All",
+          "description": "All Questions in Topic 1 Number & Algebra",
+          "type": "ALL",
+          "slug": "number-and-algebra",
+          "sort": 1
+        },
+        {
+          "name": "Number Skills",
+          "description": "Approximation, Rounding, Decimal Places, Significant Figures, Scientific Notation, Percentage Error...",
+          "type": "ALL",
+          "slug": "number-and-algebra/number-skills",
+          "sort": 1
+        },
+        {
+          "name": "Sequences & Series",
+          "description": "Arithmetic & Geometric Sequences & Series, Finding Terms & Sum of Terms, Sigma Notation, Applications...",
+          "type": "ALL",
+          "slug": "number-and-algebra/sequences-and-series",
+          "sort": 1
+        },
+        {
+          "name": "Financial Mathematics",
+          "description": "Compound Interest, Depreciation, Loans & Amortization, Annuities, Using Finance Solver on the Calculator...",
+          "type": "ALL",
+          "slug": "number-and-algebra/financial-mathematics",
+          "sort": 1
+        },
+        {
+          "name": "Systems of Linear Equations",
+          "description": "Simultaneous equations, quadratic equations, cubic equations, applications...",
+          "type": "ALL",
+          "slug": "number-and-algebra/systems-of-linear-equations",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 2",
+      "fullName": "Functions",
+      "slug": "functions",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 2 All",
+          "description": "All Questions in Topic 2 Functions",
+          "type": "ALL",
+          "slug": "functions",
+          "sort": 1
+        },
+        {
+          "name": "Linear Equations & Graphs",
+          "description": "Forms of Linear Lines, Gradient, Intercepts, Parallel & Perpendicular Lines, Perpendicular Bisectors...",
+          "type": "ALL",
+          "slug": "functions/linear-equations-and-graphs",
+          "sort": 1
+        },
+        {
+          "name": "Applications of Functions",
+          "description": "Linear, Quadratic, Direct/Inverse Variation, Exponential, Logarithmic, Sinusoidal. Real-World Applications...",
+          "type": "ALL",
+          "slug": "functions/applications-of-functions",
+          "sort": 1
+        },
+        {
+          "name": "Properties of Functions",
+          "description": "Understanding the Domain & Range of a Function, Interpreting Inverse Functions…",
+          "type": "ALL",
+          "slug": "functions/properties-of-functions",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 3",
+      "fullName": "Geometry & Trigonometry",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 3 All",
+          "description": "All Questions in Topic 3 Geometry & Trigonometry",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Geometry of 3D Shapes",
+          "description": "Dimensions, Surface Area, Volume. 3D Shapes Including Spheres, Hemispheres, Cones, Prisms & Pyramids...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Trigonometry",
+          "description": "Right Triangles: Sin/Cos/Tan, Non-Right Triangles: Sine & Cosine Rule/ Area, Circles: Arcs & Sectors...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Voronoi Diagrams",
+          "description": "Sites/ Edges/ Cells/ Vertices, Perpendicular Bisectors, Nearest Neighbour Interpolation, Toxic Waste Dump...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 4",
+      "fullName": "Statistics & Probability",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 4 All",
+          "description": "All Questions in Topic 4 Statistics & Probability",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Descriptive Statistics",
+          "description": "Mean/ Median/ Mode, Interquartile Range, Histograms, Box & Whisker Plots, Cumulative Freq, Grouped Data...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Bivariate Statistics",
+          "description": "Scatter Plots, Correlation (Pearson/ Spearman), Line of Regression Equation, Interpolation/ Extrapolation...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Probability",
+          "description": "Basic Probability, Tree Diagrams, Venn Diagrams, Sample Space Diagrams, Conditional Probability...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Distributions",
+          "description": "Probability Distributions, Binomial Distributions, Normal Distributions, Random Variables, Applications...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Hypothesis Testing",
+          "description": "Hypotheses (Ho/H1), Significance Levels, P-Values, x^2 Tests for Independence & Fit, T-Tests, 1 & 2 Tailed Tests...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 5",
+      "fullName": "Calculus",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 5 All",
+          "description": "All Questions in Topic 5 Calculus",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Differentiation",
+          "description": "Differentiation Basics, Rates of Change, Equations of Tangents & Normals, Maximum/ Minimum & Optimization...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Integration",
+          "description": "Integration Basics, Anti-Differentiation To Find Constant Term, Area Under & Between Curves, Trapezoidal Rule...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    }
+  ]
+}

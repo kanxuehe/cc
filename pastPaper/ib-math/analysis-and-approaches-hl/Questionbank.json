@@ -1,0 +1,311 @@
+{
+  "list": [
+    {
+      "name": "Topic 1",
+      "fullName": "Number & Algebra",
+      "slug": "number-and-algebra",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 1 All",
+          "description": "All Questions in Topic 1 Number & Algebra",
+          "type": "ALL",
+          "slug": "number-and-algebra",
+          "sort": 1
+        },
+        {
+          "name": "Sequences & Series",
+          "description": "Arithmetic/Geometric, Sigma Notation, Applications, Compound Interest…",
+          "type": "ALL",
+          "slug": "number-and-algebra/sequences-and-series",
+          "sort": 1
+        },
+        {
+          "name": "Exponents & Logs",
+          "description": "Exponent & Log Laws, Solving Exponential & Logarithmic Equations…",
+          "type": "ALL",
+          "slug": "number-and-algebra/exponents-and-logarithms",
+          "sort": 1
+        },
+        {
+          "name": "Binomial Theorem",
+          "description": "Binomial Expansion & Theorem, Pascal’s Triangle & The Binomial Coefficient nCr…",
+          "type": "ALL",
+          "slug": "number-and-algebra/binomial-theorem",
+          "sort": 1
+        },
+        {
+          "name": "Counting Principles",
+          "description": "Permutations & Combinations, Factorial Notation, Product Principle, Sum Principle…",
+          "type": "ALL",
+          "slug": "number-and-algebra/counting-principles",
+          "sort": 1
+        },
+        {
+          "name": "Complex Numbers",
+          "description": "Different Forms, Roots, De Moivre’s Theorem, Argand Diagram, Geometric Applications…",
+          "type": "ALL",
+          "slug": "number-and-algebra/complex-numbers",
+          "sort": 1
+        },
+        {
+          "name": "Proofs",
+          "description": "Proof by Mathematical Induction, Contradiction, Counterexample, Simple Deduction…",
+          "type": "ALL",
+          "slug": "number-and-algebra/proofs",
+          "sort": 1
+        },
+        {
+          "name": "Systems of Equations",
+          "description": "Solving 3 x 3 Systems of Linear Equations, Row Operations, Unique/No/Infinite Solutions…",
+          "type": "ALL",
+          "slug": "number-and-algebra/systems-of-equations",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 2",
+      "fullName": "Functions",
+      "slug": "functions",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 2 All",
+          "description": "All Questions in Topic 2 Functions",
+          "type": "ALL",
+          "slug": "functions",
+          "sort": 1
+        },
+        {
+          "name": "Properties of Functions",
+          "description": "Domain & Range, Composite, Inverse Functions, Max-Min, Intercepts, Intersects, Sketching…",
+          "type": "ALL",
+          "slug": "functions/properties-of-functions",
+          "sort": 1
+        },
+        {
+          "name": "Quadratics",
+          "description": "Quadratic Functions & Equations, Completing the Square, Discriminant, Vertex…",
+          "type": "ALL",
+          "slug": "functions/quadratics",
+          "sort": 1
+        },
+        {
+          "name": "Rational Functions",
+          "description": "Asymptotes, Intercepts, Sketching, Reciprocal Functions, GDC…",
+          "type": "ALL",
+          "slug": "functions/rational-functions",
+          "sort": 1
+        },
+        {
+          "name": "Exponent-Log Functions",
+          "description": "Exponential & Logarithmic Functions & Graphs, Asymptotes, Intercepts…",
+          "type": "ALL",
+          "slug": "functions/exponential-and-logarithmic-functions",
+          "sort": 1
+        },
+        {
+          "name": "Transformations",
+          "description": "Translations, Reflections, Stretches, Graphs, Composite Transformations…",
+          "type": "ALL",
+          "slug": "functions/transformations",
+          "sort": 1
+        },
+        {
+          "name": "Polynomials",
+          "description": "Factor & Remainder Theorems, Sum & Product of Roots, Zeros, Roots, Factors…",
+          "type": "ALL",
+          "slug": "functions/polynomials",
+          "sort": 1
+        },
+        {
+          "name": "Modulus & Inequalities",
+          "description": "Absolute-Value/Modulus Functions, Solving Equations & Inequalities…",
+          "type": "ALL",
+          "slug": "functions/modulus-and-inequalities",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 3",
+      "fullName": "Geometry & Trigonometry",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 3 All",
+          "description": "All Questions in Topic 3 Geometry & Trigonometry",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Geometry & Shapes",
+          "description": "Geometry of 2D & 3D Shapes, Circles, Sectors, Arcs, Triangle Trig, Sine & Cosine Rule, Areas, Bearings…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Trigonometric Functions",
+          "description": "Circular Functions, The Unit Circle, Trig Ratios, Trig Identities, Solving Trig Equations, Trig Graphs…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Vectors",
+          "description": "Basics, Lines, Planes, Space, Angles, Intersections, Scalar/Vector Product, Applications…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 4",
+      "fullName": "Statistics & Probability",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 4 All",
+          "description": "All Questions in Topic 4 Statistics & Probability",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Statistics",
+          "description": "Mean-Median-Mode, Variance, Standard Dev., IQR, Stem/Box Plot, Cumulative Freq…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Bivariate Statistics",
+          "description": "Equation of Regression Line y=ax+b, Correlation Coefficient ‘r’, Strength, Applications…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Probability",
+          "description": "Basics, Venn & Tree Diagrams,  Combined Events, Independent, Mutually Exclusive, Conditional…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Distributions",
+          "description": "Probability Distribution, Binomial Distribution, Normal Distribution, Random Variables, Applications…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Topic 5",
+      "fullName": "Calculus",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Topic 5 All",
+          "description": "All Questions in Topic 5 Calculus",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Differential Calculus",
+          "description": "Differentiation Rules, Properties of Curves, Optimization, Related Rates, Limits, L’Hopitals Rule…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Integral Calculus",
+          "description": "Integration Rules & Techniques, Areas Under/Between Curves, Volume of Solids, Applications…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Kinematics",
+          "description": "Displacement, Velocity, Acceleration, Total Distance Traveled, Graphs, Applications using GDC…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Differential Equations",
+          "description": "First Order DE’s, Euler’s Method, Variables Separable, Homogeneous, Integrating Factor, Applications…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Maclaurin Series",
+          "description": "Common Expansions, Use of Substitution, Products, Integration, Differentiation, Differential Equations…",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "",
+      "fullName": "Paper 3 Questions",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "All",
+          "description": "All Questions in   Paper 3 Questions",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Topic 1 - Number & Algebra",
+          "description": "Sequences & Series, Proof, Binomial Theorem, Complex Numbers, Systems of Equations...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Topic 2 - Functions",
+          "description": "Properties of functions, Polynomials, Transformations...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Topic 3 - Geometry & Trigonometry",
+          "description": "Triangles, 2D & 3D Shapes, Trigonometric Equations, Vectors, Planes...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Topic 4 - Statistics & Probability",
+          "description": "Statistics, Bivariate Statistics, Probability, Discrete and Continuous Distributions...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Topic 5 - Calculus",
+          "description": "Differentiation, Integration, Kinematics, Differential Equations, Maclaurin Series...",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "paperId": "4a2680d7-096a-4ffe-953f-b46a59b71a9d",
+    "selection": "Selection A",
+    "type": "MCQ",
+    "title": "Question 1",
+    "content": "Which of the following is a reason why water is retained on Earth and does not escape into space?\n\n\n\n- A.$\\hspace{1em}$ Different patterns of rainfall across continents\n- B.$\\hspace{1em}$ The gravitational pull of the Moon\n- C.$\\hspace{1em}$ Surface temperatures high enough to allow evaporation\n- D.$\\hspace{1em}$ Earth’s gravitational field\n",
+    "markScheme": "D\n\n$\\underline{\\textrm{Explanation}}$: \nEarth's gravitational field exerts a force strong enough to retain gases and liquids, including water vapour, in the atmosphere and hydrosphere. Without gravity, water molecules would have sufficient energy to escape into space. Gravity is the key reason why Earth can retain an atmosphere and surface water.  Choice D is, therefore, correct.\nChoice A  is incorrect,  as although rainfall is a part of the water cycle and is responsible for distributing water,  it does not directly contribute to the retention of water on Earth.\nChoice B  is incorrect,  as the moon's gravitational pull regulates tidal movements in Earth's oceans but does not directly contribute to water retention on Earth.\nChoice C  is incorrect as water is lost from bodies of water on the surface of the Earth and evaporates into the atmosphere, which doesn't directly address water retention.",
+    "paper": "PAPER2",
+    "difficulty": "EASY",
+    "calculator": true,
+    "sort": 1,
+    "maxMark": null,
+    "difficultyLevel": "1"
+  },
+  {
+    "paperId": "4a2680d7-096a-4ffe-953f-b46a59b71a9d",
+    "selection": "Selection A",
+    "type": "MCQ",
+    "title": "Question 5",
+    "content": "Which of the following is not soluble in water?\n\n\n\n- A. $\\hspace{1em}$ Glucose\n- B. $\\hspace{1em}$ Amino Acids\n- C. $\\hspace{1em}$ Cholesterol\n- D. $\\hspace{1em}$ Sodium Chloride\n",
+    "markScheme": "C\n\n$\\underline{\\textrm{Explanation}}$: \nCholesterol (Choice C) is a non-polar hydrophobic molecule. Therefore, it is insoluble in water. \nGlucose (Choice A), amino acids (Choice B), and sodium chloride (Choice D) are soluble in water and are hydrophilic.",
+    "paper": "PAPER2",
+    "difficulty": "EASY",
+    "calculator": true,
+    "sort": 1,
+    "maxMark": null,
+    "difficultyLevel": "1"
+  },
+  {
+    "paperId": "4a2680d7-096a-4ffe-953f-b46a59b71a9d",
+    "selection": "Selection B",
+    "type": "SAQ",
+    "title": "Question 8",
+    "content": "\n- Outline how hydrogen bonds form between water molecules. <span class=\"marks\">[2]</span>\n\n- State one of the ways that hydrophilic substances interact with water. <span class=\"marks\">[1]</span>\n\n- State one of the ways that non-polar molecules interact with water.<span class=\"marks\">[1]</span>\n\n- Distinguish between cohesion and adhesion.<span class=\"marks\">[2]</span>\n\n",
+    "markScheme": "\n- Any two of the following:\n  $\\ce{ -> }$ hydrogen bonds are formed between the hydrogen atom of one water molecule and the oxygen atom of another water molecule <span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$ hydrogen atoms in water molecules are partially positive <span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$ oxygen atoms in water molecules are partially negative <span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$ hydrogen bonds are a polar attraction and electrons are not shared <span class=\"marks\">[1]</span>\n\n  <span class=\"marks\">[<strong>2 mark maximum</strong>]</span>\n\n  $\\underline{\\textrm{Sample Answer}}$: \nIn water molecules, hydrogen bonds are formed between the partially positive ($\\checkmark$) hydrogens of one water molecule and the partially negative ($\\checkmark$) oxygens of other water molecules.\n- Any one of the following:\n  $\\ce{ -> }$  they are attracted to and form intermolecular bonds with water\t\t\t<span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$ they form hydrogen bonds\t\t\t\t\t\t\t<span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$  they dissolve in water OR are soluble in water\t\t\t\t\t<span class=\"marks\">[1]</span>\n\n  <span class=\"marks\">[<strong>1 mark maximum</strong>]</span>\n\n  $\\underline{\\textrm{Sample Answer}}$: \nHydrophilic substances are attracted to water($\\checkmark$)  and form intermolecular bonds. They are said to be soluble ($\\checkmark$) in water.\n- Any one of the following:\n  $\\ce{ -> }$  do not freely associate with water <span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$  hydrophobic are repelled by water <span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$  do not dissolve in water OR insoluble in water <span class=\"marks\">[1]</span>\n\n  <span class=\"marks\">[<strong>1 mark maximum</strong>]</span>\n\n  $\\underline{\\textrm{Sample Answer}}$: \nNon-polar molecules are hydrophobic ($\\checkmark$) and do not dissolve ($\\checkmark$)  in water.\n- Any two of the following:\n  $\\ce{ -> }$  in cohesion, water molecules stick to each other WHILE in adhesion, water molecules adhere to the polar, OR charged, surfaces of other molecules <span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$  cohesion explains water’s surface tension properties  WHILE adhesion explains capillary action\t<span class=\"marks\">[1]</span>\n\n  $\\ce{ -> }$  in plants, adhesion allows water to travel by capillary forces  WHILE cohesion is responsible for maintaining an uninterrupted water column <span class=\"marks\">[1]</span>\n\n\n<span class=\"marks\">[<strong>2 mark maximum</strong>]</span>\n\n$\\underline{\\textrm{Sample Answer}}$: \nWater molecules are polar, with one end being partially positive and the other end being partially negative. This polarity allows water to form hydrogen bonds with other molecules. When hydrogen bonds form between two water molecules, this is cohesion($\\checkmark$), whereas hydrogen bonds forming between water and other polar molecules is adhesion. An example of adhesion and cohesion working together would be in plants, where water travels up xylem vessels against gravity. This is possible because cohesion maintains an uninterrupted water column($\\checkmark$), and the adhesion of water to the cellulose walls of xylem vessels drives the water upwards through capillary action($\\checkmark$).",
+    "paper": "PAPER2",
+    "difficulty": "EASY",
+    "calculator": true,
+    "sort": 1,
+    "maxMark": "6",
+    "difficultyLevel": "1.5"
+  },
+  {
+    "paperId": "4a2680d7-096a-4ffe-953f-b46a59b71a9d",
+    "selection": "Selection B",
+    "type": "MCQ",
+    "title": "Question 9",
+    "content": "The micrograph below shows the longitudinal cross-section of a stem from a plant in the Pinus genus.  Xylem vessels are clearly visible.\n![SkillUpp Image](https://assets.revisionvillage.com/public/question/ce64231b-0a07-4418-a59e-8dfdae6072ce/images/a56a5858-4bcb-449c-b27e-2d6d5a622fdd/BI1046.png)\n\n\nMagnification: 100X[Source: From Berkshire Community College Bioscience Image Library. (2014). Radial section: Pinus stem magnification: 100x iron-alum hematoxylin and safranin stain. Wikimedia Commons. Retrieved April 29, 2022, from https://commons.wikimedia.org/wiki/File:Gymnosperm_Stem_Soft_Wood_in_Pinus_(36087426450).jpg.\nCopyright by CC BY CC0 1.0\n]\nThe xylem is composed of hollow, tube-like tissues that transport water through capillary action. What property of water explains capillary action?\n\n\n\n- A.$\\hspace{1em}$ Melting point\n- B.$\\hspace{1em}$ Adhesive properties\n- C.$\\hspace{1em}$ Specific heat capacity\n- D.$\\hspace{1em}$ Buoyant forces\n",
+    "markScheme": "B\n\n$\\underline{\\textrm{Explanation}}$: \nAdhesive properties (Choice B) refer to water’s ability to stick to charged surfaces or polar molecules. This, together with cohesion, allows water to move against gravity up the stem through capillary action.\nWater's melting point (Choice A) is the temperature at which it changes its state from solid to liquid.\nThe specific heat capacity (Choice C) of water pertains to the amount of heat energy needed to raise the temperature of a unit mass (usually one gram) of water by 1 °C.\nThe buoyant force of water (Choice D) is the upward force on an object submerged or partially immersed in water, equal to the weight of the displaced water.",
+    "paper": "PAPER2",
+    "difficulty": "EASY",
+    "calculator": true,
+    "sort": 1,
+    "maxMark": null,
+    "difficultyLevel": "1.5"
+  }
+]

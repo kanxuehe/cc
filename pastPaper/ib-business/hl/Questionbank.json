@@ -1,0 +1,458 @@
+{
+  "list": [
+    {
+      "name": "Unit 1",
+      "fullName": "Introduction to Business Management",
+      "slug": "introduction-to-business-management",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Unit 1 All",
+          "description": "All Questions in Unit 1 Introduction to Business Management",
+          "type": "ALL",
+          "slug": "introduction-to-business-management",
+          "sort": 1
+        },
+        {
+          "name": "1.1 - What is a Business?",
+          "description": "The Nature of Business, Sectors of the Economy, Entrepreneurship, Challenges & Opportunities for Starting Up a Business",
+          "type": "ALL",
+          "slug": "introduction-to-business-management/what-is-a-business",
+          "sort": 1
+        },
+        {
+          "name": "1.2 - Types of Business Entities",
+          "description": "Sole Traders, Partnerships, Privately & Publicly Held Companies, Private & Public Sector Companies, Cooperatives, NGOs",
+          "type": "ALL",
+          "slug": "introduction-to-business-management/types-of-business-entities",
+          "sort": 1
+        },
+        {
+          "name": "1.3 - Business Objectives",
+          "description": "Vision & Mission Statement , Business Objectives, Strategic & Tactical Objectives, Corporate Social Responsibility",
+          "type": "ALL",
+          "slug": "introduction-to-business-management/business-objectives",
+          "sort": 1
+        },
+        {
+          "name": "1.4 - Stakeholders",
+          "description": "Internal & External Stakeholders, Conflicts Between Stakeholders",
+          "type": "ALL",
+          "slug": "introduction-to-business-management/stakeholders",
+          "sort": 1
+        },
+        {
+          "name": "1.5 - Growth and Evolution",
+          "description": "Economies & Diseconomies of Scale, Mergers & Acquisitions, Takeovers, Joint Ventures, Strategic Alliances, Franchising",
+          "type": "ALL",
+          "slug": "introduction-to-business-management/growth-and-evolution",
+          "sort": 1
+        },
+        {
+          "name": "1.6 - Multinational Companies (MNCs)",
+          "description": "Multinational Companies",
+          "type": "ALL",
+          "slug": "introduction-to-business-management/multinational-companies",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Unit 2",
+      "fullName": "Human Resource Management",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Unit 2 All",
+          "description": "All Questions in Unit 2 Human Resource Management",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.1 - Introduction to Human Resource Management",
+          "description": "Role of Human Resource Management, Internal & External Factors Impacting HRM, Resistance to Change, HRM Strategies",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.2 - Organizational Structure",
+          "description": "Types of Organizational Structures, Types of Organization Charts, Charles Handy’s “Shamrock Organization”",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.3 - Leadership and Management",
+          "description": "Scientific & Intuitive Thinking/Management, Leadership & Management, Leadership Styles",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.4 - Motivation and Demotivation",
+          "description": "Motivational Theories, Financial & Non-Financial Rewards, Training & Appraisal, Labour Turnover, Methods of Recruitment",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.5 - Organizational Culture",
+          "description": "Types of Organizational Culture, Cultural Clashes in Organizations",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.6 - Communication",
+          "description": "Formal & Informal Methods of Communication, Barriers to Communication",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "2.7 - Industrial/Employee Relation",
+          "description": "Sources of Conflict in the Workplace, Approaches to Conflict in the Workplace, Approaches to Conflict Resolution",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Unit 3",
+      "fullName": "Finance and Accounts",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Unit 3 All",
+          "description": "All Questions in Unit 3 Finance and Accounts",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.1 - Introduction to Finance",
+          "description": "Role of Finance, Capital Expenditure, Revenue Expenditure",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.2 - Sources of Finance",
+          "description": "Internal & External Sources of Finance, Short & Long Term Sources of Finance",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.3 - Costs and Revenues",
+          "description": "Types of Costs, Total Revenue & Revenue Streams",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.4 - Final Accounts",
+          "description": "Final Accounts, Types of Intangible Assets, Depreciation, Straight Line Method, Units of Production Method",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.5 - Profitability and Liquidity Ratio Analysis",
+          "description": "Profitability ratios, Liquidity Ratios",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.6 - Efficiency Ratio Analysis",
+          "description": "Efficiency Ratio, Stock Turnover, Debtor Days, Creditor Days, Gearing Ratio, Insolvency versus Bankruptcy",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.7 - Cash Flow",
+          "description": "Cash Flow, Investment, Profit, Working Capital, Liquidity Position",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.8 - Investment Appraisal",
+          "description": "Investment Appraisal, Payback Period, Average Rate of Return, Net Present Value",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "3.9 - Budgets",
+          "description": "Budgets, Variances, Cost & Profit Centres, Constructing a Budget",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Unit 4",
+      "fullName": "Marketing",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Unit 4 All",
+          "description": "All Questions in Unit 4 Marketing",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "4.1 - Introduction to Marketing",
+          "description": "Market-Orientation, Product Orientation, Market Share, Market Growth, Market Leadership",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "4.2 - Marketing Planning",
+          "description": "Segmentation, Targeting, Positioning, Niche & Mass Market, Unique Selling Point",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "4.3 - Sales Forecasting",
+          "description": "Benefits & Limitations of Sales Forecasting",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "4.4 - Market Research",
+          "description": "Primary and Secondary Market Research, Qualitative and Quantitative Research, Sampling",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "4.5 - The Seven P's of The Marketing Mix",
+          "description": "Product, Price, Promotion, Place, People, Processes, Physical Evidences, Marketing Mix, Branding",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "4.6 - International Marketing",
+          "description": "International Marketing",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Unit 5",
+      "fullName": "Operations Management",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Unit 5 All",
+          "description": "All Questions in Unit 5 Operations Management",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.1 - Introduction to Operations Management",
+          "description": "Role of Operations Management",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.2 - Operations Methods",
+          "description": "Job Production, Batch Production, Mass/Flow production, Mass Customization",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.3 - Lean Production and Quality Management",
+          "description": "Lean Production, Cradle to Cradle Design & Manufacturing, Quality Control & Quality Assurance, Managing Quality",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.4 - Location",
+          "description": "Outsourcing/Subcontracting, Offshoring, Insourcing, Reshoring",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.5 - Break-Even Analysis",
+          "description": "Break-Even Analysis/Chart, Total Contribution Versus Contribution Per Unit",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.6 - Production Planning",
+          "description": "Just-In-Time/Case, Stock Control Charts, Capacity Utilization, Defect & Labour Productivity Rate, Cost-To-Buy/Make",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.7 - Crisis Management and Contingency Planning",
+          "description": "Crisis Management, Contingency Planning",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.8 - Research and Development",
+          "description": "Research & Development, Intellectual Property Protection, Incremental & Disruptive Innovation",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "5.9 - Management Information Systems",
+          "description": "Data Analytics, Cybersecurity, Artificial Neural Networks, Artificial Intelligence, Digital Taylorism",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Toolkit",
+      "fullName": "Business Management Toolkit",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Toolkit All",
+          "description": "All Questions in Toolkit Business Management Toolkit",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 1 - SWOT Analysis",
+          "description": "SWOT Analysis",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 2 - Ansoff Matrix",
+          "description": "Ansoff Matrix",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 3 - STEEPLE Analysis",
+          "description": "STEEPLE Analysis",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 4 - Boston Consultancy Group Matrix",
+          "description": "Boston Consultancy Group Matrix",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 5 - Business Plan",
+          "description": "Business Plan",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 6 - Decision Trees",
+          "description": "Decision Trees",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 7 - Descriptive Statistics",
+          "description": "Descriptive Statistics",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 8 - Circular Business Models",
+          "description": "Circular Business Models",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 9 - Gantt Charts",
+          "description": "Gantt Charts",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 10 - Porter's Generic Strategies",
+          "description": "Porter's Generic Strategies",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 11 - Hofstede's Cultural Dimensions",
+          "description": "Hofstede's Cultural Dimensions",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 12 - Force Field Analysis",
+          "description": "Force Field Analysis",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 14 - Critical Path Analysis",
+          "description": "Critical Path Analysis",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 13 - Contribution",
+          "description": "Contribution",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "BMT 15 - Simple Linear Regression",
+          "description": "Simple Linear Regression",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    }
+  ]
+}

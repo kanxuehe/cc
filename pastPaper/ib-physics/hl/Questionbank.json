@@ -1,0 +1,269 @@
+{
+  "list": [
+    {
+      "name": "Theme A",
+      "fullName": "Space, Time & Motion",
+      "slug": "space-time-and-motion",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Theme A All",
+          "description": "All Questions in Theme A Space, Time & Motion",
+          "type": "ALL",
+          "slug": "space-time-and-motion",
+          "sort": 1
+        },
+        {
+          "name": "A.1 - Kinematics",
+          "description": "Displacement, Velocity, Acceleration, Uniform Acceleration Equations, Projectile Motion",
+          "type": "ALL",
+          "slug": "space-time-and-motion/kinematics",
+          "sort": 1
+        },
+        {
+          "name": "A.2 - Forces & Momentum",
+          "description": "Forces, Free-Body Diagrams, Newton's Laws, Friction, Equilibrium, Momentum, Impulse, Collisions, Circular Motion",
+          "type": "ALL",
+          "slug": "space-time-and-motion/forces-and-momentum",
+          "sort": 1
+        },
+        {
+          "name": "A.3 - Work, Energy, and Power",
+          "description": "Work, Kinetic Energy, Gravitational and Elastic Potential Energy, Power, Conservation of Energy, Efficiency",
+          "type": "ALL",
+          "slug": "space-time-and-motion/work-energy-power",
+          "sort": 1
+        },
+        {
+          "name": "A.4 - Rotational Mechanics",
+          "description": "Torque, Angular Speed, Angular Acceleration, Moment of Inertia, Angular Momentum, Rotational Kinetic Energy",
+          "type": "ALL",
+          "slug": "space-time-and-motion/rotational-mechanics",
+          "sort": 1
+        },
+        {
+          "name": "A.5 - Special Relativity",
+          "description": "Reference Frames, Galilean Relativity, Special Relativity, Lorentz Transformations, Space-Time Diagrams, Simultaneity",
+          "type": "ALL",
+          "slug": "space-time-and-motion/special-relativity",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Theme B",
+      "fullName": "The Particulate Nature of Matter",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Theme B All",
+          "description": "All Questions in Theme B The Particulate Nature of Matter",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "B.1 - Thermal Energy Transfers",
+          "description": "Kinetic Theory, Temperature, Internal Energy, Specific Heat Capacity, Latent Heat, Heat Transfer, Stefan-Boltzmann Law",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "B.2 - Greenhouse Effect",
+          "description": "Emissivity, Albedo, Solar Constant, Greenhouse Effect",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "B.3 - Ideal Gas Model",
+          "description": "Pressure, Gas Laws, Ideal Gases, Ideal Gas Law, Moles, Ideal vs. Real Gases",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "B.4 - Thermodynamics",
+          "description": "Laws of Thermodynamics, Adiabatic, Isobaric, Isothermal and Isovolumetric Processes, Heat Engines, Carnot Cycle, Entropy",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "B.5 - Electric Circuits",
+          "description": "Cells, Circuits, Resistivity, Ohm's Law, Series & Parallel Circuits, Power In Circuits, Internal Resistance",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Theme C",
+      "fullName": "Wave Behaviour",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Theme C All",
+          "description": "All Questions in Theme C Wave Behaviour",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "C.1 - Simple Harmonic Motion",
+          "description": "Simple Harmonic Motion, Period, Frequency, Amplitude, Simple Pendulum, Mass-Spring System, Energy Changes, Graphs Of SHM",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "C.2 - Travelling Waves",
+          "description": "Transverse Waves, Longitudinal Waves, Sound Waves, Electromagnetic Waves, Wave Equation",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "C.3 - Refraction, Diffraction, Superposition, and Interference",
+          "description": "Reflection, Diffraction, Snell's Law, Superposition, Single-Slit, Two-Source & Multi-Slit Diffraction and Interference",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "C.4 - Standing Waves & Resonance",
+          "description": "Standing Waves, Vibrating Strings, Vibrating Air Columns, Resonance, Damping",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "C.5 - Doppler Effect",
+          "description": "Moving Source & Moving Observer Doppler Effects",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Theme D",
+      "fullName": "Fields",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Theme D All",
+          "description": "All Questions in Theme D Fields",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "D.1 - Gravitational Fields & Potential",
+          "description": "Gravitational Fields, Orbits, Kepler's Laws, Orbital Speed, Gravitational Potential, Energy in Orbits, Escape Speed",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "D.2 - Electromagnetic Fields & Potential",
+          "description": "Coulomb's Law, Electric and Magnetic Fields, Millikan's Experiment, Electrostatics, Electric Potential, Equipotentials",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "D.3 - Motion in Electromagnetic Fields",
+          "description": "Charges Moving in Electric and Magnetic Fields, Forces on Current-carrying Wires, Magnetic Fields Due to Currents",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "D.4 - Electromagnetic Induction",
+          "description": "Magnetic Flux, Faraday's Law of Induction, Motion EMF, Lenz' Law",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Theme E",
+      "fullName": "Nuclear & Quantum Physics",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "Theme E All",
+          "description": "All Questions in Theme E Nuclear & Quantum Physics",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "E.1 - Atomic Structure",
+          "description": "Emission & Absorption Spectra, Rutherford Scattering, Bohr Hydrogen Model, Quantization of Angular Momentum.",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "E.2 - Quantum Physics",
+          "description": "Photoelectric Effect, Wave-Particle Duality, de Broglie Wavelength, Compton Scattering",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "E.3 - Radioactive Decay",
+          "description": "Binding Energy, Mass-Energy Equivalence, Strong Nuclear Force, Quantitative Radioactive Decay, Half-Life, Neutrinos",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "E.4 - Nuclear Fission",
+          "description": "Nuclear Fission, Chain Reactions, Nuclear Power Generation",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "E.5 - Stellar Properties & Processes",
+          "description": "Nuclear Fusion in Stars, Stellar Evolution, Stellar Parallax, Stellar Spectra",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "",
+      "fullName": "Scientific Skills & Tools",
+      "slug": "",
+      "sort": 1,
+      "children": [
+        {
+          "name": "All",
+          "description": "All Questions in    Scientific Skills & Tools",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        },
+        {
+          "name": "Scientific Skills & Tools",
+          "description": "Measurement, Processing Uncertainties, Vectors, SI Units, Significant Figures, Accuracy, Precision",
+          "type": "ALL",
+          "slug": "",
+          "sort": 1
+        }
+      ]
+    }
+  ]
+}
