@@ -1,41 +1,44 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
-const bodyParser = require('body-parser');
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+const bodyParser = require("body-parser");
 
 const app = express();
 const PORT = 2242;
 
-app.use(bodyParser.json({ limit: '10mb' })); // 支持较大payload
+app.use(bodyParser.json({ limit: "10mb" })); // 支持较大payload
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   next();
 });
 
-app.post('/save', (req, res) => {
+app.post("/save", (req, res) => {
   try {
     const { data, filePath, fileName } = req.body;
+    const folderPath = path.join(__dirname, `JSON/${req.body.filePath}`);
+    if (!fs.existsSync(folderPath)) {
+      fs.mkdirSync(folderPath, {
+        recursive: true,
+      });
+    }
     const filename = `JSON/${filePath}/${fileName}.json`;
     const filepath = path.join(__dirname, filename);
     let originData = {};
     if (!fs.existsSync(filepath)) {
-      // fs.writeFileSync(filepath, JSON.stringify({ list: [] }), 'utf8');
       originData = { list: [] };
     } else {
-      originData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+      originData = JSON.parse(fs.readFileSync(filepath, "utf8"));
     }
     originData.list = originData.list.concat(data);
-    console.log(originData.list, originData.list.length);
     originData.list.sort((a, b) => {
       const numA = parseInt(a.title.match(/\d+/));
       const numB = parseInt(b.title.match(/\d+/));
       return numA - numB;
     });
-    fs.writeFileSync(filepath, JSON.stringify(originData, null, 2), 'utf8');
-    console.log(`Saved ${filename}`);
+    fs.writeFileSync(filepath, JSON.stringify(originData, null, 2), "utf8");
     res.json({ ok: true, filename });
   } catch (err) {
     console.error(err);
@@ -43,13 +46,13 @@ app.post('/save', (req, res) => {
   }
 });
 
-app.post('/updateType', (req, res) => {
+app.post("/updateType", (req, res) => {
   try {
     const { type, indexArr, filePath, fileName } = req.body;
     const filename = `JSON/${filePath}/${fileName}.json`;
     const filepath = path.join(__dirname, filename);
     // 1. 读取文件内容
-    const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+    const data = JSON.parse(fs.readFileSync(filepath, "utf8"));
 
     // 2. 修改字段
     indexArr.forEach((item) => {
@@ -57,9 +60,9 @@ app.post('/updateType', (req, res) => {
     });
 
     // 3. 写回文件（格式化缩进 2 个空格）
-    fs.writeFileSync(filepath, JSON.stringify(data, null, 2), 'utf8');
+    fs.writeFileSync(filepath, JSON.stringify(data, null, 2), "utf8");
 
-    console.log('✅ JSON 文件已更新！');
+    console.log("✅ JSON 文件已更新！");
     res.json({ ok: true, filename });
   } catch (err) {
     console.error(err);
@@ -67,7 +70,7 @@ app.post('/updateType', (req, res) => {
   }
 });
 
-app.post('/groupData', (req, res) => {
+app.post("/groupData", (req, res) => {
   try {
     const { filePath, questionArr, fileName, newFileName } = req.body;
     const filename = `JSON/${filePath}/${fileName}.json`;
@@ -75,7 +78,7 @@ app.post('/groupData', (req, res) => {
     const filepath = path.join(__dirname, filename);
     console.log(filePath, questionArr, fileName, newFileName);
     // 1. 读取文件内容
-    const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+    const data = JSON.parse(fs.readFileSync(filepath, "utf8"));
 
     // 2. 修改字段
 
@@ -88,8 +91,8 @@ app.post('/groupData', (req, res) => {
     });
 
     // 3. 写回文件（格式化缩进 2 个空格）
-    fs.writeFileSync(newPath, JSON.stringify({ list: group }, null, 2), 'utf8');
-    console.log('✅ JSON 文件已更新！');
+    fs.writeFileSync(newPath, JSON.stringify({ list: group }, null, 2), "utf8");
+    console.log("✅ JSON 文件已更新！");
     res.json({ ok: true, filename });
   } catch (err) {
     console.error(err);
